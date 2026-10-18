@@ -1,0 +1,38 @@
+{
+  "privateKeysCreated": 0,
+  "scope": "Owner-local publication scripts; no unsigned custom executable script used",
+  "scripts": [
+    {
+      "status": "Valid",
+      "sha256": "27BA3069D6A7B5061EE673C5F08FA448CFAA6D6919A62F3038331C25B733CEB3",
+      "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "name": "Build-Publication.ps1"
+    },
+    {
+      "status": "Valid",
+      "sha256": "49EE6BF5DD5EB3D489004F3B72BD1AE77E67A2F153D460D01BF87140BA7DB009",
+      "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "name": "Close-Publication.ps1"
+    },
+    {
+      "status": "Valid",
+      "sha256": "C44D10249FC8B08C07041850B867797FE99DD86D80365B67C8CAB75BF4A1EFFF",
+      "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "name": "Draw-Cover.ps1"
+    },
+    {
+      "status": "Valid",
+      "sha256": "78A99BDA4D9E04C10F0E6E957589C2E2F93EA6CAEAE4437E854465FA044FB0E7",
+      "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "name": "Validate-Package.ps1"
+    },
+    {
+      "status": "Valid",
+      "sha256": "5416F9D0AD3C7A568127B4DC44055D7EA658293E98F6263D6BCAC667EC3A0A08",
+      "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "name": "Verify-Delivery.ps1"
+    }
+  ],
+  "executionPolicyBypass": false,
+  "privateKeysExported": 0
+}

@@ -1,8 +1,73 @@
 {
-  "state": "LOCAL_CANDIDATE_PREPARATION;REMOTE_DELIVERY_NOT_YET_PERFORMED",
-  "intendedOwner": "Iam-PrasadDeshpande",
-  "intendedRepository": "rea-independent-effectiveness-r1-r7",
-  "visibilityAuthorization": "PUBLIC_EXPLICIT_OWNER_INSTRUCTION",
-  "identityVerified": true,
-  "remoteReadback": "PENDING"
+  "utc": "2026-10-18T06:22:35.5252263Z",
+  "status": "PASS_REMOTE_COMMIT_TREE_AND_ARTIFACT_BYTES",
+  "repository": "https://github.com/Iam-PrasadDeshpande/rea-independent-effectiveness-r1-r7",
+  "owner": "Iam-PrasadDeshpande",
+  "visibility": "PUBLIC",
+  "branch": "codex/publication-r1",
+  "commit": "fc63a33b68b6430bdedeee630a355a52d7be5419",
+  "tree": "1311414668ab09ebf539879dac43720e7fb51408",
+  "defaultBranch": "codex/publication-r1",
+  "permission": "ADMIN",
+  "localTreeMatches": true,
+  "remoteFiles": 829,
+  "signedArtifactsVerified": 824,
+  "signedArtifactBytes": 31604533,
+  "candidateManifestSha256": "bd91a3421e3623aee6f03b0329f916d5e887b2d65bec3c09d091e84a320846e3",
+  "cmsSignature": "CRYPTOGRAPHIC_AND_LOCAL_CHAIN_VALID_FROM_FETCHED_REMOTE_BYTES",
+  "r1ExceptionSignature": "VALID_FROM_FETCHED_REMOTE_BYTES",
+  "remoteCoverDimensions": "1920x1080",
+  "sevenCaseResults": [
+    {
+      "disposition": "bounded POC completed (original authoritative report wording)",
+      "path": "experiments/R1-sap-genai-mail/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R1"
+    },
+    {
+      "disposition": "QUALIFIED_BOUNDED_POC",
+      "path": "experiments/R2-zint/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R2"
+    },
+    {
+      "disposition": "EXPERIMENT_COMPLETE_WITH_LIMITATIONS",
+      "path": "experiments/R3-joplin/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R3"
+    },
+    {
+      "disposition": "QUALIFIED_BOUNDED_POC",
+      "path": "experiments/R4-sap-ai160/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R4"
+    },
+    {
+      "disposition": "BOUNDED_EXPERIMENT_COMPLETE",
+      "path": "experiments/R5-fossify-calendar/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R5"
+    },
+    {
+      "disposition": "INVALID_COMPARISON_AS_REPORTED (historical file: INVALID_COMPARISON)",
+      "path": "experiments/R6-excalidraw/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R6"
+    },
+    {
+      "disposition": "PASS_WITH_GAPS",
+      "path": "experiments/R7-squoosh/RESULTS.json",
+      "rawResultsRead": true,
+      "poc": "R7"
+    }
+  ],
+  "evidenceRepositoryCompleteness": "ALL_15489_AUDIT_INVENTORY_ENTRIES_ACCOUNTED_FOR;719_REVIEWED_EVIDENCE_COPIES;PUBLIC_PAYLOAD_PARTIAL",
+  "releaseAssets": "NONE;NO_TAGGED_RELEASE_CREATED",
+  "lfs": "NOT_USED",
+  "publicVisibilityAuthorization": "EXPLICIT_OWNER_INSTRUCTION",
+  "originalExperimentsRerun": 0,
+  "mergePerformed": false,
+  "pr": "NOT_REQUIRED_NEW_REPOSITORY_WITH_RELEASE_BRANCH_AS_DEFAULT",
+  "linkedInPublished": false,
+  "receiptSelfReference": "Receipt may refer to preceding content commit; final remote delivery snapshot stored owner-local to avoid infinite self-hash updates"
 }

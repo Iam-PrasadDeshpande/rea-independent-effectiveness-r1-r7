@@ -1,18 +1,18 @@
 {
-  "utc": "2026-10-18T06:21:24.9204196Z",
-  "filesScanned": 829,
-  "jsonParsed": 614,
+  "utc": "2026-10-18T06:24:42.9376617Z",
+  "filesScanned": 833,
+  "jsonParsed": 617,
   "relativeLinksChecked": 281,
   "brokenLinks": [],
   "sensitiveFindings": [],
   "derivativeDigestFailures": [],
   "cover": {
-    "height": 1080,
-    "width": 1920,
-    "svgHeight": "1080",
     "svgWidth": "1920",
+    "height": 1080,
+    "visualReview": "PASS_DIRECT_PNG_REVIEW;NO_CLIPPED_TEXT_OR_BRAND_MARKS",
     "mobilePreview": "HEADLINE_AND_PRIMARY_SUBTITLE_LEGIBLE;SMALL_DIAGRAM_LABELS_SECONDARY",
-    "visualReview": "PASS_DIRECT_PNG_REVIEW;NO_CLIPPED_TEXT_OR_BRAND_MARKS"
+    "width": 1920,
+    "svgHeight": "1080"
   },
   "articleWords": 1776,
   "postWords": 118,
