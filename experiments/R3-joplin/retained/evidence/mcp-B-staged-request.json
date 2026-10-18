@@ -1,0 +1,7 @@
+{
+  "name": "list_archive",
+  "arguments": {
+    "filter": "package.json",
+    "limit": 2
+  }
+}

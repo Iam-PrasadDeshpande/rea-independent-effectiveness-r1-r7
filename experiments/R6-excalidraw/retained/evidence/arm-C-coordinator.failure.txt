@@ -1,0 +1,7 @@
+Exception: evidence://R6/\Recover-R6Investigator.ps1:48
+Line |
+  48 |  … th $reply)){throw "Codex data session failed: exit $($p.ExitCode)"};$ …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Codex data session failed: exit 1
+
+

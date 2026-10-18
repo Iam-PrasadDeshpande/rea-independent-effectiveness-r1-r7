@@ -1,0 +1,10 @@
+{
+  "Interpretation": "No clean speedup claim permitted",
+  "Arm": "C-recovery2",
+  "CPUSeconds": 50.140625,
+  "ConcurrentWork": "New-FileCatalog for isolated B conventional repair package",
+  "UTC": "2026-10-18T03:11:40.1503031Z",
+  "Scope": "Measured setup-process sample and investigator CLI/host samples; complete process-family attribution unavailable",
+  "ProcessId": 20004,
+  "WorkingSetBytes": 249253888
+}

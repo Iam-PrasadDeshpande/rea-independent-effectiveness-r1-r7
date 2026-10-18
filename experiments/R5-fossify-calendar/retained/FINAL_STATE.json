@@ -1,0 +1,63 @@
+{
+  "FINAL_STATE": "BOUNDED_POC_COMPLETE_WITH_GAPS",
+  "ACTIONS_USED": 291,
+  "SOURCE_COMMIT": "1a85738b3ec989334eb284724caafec6c5a50214",
+  "APK_SHA256": "d43b2df05d5702bea760a7ab03402977ba72e446e5932038efbdab248a5de987",
+  "APK_SIGNATURE": "APK v2 verified; embedded publisher certificate SHA256 affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292",
+  "REA_VERSION": "official npm6.5.0; registry integrity verified; source equivalence not asserted",
+  "JADX_VERSION": "library1.5.6 / headlessMCP0.7.1, same JAR in B/C",
+  "REFERENCE_VALIDATION": "source-derived44case oracle and real synthetic emulator core workflow; runtime schedule observed",
+  "ARM_A": {
+    "occurrencesPassed": 44,
+    "total": 44,
+    "sourceSha256": "D57625D78818B95ABB1F595E014B523895A9AC0145581728659C7C6EAA3A3248",
+    "passed": 32,
+    "remindersPassed": 32,
+    "userCasesTotal": 43,
+    "status": "EXECUTED",
+    "userCasesPassed": 31,
+    "arm": "A"
+  },
+  "ARM_B": {
+    "occurrencesPassed": 44,
+    "total": 44,
+    "sourceSha256": "77107B801A8A7E921E1734A4485DA2346C32EEF208E6B10C117379684F18701C",
+    "passed": 32,
+    "remindersPassed": 32,
+    "userCasesTotal": 43,
+    "status": "EXECUTED",
+    "userCasesPassed": 31,
+    "arm": "B"
+  },
+  "ARM_C": {
+    "occurrencesPassed": 44,
+    "total": 44,
+    "sourceSha256": "F23A09756B0501684DB998308034A9442ABB0AE2618C718EEF79D6937CB84FA2",
+    "passed": 32,
+    "remindersPassed": 32,
+    "userCasesTotal": 43,
+    "status": "EXECUTED",
+    "userCasesPassed": 31,
+    "arm": "C"
+  },
+  "FUNCTIONAL_EQUIVALENCE": "PARTIAL: all3 match44/44 occurrence projections, all3 exact32/44 overall and31/43 user cases; all3 fail12/12 reminder-bearing cases",
+  "REA_INCREMENTAL_VALUE": {
+    "scope": "Single run; no functional or architectural superiority established",
+    "userCaseDeltaVersusDirect": 0,
+    "provenance": "Real artifact-bound REA Android package/method evidence observed",
+    "architecture": "NO_DEMONSTRATED_ADVANTAGE_VERSUS_DIRECT_JADX"
+  },
+  "EVIDENCE_QUALITY": "frozen source-based oracle, real APK invocation, retained independent sessions and runtime UI/alarm readback; declared adapter gaps",
+  "SIGNING_STATUS": "all current custom scripts Valid under approved existing Authenticode signer, AllSigned execution",
+  "LIMITATIONS": [
+    "APK-source reproducible build NOT_PROVEN",
+    "Reconstructed Room persistence NOT_TESTED; JSON roundTrip only",
+    "Notification delivery NOT_PROVEN",
+    "Original Android runtime validated, reconstruction is standalone Java logic, no reconstructed APK qualification",
+    "Single triple, concurrent host and different tool catalogs/envelopes, idle reload, recovery confound time/token interpretations",
+    "43 user-level cases plus1 separate robustness probe",
+    "Error handling, unrelated-series preservation, CalDAV, all-day and receiver lifecycle not exhaustively tested"
+  ],
+  "NEXT_ACTION": "Stop R5. Optional separately authorized reminder repair/requalification must preserve these frozen submissions and results.",
+  "E2E_COMPLETION": "NOT_ACHIEVED: reconstructed Android runtime and notification correctness not established; reminder logic differs"
+}

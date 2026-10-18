@@ -1,0 +1,513 @@
+{
+  "originalDisposition": "PASS_WITH_GAPS",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "BOUNDED_CLOSURE_SUPPORTED_WITH_RETAINED_LIMITATIONS",
+  "sourceReportSha256": "9bab11012daf1ac948ab9006b90dbcff2487c7afdc34d8c2b92c354aaf1db927",
+  "poc": "R7",
+  "recordedResults": [
+    {
+      "experiment": "R7",
+      "arm": "A",
+      "total": 30,
+      "passed": 30,
+      "scope": "Raw score retained; recomputed recorded positive identity/hashes and negative stage witness",
+      "source": "R7/evaluator/results/A/actual.json",
+      "detail": {
+        "positiveMatches": 26,
+        "positiveTotal": 26,
+        "negativeStageRejections": 4,
+        "rawScore": 30,
+        "C29semanticCorrection": false,
+        "checks": [
+          {
+            "id": "C01_png_default",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C02_jpeg_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C03_webp_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C04_misleading_name",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C05_alpha_lossy",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C06_alpha_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C07_one_pixel",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C08_odd_dimensions",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C09_down_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C10_up_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C11_portrait_stretch",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C12_center_crop",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C13_triangle",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C14_catrom",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C15_mitchell",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C16_no_premultiply",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C17_no_linearRGB",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C18_alpha_no_flags",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C19_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C20_quality_hundred",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C21_fast_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C22_slow_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C23_near_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C24_alpha_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C25_sharp_yuv",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C26_no_filter_sns",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C27_bad_quality",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C28_bad_method",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C29_corrupt_input",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C30_bad_alpha_config",
+            "semanticMatch": true,
+            "positive": false
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R7",
+      "arm": "B",
+      "total": 30,
+      "passed": 30,
+      "scope": "Raw score retained; recomputed recorded positive identity/hashes and negative stage witness",
+      "source": "R7/evaluator/results/B/actual.json",
+      "detail": {
+        "positiveMatches": 26,
+        "positiveTotal": 26,
+        "negativeStageRejections": 4,
+        "rawScore": 30,
+        "C29semanticCorrection": false,
+        "checks": [
+          {
+            "id": "C01_png_default",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C02_jpeg_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C03_webp_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C04_misleading_name",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C05_alpha_lossy",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C06_alpha_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C07_one_pixel",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C08_odd_dimensions",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C09_down_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C10_up_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C11_portrait_stretch",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C12_center_crop",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C13_triangle",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C14_catrom",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C15_mitchell",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C16_no_premultiply",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C17_no_linearRGB",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C18_alpha_no_flags",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C19_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C20_quality_hundred",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C21_fast_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C22_slow_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C23_near_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C24_alpha_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C25_sharp_yuv",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C26_no_filter_sns",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C27_bad_quality",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C28_bad_method",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C29_corrupt_input",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C30_bad_alpha_config",
+            "semanticMatch": true,
+            "positive": false
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R7",
+      "arm": "C",
+      "total": 30,
+      "passed": 29,
+      "scope": "Raw score retained; recomputed recorded positive identity/hashes and negative stage witness",
+      "source": "R7/evaluator/results/C/actual.json",
+      "detail": {
+        "positiveMatches": 26,
+        "positiveTotal": 26,
+        "negativeStageRejections": 4,
+        "rawScore": 29,
+        "C29semanticCorrection": true,
+        "checks": [
+          {
+            "id": "C01_png_default",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C02_jpeg_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C03_webp_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C04_misleading_name",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C05_alpha_lossy",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C06_alpha_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C07_one_pixel",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C08_odd_dimensions",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C09_down_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C10_up_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C11_portrait_stretch",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C12_center_crop",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C13_triangle",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C14_catrom",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C15_mitchell",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C16_no_premultiply",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C17_no_linearRGB",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C18_alpha_no_flags",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C19_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C20_quality_hundred",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C21_fast_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C22_slow_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C23_near_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C24_alpha_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C25_sharp_yuv",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C26_no_filter_sns",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C27_bad_quality",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C28_bad_method",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C29_corrupt_input",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C30_bad_alpha_config",
+            "semanticMatch": true,
+            "positive": false
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Squoosh",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3"
+}

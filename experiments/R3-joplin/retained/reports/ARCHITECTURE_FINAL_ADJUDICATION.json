@@ -1,0 +1,2246 @@
+{
+  "status": "COMPLETE_ARCHITECTURE_AND_EXHAUSTIVE_CITATION_ADJUDICATION",
+  "rubric": "protocol/FROZEN_RUBRIC.md",
+  "frozenRubricSHA256": "AF00E6F979A7E86144F6EEEAD54CDD363C9CF089AC55FFC5449922A0CCE976EA",
+  "target": "blind-prep-v2/input/app.asar",
+  "targetSHA256": "C9BAEBD9F6FE445CC267EA15E23BF87A7E8F9BDAE3D461D7AE1847A7479D87F3",
+  "method": "Independent read-only ASAR header/payload parsing via PowerShell/.NET; UTF-8 decoded entry .NET UTF-16 char offsets. Point locator judged by enclosing function/declaration; explicit ranges must contain all associated support. Grouped claims need complete support to count as supported. Investigator evidence convention and artifact entry scope inherited when unambiguous.",
+  "providerActions": {
+    "priorProviderCalls": 7,
+    "newProviderCalls": 11,
+    "totalProviderCalls": 18,
+    "newExecCommandAttempts": 10,
+    "newSuccessfulShellProcesses": 9,
+    "newFailedProcessLaunches": 1,
+    "newApplyPatchCalls": 1,
+    "newPartlyFailedShellCalls": 1,
+    "agentDispatches": 0,
+    "orchestrationSerializationFailuresWithoutProviderDispatch": 1,
+    "notes": "One regex error recovered. One oversized final-write command failed Windows process launch; two output files then written with apply_patch. No conclusions rely on truncated event output; compact successful REA readback parsed separately."
+  },
+  "arms": {
+    "A": {
+      "report": "arms/A/work/report.md",
+      "architecture": {
+        "total": 27,
+        "maximum": 30,
+        "facts": [
+          {
+            "id": 1,
+            "fact": "Built-in desktop and shared semantic entry relationships",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 2,
+            "fact": "AI/embedding/feature/provider/sqlite eligibility",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 3,
+            "fact": "UI explicit filters/basic modes/item IDs",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 4,
+            "fact": "Desktop local provider injection and separate chat provider",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 5,
+            "fact": "Local multilingual-e5-small,384,prefixes,provisioning",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 6,
+            "fact": "ONNX CPU,batch,tokenizer,pooling,normalization",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 7,
+            "fact": "Initial/maintenance cadence,batch cap,overlap",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 8,
+            "fact": "Change cursor,dedup,backfill,eligibility",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 9,
+            "fact": "SQLite metadata/vector persistence,per-note replacement",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 10,
+            "fact": "Model-ID clear/rebuild and state resets",
+            "score": 1,
+            "reason": "Correct model-ID clear/state reset; incorrect additional assertion that clearAll drops vector table permits dimension changes."
+          },
+          {
+            "id": 11,
+            "fact": "Text embedding versus stored note vectors",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 12,
+            "fact": "Folder/tag/note/all,empty scope,scoped limitations",
+            "score": 1,
+            "reason": "All scopes/empty behavior and4x overfetch correctly recovered; scoped underfill limitation not stated."
+          },
+          {
+            "id": 13,
+            "fact": "L2-cosine,presets,thresholds",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 14,
+            "fact": "Best per note/chunk,descending,truncation,desktop aggregation",
+            "score": 2,
+            "reason": "Correct with packaged evidence; see citation audit."
+          },
+          {
+            "id": 15,
+            "fact": "Missing-provider/tool conversion/index failure retries",
+            "score": 1,
+            "reason": "Explicit missing-provider error and initial/incremental retry limitations correct; semantic_search_notes ToolError conversion untraced."
+          }
+        ]
+      },
+      "evidencePrecision": {
+        "denominator": 37,
+        "supported": 32,
+        "inexact": 4,
+        "unsupported": 1,
+        "unit": "Each explicit locator occurrence including repeated locators; plus package whole entry and two checkable bare component.mjs references.",
+        "citations": [
+          {
+            "id": 1,
+            "reportLine": 11,
+            "entry": "package.json",
+            "locator": "whole entry",
+            "status": "supported",
+            "adjudication": "Identity, main and three dependency versions match."
+          },
+          {
+            "id": 2,
+            "reportLine": 12,
+            "entry": "main.js",
+            "locator": "4219",
+            "status": "supported",
+            "adjudication": "Enclosing call is wrapper.start()."
+          },
+          {
+            "id": 3,
+            "reportLine": 12,
+            "entry": "main-html.js",
+            "locator": "6437",
+            "status": "supported",
+            "adjudication": "Guarded ONNX require and catch."
+          },
+          {
+            "id": 4,
+            "reportLine": 12,
+            "entry": "main-html.js",
+            "locator": "7852",
+            "status": "supported",
+            "adjudication": "App start followed by GUI Root/upgrade Root."
+          },
+          {
+            "id": 5,
+            "reportLine": 13,
+            "entry": "main-html.bundle.js",
+            "locator": "13391033",
+            "status": "supported",
+            "adjudication": "Enclosing startup statement registers LocalEmbeddingProvider conditional on onnxRuntime then applies settings."
+          },
+          {
+            "id": 6,
+            "reportLine": 14,
+            "entry": "main-html.bundle.js",
+            "locator": "12939773",
+            "status": "supported",
+            "adjudication": "applyEmbeddingIndexerState availability start/stop."
+          },
+          {
+            "id": 7,
+            "reportLine": 14,
+            "entry": "main-html.bundle.js",
+            "locator": "12941656",
+            "status": "supported",
+            "adjudication": "Settings handlers invoke indexer state; separate chat cache invalidation."
+          },
+          {
+            "id": 8,
+            "reportLine": 15,
+            "entry": "main.bundle.js",
+            "locator": "11720327",
+            "status": "supported",
+            "adjudication": "Desktop entry calls shared search."
+          },
+          {
+            "id": 9,
+            "reportLine": 15,
+            "entry": "main.bundle.js",
+            "locator": "11705500-11709500",
+            "status": "supported",
+            "adjudication": "Shared provider, query vectors, scope, similarity, aggregation."
+          },
+          {
+            "id": 10,
+            "reportLine": 16,
+            "entry": "main.bundle.js",
+            "locator": "11664504-11670700",
+            "status": "supported",
+            "adjudication": "Indexer note/chunker/embed/save pipeline; DB checked independently."
+          },
+          {
+            "id": 11,
+            "reportLine": 17,
+            "entry": "main-html.bundle.js",
+            "locator": "14876702",
+            "status": "supported",
+            "adjudication": "Note-scoped strict highlighting and bestMatchInResult."
+          },
+          {
+            "id": 12,
+            "reportLine": 17,
+            "entry": "main.bundle.js",
+            "locator": "11705500-11709500",
+            "status": "supported",
+            "adjudication": "Best-match line and Markdown subpart cosine scoring."
+          },
+          {
+            "id": 13,
+            "reportLine": 21,
+            "entry": "main-html.bundle.js",
+            "locator": "8608974",
+            "status": "supported",
+            "adjudication": "AI enabled default false."
+          },
+          {
+            "id": 14,
+            "reportLine": 21,
+            "entry": "main-html.bundle.js",
+            "locator": "8613767",
+            "status": "supported",
+            "adjudication": "Embedding default true, visibility and persisted three indexing settings."
+          },
+          {
+            "id": 15,
+            "reportLine": 21,
+            "entry": "main.bundle.js",
+            "locator": "9601724",
+            "status": "supported",
+            "adjudication": "Duplicate AI setting."
+          },
+          {
+            "id": 16,
+            "reportLine": 21,
+            "entry": "main.bundle.js",
+            "locator": "9606474",
+            "status": "supported",
+            "adjudication": "Duplicate embedding/index settings."
+          },
+          {
+            "id": 17,
+            "reportLine": 21,
+            "entry": "main.bundle.js",
+            "locator": "9653112",
+            "status": "supported",
+            "adjudication": "Enclosing featureFlag declaration default true desktop global advanced."
+          },
+          {
+            "id": 18,
+            "reportLine": 23,
+            "entry": "main.bundle.js",
+            "locator": "11663073-11663860",
+            "status": "supported",
+            "adjudication": "Embedding availability four gates and reasons; remote chat gates separate."
+          },
+          {
+            "id": 19,
+            "reportLine": 25,
+            "entry": "main.bundle.js",
+            "locator": "11721542",
+            "status": "supported",
+            "adjudication": "Nontext parsed terms/item IDs rejected; availability and feature flag."
+          },
+          {
+            "id": 20,
+            "reportLine": 25,
+            "entry": "main.bundle.js",
+            "locator": "11721176",
+            "status": "supported",
+            "adjudication": "Enclosing determineSearchType_ honors eligible semantic else basic/FTS/nonlatin."
+          },
+          {
+            "id": 21,
+            "reportLine": 29,
+            "entry": "main-html.bundle.js",
+            "locator": "13366245-13373000",
+            "status": "inexact",
+            "adjudication": "Contains provider dimension/default reference and downloader flow but multilingual-e5-small ID/release URL/cacheDir start precede range at approximately13366020; claim true elsewhere."
+          },
+          {
+            "id": 22,
+            "reportLine": 31,
+            "entry": "main-html.bundle.js",
+            "locator": "13366500-13373000",
+            "status": "supported",
+            "adjudication": "Prefixes, batch8,512 tokens,CPU2 threads,quantized model,inputs,outputs,pooling,normalization,local tokenizer,retry."
+          },
+          {
+            "id": 23,
+            "reportLine": 37,
+            "entry": "main.bundle.js",
+            "locator": "11665700-11668450",
+            "status": "supported",
+            "adjudication": "Timer cadence,batch100,sqlite gate,overlap guard,maintenance flow,catch/finally."
+          },
+          {
+            "id": 24,
+            "reportLine": 39,
+            "entry": "main.bundle.js",
+            "locator": "11668435",
+            "status": "supported",
+            "adjudication": "Enclosing handleModelChange resets cursor/model/initial scan/failure set."
+          },
+          {
+            "id": 25,
+            "reportLine": 39,
+            "entry": "main.bundle.js",
+            "locator": "11668688-11670019",
+            "status": "supported",
+            "adjudication": "Initial watermark,backfill failures,change Map,deletes,cursor advances after per-note catches."
+          },
+          {
+            "id": 26,
+            "reportLine": 41,
+            "entry": "main.bundle.js",
+            "locator": "11664504-11665500",
+            "status": "inexact",
+            "adjudication": "Contains CJK ratio/script test,reference stripping,chunking but numeric constants defining1750/175 and600/60 lie before range at11664400 vicinity."
+          },
+          {
+            "id": 27,
+            "reportLine": 41,
+            "entry": "main.bundle.js",
+            "locator": "11669743-11670700",
+            "status": "supported",
+            "adjudication": "Index eligibility,title double prefix,vector count,sequential indexes,modelID save."
+          },
+          {
+            "id": 28,
+            "reportLine": 43,
+            "entry": "main.bundle.js",
+            "locator": "11654500-11660700",
+            "status": "unsupported",
+            "adjudication": "Most persistence claims supported but clearAll DROP/re-dimension assertion contradicted: only DELETEs metadata/vector rows; no DROP."
+          },
+          {
+            "id": 29,
+            "reportLine": 47,
+            "entry": "main.bundle.js",
+            "locator": "11705500-11709500",
+            "status": "supported",
+            "adjudication": "All five subsequent numbered retrieval contract claims supported."
+          },
+          {
+            "id": 30,
+            "reportLine": 47,
+            "entry": "main-html.bundle.js",
+            "locator": "9103837-9105092",
+            "status": "inexact",
+            "adjudication": "Renderer entry inferred from renderer wording. Range begins at similaritySearch and ends inside query-vector resolver; does not cover provider check,default tuning,complete query/scope contract claimed as independent match."
+          },
+          {
+            "id": 31,
+            "reportLine": 55,
+            "entry": "main.bundle.js",
+            "locator": "11658692-11660288",
+            "status": "supported",
+            "adjudication": "4x inner k filter,join,ordering and outer limit."
+          },
+          {
+            "id": 32,
+            "reportLine": 57,
+            "entry": "arms/A/work/component.mjs",
+            "locator": "whole component (no locator)",
+            "status": "supported",
+            "adjudication": "Static comparison matches dependency calls,binding,thresholds,ties,output/error flow and omitted info logger; no behavior execution claim scored."
+          },
+          {
+            "id": 33,
+            "reportLine": 61,
+            "entry": "main.bundle.js",
+            "locator": "11720327",
+            "status": "supported",
+            "adjudication": "Strict,first chunk per note,fields,skip missing,weight5,title/body."
+          },
+          {
+            "id": 34,
+            "reportLine": 61,
+            "entry": "arms/A/work/component.mjs",
+            "locator": "whole component (no locator)",
+            "status": "supported",
+            "adjudication": "Component excludes desktop note aggregation."
+          },
+          {
+            "id": 35,
+            "reportLine": 63,
+            "entry": "main.bundle.js",
+            "locator": "11724258",
+            "status": "supported",
+            "adjudication": "Auto concatenation and deduplicateAndSort call."
+          },
+          {
+            "id": 36,
+            "reportLine": 63,
+            "entry": "main.bundle.js",
+            "locator": "11725578",
+            "status": "supported",
+            "adjudication": "Merge maximum weight and union fields/types."
+          },
+          {
+            "id": 37,
+            "reportLine": 63,
+            "entry": "main.bundle.js",
+            "locator": "11724258",
+            "status": "inexact",
+            "adjudication": "MATCH catch and item-ID fallback precede this point; catch around11724000; true claim but cited point begins SemanticSearch_ inside auto append."
+          }
+        ]
+      },
+      "incorrectClaims": [
+        {
+          "reportLine": 43,
+          "claim": "clearAll drops the vector table permitting new dimensions",
+          "finding": "False. Packaged main.bundle.js clearAll at11660618 vicinity only DELETEs metadata and vector rows in transactionExecBatch. Existing vec0 schema dimension remains."
+        }
+      ],
+      "recognizedUnknowns": [
+        "Platform sqlite-vec loading",
+        "Model availability",
+        "Real vector distances/retrieval quality",
+        "UI rejected semantic promise handling",
+        "Data races",
+        "Complete API/plugin/MCP exposure",
+        "All cleanup hooks",
+        "Folder preview filtering/descendants",
+        "Change-log ordering",
+        "Migration/schema version",
+        "Complete transaction safety",
+        "Model checksum/download integrity"
+      ],
+      "unrecognizedMaterialGaps": [
+        "Scoped4x overfetch can underfill when matching scope notes fall outside global candidate pool.",
+        "Tool semantic_search_notes catches search errors and rethrows ToolError."
+      ],
+      "limits": [
+        "Static architecture adjudication only.",
+        "Behavior score and investigator operational claims require separate evaluation.",
+        "No target/model/custom script executed.",
+        "No generalized effectiveness inference."
+      ],
+      "supplementalEvidenceAudit": {
+        "rule": "Count every locator occurrence in inspectedEntries/inspected_locations plus every explicit locator in importantClaims/claims, including repeats. Unlocated claim or descriptive locator counts once as ambiguous when precise linkage is missing. Each generic locator is judged for topical contribution to at least one declared topic; it is not claimed to prove all topics. All listed topics/claims separately receive pooled completeness assessment. Artifact identity record counts once. Operational request/evidence-ID and constraint assertions are separately inventoried, not architecture location citations; no operational precision score inferred.",
+        "denominator": 45,
+        "supported": 44,
+        "ambiguous": 1,
+        "citations": [
+          {
+            "path": "inspectedEntries[0]",
+            "entry": "package.json",
+            "locator": "whole entry",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[1]",
+            "entry": "main.js",
+            "locator": "4219",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[2]",
+            "entry": "main-html.js",
+            "locator": "6437",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[2]",
+            "entry": "main-html.js",
+            "locator": "7852",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "[11654500,11660700)",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "[11661000,11670700)",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "[11705500,11709500)",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "9601724",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "9606474",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "9653112",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "11720327",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "11721176",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "11721542",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "11722274",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "11724258",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[3]",
+            "entry": "main.bundle.js",
+            "locator": "11725578",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "[13366500,13373000)",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "8608974",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "8613767",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "8660926",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9002308",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9003904",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9103837",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9104968",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9119659",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9120876",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "9748127",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "12939773",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "12941656",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "13366245",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "13391033",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "inspectedEntries[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "14876702",
+            "status": "supported",
+            "adjudication": "Relevant to one or more declared topics; pooled union supports declared generic topics. No one-to-one claim mapping supplied."
+          },
+          {
+            "path": "importantClaims[0]",
+            "entry": "main.bundle.js",
+            "locator": "11705500–11709500",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[1]",
+            "entry": "main.bundle.js",
+            "locator": "11705500",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[2]",
+            "entry": "main.bundle.js",
+            "locator": "11709044",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[3]",
+            "entry": "main.bundle.js",
+            "locator": "11709168",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[4]",
+            "entry": "main.bundle.js",
+            "locator": "11705500–11709500",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "13366245–13373000",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[6]",
+            "entry": "unspecified",
+            "locator": "provider pooling and SearchService conversion windows",
+            "status": "ambiguous",
+            "adjudication": "Inference is correct, but descriptive pooling/conversion windows do not uniquely enumerate a locator set. Retained as ambiguous rather than selected support."
+          },
+          {
+            "path": "importantClaims[7]",
+            "entry": "main.bundle.js",
+            "locator": "11668435",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[8]",
+            "entry": "main.bundle.js",
+            "locator": "11668688–11669743",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[9]",
+            "entry": "main.bundle.js",
+            "locator": "11720327",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[9]",
+            "entry": "main.bundle.js",
+            "locator": "11724258",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "importantClaims[9]",
+            "entry": "main.bundle.js",
+            "locator": "11725578",
+            "status": "supported",
+            "adjudication": "Enclosing function or explicit window supports the associated claim."
+          },
+          {
+            "path": "artifact",
+            "entry": "app.asar/package.json",
+            "locator": "whole artifact/whole package",
+            "status": "supported",
+            "adjudication": "Archive size,package name,version confirmed."
+          }
+        ],
+        "claimCompleteness": [
+          {
+            "path": "importantClaims[0]",
+            "claim": "Shared search requires an active provider before resolving query or scope",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[1]",
+            "claim": "Strict/normal/loose use k 5/10/20 and minimum scores .86/.83/.74",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[2]",
+            "claim": "Text queries prefer bound embedQuery, preserve original text, and skip whitespace-only text",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[3]",
+            "claim": "Note queries use stored vectors, not note text inference",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[4]",
+            "claim": "Distance conversion is clamped 1-d^2/2; maximum score retained per note/chunk, then descending global top k",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[5]",
+            "claim": "Default local multilingual-e5-small provider produces normalized 384-dimensional vectors with passage/query prefixes",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[6]",
+            "claim": "Normalization explains distance-to-cosine conversion",
+            "status": "ambiguous",
+            "reason": "Correct inference; locator phrase vague."
+          },
+          {
+            "path": "importantClaims[7]",
+            "claim": "Model changes clear the index and reset scan/checkpoint settings",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[8]",
+            "claim": "Incremental per-note failures log warnings while batch watermark advances",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          },
+          {
+            "path": "importantClaims[9]",
+            "claim": "Search-panel note aggregation differs from shared chunk aggregation; auto mode merges lexical and semantic notes",
+            "status": "supported",
+            "reason": "Specific cited location/enclosing declaration supports claim."
+          }
+        ],
+        "operationalAssertions": "toolActionCount,method,boundaryChecks,failedOperations,outputLimits,toolsSuccessfullyUsed,validation and no-execution/peer/source claims require traces; not authenticated by static ASAR audit."
+      }
+    },
+    "B": {
+      "report": "arms/B-recovery6/work/report.md",
+      "architecture": {
+        "total": 11,
+        "maximum": 30,
+        "facts": [
+          {
+            "id": 1,
+            "fact": "Built-in desktop and shared semantic entry relationships",
+            "score": 1,
+            "reason": "Shared service/dependency entry recovered; desktop/UI caller relationship explicitly unknown."
+          },
+          {
+            "id": 2,
+            "fact": "AI/embedding/feature/provider/sqlite eligibility",
+            "score": 1,
+            "reason": "Four embedding availability checks recovered; UI feature-flag gate missing."
+          },
+          {
+            "id": 3,
+            "fact": "UI explicit filters/basic modes/item IDs",
+            "score": 0,
+            "reason": "UI filter/basic/item-ID exclusions unrecovered."
+          },
+          {
+            "id": 4,
+            "fact": "Desktop local provider injection and separate chat provider",
+            "score": 1,
+            "reason": "Independent embedding/chat slots correct; ONNX startup injection missing."
+          },
+          {
+            "id": 5,
+            "fact": "Local multilingual-e5-small,384,prefixes,provisioning",
+            "score": 0,
+            "reason": "Concrete model,dimensions,prefixes/provisioning unrecovered."
+          },
+          {
+            "id": 6,
+            "fact": "ONNX CPU,batch,tokenizer,pooling,normalization",
+            "score": 0,
+            "reason": "CPU inference/tokenizer/pooling/normalization unrecovered."
+          },
+          {
+            "id": 7,
+            "fact": "Initial/maintenance cadence,batch cap,overlap",
+            "score": 0,
+            "reason": "Semantic maintenance/backfill cadence,batch cap,overlap unrecovered."
+          },
+          {
+            "id": 8,
+            "fact": "Change cursor,dedup,backfill,eligibility",
+            "score": 0,
+            "reason": "Semantic change cursor,dedup,backfill/eligibility unrecovered; FTS exclusions correctly not transferred."
+          },
+          {
+            "id": 9,
+            "fact": "SQLite metadata/vector persistence,per-note replacement",
+            "score": 1,
+            "reason": "SQLite joins/vector persistence recovered partly; metadata writes/per-note replacement unrecovered."
+          },
+          {
+            "id": 10,
+            "fact": "Model-ID clear/rebuild and state resets",
+            "score": 0,
+            "reason": "clearAll primitive recovered but model-ID trigger/rebuild/state reset unrecovered."
+          },
+          {
+            "id": 11,
+            "fact": "Text embedding versus stored note vectors",
+            "score": 2,
+            "reason": "Text versus stored-note-vector behavior correct."
+          },
+          {
+            "id": 12,
+            "fact": "Folder/tag/note/all,empty scope,scoped limitations",
+            "score": 1,
+            "reason": "All scopes/empty behavior and4x overfetch correct; scoped underfill omitted."
+          },
+          {
+            "id": 13,
+            "fact": "L2-cosine,presets,thresholds",
+            "score": 2,
+            "reason": "Conversion,presets andthresholds correct; model normalization explicitly qualified."
+          },
+          {
+            "id": 14,
+            "fact": "Best per note/chunk,descending,truncation,desktop aggregation",
+            "score": 1,
+            "reason": "Shared chunk aggregation correct; desktop note-level aggregation missing."
+          },
+          {
+            "id": 15,
+            "fact": "Missing-provider/tool conversion/index failure retries",
+            "score": 1,
+            "reason": "Missing-provider error and propagation correct; tool conversion/indexer retry limitations missing."
+          }
+        ]
+      },
+      "evidencePrecision": {
+        "denominator": 19,
+        "supported": 19,
+        "citations": [
+          {
+            "id": 1,
+            "reportLine": 9,
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Declared anchors occur within named window."
+          },
+          {
+            "id": 2,
+            "reportLine": 10,
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Declared anchors occur within named window."
+          },
+          {
+            "id": 3,
+            "reportLine": 11,
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Declared anchors occur within named window."
+          },
+          {
+            "id": 4,
+            "reportLine": 15,
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 5,
+            "reportLine": 17,
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 6,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Call-map edge subset in this window contributes to pooledE1–E3 map."
+          },
+          {
+            "id": 7,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Call-map edge subset in this window contributes to pooledE1–E3 map."
+          },
+          {
+            "id": 8,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Call-map edge subset in this window contributes to pooledE1–E3 map."
+          },
+          {
+            "id": 9,
+            "reportLine": 39,
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 10,
+            "reportLine": 53,
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 11,
+            "reportLine": 55,
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 12,
+            "reportLine": 57,
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 13,
+            "reportLine": 59,
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 14,
+            "reportLine": 59,
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 15,
+            "reportLine": 65,
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Window contains associated described method/flow; unavailable behavior explicitly marked unknown."
+          },
+          {
+            "id": 16,
+            "reportLine": 39,
+            "entry": "arms/B-recovery6/work/component.mjs",
+            "locator": "whole component",
+            "status": "supported",
+            "adjudication": "Static comparison supports shared routine reconstruction and documented logger omission."
+          },
+          {
+            "id": 17,
+            "reportLine": 63,
+            "entry": "main-html.bundle.js",
+            "locator": "literal EmbeddingService lookup",
+            "status": "supported",
+            "adjudication": "Independent .NET IndexOf returned-1; absence scoped to literal, no absence-of-indexer inference."
+          },
+          {
+            "id": 18,
+            "reportLine": 79,
+            "entry": "app.asar",
+            "locator": "whole archive length",
+            "status": "supported",
+            "adjudication": "173428939bytes matches frozen target."
+          },
+          {
+            "id": 19,
+            "reportLine": 7,
+            "entry": "main-html.bundle.js",
+            "locator": "whole decoded entry length",
+            "status": "supported",
+            "adjudication": "19950361UTF-16 characters independently confirmed."
+          }
+        ]
+      },
+      "supplementalEvidenceAudit": {
+        "rule": "Count every locator occurrence in inspectedEntries/inspected_locations plus every explicit locator in importantClaims/claims, including repeats. Unlocated claim or descriptive locator counts once as ambiguous when precise linkage is missing. Each generic locator is judged for topical contribution to at least one declared topic; it is not claimed to prove all topics. All listed topics/claims separately receive pooled completeness assessment. Artifact identity record counts once. Operational request/evidence-ID and constraint assertions are separately inventoried, not architecture location citations; no operational precision score inferred.",
+        "denominator": 22,
+        "supported": 22,
+        "citations": [
+          {
+            "path": "locations.E1",
+            "entry": "main-html.bundle.js",
+            "locator": "[9002058,9010058)",
+            "status": "supported",
+            "adjudication": "All declared anchors present; broad window is intentionally not exact function boundaries."
+          },
+          {
+            "path": "locations.E2",
+            "entry": "main-html.bundle.js",
+            "locator": "[9093500,9105500)",
+            "status": "supported",
+            "adjudication": "All declared anchors present; broad window is intentionally not exact function boundaries."
+          },
+          {
+            "path": "locations.E3",
+            "entry": "main-html.bundle.js",
+            "locator": "[9104718,9116718)",
+            "status": "supported",
+            "adjudication": "All declared anchors present; broad window is intentionally not exact function boundaries."
+          },
+          {
+            "path": "actions[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Repeated read window statically matches declared archive location."
+          },
+          {
+            "path": "actions[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Repeated read window statically matches declared archive location."
+          },
+          {
+            "path": "actions[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Repeated read window statically matches declared archive location."
+          },
+          {
+            "path": "actions[6]",
+            "entry": "main-html.bundle.js",
+            "locator": "find:EmbeddingService",
+            "status": "supported",
+            "adjudication": "Literal EmbeddingService absent in decoded bundle; no broader absence inference."
+          },
+          {
+            "path": "claims[0]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[6]",
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[7]",
+            "entry": "main-html.bundle.js",
+            "locator": "E3 [9104718,9116718)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[8]",
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Associated static claim supported; multiwindow references pooled."
+          },
+          {
+            "path": "claims[9]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Window supports qualified inference, not runtime assertion."
+          },
+          {
+            "path": "claims[10]",
+            "entry": "main-html.bundle.js",
+            "locator": "E1 [9002058,9010058)",
+            "status": "supported",
+            "adjudication": "Window supports qualified inference, not runtime assertion."
+          },
+          {
+            "path": "claims[10]",
+            "entry": "main-html.bundle.js",
+            "locator": "E2 [9093500,9105500)",
+            "status": "supported",
+            "adjudication": "Window supports qualified inference, not runtime assertion."
+          },
+          {
+            "path": "input/archiveBytesObserved",
+            "entry": "app.asar",
+            "locator": "whole archive length",
+            "status": "supported",
+            "adjudication": "Frozen target identity/length confirmed."
+          }
+        ],
+        "claimCompleteness": [
+          {
+            "path": "claims[0]",
+            "claim": "Provider required before query resolution; ordinary Error on absence",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[1]",
+            "claim": "strict=5/.86, normal=10/.83, loose=20/.74; normal is nullish default",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[2]",
+            "claim": "Text path prefers bound embedQuery, falls back to bound embed; original text supplied as array",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[3]",
+            "claim": "Note query uses indexed vectors, scope supports all/note/folder/tag",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[4]",
+            "claim": "Sequential per-vector search; clamped 1-d^2/2; best score per note/chunk; sort and global k cap",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[5]",
+            "claim": "No catches or FTS fallback in shared routine; dependency errors propagate",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[6]",
+            "claim": "SQLite vector and metadata joins; filtered search uses 4*k candidate MATCH and final k limit",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[7]",
+            "claim": "Availability checks AI enabled, embedding enabled, vector support, provider presence",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[8]",
+            "claim": "clearAll deletes metadata and conditionally vectors; callers unknown",
+            "status": "supported",
+            "reason": "Cited named windows collectively support claim."
+          },
+          {
+            "path": "claims[9]",
+            "claim": "Distance formula suggests normalized Euclidean-to-cosine conversion",
+            "status": "supported",
+            "reason": "Explicitly qualified static inference supported by cited windows."
+          },
+          {
+            "path": "claims[10]",
+            "claim": "A producer must populate persistent chunk vectors; its mechanism was not inspected",
+            "status": "supported",
+            "reason": "Explicitly qualified static inference supported by cited windows."
+          }
+        ],
+        "operationalAssertions": "actions inventory counts5024/98,actionCount,boundaryChecks,successful facility list and prohibitedActivitiesPerformed require retained operational traces. They are not architecture-location citations or established by static content alone."
+      },
+      "incorrectClaims": [],
+      "recognizedUnknowns": [
+        "Concrete embedding provider/model/dimension and normalization",
+        "Background indexing queue, scheduling, initial scan and updates",
+        "Semantic note eligibility and exclusion rules",
+        "Chunking and producer retries",
+        "Index invalidation callers and model-change rebuild",
+        "Startup wiring and actual UI/command dispatch",
+        "SearchEngine semantic dispatch and outer fallback behavior",
+        "Settings defaults",
+        "Runtime correctness and performance"
+      ],
+      "unrecognizedMaterialGaps": [
+        "Scoped4x overfetch can underfill."
+      ],
+      "limits": [
+        "Partial architecture recovery explicitly declared.",
+        "Static routine equivalence is not a behavioral test score.",
+        "No real-model quality/generalized effectiveness conclusion."
+      ]
+    },
+    "C": {
+      "report": "arms/C-recovery2/work/report.md",
+      "architecture": {
+        "total": 25,
+        "maximum": 30,
+        "facts": [
+          {
+            "id": 1,
+            "fact": "Built-in desktop and shared semantic entry relationships",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 2,
+            "fact": "AI/embedding/feature/provider/sqlite eligibility",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 3,
+            "fact": "UI explicit filters/basic modes/item IDs",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 4,
+            "fact": "Desktop local provider injection and separate chat provider",
+            "score": 0,
+            "reason": "Startup local-provider injection and separation from chat provider selection explicitly unknown."
+          },
+          {
+            "id": 5,
+            "fact": "Local multilingual-e5-small,384,prefixes,provisioning",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 6,
+            "fact": "ONNX CPU,batch,tokenizer,pooling,normalization",
+            "score": 1,
+            "reason": "ONNX CPU,batching,tokenizer and helper invocation recovered; pooling and normalization algorithm explicitly uninspected."
+          },
+          {
+            "id": 7,
+            "fact": "Initial/maintenance cadence,batch cap,overlap",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 8,
+            "fact": "Change cursor,dedup,backfill,eligibility",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 9,
+            "fact": "SQLite metadata/vector persistence,per-note replacement",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 10,
+            "fact": "Model-ID clear/rebuild and state resets",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 11,
+            "fact": "Text embedding versus stored note vectors",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 12,
+            "fact": "Folder/tag/note/all,empty scope,scoped limitations",
+            "score": 1,
+            "reason": "Scopes,empty behavior and4x scoped candidate overfetch recovered; underfill limitation omitted."
+          },
+          {
+            "id": 13,
+            "fact": "L2-cosine,presets,thresholds",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 14,
+            "fact": "Best per note/chunk,descending,truncation,desktop aggregation",
+            "score": 2,
+            "reason": "Correct with packaged-entry windows; see exhaustive citation audit."
+          },
+          {
+            "id": 15,
+            "fact": "Missing-provider/tool conversion/index failure retries",
+            "score": 1,
+            "reason": "Missing-provider error and indexer retry limitations correct; tool error conversion explicitly unknown."
+          }
+        ]
+      },
+      "evidencePrecision": {
+        "denominator": 49,
+        "supported": 48,
+        "inexact": 1,
+        "citations": [
+          {
+            "id": 1,
+            "reportLine": 15,
+            "entry": "main-html.bundle.js",
+            "locator": "[9119200,9121000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 2,
+            "reportLine": 15,
+            "entry": "main-html.bundle.js",
+            "locator": "[9121816,9122666)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 3,
+            "reportLine": 15,
+            "entry": "main-html.bundle.js",
+            "locator": "[9123518,9124368)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 4,
+            "reportLine": 15,
+            "entry": "main.bundle.js",
+            "locator": "[11707753,11708603)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 5,
+            "reportLine": 15,
+            "entry": "main.bundle.js",
+            "locator": "[11708884,11709734)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 6,
+            "reportLine": 15,
+            "entry": "main.bundle.js",
+            "locator": "[11720173,11721023)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 7,
+            "reportLine": 16,
+            "entry": "main-html.bundle.js",
+            "locator": "[9100957,9101857)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 8,
+            "reportLine": 16,
+            "entry": "main-html.bundle.js",
+            "locator": "[9101800,9103900)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 9,
+            "reportLine": 16,
+            "entry": "main-html.bundle.js",
+            "locator": "[9103677,9104527)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 10,
+            "reportLine": 16,
+            "entry": "main-html.bundle.js",
+            "locator": "[9104808,9105658)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 11,
+            "reportLine": 17,
+            "entry": "main-html.bundle.js",
+            "locator": "[9146707,9147607)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 12,
+            "reportLine": 18,
+            "entry": "main-html.bundle.js",
+            "locator": "[9747200,9753000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 13,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "[8999360,9002000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 14,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "[8997600,9002000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 15,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "[9002148,9002998)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 16,
+            "reportLine": 19,
+            "entry": "main-html.bundle.js",
+            "locator": "[9003744,9004594)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 17,
+            "reportLine": 20,
+            "entry": "main-html.bundle.js",
+            "locator": "[13368300,13371800)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 18,
+            "reportLine": 21,
+            "entry": "gui/NoteEditor/utils/useSearchMarkers.js",
+            "locator": "[2806,3656)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 19,
+            "reportLine": 21,
+            "entry": "gui/NoteEditor/utils/useSearchMarkers.js",
+            "locator": "[3610,4096)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 20,
+            "reportLine": 25,
+            "entry": "main-html.bundle.js",
+            "locator": "[8608795,8609795)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 21,
+            "reportLine": 25,
+            "entry": "main-html.bundle.js",
+            "locator": "[8613591,8614591)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 22,
+            "reportLine": 25,
+            "entry": "main-html.bundle.js",
+            "locator": "[8617065,8617965)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 23,
+            "reportLine": 27,
+            "entry": "main-html.bundle.js",
+            "locator": "[9107721,9108721)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 24,
+            "reportLine": 27,
+            "entry": "main-html.bundle.js",
+            "locator": "[9120880,9121580)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 25,
+            "reportLine": 29,
+            "entry": "main-html.bundle.js",
+            "locator": "[9119200,9121000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 26,
+            "reportLine": 29,
+            "entry": "main-html.bundle.js",
+            "locator": "[9123518,9124368)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 27,
+            "reportLine": 33,
+            "entry": "main-html.bundle.js",
+            "locator": "[9100957,9101857)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 28,
+            "reportLine": 35,
+            "entry": "main-html.bundle.js",
+            "locator": "[13368300,13371800)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 29,
+            "reportLine": 37,
+            "entry": "main-html.bundle.js",
+            "locator": "[13366000,13369100)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 30,
+            "reportLine": 37,
+            "entry": "main-html.bundle.js",
+            "locator": "[8609775,8610775)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 31,
+            "reportLine": 41,
+            "entry": "main-html.bundle.js",
+            "locator": "[9747200,9753000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 32,
+            "reportLine": 50,
+            "entry": "main-html.bundle.js",
+            "locator": "[9747200,9748000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 33,
+            "reportLine": 50,
+            "entry": "main-html.bundle.js",
+            "locator": "[8999745,9000745)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 34,
+            "reportLine": 56,
+            "entry": "main-html.bundle.js",
+            "locator": "[8997600,9002000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 35,
+            "reportLine": 56,
+            "entry": "main-html.bundle.js",
+            "locator": "[9002148,9002998)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 36,
+            "reportLine": 56,
+            "entry": "main-html.bundle.js",
+            "locator": "[9003744,9004594)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 37,
+            "reportLine": 58,
+            "entry": "main-html.bundle.js",
+            "locator": "[9002148,9002998)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 38,
+            "reportLine": 58,
+            "entry": "main-html.bundle.js",
+            "locator": "[9003744,9004594)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 39,
+            "reportLine": 68,
+            "entry": "main-html.bundle.js",
+            "locator": "[9101000,9101800)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 40,
+            "reportLine": 68,
+            "entry": "main-html.bundle.js",
+            "locator": "[9101800,9103900)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 41,
+            "reportLine": 68,
+            "entry": "main-html.bundle.js",
+            "locator": "[9103677,9104527)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 42,
+            "reportLine": 68,
+            "entry": "main-html.bundle.js",
+            "locator": "[9104808,9105658)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 43,
+            "reportLine": 72,
+            "entry": "main-html.bundle.js",
+            "locator": "[9119200,9121000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 44,
+            "reportLine": 74,
+            "entry": "main-html.bundle.js",
+            "locator": "[9101800,9103900)",
+            "status": "inexact",
+            "adjudication": "Range contains provider-before-query and partial search loop, but not complete search/no-catch boundaries or stored-vector-empty resolver invoked by this paragraph; supporting code exists in other cited windows."
+          },
+          {
+            "id": 45,
+            "reportLine": 74,
+            "entry": "main-html.bundle.js",
+            "locator": "[8997600,9002000)",
+            "status": "supported",
+            "adjudication": "Window contributes the stated associated static subclaim; associated listed windows assessed collectively for multi-window paragraphs."
+          },
+          {
+            "id": 46,
+            "reportLine": 68,
+            "entry": "arms/C-recovery2/work/component.mjs",
+            "locator": "whole component",
+            "status": "supported",
+            "adjudication": "Static comparison matches stated retrieval,dependency,error and omitted private-log behavior."
+          },
+          {
+            "id": 47,
+            "reportLine": 9,
+            "entry": "commands/copyToClipboard.js",
+            "locator": "whole entry;490bytes",
+            "status": "supported",
+            "adjudication": "ASAR entry byte size/content verified; REA execution/coverage claims delegated to operational evidence assessment."
+          },
+          {
+            "id": 48,
+            "reportLine": 9,
+            "entry": "blind-prep-v2/input/app.asar",
+            "locator": "whole artifact byte length/hash",
+            "status": "supported",
+            "adjudication": "173428939bytes and SHA256 match independent frozen-target verification."
+          },
+          {
+            "id": 49,
+            "reportLine": 9,
+            "entry": "REA analysis evidence",
+            "locator": "ev_8bfe2b0c7e747ef4823eb6cf7ec095d6d1263c66ebf7392007be2bffcfb04ef5",
+            "status": "supported",
+            "adjudication": "Independently parsed completed item_3 content[0].text from C-recovery2/measurement/events.jsonl: exact parent and summary IDs,frozen target digest,clipboard490bytes,77AST nodes,6findings,0parse failures,partial coverage2848outside selected scope."
+          }
+        ]
+      },
+      "incorrectClaims": [],
+      "recognizedUnknowns": [
+        "Actual installed/selected runtime embedding provider and settings",
+        "Provider installation and indexer startup/stop wiring",
+        "Feature flag default and complete plugin/MCP exposure",
+        "Full semantic_search_notes handler and schema",
+        "Full lexical-semantic merge policy",
+        "Default chunk size/overlap and language-dependent selection",
+        "Pooling helper body, database migration version and model-dimension switch handling",
+        "Save-wide transactional atomicity and runtime index consistency",
+        "Actual runtime execution, relevance quality, performance and model availability"
+      ],
+      "unrecognizedMaterialGaps": [
+        "Scoped4x candidate overfetch can underfill."
+      ],
+      "limits": [
+        "REA successful invocation on490byte clipboard command does not establish feature-core analysis.",
+        "All core architecture findings rest on direct static text inspection.",
+        "No runtime/model-quality/generalized-effectiveness conclusion."
+      ],
+      "supplementalEvidenceAudit": {
+        "rule": "Count every locator occurrence in inspectedEntries/inspected_locations plus every explicit locator in importantClaims/claims, including repeats. Unlocated claim or descriptive locator counts once as ambiguous when precise linkage is missing. Each generic locator is judged for topical contribution to at least one declared topic; it is not claimed to prove all topics. All listed topics/claims separately receive pooled completeness assessment. Artifact identity record counts once. Operational request/evidence-ID and constraint assertions are separately inventoried, not architecture location citations; no operational precision score inferred.",
+        "denominator": 44,
+        "supported": 41,
+        "inexact": 2,
+        "ambiguous": 1,
+        "citations": [
+          {
+            "path": "inspected_locations[0]",
+            "entry": "commands/copyToClipboard.js",
+            "locator": "whole selected entry",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9100957,9101857)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9101800,9103900)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9103677,9104527)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9104808,9105658)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "[8997600,9002000)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9002148,9002998)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9003744,9004594)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "[8608795,8609795)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "[8609775,8610775)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "[8613591,8614591)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "[8617065,8617965)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9107721,9108721)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9119200,9121000)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9120880,9121580)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9121816,9122666)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9123518,9124368)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9146707,9147607)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[6]",
+            "entry": "main-html.bundle.js",
+            "locator": "[9747200,9753000)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[7]",
+            "entry": "main-html.bundle.js",
+            "locator": "[13366000,13369100)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[7]",
+            "entry": "main-html.bundle.js",
+            "locator": "[13368300,13371800)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[8]",
+            "entry": "main.bundle.js",
+            "locator": "[11707753,11708603)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[8]",
+            "entry": "main.bundle.js",
+            "locator": "[11708884,11709734)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[8]",
+            "entry": "main.bundle.js",
+            "locator": "[11720173,11721023)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[9]",
+            "entry": "gui/NoteEditor/utils/useSearchMarkers.js",
+            "locator": "[2806,3656)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "inspected_locations[9]",
+            "entry": "gui/NoteEditor/utils/useSearchMarkers.js",
+            "locator": "[3610,4096)",
+            "status": "supported",
+            "adjudication": "Window contributes stated topic; pooled union covers topic. Static entry content/490byte size checked; facility success separately operational."
+          },
+          {
+            "path": "claims[0]",
+            "entry": "main-html.bundle.js",
+            "locator": "9101000",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[0]",
+            "entry": "main-html.bundle.js",
+            "locator": "9103350",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[0]",
+            "entry": "main-html.bundle.js",
+            "locator": "9103677",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[0]",
+            "entry": "main-html.bundle.js",
+            "locator": "9104808",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "9103350",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[1]",
+            "entry": "main-html.bundle.js",
+            "locator": "8999360",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "9119505",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[2]",
+            "entry": "main-html.bundle.js",
+            "locator": "9123518",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[3]",
+            "entry": "main-html.bundle.js",
+            "locator": "9747200",
+            "status": "inexact",
+            "adjudication": "Point9747200 falls in preceding chunker options tail, not indexer constants/loop; broad inspected window contains support."
+          },
+          {
+            "path": "claims[4]",
+            "entry": "main-html.bundle.js",
+            "locator": "13368300",
+            "status": "inexact",
+            "adjudication": "Point13368300 is preceding dynamicEsmImport tail, not LocalEmbeddingProvider declaration; broad inspected window contains support."
+          },
+          {
+            "path": "claims[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "8997600",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "9002148",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[5]",
+            "entry": "main-html.bundle.js",
+            "locator": "9003744",
+            "status": "supported",
+            "adjudication": "Point interpreted in enclosing function/declaration contributes claim; pooled generic windows provide remaining details."
+          },
+          {
+            "path": "claims[6]",
+            "entry": "unspecified",
+            "locator": "none",
+            "status": "ambiguous",
+            "adjudication": "Plausible bounded inference but no explicit location mapping."
+          },
+          {
+            "path": "artifact",
+            "entry": "app.asar",
+            "locator": "whole artifact",
+            "status": "supported",
+            "adjudication": "Path,size and hash match frozen input."
+          },
+          {
+            "path": "requests[2].parent_evidence_id",
+            "entry": "REA analysis evidence",
+            "locator": "ev_8bfe2b0c7e747ef4823eb6cf7ec095d6d1263c66ebf7392007be2bffcfb04ef5",
+            "status": "supported",
+            "adjudication": "Exact parent/summary evidence IDs verified by independently parsing retained successful item_3 response; wholeASARdigest andselectedclipboard scope match."
+          },
+          {
+            "path": "requests[2].summary_evidence_id",
+            "entry": "REA analysis evidence",
+            "locator": "ev_87bdbe96bd5e735964dc05a958f0ca03c6c3a61d1fb545632a5d9dc8077b4179",
+            "status": "supported",
+            "adjudication": "Exact parent/summary evidence IDs verified by independently parsing retained successful item_3 response; wholeASARdigest andselectedclipboard scope match."
+          },
+          {
+            "path": "requests[2].source_paths[0]",
+            "entry": "commands/copyToClipboard.js",
+            "locator": "whole selected entry",
+            "status": "supported",
+            "adjudication": "Duplicate selected artifact reference confirmed in retained successful invocation and frozen ASAR490byte entry."
+          }
+        ],
+        "claimCompleteness": [
+          {
+            "path": "claims[0]",
+            "claim": "Default normal; strict 5/.86, normal 10/.83, loose 20/.74; text or note vector query; per-vector sequential search; scope resolution; score 1-d*d/2 clamped; chunk dedup by maximum; sort and slice",
+            "status": "supported",
+            "reason": "Pooled named locations plus inspected windows support the static claim."
+          },
+          {
+            "path": "claims[1]",
+            "claim": "Missing provider throws ordinary Error before query processing; no catch in shared search; sqlite-vec requirement enforced in model methods",
+            "status": "supported",
+            "reason": "Pooled named locations plus inspected windows support the static claim."
+          },
+          {
+            "path": "claims[2]",
+            "claim": "SearchEngine strict search deduplicates notes, loads previews, weights score times five; Auto appends semantic results then invokes merge helper",
+            "status": "supported",
+            "reason": "Pooled named locations plus inspected windows support the static claim."
+          },
+          {
+            "path": "claims[3]",
+            "claim": "30-second initial / 3-minute completed scan schedule, batches of 100, note-change journal processing, model-ID clear and scan reset, invalid note removal, title duplication, passage embedding",
+            "status": "inexact",
+            "reason": "Declared point is before relevant implementation; broader inspected window supports factual substance."
+          },
+          {
+            "path": "claims[4]",
+            "claim": "LocalEmbeddingProvider defaults multilingual-e5-small, 384 dimensions, distinct query/passage prefixes, batch eight, tokenizer max 512, CPU ONNX quantized model",
+            "status": "inexact",
+            "reason": "Declared point is before relevant implementation; broader inspected window supports factual substance."
+          },
+          {
+            "path": "claims[5]",
+            "claim": "SQLite metadata plus vec0 table; scoped search uses fourfold candidate k before final limit; note vectors ordered by chunk index",
+            "status": "supported",
+            "reason": "Pooled named locations plus inspected windows support the static claim."
+          },
+          {
+            "path": "claims[6]",
+            "claim": "Local semantic index is eventually refreshed from a note-change journal; startup/settings lifecycle wiring remains unverified",
+            "status": "ambiguous",
+            "reason": "Unlocated inference."
+          }
+        ],
+        "operationalAssertions": "requests[2]REA parent/summaryIDs,partial coverage2848outside scope andselected490bytes independently read back from retained successful item_3. Remaining request counts,negative boundary probes and no-source/no-execution constraints require separate operational assessment."
+      }
+    }
+  },
+  "denominatorRules": {
+    "report": "All report numeric locator occurrences,including repeats; named E aliases expanded; whole-entry/component/identity references checked. A37report checkpoint preserved exactly as instructed. C includes1REAparent evidence citation; B includes whole-artifact,length,symbol absence andcomponent references. Descriptive model/type identifiers are claims,not separate citations.",
+    "supplemental": "Count every locator occurrence in inspectedEntries/inspected_locations plus every explicit locator in importantClaims/claims, including repeats. Unlocated claim or descriptive locator counts once as ambiguous when precise linkage is missing. Each generic locator is judged for topical contribution to at least one declared topic; it is not claimed to prove all topics. All listed topics/claims separately receive pooled completeness assessment. Artifact identity record counts once. Operational request/evidence-ID and constraint assertions are separately inventoried, not architecture location citations; no operational precision score inferred.",
+    "ambiguity": "Generic entry locator sets establish topic relevance only. Pooled claim-completeness records independently assess stated claim support. No claim that every generic pointer supports every associated claim. Ambiguous andinexact records remain denominator failures.",
+    "operational": "Explicit REA evidence IDs are included as typed operational citations and independently verified. Other execution/boundary assertions lacking source-artifact citation are explicitly inventoried for separate operational review,not silently scored as verified."
+  },
+  "comparison": {
+    "architecture": {
+      "A": 27,
+      "B": 11,
+      "C": 25
+    },
+    "observedOnly": "A exceeds B by16architecture points; C exceeds B by14; A exceeds C by2. This is one target and bounded static recovery; no generalized conventional-tool/REA effectiveness or real-model quality inference.",
+    "citationCaution": "Do not compare raw precision ratios as coverage. B states more unknowns and makes fewer claims. Supplemental generic locator correctness uses topical relevance,while report associated claims use support at location."
+  }
+}

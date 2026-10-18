@@ -1,0 +1,1 @@
+Delivered /output/solution.js, /output/solution-worker.js and /output/report.md. Five public reconstruction scenarios matched production encoded bytes and decoded pixels exactly, including resize and encoding. Invalid quality and corrupt input rejected. Report includes Mermaid architecture, asset evidence, codec reuse, tool observations and explicit limitations.

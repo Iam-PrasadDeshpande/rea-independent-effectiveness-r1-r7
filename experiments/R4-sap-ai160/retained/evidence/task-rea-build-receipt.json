@@ -1,0 +1,12 @@
+{
+  "task": "rea-build",
+  "started": "2026-10-17T18:24:16.4054832+00:00",
+  "ended": "2026-10-17T18:24:53.6050515+00:00",
+  "elapsedMs": 37203.8116,
+  "exitCode": 0,
+  "signature": "Valid",
+  "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "manifestSha256": "8B92041EF8F035E4A1A361E3CC043494554BCAB55DBE23EACFBF30F9084DBFA6",
+  "environment": "explicit allowlist; no ambient credentials",
+  "sandbox": "not established by this launcher"
+}

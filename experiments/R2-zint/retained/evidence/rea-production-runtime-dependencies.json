@@ -1,0 +1,867 @@
+[
+  {
+    "path": "node_modules/@babel/parser",
+    "name": "@babel/parser",
+    "version": "8.0.4"
+  },
+  {
+    "path": "node_modules/@babel/types",
+    "name": "@babel/types",
+    "version": "8.0.4"
+  },
+  {
+    "path": "node_modules/@clack/prompts",
+    "name": "@clack/prompts",
+    "version": "1.7.0"
+  },
+  {
+    "path": "node_modules/@electron/asar",
+    "name": "@electron/asar",
+    "version": "4.2.0"
+  },
+  {
+    "path": "node_modules/@jridgewell/trace-mapping",
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.31"
+  },
+  {
+    "path": "node_modules/@lydell/node-pty",
+    "name": "@lydell/node-pty",
+    "version": "1.1.0"
+  },
+  {
+    "path": "node_modules/@modelcontextprotocol/client",
+    "name": "@modelcontextprotocol/client",
+    "version": "2.3.1"
+  },
+  {
+    "path": "node_modules/@modelcontextprotocol/server",
+    "name": "@modelcontextprotocol/server",
+    "version": "2.3.1"
+  },
+  {
+    "path": "node_modules/@xmldom/xmldom",
+    "name": "@xmldom/xmldom",
+    "version": "0.9.12"
+  },
+  {
+    "path": "node_modules/@xterm/addon-serialize",
+    "name": "@xterm/addon-serialize",
+    "version": "0.14.0"
+  },
+  {
+    "path": "node_modules/@xterm/headless",
+    "name": "@xterm/headless",
+    "version": "6.0.0"
+  },
+  {
+    "path": "node_modules/@zip.js/zip.js",
+    "name": "@zip.js/zip.js",
+    "version": "2.15.0"
+  },
+  {
+    "path": "node_modules/ajv",
+    "name": "ajv",
+    "version": "8.20.0"
+  },
+  {
+    "path": "node_modules/ajv-formats",
+    "name": "ajv-formats",
+    "version": "3.0.1"
+  },
+  {
+    "path": "node_modules/canonicalize",
+    "name": "canonicalize",
+    "version": "3.0.0"
+  },
+  {
+    "path": "node_modules/cborg",
+    "name": "cborg",
+    "version": "6.1.3"
+  },
+  {
+    "path": "node_modules/cross-spawn",
+    "name": "cross-spawn",
+    "version": "7.0.6"
+  },
+  {
+    "path": "node_modules/diff",
+    "name": "diff",
+    "version": "9.0.0"
+  },
+  {
+    "path": "node_modules/evmole",
+    "name": "evmole",
+    "version": "0.9.3"
+  },
+  {
+    "path": "node_modules/har-schema",
+    "name": "har-schema",
+    "version": "2.0.0"
+  },
+  {
+    "path": "node_modules/ignore",
+    "name": "ignore",
+    "version": "7.0.6"
+  },
+  {
+    "path": "node_modules/incur",
+    "name": "incur",
+    "version": "0.6.1"
+  },
+  {
+    "path": "node_modules/isomorphic-git",
+    "name": "isomorphic-git",
+    "version": "1.38.7"
+  },
+  {
+    "path": "node_modules/jsonc-parser",
+    "name": "jsonc-parser",
+    "version": "3.3.1"
+  },
+  {
+    "path": "node_modules/lossless-json",
+    "name": "lossless-json",
+    "version": "4.3.1"
+  },
+  {
+    "path": "node_modules/openpgp",
+    "name": "openpgp",
+    "version": "6.3.2"
+  },
+  {
+    "path": "node_modules/parse5",
+    "name": "parse5",
+    "version": "8.0.1"
+  },
+  {
+    "path": "node_modules/pino",
+    "name": "pino",
+    "version": "10.4.0"
+  },
+  {
+    "path": "node_modules/playwright-core",
+    "name": "playwright-core",
+    "version": "1.58.2"
+  },
+  {
+    "path": "node_modules/plist",
+    "name": "plist",
+    "version": "5.0.0"
+  },
+  {
+    "path": "node_modules/saxes",
+    "name": "saxes",
+    "version": "6.0.0"
+  },
+  {
+    "path": "node_modules/semver",
+    "name": "semver",
+    "version": "7.8.5"
+  },
+  {
+    "path": "node_modules/smol-toml",
+    "name": "smol-toml",
+    "version": "1.9.0"
+  },
+  {
+    "path": "node_modules/stream-chain",
+    "name": "stream-chain",
+    "version": "4.2.6"
+  },
+  {
+    "path": "node_modules/stream-json",
+    "name": "stream-json",
+    "version": "3.7.0"
+  },
+  {
+    "path": "node_modules/tokenx",
+    "name": "tokenx",
+    "version": "1.3.0"
+  },
+  {
+    "path": "node_modules/write-file-atomic",
+    "name": "write-file-atomic",
+    "version": "7.0.0"
+  },
+  {
+    "path": "node_modules/ws",
+    "name": "ws",
+    "version": "8.21.0"
+  },
+  {
+    "path": "node_modules/yaml",
+    "name": "yaml",
+    "version": "2.9.0"
+  },
+  {
+    "path": "node_modules/zod",
+    "name": "zod",
+    "version": "4.4.3"
+  },
+  {
+    "path": "node_modules/frida",
+    "name": "frida",
+    "version": "17.23.2"
+  },
+  {
+    "path": "node_modules/@babel/helper-string-parser",
+    "name": "@babel/helper-string-parser",
+    "version": "8.0.6"
+  },
+  {
+    "path": "node_modules/@babel/helper-validator-identifier",
+    "name": "@babel/helper-validator-identifier",
+    "version": "8.0.6"
+  },
+  {
+    "path": "node_modules/fast-string-width",
+    "name": "fast-string-width",
+    "version": "3.0.2"
+  },
+  {
+    "path": "node_modules/fast-wrap-ansi",
+    "name": "fast-wrap-ansi",
+    "version": "0.2.2"
+  },
+  {
+    "path": "node_modules/sisteransi",
+    "name": "sisteransi",
+    "version": "1.0.5"
+  },
+  {
+    "path": "node_modules/@clack/core",
+    "name": "@clack/core",
+    "version": "1.4.3"
+  },
+  {
+    "path": "node_modules/@electron/asar/node_modules/commander",
+    "name": "commander",
+    "version": "13.1.0"
+  },
+  {
+    "path": "node_modules/glob",
+    "name": "glob",
+    "version": "13.0.6"
+  },
+  {
+    "path": "node_modules/minimatch",
+    "name": "minimatch",
+    "version": "10.2.5"
+  },
+  {
+    "path": "node_modules/@jridgewell/resolve-uri",
+    "name": "@jridgewell/resolve-uri",
+    "version": "3.1.2"
+  },
+  {
+    "path": "node_modules/@jridgewell/sourcemap-codec",
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.6.0"
+  },
+  {
+    "path": "node_modules/@lydell/node-pty-win32-x64",
+    "name": "@lydell/node-pty-win32-x64",
+    "version": "1.1.0"
+  },
+  {
+    "path": "node_modules/eventsource",
+    "name": "eventsource",
+    "version": "3.0.7"
+  },
+  {
+    "path": "node_modules/eventsource-parser",
+    "name": "eventsource-parser",
+    "version": "3.1.0"
+  },
+  {
+    "path": "node_modules/jose",
+    "name": "jose",
+    "version": "6.2.3"
+  },
+  {
+    "path": "node_modules/pkce-challenge",
+    "name": "pkce-challenge",
+    "version": "5.0.1"
+  },
+  {
+    "path": "node_modules/@modelcontextprotocol/core",
+    "name": "@modelcontextprotocol/core",
+    "version": "2.3.1"
+  },
+  {
+    "path": "node_modules/fast-deep-equal",
+    "name": "fast-deep-equal",
+    "version": "3.1.3"
+  },
+  {
+    "path": "node_modules/fast-uri",
+    "name": "fast-uri",
+    "version": "3.1.8"
+  },
+  {
+    "path": "node_modules/json-schema-traverse",
+    "name": "json-schema-traverse",
+    "version": "1.0.0"
+  },
+  {
+    "path": "node_modules/require-from-string",
+    "name": "require-from-string",
+    "version": "2.0.2"
+  },
+  {
+    "path": "node_modules/path-key",
+    "name": "path-key",
+    "version": "3.1.1"
+  },
+  {
+    "path": "node_modules/shebang-command",
+    "name": "shebang-command",
+    "version": "2.0.0"
+  },
+  {
+    "path": "node_modules/which",
+    "name": "which",
+    "version": "2.0.2"
+  },
+  {
+    "path": "node_modules/@cfworker/json-schema",
+    "name": "@cfworker/json-schema",
+    "version": "4.1.1"
+  },
+  {
+    "path": "node_modules/incur/node_modules/@modelcontextprotocol/server",
+    "name": "@modelcontextprotocol/server",
+    "version": "2.0.0-alpha.4"
+  },
+  {
+    "path": "node_modules/@scalar/openapi-types",
+    "name": "@scalar/openapi-types",
+    "version": "0.8.0"
+  },
+  {
+    "path": "node_modules/@toon-format/toon",
+    "name": "@toon-format/toon",
+    "version": "2.3.1"
+  },
+  {
+    "path": "node_modules/async-lock",
+    "name": "async-lock",
+    "version": "1.4.1"
+  },
+  {
+    "path": "node_modules/clean-git-ref",
+    "name": "clean-git-ref",
+    "version": "2.0.1"
+  },
+  {
+    "path": "node_modules/crc-32",
+    "name": "crc-32",
+    "version": "1.2.2"
+  },
+  {
+    "path": "node_modules/diff3",
+    "name": "diff3",
+    "version": "0.0.3"
+  },
+  {
+    "path": "node_modules/isomorphic-git/node_modules/ignore",
+    "name": "ignore",
+    "version": "5.3.2"
+  },
+  {
+    "path": "node_modules/minimisted",
+    "name": "minimisted",
+    "version": "2.0.1"
+  },
+  {
+    "path": "node_modules/pako",
+    "name": "pako",
+    "version": "1.0.11"
+  },
+  {
+    "path": "node_modules/pify",
+    "name": "pify",
+    "version": "4.0.1"
+  },
+  {
+    "path": "node_modules/readable-stream",
+    "name": "readable-stream",
+    "version": "4.7.0"
+  },
+  {
+    "path": "node_modules/sha.js",
+    "name": "sha.js",
+    "version": "2.4.12"
+  },
+  {
+    "path": "node_modules/simple-get",
+    "name": "simple-get",
+    "version": "4.0.1"
+  },
+  {
+    "path": "node_modules/parse5/node_modules/entities",
+    "name": "entities",
+    "version": "8.1.0"
+  },
+  {
+    "path": "node_modules/@pinojs/redact",
+    "name": "@pinojs/redact",
+    "version": "0.4.0"
+  },
+  {
+    "path": "node_modules/atomic-sleep",
+    "name": "atomic-sleep",
+    "version": "1.0.0"
+  },
+  {
+    "path": "node_modules/on-exit-leak-free",
+    "name": "on-exit-leak-free",
+    "version": "2.1.2"
+  },
+  {
+    "path": "node_modules/pino-abstract-transport",
+    "name": "pino-abstract-transport",
+    "version": "3.0.0"
+  },
+  {
+    "path": "node_modules/pino-std-serializers",
+    "name": "pino-std-serializers",
+    "version": "7.1.0"
+  },
+  {
+    "path": "node_modules/process-warning",
+    "name": "process-warning",
+    "version": "5.0.0"
+  },
+  {
+    "path": "node_modules/quick-format-unescaped",
+    "name": "quick-format-unescaped",
+    "version": "4.0.4"
+  },
+  {
+    "path": "node_modules/real-require",
+    "name": "real-require",
+    "version": "1.0.0"
+  },
+  {
+    "path": "node_modules/safe-stable-stringify",
+    "name": "safe-stable-stringify",
+    "version": "2.5.0"
+  },
+  {
+    "path": "node_modules/sonic-boom",
+    "name": "sonic-boom",
+    "version": "4.2.1"
+  },
+  {
+    "path": "node_modules/thread-stream",
+    "name": "thread-stream",
+    "version": "4.2.0"
+  },
+  {
+    "path": "node_modules/xmlbuilder",
+    "name": "xmlbuilder",
+    "version": "15.1.1"
+  },
+  {
+    "path": "node_modules/xmlchars",
+    "name": "xmlchars",
+    "version": "2.2.0"
+  },
+  {
+    "path": "node_modules/imurmurhash",
+    "name": "imurmurhash",
+    "version": "0.1.4"
+  },
+  {
+    "path": "node_modules/signal-exit",
+    "name": "signal-exit",
+    "version": "4.1.0"
+  },
+  {
+    "path": "node_modules/bindings",
+    "name": "bindings",
+    "version": "1.5.0"
+  },
+  {
+    "path": "node_modules/prebuild-install",
+    "name": "prebuild-install",
+    "version": "7.1.3"
+  },
+  {
+    "path": "node_modules/fast-string-truncated-width",
+    "name": "fast-string-truncated-width",
+    "version": "3.0.3"
+  },
+  {
+    "path": "node_modules/minipass",
+    "name": "minipass",
+    "version": "7.1.3"
+  },
+  {
+    "path": "node_modules/path-scurry",
+    "name": "path-scurry",
+    "version": "2.0.2"
+  },
+  {
+    "path": "node_modules/brace-expansion",
+    "name": "brace-expansion",
+    "version": "5.0.12"
+  },
+  {
+    "path": "node_modules/shebang-regex",
+    "name": "shebang-regex",
+    "version": "3.0.0"
+  },
+  {
+    "path": "node_modules/isexe",
+    "name": "isexe",
+    "version": "2.0.0"
+  },
+  {
+    "path": "node_modules/minimist",
+    "name": "minimist",
+    "version": "1.2.8"
+  },
+  {
+    "path": "node_modules/abort-controller",
+    "name": "abort-controller",
+    "version": "3.0.0"
+  },
+  {
+    "path": "node_modules/buffer",
+    "name": "buffer",
+    "version": "6.0.3"
+  },
+  {
+    "path": "node_modules/events",
+    "name": "events",
+    "version": "3.3.0"
+  },
+  {
+    "path": "node_modules/process",
+    "name": "process",
+    "version": "0.11.10"
+  },
+  {
+    "path": "node_modules/string_decoder",
+    "name": "string_decoder",
+    "version": "1.3.0"
+  },
+  {
+    "path": "node_modules/inherits",
+    "name": "inherits",
+    "version": "2.0.4"
+  },
+  {
+    "path": "node_modules/safe-buffer",
+    "name": "safe-buffer",
+    "version": "5.2.1"
+  },
+  {
+    "path": "node_modules/to-buffer",
+    "name": "to-buffer",
+    "version": "1.2.2"
+  },
+  {
+    "path": "node_modules/decompress-response",
+    "name": "decompress-response",
+    "version": "6.0.0"
+  },
+  {
+    "path": "node_modules/once",
+    "name": "once",
+    "version": "1.4.0"
+  },
+  {
+    "path": "node_modules/simple-concat",
+    "name": "simple-concat",
+    "version": "1.0.1"
+  },
+  {
+    "path": "node_modules/split2",
+    "name": "split2",
+    "version": "4.2.0"
+  },
+  {
+    "path": "node_modules/file-uri-to-path",
+    "name": "file-uri-to-path",
+    "version": "1.0.0"
+  },
+  {
+    "path": "node_modules/detect-libc",
+    "name": "detect-libc",
+    "version": "2.1.2"
+  },
+  {
+    "path": "node_modules/expand-template",
+    "name": "expand-template",
+    "version": "2.0.3"
+  },
+  {
+    "path": "node_modules/github-from-package",
+    "name": "github-from-package",
+    "version": "0.0.0"
+  },
+  {
+    "path": "node_modules/mkdirp-classic",
+    "name": "mkdirp-classic",
+    "version": "0.5.3"
+  },
+  {
+    "path": "node_modules/napi-build-utils",
+    "name": "napi-build-utils",
+    "version": "2.0.0"
+  },
+  {
+    "path": "node_modules/node-abi",
+    "name": "node-abi",
+    "version": "3.98.0"
+  },
+  {
+    "path": "node_modules/pump",
+    "name": "pump",
+    "version": "3.0.4"
+  },
+  {
+    "path": "node_modules/rc",
+    "name": "rc",
+    "version": "1.2.8"
+  },
+  {
+    "path": "node_modules/tar-fs",
+    "name": "tar-fs",
+    "version": "2.1.5"
+  },
+  {
+    "path": "node_modules/tunnel-agent",
+    "name": "tunnel-agent",
+    "version": "0.6.0"
+  },
+  {
+    "path": "node_modules/lru-cache",
+    "name": "lru-cache",
+    "version": "11.5.2"
+  },
+  {
+    "path": "node_modules/balanced-match",
+    "name": "balanced-match",
+    "version": "4.0.4"
+  },
+  {
+    "path": "node_modules/event-target-shim",
+    "name": "event-target-shim",
+    "version": "5.0.1"
+  },
+  {
+    "path": "node_modules/base64-js",
+    "name": "base64-js",
+    "version": "1.5.1"
+  },
+  {
+    "path": "node_modules/ieee754",
+    "name": "ieee754",
+    "version": "1.2.1"
+  },
+  {
+    "path": "node_modules/isarray",
+    "name": "isarray",
+    "version": "2.0.5"
+  },
+  {
+    "path": "node_modules/typed-array-buffer",
+    "name": "typed-array-buffer",
+    "version": "1.0.3"
+  },
+  {
+    "path": "node_modules/mimic-response",
+    "name": "mimic-response",
+    "version": "3.1.0"
+  },
+  {
+    "path": "node_modules/wrappy",
+    "name": "wrappy",
+    "version": "1.0.2"
+  },
+  {
+    "path": "node_modules/end-of-stream",
+    "name": "end-of-stream",
+    "version": "1.4.5"
+  },
+  {
+    "path": "node_modules/deep-extend",
+    "name": "deep-extend",
+    "version": "0.6.0"
+  },
+  {
+    "path": "node_modules/ini",
+    "name": "ini",
+    "version": "1.3.8"
+  },
+  {
+    "path": "node_modules/rc/node_modules/strip-json-comments",
+    "name": "strip-json-comments",
+    "version": "2.0.1"
+  },
+  {
+    "path": "node_modules/chownr",
+    "name": "chownr",
+    "version": "1.1.4"
+  },
+  {
+    "path": "node_modules/tar-stream",
+    "name": "tar-stream",
+    "version": "2.2.0"
+  },
+  {
+    "path": "node_modules/call-bound",
+    "name": "call-bound",
+    "version": "1.0.4"
+  },
+  {
+    "path": "node_modules/es-errors",
+    "name": "es-errors",
+    "version": "1.3.0"
+  },
+  {
+    "path": "node_modules/is-typed-array",
+    "name": "is-typed-array",
+    "version": "1.1.15"
+  },
+  {
+    "path": "node_modules/bl",
+    "name": "bl",
+    "version": "4.1.0"
+  },
+  {
+    "path": "node_modules/fs-constants",
+    "name": "fs-constants",
+    "version": "1.0.0"
+  },
+  {
+    "path": "node_modules/tar-stream/node_modules/readable-stream",
+    "name": "readable-stream",
+    "version": "3.6.2"
+  },
+  {
+    "path": "node_modules/call-bind-apply-helpers",
+    "name": "call-bind-apply-helpers",
+    "version": "1.0.2"
+  },
+  {
+    "path": "node_modules/get-intrinsic",
+    "name": "get-intrinsic",
+    "version": "1.3.0"
+  },
+  {
+    "path": "node_modules/which-typed-array",
+    "name": "which-typed-array",
+    "version": "1.1.22"
+  },
+  {
+    "path": "node_modules/bl/node_modules/buffer",
+    "name": "buffer",
+    "version": "5.7.1"
+  },
+  {
+    "path": "node_modules/bl/node_modules/readable-stream",
+    "name": "readable-stream",
+    "version": "3.6.2"
+  },
+  {
+    "path": "node_modules/util-deprecate",
+    "name": "util-deprecate",
+    "version": "1.0.2"
+  },
+  {
+    "path": "node_modules/function-bind",
+    "name": "function-bind",
+    "version": "1.1.2"
+  },
+  {
+    "path": "node_modules/es-define-property",
+    "name": "es-define-property",
+    "version": "1.0.1"
+  },
+  {
+    "path": "node_modules/es-object-atoms",
+    "name": "es-object-atoms",
+    "version": "1.1.2"
+  },
+  {
+    "path": "node_modules/get-proto",
+    "name": "get-proto",
+    "version": "1.0.1"
+  },
+  {
+    "path": "node_modules/gopd",
+    "name": "gopd",
+    "version": "1.2.0"
+  },
+  {
+    "path": "node_modules/has-symbols",
+    "name": "has-symbols",
+    "version": "1.1.0"
+  },
+  {
+    "path": "node_modules/hasown",
+    "name": "hasown",
+    "version": "2.0.4"
+  },
+  {
+    "path": "node_modules/math-intrinsics",
+    "name": "math-intrinsics",
+    "version": "1.1.0"
+  },
+  {
+    "path": "node_modules/available-typed-arrays",
+    "name": "available-typed-arrays",
+    "version": "1.0.7"
+  },
+  {
+    "path": "node_modules/call-bind",
+    "name": "call-bind",
+    "version": "1.0.9"
+  },
+  {
+    "path": "node_modules/for-each",
+    "name": "for-each",
+    "version": "0.3.5"
+  },
+  {
+    "path": "node_modules/has-tostringtag",
+    "name": "has-tostringtag",
+    "version": "1.0.2"
+  },
+  {
+    "path": "node_modules/dunder-proto",
+    "name": "dunder-proto",
+    "version": "1.0.1"
+  },
+  {
+    "path": "node_modules/possible-typed-array-names",
+    "name": "possible-typed-array-names",
+    "version": "1.1.0"
+  },
+  {
+    "path": "node_modules/set-function-length",
+    "name": "set-function-length",
+    "version": "1.2.2"
+  },
+  {
+    "path": "node_modules/is-callable",
+    "name": "is-callable",
+    "version": "1.2.7"
+  },
+  {
+    "path": "node_modules/define-data-property",
+    "name": "define-data-property",
+    "version": "1.1.4"
+  },
+  {
+    "path": "node_modules/has-property-descriptors",
+    "name": "has-property-descriptors",
+    "version": "1.0.2"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "Path": "reports\\ARCHITECTURE_ADJUDICATION_RECOVERY.md",
+    "Bytes": 1417,
+    "SHA256": "B845098325BF8661806FCC8C2DADDD15018AD9A0358361D647ACF8E45E932971"
+  },
+  {
+    "Path": "reports\\architecture-adjudication.json",
+    "Bytes": 1741,
+    "SHA256": "82B172321A4E7E4A75D16EF6734F5B6E390C2CDD7D5277A41FDEC16C0FBB5DFF"
+  },
+  {
+    "Path": "reports\\FINAL_REPORT_AT_250.md",
+    "Bytes": 10765,
+    "SHA256": "E34CE6BC6DD06BEB87AA5FF697E0C224D5948F219EC6313E1B5DC67D8F3A5595"
+  },
+  {
+    "Path": "reports\\FINAL_REPORT.md",
+    "Bytes": 7923,
+    "SHA256": "CB5C92FC98CDB503AAEF00B82D19A62DE4674FCA027CA676734097A7A03329FB"
+  },
+  {
+    "Path": "reports\\INDEPENDENT_ARCHITECTURE_REVIEW.md",
+    "Bytes": 660,
+    "SHA256": "C4FF875C0420DF82DF3C11D8E88B026CD05628C95E6C3411B43B1E473CDCBC4F"
+  },
+  {
+    "Path": "reports\\PREFLIGHT_REPORT_HISTORICAL.md",
+    "Bytes": 9928,
+    "SHA256": "B5C6416B21F05CCFC584CE52EC16EC88E24C3F1970027D4AF13F673B8D56F620"
+  },
+  {
+    "Path": "reports\\REFERENCE_ARCHITECTURE.md",
+    "Bytes": 5981,
+    "SHA256": "273710089A0F80D8FEB18EBE508DA1E3CD3EFF20F611D89F4BF537840E9A81E5"
+  },
+  {
+    "Path": "protocol\\freeze.json",
+    "Bytes": 1047,
+    "SHA256": "1B68A248C3936CC135297A744CAC85E82780C156F8361708D4BD16C81DEF0217"
+  },
+  {
+    "Path": "protocol\\FROZEN_RUBRIC.md",
+    "Bytes": 4264,
+    "SHA256": "AF00E6F979A7E86144F6EEEAD54CDD363C9CF089AC55FFC5449922A0CCE976EA"
+  },
+  {
+    "Path": "protocol\\NEUTRAL_OBJECTIVE.md",
+    "Bytes": 2429,
+    "SHA256": "6C95DC96525237C1367052B5354725A7B9AFD22892AFA6253C6FF4A295A4F835"
+  },
+  {
+    "Path": "protocol\\OPTIONAL_SYNTHETIC_MODEL_CORPUS.json",
+    "Bytes": 631,
+    "SHA256": "405E4A6EB5BD51FDFB598BD2D3A56AC0468DF0FB19D7EFC2017280986DC5023C"
+  },
+  {
+    "Path": "evidence\\7zip-release.json",
+    "Bytes": 30398,
+    "SHA256": "A04A72D7108DDDD6CAEE72EFC31B8EC3E61363E591F44EC8D1A98D7A52143ECD"
+  },
+  {
+    "Path": "evidence\\action-ledger.json",
+    "Bytes": 3431,
+    "SHA256": "3DF7FDEB61C692E388C2D889D40125DF0BC2612D77AED43F0C472DCA80931433"
+  },
+  {
+    "Path": "evidence\\alias-lifecycle-False.json",
+    "Bytes": 392,
+    "SHA256": "7EB5B695F88D643573E1DE5B7FA2A597E32FE62E04DEE9CD9B3983FA325AFE59"
+  },
+  {
+    "Path": "evidence\\alias-lifecycle-True.json",
+    "Bytes": 410,
+    "SHA256": "5D889068D9CEC1E024C79B11FE4A9B0F772839822249CE3365D6C7D633DAE4C2"
+  },
+  {
+    "Path": "evidence\\alias-v2-lifecycle-False.json",
+    "Bytes": 422,
+    "SHA256": "A9BDDED1F9CC5F6C1AA59D28E1F7E6B3E9F338C4B4A9634D03A8C987FBA5B928"
+  },
+  {
+    "Path": "evidence\\artifact-attempt.json",
+    "Bytes": 710,
+    "SHA256": "946D81F662F4EA7D51B7F359290B0BD215585E8255BC54338C7709E2CEDF91DB"
+  },
+  {
+    "Path": "evidence\\artifact-verification.json",
+    "Bytes": 569,
+    "SHA256": "C9A3B3BCDCC55A28A7D8B435CCC9BB6E8C509FB2842951E8DC6D0E44D2302C0B"
+  },
+  {
+    "Path": "evidence\\budget-extension-40.json",
+    "Bytes": 234,
+    "SHA256": "99FF1B3F625480085EBDDC1F6C2F2DDEFC647EFA0AADADF741DC9322F3EF97FB"
+  },
+  {
+    "Path": "evidence\\catalog-data-probe.json",
+    "Bytes": 266,
+    "SHA256": "F9F83CB4C1D60A0120C98F66296914A49C3494C846C4EB4EDE2521A280A9FC5D"
+  },
+  {
+    "Path": "evidence\\catalog-negative-tests.json",
+    "Bytes": 1958,
+    "SHA256": "BAE7E59A732B319F28DA8F0327BCDE1830D5CD963C10C0CB8E29D076C8E4E1C5"
+  },
+  {
+    "Path": "evidence\\CLOSURE_AT_250.json",
+    "Bytes": 1460,
+    "SHA256": "E7660E1B1B98133B9D15BEAD03D6E1F7B77C255A0605CAE5F34C2BD751F08E15"
+  },
+  {
+    "Path": "evidence\\containment-helper.json",
+    "Bytes": 208,
+    "SHA256": "7F0037D46EFBDC483F48B907AF9E3810719B72F57FC23E07AD31B98CD7A2EB4B"
+  },
+  {
+    "Path": "evidence\\CURRENT_CLOSURE.json",
+    "Bytes": 2281,
+    "SHA256": "26963B58D3F45443A9823A6A3D771F875864AE546FB3F9B7533E6318940106E7"
+  },
+  {
+    "Path": "evidence\\environment.json",
+    "Bytes": 9883,
+    "SHA256": "11C4372B86FAD52B41DB86BFA517A24D5F7B275AB7226D5A8F22315E52B1EA5A"
+  },
+  {
+    "Path": "evidence\\experiment-baseline.json",
+    "Bytes": 591,
+    "SHA256": "F1EBA50B2A4776D9182A05BE6F3FF0F78477C4E948F0049B46995BBB706FB107"
+  },
+  {
+    "Path": "evidence\\FINAL_RECOVERY_VERIFICATION.json",
+    "Bytes": 575,
+    "SHA256": "334AA89E3E8B9097014DC83D70044C04D8168CEAC0FEA66869C8F480C75FC047"
+  },
+  {
+    "Path": "evidence\\isolation.json",
+    "Bytes": 457,
+    "SHA256": "141EBBF13732AB81D007D4241A71B866148BD8F060E177721AB7304CA65AD88F"
+  },
+  {
+    "Path": "evidence\\joplin-release.json",
+    "Bytes": 41631,
+    "SHA256": "B96AE8C21D970038D5ED5BF4F63E054DC5780778D3F3D3756ACDE1ED54D476DB"
+  },
+  {
+    "Path": "evidence\\joplin-tag.json",
+    "Bytes": 392,
+    "SHA256": "773ECEC4B147C08A0F022EC5B9939A595277436D842B4F78E02DB8F94707EB0D"
+  },
+  {
+    "Path": "evidence\\lifecycle-tests.json",
+    "Bytes": 520,
+    "SHA256": "7E2AA2E6F93BB18C1C08AD1D5E416F76C2E7D8C3A987A2EFE45E044E0A9069BA"
+  },
+  {
+    "Path": "evidence\\mcp-B-probe.json",
+    "Bytes": 77,
+    "SHA256": "6563866B84E7D5D6ACBFA0623867A131C3A2461D3CB6C5AAB8FA158A70EFD7F6"
+  },
+  {
+    "Path": "evidence\\mcp-B-request.json",
+    "Bytes": 96,
+    "SHA256": "C538CBD41AF94ADC93C36D3BE0A01695B2D63E184C7BBE799E82E1E2B301C50A"
+  },
+  {
+    "Path": "evidence\\mcp-B-result.json",
+    "Bytes": 879,
+    "SHA256": "BDD5065947C2019FB5BF26AC0F4AA9B4B225E06945428B1C779A47B88DC149C5"
+  },
+  {
+    "Path": "evidence\\mcp-B-startup.json",
+    "Bytes": 93,
+    "SHA256": "EE7C16E7930CD9AB55A6FA93444383855B4810AFC3B742341DB2FECC9F2131A5"
+  },
+  {
+    "Path": "evidence\\mcp-B-stderr.txt",
+    "Bytes": 205,
+    "SHA256": "86761DC3498042CEE917C667C170AF6ED7C1F1E5C0CF7EC79A8F427DC5EEE07C"
+  },
+  {
+    "Path": "evidence\\mcp-B-tools.json",
+    "Bytes": 1965,
+    "SHA256": "20580C43D22A996C2623B6D197AAF53605501C1B9A5247A8071FD57E0DDF759E"
+  },
+  {
+    "Path": "evidence\\mcp-C-probe.json",
+    "Bytes": 78,
+    "SHA256": "8388C58986C8DC59578DF4AD3C6B030855750841E0686155AB7054C4D3292A23"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-probe.json",
+    "Bytes": 87,
+    "SHA256": "4D81523D0837AC5E1DC8484F1D7CE0FD8C39B3FA20D23D39BA54E8316ED083D6"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-result.json",
+    "Bytes": 1941,
+    "SHA256": "F04F11EFD7F1AF07AC47C5E38EAB56CA17519C65A9588B0A5EACE2DCF4E20593"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-startup.json",
+    "Bytes": 105,
+    "SHA256": "059D2B99CCEF1D5FE78DE7666D04FBC89D6378C64B96C057A56E01E24BAF9693"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-stderr.txt",
+    "Bytes": 674,
+    "SHA256": "BE5ADDF60D150EEC5F6C463802069E82AFC98213E8F60A9CE43F2BF2A8647FE3"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-tools.json",
+    "Bytes": 9563887,
+    "SHA256": "A6C5ADB6FE9B1B822B1247AC7AA9B5256B8CE12D6213602EFCE9392F829F772E"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-v2-probe.json",
+    "Bytes": 92,
+    "SHA256": "EA0510710B9C35FE684D7158C76CBFF16EFD89144E423489FE80A919502DDFBC"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-v2-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C-qualified-v2-stderr.txt",
+    "Bytes": 2,
+    "SHA256": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "evidence\\mcp-C-request.json",
+    "Bytes": 453,
+    "SHA256": "0D01744EBEA6F0267D263E2470A1A08AAF4B560E239FA9483F7969CE42F55E2E"
+  },
+  {
+    "Path": "evidence\\mcp-C-result.json",
+    "Bytes": 835,
+    "SHA256": "292EEF3636FE4E78E6C99788B3D9E8ECE27A39DC66A6254E3016C6744F3DE831"
+  },
+  {
+    "Path": "evidence\\mcp-C-startup.json",
+    "Bytes": 95,
+    "SHA256": "2D2D6EF144D706E9344AF5EEAA2AEFFF8EF6670A7A641FD78B897483302C98E6"
+  },
+  {
+    "Path": "evidence\\mcp-C-stderr.txt",
+    "Bytes": 400,
+    "SHA256": "245DD01B00DC413B2179C027963329963C26D0B330EF5E9484DF5507943827F2"
+  },
+  {
+    "Path": "evidence\\mcp-C-tools.json",
+    "Bytes": 9563887,
+    "SHA256": "A6C5ADB6FE9B1B822B1247AC7AA9B5256B8CE12D6213602EFCE9392F829F772E"
+  },
+  {
+    "Path": "evidence\\mcp-C2-probe.json",
+    "Bytes": 78,
+    "SHA256": "53FC136CE3F085FFD48B90610D819A491E3172011C872DCB68FFA73426C126AB"
+  },
+  {
+    "Path": "evidence\\mcp-C2-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C2-result.json",
+    "Bytes": 835,
+    "SHA256": "292EEF3636FE4E78E6C99788B3D9E8ECE27A39DC66A6254E3016C6744F3DE831"
+  },
+  {
+    "Path": "evidence\\mcp-C2-startup.json",
+    "Bytes": 96,
+    "SHA256": "E479E8828DF28B5A247B7A4724FA1225746E84D2963F9090120A0FB4E15641B5"
+  },
+  {
+    "Path": "evidence\\mcp-C2-stderr.txt",
+    "Bytes": 541,
+    "SHA256": "AF6F5FFF74B1DE00CA2F832FEC50EE29DAC172337E0A0790BF28AD104F0F0D13"
+  },
+  {
+    "Path": "evidence\\mcp-C2-tools.json",
+    "Bytes": 9563887,
+    "SHA256": "A6C5ADB6FE9B1B822B1247AC7AA9B5256B8CE12D6213602EFCE9392F829F772E"
+  },
+  {
+    "Path": "evidence\\mcp-C3-probe.json",
+    "Bytes": 78,
+    "SHA256": "9C7903BFBFF0E27C973E10B9E96C5C55687FE548E4AD82FF38015D1ADF81E41E"
+  },
+  {
+    "Path": "evidence\\mcp-C3-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C3-stderr.txt",
+    "Bytes": 304,
+    "SHA256": "33746BCF26A122DED9E7B0591365A5319F4CD740D5D8A42753AC66796045E997"
+  },
+  {
+    "Path": "evidence\\mcp-C4-probe.json",
+    "Bytes": 78,
+    "SHA256": "39F107BECD7EC3CD9389F9CE7330E70FC6935553BB29B28B81F1CB458BB925E5"
+  },
+  {
+    "Path": "evidence\\mcp-C4-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C4-stderr.txt",
+    "Bytes": 343,
+    "SHA256": "07A8D9CF8FA608D0222319F5DAFAB3F7FB153791D80265AF60BA131702B4E81A"
+  },
+  {
+    "Path": "evidence\\mcp-C5-probe.json",
+    "Bytes": 78,
+    "SHA256": "E866D40C7D7A7909EE4ACE7A23582365B724C382C3C5B1A02F860B774BEDE682"
+  },
+  {
+    "Path": "evidence\\mcp-C5-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C5-result.json",
+    "Bytes": 1006,
+    "SHA256": "F14598F7D6585AE30981803F51359EF45D5BCDC30B73B38EA4E5F9E2381C8B14"
+  },
+  {
+    "Path": "evidence\\mcp-C5-startup.json",
+    "Bytes": 95,
+    "SHA256": "4FE5E4822AF47EF3C85BAA911EBC991AB07A6364F57FB8C77F1FD88A2FEE2ED7"
+  },
+  {
+    "Path": "evidence\\mcp-C5-stderr.txt",
+    "Bytes": 542,
+    "SHA256": "D16EDD3A726252FEE7EEF7A56D02D1910718A35D2D76E920489550CDB1EAAA89"
+  },
+  {
+    "Path": "evidence\\mcp-C5-tools.json",
+    "Bytes": 9563887,
+    "SHA256": "A6C5ADB6FE9B1B822B1247AC7AA9B5256B8CE12D6213602EFCE9392F829F772E"
+  },
+  {
+    "Path": "evidence\\mcp-C6-probe.json",
+    "Bytes": 78,
+    "SHA256": "2C87064BD6FE61171F27887B4B28341C3E52C64B1C4BE38AC36B1AE705067E10"
+  },
+  {
+    "Path": "evidence\\mcp-C6-request.json",
+    "Bytes": 455,
+    "SHA256": "D4900D9B7AA8B36650A8CDD167E889B5A17F39A2DAD0B460DF2CC68161BC8A2F"
+  },
+  {
+    "Path": "evidence\\mcp-C6-result.json",
+    "Bytes": 970,
+    "SHA256": "0553453BFDED63F7E9D5C4B6D5B5A0FC840AF074497EE6B2B9B177197FFEE161"
+  },
+  {
+    "Path": "evidence\\mcp-C6-startup.json",
+    "Bytes": 96,
+    "SHA256": "AD5DEF3ED25837757D479F113279D2DEB2F662E887E03A84565503D36314D7AE"
+  },
+  {
+    "Path": "evidence\\mcp-C6-stderr.txt",
+    "Bytes": 671,
+    "SHA256": "99288F2C890C35CD75BD62DD8AA8E455630EF40179EE13570FA4B7F2E90770B0"
+  },
+  {
+    "Path": "evidence\\mcp-C6-tools.json",
+    "Bytes": 9563887,
+    "SHA256": "A6C5ADB6FE9B1B822B1247AC7AA9B5256B8CE12D6213602EFCE9392F829F772E"
+  },
+  {
+    "Path": "evidence\\mxc-isolation-tests.json",
+    "Bytes": 314,
+    "SHA256": "C013A218EDAAF4849FAD831553E5A06DCC23465627A2FC3751BFEB6BF3B276CD"
+  },
+  {
+    "Path": "evidence\\mxc-probe.json",
+    "Bytes": 92,
+    "SHA256": "B53E7A7E2BAD9A0C4CD80CD8BF59148BABBBFCA2795DDB93385AAD4BA3ED1275"
+  },
+  {
+    "Path": "evidence\\mxc-trust-probe.json",
+    "Bytes": 562,
+    "SHA256": "7ED8C04ECBD3CB5460DB197A272CABBA7A64DFDE07FA59A77E625EF707FACE4F"
+  },
+  {
+    "Path": "evidence\\native-extractor-signing.json",
+    "Bytes": 665,
+    "SHA256": "F36CF5B73E6E35C8F18B3A9B751602639D80FC464F90DF87EF52ADFAD0445843"
+  },
+  {
+    "Path": "evidence\\owner-continuation-authority.json",
+    "Bytes": 333,
+    "SHA256": "6D55534F1526FCDC7D8B4A2D196BC3D7309EDD037E1A311DC1C03338FFBE20A0"
+  },
+  {
+    "Path": "evidence\\powershell-recovery-asset.json",
+    "Bytes": 1752,
+    "SHA256": "27F8FCD617B8FED914630F4B39ED9D6A247C0F6508EC5E3D934D3B4965ABB2C4"
+  },
+  {
+    "Path": "evidence\\powershell-releases-recovery.json",
+    "Bytes": 503707,
+    "SHA256": "C10121740B51AD47819DA3F96231E6C71BB3E986F2D40619F3ADC6292BD87E03"
+  },
+  {
+    "Path": "evidence\\provider-actions-current.json",
+    "Bytes": 15646,
+    "SHA256": "68CF0B60BCD6A036E592EC1AB6AC297790C0A85702600FBDE1149FC7890A7FF2"
+  },
+  {
+    "Path": "evidence\\provider-actions-final.json",
+    "Bytes": 16994,
+    "SHA256": "8EDC5F3E0F4FD80AE62B4134AC093E7E34CDE6F2885B6426E5715D5B46B18998"
+  },
+  {
+    "Path": "evidence\\provider-actions-recovery.json",
+    "Bytes": 19192,
+    "SHA256": "489CA6895E03E00C885AFF17CFC4ECC62DD5D573392FA012A96486B4308E4793"
+  },
+  {
+    "Path": "evidence\\pwsh77-isolated-test.txt",
+    "Bytes": 30,
+    "SHA256": "ED043E5AD10287D6800BAB600BC56B40AC01975CE3E720C632B3FC449683C0B4"
+  },
+  {
+    "Path": "evidence\\R3-SigningProbe.ps1",
+    "Bytes": 2714,
+    "SHA256": "81068BBA0A325F1C38D3A53889EE408196B0E8E66B568951811EC8A5E4B92107"
+  },
+  {
+    "Path": "evidence\\REA_RECOVERY_STAGE_STATUS.json",
+    "Bytes": 397,
+    "SHA256": "3411D384DC1468185F8C711CD950F96486B06D60B6320EDCA9A13F6F5F3BDB8C"
+  },
+  {
+    "Path": "evidence\\rea-attestation-v0.1.json",
+    "Bytes": 420,
+    "SHA256": "5BDD7281B34F6453EA2A90E8DB15C02ACB8ED3A5A312B9F8329FB04208440B5B"
+  },
+  {
+    "Path": "evidence\\rea-attestation-v1.json",
+    "Bytes": 1012,
+    "SHA256": "17750E10BC03D7D73C5C5937D40D947F248BEB24368B8A731B3B74B059182078"
+  },
+  {
+    "Path": "evidence\\rea-commit.json",
+    "Bytes": 31213,
+    "SHA256": "9ECD7642894EA487AA53C075F1E42C1BFC0C55ACE5C73D7CEE49D47C176DB3A2"
+  },
+  {
+    "Path": "evidence\\rea-npm-attestations.json",
+    "Bytes": 16908,
+    "SHA256": "CDA55D2B6946027D98183AEE836CB7C91C872E43E473E0D95F026F208844B748"
+  },
+  {
+    "Path": "evidence\\rea-npm-metadata.json",
+    "Bytes": 24302,
+    "SHA256": "D6A392B6C80C11159C0C82F177258C50C7A1F2EAFC9A61090DEFF0D09B63D0D1"
+  },
+  {
+    "Path": "evidence\\rea-npm-registry-signatures.json",
+    "Bytes": 245,
+    "SHA256": "0629617B000B7670804A9C672B46E0E8D59F6C72203AFD75AE0470E5ED35C6C4"
+  },
+  {
+    "Path": "evidence\\rea-package-api.json",
+    "Bytes": 24698,
+    "SHA256": "4A73731B40F8A45BA84C53D891E3C28AE7F5F51019025AF4AEA54D4A781E5B02"
+  },
+  {
+    "Path": "evidence\\rea-release.json",
+    "Bytes": 63004,
+    "SHA256": "CEF23AF8E06287BBA97EA73D808E1B83307C922ADD9F5FB7DA89FD58C3A172A3"
+  },
+  {
+    "Path": "evidence\\rea-view-schema.json",
+    "Bytes": 40738,
+    "SHA256": "0F5BC4E6CEC8173D11B71E992EC7B8EA4BA687564D0F33A2DC22C4C1AD96F9AA"
+  },
+  {
+    "Path": "evidence\\RECOVERY_SIGNING_AND_INTEGRITY.json",
+    "Bytes": 2247,
+    "SHA256": "1A1A8A3A2B6F4ACBC4A689571371795A481F347C6868A8A7E6B55A1E5B765315"
+  },
+  {
+    "Path": "evidence\\recovery-alias-final-cleanup.json",
+    "Bytes": 362,
+    "SHA256": "56D6CD52AE152F5C503ECC25FA48E0741F85EE80A9D18270C54DFC1DAC36D200"
+  },
+  {
+    "Path": "evidence\\resources-end.json",
+    "Bytes": 9674,
+    "SHA256": "072EC1904532C169472E4E47EDA9C8DE06EBE844686C5797B0F3B5EDF9F83B85"
+  },
+  {
+    "Path": "evidence\\signing-probe.json",
+    "Bytes": 351,
+    "SHA256": "7D178CCF6AFD72A9347897A8D32DC1EECD381ACCBD800A04FBFE8CE69749F178"
+  },
+  {
+    "Path": "evidence\\snapshot-debug.txt",
+    "Bytes": 0,
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "evidence\\source-files-manifest.json",
+    "Bytes": 6364,
+    "SHA256": "128E6E6CEC01345382717CD78B914AD049B82D42ECB77F79D9B1C74612767211"
+  },
+  {
+    "Path": "evaluation-output\\candidate-freeze.json",
+    "Bytes": 600,
+    "SHA256": "A0C5936D520CB2FA1A5B9E1998F2C84ED823C4DDE9BB4A74369C0A55D8654126"
+  },
+  {
+    "Path": "evaluation-output\\expected.json",
+    "Bytes": 26835,
+    "SHA256": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B"
+  },
+  {
+    "Path": "evaluation-output\\final\\behavior-results.json",
+    "Bytes": 150968,
+    "SHA256": "B7ABFE0A63DD6F7FB9861A9A71B486D67E127E968298AE41B5F7E89F11D9EFAA"
+  },
+  {
+    "Path": "evaluation-output\\recovery1\\behavior-results.json",
+    "Bytes": 63846,
+    "SHA256": "C769C3AED2714F4D1CD404753C5FFDB13F04904AC871F40050B7A2F206402FCC"
+  },
+  {
+    "Path": "evaluation-recovery-code\\B.mjs",
+    "Bytes": 1967,
+    "SHA256": "6F1318BA14F107B27A136AB47CB1337C6EBB87859C7CE1C9A40F1C46E3624436"
+  },
+  {
+    "Path": "evaluation-recovery-code\\cases.json",
+    "Bytes": 33261,
+    "SHA256": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770"
+  },
+  {
+    "Path": "evaluation-recovery-code\\evaluate.mjs",
+    "Bytes": 2595,
+    "SHA256": "FF89899AB9DA738AD0DFB3DEA4F10ABCC8144D43F107F39C8AEA4468ED91EF1D"
+  },
+  {
+    "Path": "evaluation-recovery-code\\expected.json",
+    "Bytes": 26835,
+    "SHA256": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B"
+  }
+]

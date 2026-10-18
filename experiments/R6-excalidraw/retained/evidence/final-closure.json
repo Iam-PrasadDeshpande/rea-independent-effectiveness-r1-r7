@@ -1,0 +1,17 @@
+{
+  "windowsR6WorkersFoundAndStopped": 0,
+  "architectureRatings": 90,
+  "remainingActions": 0,
+  "utc": "2026-10-18T05:25:03.8872067Z",
+  "execution": "CLOSED_NO_NEXT_GATE",
+  "referenceStableCases": 36,
+  "recoveryTimerDefect": "Raw elapsed invalid; corrected from UTC timestamps; no matched-enforcement claim",
+  "frozenInputDrift": 0,
+  "disposition": "INVALID_COMPARISON",
+  "totalActionsUsed": 250,
+  "auditedSignaturesValid": 15,
+  "reportResultConsistency": "PASS",
+  "sealedSubmissionDrift": 0,
+  "nativeR6ProcessesRemaining": [],
+  "behavioralCasesEvaluated": 108
+}

@@ -1,0 +1,44 @@
+{
+  "caseCount": 48,
+  "results": [
+    {
+      "arm": "A",
+      "status": "TESTED",
+      "cases": 48,
+      "fullMatches": 48,
+      "moduleMatches": 48,
+      "exitMatches": 48,
+      "sourceSha256": "4dcbc699d5617d42bd37c01f1e50d3ff07da521437f0b07205c356d3e3a94dfb",
+      "binarySha256": "57b60fa6704247e3a063c98c7a3d27579ebbb5ceaf4e5698f1b3d2aa333b7e0e",
+      "sourceReview": "AUTOMATED_SCREEN_AND_COORDINATOR_MANUAL_SOURCE_REVIEW_COMPLETE; NO_DELEGATION_OR_LOADER_OR_HIDDEN_CASE_TABLE_FOUND",
+      "elapsedSeconds": 12.910104
+    },
+    {
+      "arm": "B",
+      "status": "TESTED",
+      "cases": 48,
+      "fullMatches": 48,
+      "moduleMatches": 48,
+      "exitMatches": 48,
+      "sourceSha256": "50e1b806232c10cf68d8d23524d9daed016a4e451955b7c007a6b9a27a2374dc",
+      "binarySha256": "4e8c70b3de0fc017ab3faec3b7794a47e4a7941a63fd3de624fc28b984a85fa8",
+      "sourceReview": "AUTOMATED_SCREEN_AND_COORDINATOR_MANUAL_SOURCE_REVIEW_COMPLETE; NO_DELEGATION_OR_LOADER_OR_HIDDEN_CASE_TABLE_FOUND",
+      "elapsedSeconds": 13.6201861
+    },
+    {
+      "arm": "C",
+      "status": "TESTED",
+      "cases": 48,
+      "fullMatches": 48,
+      "moduleMatches": 48,
+      "exitMatches": 48,
+      "sourceSha256": "4adffba6f56afd22f568e965e5309051f067750827624511d964a50027943b89",
+      "binarySha256": "f7d2f102f84860e93e7fda515136cfe7143fb1552d24789c6400c6344b24ec71",
+      "sourceReview": "AUTOMATED_SCREEN_AND_COORDINATOR_MANUAL_SOURCE_REVIEW_COMPLETE; NO_DELEGATION_OR_LOADER_OR_HIDDEN_CASE_TABLE_FOUND",
+      "elapsedSeconds": 13.3902991
+    }
+  ],
+  "isolation": "original binary, oracle, source and peer submissions absent; submission binary read-only; network unshared",
+  "utc": "2026-10-17T19:18:21.0257332Z",
+  "metric": "exact numeric exit and whitespace-normalized uppercase module hex"
+}

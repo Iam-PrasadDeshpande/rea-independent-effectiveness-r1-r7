@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-18T06:11:39.8145566Z",
+  "manifestSha256": "5ab64a2fe87eec0653de4d7aeedc43aea330d63988fd8f96c97de702545ebfbc",
+  "filesVerified": 15489,
+  "bytesVerified": 2595100391.0,
+  "failures": [],
+  "status": "PASS_CURRENT_RETAINED_BYTE_BASELINE",
+  "experimentReruns": 0,
+  "scope": "Hash and size readback only; historical R1 expected digest remains different"
+}

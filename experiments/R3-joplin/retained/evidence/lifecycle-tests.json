@@ -1,0 +1,17 @@
+{
+  "ForcedGateTermination": true,
+  "BeforeKillHeartbeat": {
+    "pid": 36400,
+    "time": 1792262381652
+  },
+  "AfterKillHeartbeat": {
+    "pid": 36400,
+    "time": 1792262381873
+  },
+  "HostWorkerObservedBefore": true,
+  "SameWorkerAliveAfter": false,
+  "HeartbeatStopped": true,
+  "NormalExitChildPID": 3856,
+  "NormalExitChildAlive": false,
+  "Mechanism": "Signed Win32 helper creates suspended child, assigns kill-on-close job, resumes, and retains locks until job active-process count is zero"
+}

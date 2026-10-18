@@ -1,0 +1,53 @@
+{
+  "Status": "PARTIAL_E2E_NOT_MET",
+  "REAIncrementalValue": "UNKNOWN_INVALID_COMPARISON",
+  "FreezeChecks": [
+    {
+      "Path": "protocol\\FROZEN_RUBRIC.md",
+      "Matches": true
+    },
+    {
+      "Path": "protocol\\NEUTRAL_OBJECTIVE.md",
+      "Matches": true
+    },
+    {
+      "Path": "evaluator\\deterministic-cases.json",
+      "Matches": true
+    },
+    {
+      "Path": "evaluation-output\\expected.json",
+      "Matches": true
+    },
+    {
+      "Path": "blind-prep-v2\\input\\app.asar",
+      "Matches": true
+    }
+  ],
+  "FinalGateSignature": "Valid",
+  "FinalCatalog": "Valid",
+  "Behavior": [
+    {
+      "arm": "A",
+      "passed": 40,
+      "total": 40
+    },
+    {
+      "arm": "C",
+      "passed": 0,
+      "total": 40
+    },
+    {
+      "arm": "B",
+      "passed": 0,
+      "total": 40
+    }
+  ],
+  "RootProviderAndDispatchActions": 216,
+  "ReviewerReportedActions": 11,
+  "InvestigatorRecordedToolItems": 23.0,
+  "RecordedActionTotal": 250.0,
+  "CountingLimitations": "Provider/dispatch actions plus recorded investigator tool items; waiting/routing wrappers excluded. C self-reports eight facility operations versus seven recorded items; no complete nested-action billing audit.",
+  "IndependentArchitecture": "A/C_UNSCORED_B_ABSENT_0",
+  "OwnerAction": "Additional current-mission repair/rerun budget required; retain engineering ownership",
+  "Report": "reports/FINAL_REPORT.md"
+}

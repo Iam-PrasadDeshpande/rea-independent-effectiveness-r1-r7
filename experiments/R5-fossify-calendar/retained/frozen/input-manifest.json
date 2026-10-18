@@ -1,0 +1,33 @@
+{
+  "inputs": [
+    {
+      "path": "frozen/calendar.apk",
+      "sha256": "d43b2df05d5702bea760a7ab03402977ba72e446e5932038efbdab248a5de987"
+    },
+    {
+      "path": "frozen/contract.json",
+      "sha256": "7ef929f77a2c8f04e11e90923708ab37ac4644c777e1143e426e047c6d5e315f"
+    },
+    {
+      "path": "frozen/investigator-prompt.txt",
+      "sha256": "9d85da24052aa3f1e12423d3527f055e6a9344cbf163a48e49a34590fb893866"
+    },
+    {
+      "path": "frozen/action-schema.json",
+      "sha256": "ec80f7ed650b932267c279c1e7180b70f12a0aa3a3e9e37b3adc017223ae2a8e"
+    },
+    {
+      "path": "scripts/Run-R5Arm.ps1",
+      "sha256": "cab79d7acb63fdf51770b54731299a51187b51ff78e14ca5b19e63d3a0d8636f"
+    },
+    {
+      "path": "evaluator/oracle-manifest.json",
+      "sha256": "3fabd8ec0b0b4fee830a0aad9af179f02f5adf6029f9eca0900906e2229654d8"
+    },
+    {
+      "path": "evaluator/reference-architecture.md",
+      "sha256": "96fc69a45266c9605b86fee2981b5f7c3ecaf7b34304a6ad09429da8e58b44e2"
+    }
+  ],
+  "frozenUtc": "2026-10-18T02:12:28.4933265Z"
+}

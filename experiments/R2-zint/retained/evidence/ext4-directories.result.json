@@ -1,0 +1,14 @@
+{
+  "elapsedSeconds": 0.3905367,
+  "utc": "2026-10-17T18:33:34.9120044Z",
+  "arguments": [
+    "/usr/bin/mkdir",
+    "-p",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools",
+    "/home/RESEARCH_USER/rea-r2-20261017/scratch/native-gate/home",
+    "/home/RESEARCH_USER/rea-r2-20261017/scratch/native-gate/tmp",
+    "/home/RESEARCH_USER/rea-r2-20261017/scratch/native-gate/projects"
+  ],
+  "exit": 0
+}

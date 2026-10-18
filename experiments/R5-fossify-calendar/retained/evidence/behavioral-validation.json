@@ -1,0 +1,7454 @@
+{
+  "summary": [
+    {
+      "occurrencesPassed": 44,
+      "total": 44,
+      "sourceSha256": "D57625D78818B95ABB1F595E014B523895A9AC0145581728659C7C6EAA3A3248",
+      "passed": 32,
+      "remindersPassed": 32,
+      "userCasesTotal": 43,
+      "status": "EXECUTED",
+      "userCasesPassed": 31,
+      "arm": "A"
+    },
+    {
+      "occurrencesPassed": 44,
+      "total": 44,
+      "sourceSha256": "77107B801A8A7E921E1734A4485DA2346C32EEF208E6B10C117379684F18701C",
+      "passed": 32,
+      "remindersPassed": 32,
+      "userCasesTotal": 43,
+      "status": "EXECUTED",
+      "userCasesPassed": 31,
+      "arm": "B"
+    },
+    {
+      "occurrencesPassed": 44,
+      "total": 44,
+      "sourceSha256": "F23A09756B0501684DB998308034A9442ABB0AE2618C718EEF79D6937CB84FA2",
+      "passed": 32,
+      "remindersPassed": 32,
+      "userCasesTotal": 43,
+      "status": "EXECUTED",
+      "userCasesPassed": 31,
+      "arm": "C"
+    }
+  ],
+  "utc": "2026-10-18T02:25:15.2910140Z",
+  "sqlitePersistence": "NOT_PROVEN",
+  "sourceApkReproducibility": "NOT_PROVEN",
+  "records": [
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "01-weekly-basic",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "02-weekly-count-one",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "03-weekly-count-three",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "04-count-applies-before-window",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "05-until-inclusive",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "06-until-one-second-before",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "07-query-start-at-event-end",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "08-query-after-event-end",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "09-query-end-at-event-start",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "10-query-end-before-start",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "11-multiweek-two",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "12-multiweek-three",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768557600,
+            "endTS": 1768561200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769162400,
+            "endTS": 1769166000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769767200,
+            "endTS": 1769770800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768557600,
+            "endTS": 1768561200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769162400,
+            "endTS": 1769166000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769767200,
+            "endTS": 1769770800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "13-monday-wednesday-friday",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767520800,
+            "endTS": 1767524400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768730400,
+            "endTS": 1768734000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769940000,
+            "endTS": 1769943600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767520800,
+            "endTS": 1767524400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768730400,
+            "endTS": 1768734000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769940000,
+            "endTS": 1769943600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "14-biweekly-sunday-monday",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "15-count-multiweekday",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "16-series-start-not-selected-weekday",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "17-empty-weekdays",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "18-edit-first-title",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "19-delete-first",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "20-edit-middle-title",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "21-delete-middle",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic changed"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic changed"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "22-edit-last-title",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "23-delete-last",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768316400,
+            "endTS": 1768321800,
+            "title": "Synthetic moved"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768316400,
+            "endTS": 1768321800,
+            "title": "Synthetic moved"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "24-edit-moves-to-next-day",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "25-edit-moves-outside-window",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "26-delete-duplicate-deduplicates",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "27-count-does-not-replenish-excluded",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic saved"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic saved"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "28-edit-roundtrip-delete",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "29-delete-series-including-child",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "30-one-reminder",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603600000
+          }
+        ]
+      },
+      "case": "31-three-reminders-source-order",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "32-unsorted-reminders-source-order",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "33-reminder-exact-now-skipped",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "34-reminder-one-second-before",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "35-deleted-first-reminder-next-series",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic child reminder"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          },
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768210201000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic child reminder"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          },
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768210200000
+          }
+        ]
+      },
+      "case": "36-edited-reminder-independent-child",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "37-edited-child-reminders-off",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "38-expired-count-no-reminders",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1772377200,
+            "endTS": 1772380800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1772978400,
+            "endTS": 1772982000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1773583200,
+            "endTS": 1773586800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1774188000,
+            "endTS": 1774191600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1772377200,
+            "notifyAtMillis": 1772376601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1772377200,
+            "endTS": 1772380800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1772978400,
+            "endTS": 1772982000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1773583200,
+            "endTS": 1773586800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1774188000,
+            "endTS": 1774191600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1772377200,
+            "notifyAtMillis": 1772376600000
+          }
+        ]
+      },
+      "case": "39-boundary-spring",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1792936800,
+            "endTS": 1792940400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1793545200,
+            "endTS": 1793548800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794150000,
+            "endTS": 1794153600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794754800,
+            "endTS": 1794758400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1792936800,
+            "notifyAtMillis": 1792936201000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1792936800,
+            "endTS": 1792940400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1793545200,
+            "endTS": 1793548800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794150000,
+            "endTS": 1794153600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794754800,
+            "endTS": 1794758400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1792936800,
+            "notifyAtMillis": 1792936200000
+          }
+        ]
+      },
+      "case": "40-boundary-fall",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1834826400,
+            "endTS": 1834830000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1835431200,
+            "endTS": 1835434800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1836036000,
+            "endTS": 1836039600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1834826400,
+            "notifyAtMillis": 1834825801000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1834826400,
+            "endTS": 1834830000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1835431200,
+            "endTS": 1835434800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1836036000,
+            "endTS": 1836039600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1834826400,
+            "notifyAtMillis": 1834825800000
+          }
+        ]
+      },
+      "case": "41-boundary-leap",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1798452000,
+            "endTS": 1798455600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799056800,
+            "endTS": 1799060400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799661600,
+            "endTS": 1799665200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1798452000,
+            "notifyAtMillis": 1798451401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1798452000,
+            "endTS": 1798455600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799056800,
+            "endTS": 1799060400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799661600,
+            "endTS": 1799665200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1798452000,
+            "notifyAtMillis": 1798451400000
+          }
+        ]
+      },
+      "case": "42-boundary-year",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767587400,
+            "endTS": 1767591000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768192200,
+            "endTS": 1768195800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768797000,
+            "endTS": 1768800600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769401800,
+            "endTS": 1769405400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767587400,
+            "endTS": 1767591000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768192200,
+            "endTS": 1768195800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768797000,
+            "endTS": 1768800600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769401800,
+            "endTS": 1769405400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "43-half-hour-timezone",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767655800,
+            "endTS": 1767663000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768260600,
+            "endTS": 1768267800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768865400,
+            "endTS": 1768872600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769470200,
+            "endTS": 1769477400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767655800,
+            "endTS": 1767663000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768260600,
+            "endTS": 1768267800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768865400,
+            "endTS": 1768872600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769470200,
+            "endTS": 1769477400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "44-cross-midnight-duration",
+      "arm": "A"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "01-weekly-basic",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "02-weekly-count-one",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "03-weekly-count-three",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "04-count-applies-before-window",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "05-until-inclusive",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "06-until-one-second-before",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "07-query-start-at-event-end",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "08-query-after-event-end",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "09-query-end-at-event-start",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "10-query-end-before-start",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "11-multiweek-two",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "12-multiweek-three",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768557600,
+            "endTS": 1768561200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769162400,
+            "endTS": 1769166000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769767200,
+            "endTS": 1769770800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768557600,
+            "endTS": 1768561200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769162400,
+            "endTS": 1769166000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769767200,
+            "endTS": 1769770800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "13-monday-wednesday-friday",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767520800,
+            "endTS": 1767524400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768730400,
+            "endTS": 1768734000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769940000,
+            "endTS": 1769943600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767520800,
+            "endTS": 1767524400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768730400,
+            "endTS": 1768734000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769940000,
+            "endTS": 1769943600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "14-biweekly-sunday-monday",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "15-count-multiweekday",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "16-series-start-not-selected-weekday",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "17-empty-weekdays",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "18-edit-first-title",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "19-delete-first",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "20-edit-middle-title",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "21-delete-middle",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic changed"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic changed"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "22-edit-last-title",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "23-delete-last",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768316400,
+            "endTS": 1768321800,
+            "title": "Synthetic moved"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768316400,
+            "endTS": 1768321800,
+            "title": "Synthetic moved"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "24-edit-moves-to-next-day",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "25-edit-moves-outside-window",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "26-delete-duplicate-deduplicates",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "27-count-does-not-replenish-excluded",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic saved"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic saved"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "28-edit-roundtrip-delete",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "29-delete-series-including-child",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "30-one-reminder",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603600000
+          }
+        ]
+      },
+      "case": "31-three-reminders-source-order",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603600000
+          }
+        ]
+      },
+      "case": "32-unsorted-reminders-source-order",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "33-reminder-exact-now-skipped",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "34-reminder-one-second-before",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "35-deleted-first-reminder-next-series",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic child reminder"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          },
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768210201000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic child reminder"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          },
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768210200000
+          }
+        ]
+      },
+      "case": "36-edited-reminder-independent-child",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "37-edited-child-reminders-off",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "38-expired-count-no-reminders",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1772377200,
+            "endTS": 1772380800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1772978400,
+            "endTS": 1772982000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1773583200,
+            "endTS": 1773586800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1774188000,
+            "endTS": 1774191600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1772377200,
+            "notifyAtMillis": 1772376601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1772377200,
+            "endTS": 1772380800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1772978400,
+            "endTS": 1772982000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1773583200,
+            "endTS": 1773586800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1774188000,
+            "endTS": 1774191600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1772377200,
+            "notifyAtMillis": 1772376600000
+          }
+        ]
+      },
+      "case": "39-boundary-spring",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1792936800,
+            "endTS": 1792940400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1793545200,
+            "endTS": 1793548800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794150000,
+            "endTS": 1794153600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794754800,
+            "endTS": 1794758400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1792936800,
+            "notifyAtMillis": 1792936201000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1792936800,
+            "endTS": 1792940400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1793545200,
+            "endTS": 1793548800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794150000,
+            "endTS": 1794153600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794754800,
+            "endTS": 1794758400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1792936800,
+            "notifyAtMillis": 1792936200000
+          }
+        ]
+      },
+      "case": "40-boundary-fall",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1834826400,
+            "endTS": 1834830000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1835431200,
+            "endTS": 1835434800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1836036000,
+            "endTS": 1836039600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1834826400,
+            "notifyAtMillis": 1834825801000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1834826400,
+            "endTS": 1834830000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1835431200,
+            "endTS": 1835434800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1836036000,
+            "endTS": 1836039600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1834826400,
+            "notifyAtMillis": 1834825800000
+          }
+        ]
+      },
+      "case": "41-boundary-leap",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1798452000,
+            "endTS": 1798455600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799056800,
+            "endTS": 1799060400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799661600,
+            "endTS": 1799665200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1798452000,
+            "notifyAtMillis": 1798451401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1798452000,
+            "endTS": 1798455600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799056800,
+            "endTS": 1799060400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799661600,
+            "endTS": 1799665200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1798452000,
+            "notifyAtMillis": 1798451400000
+          }
+        ]
+      },
+      "case": "42-boundary-year",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767587400,
+            "endTS": 1767591000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768192200,
+            "endTS": 1768195800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768797000,
+            "endTS": 1768800600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769401800,
+            "endTS": 1769405400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767587400,
+            "endTS": 1767591000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768192200,
+            "endTS": 1768195800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768797000,
+            "endTS": 1768800600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769401800,
+            "endTS": 1769405400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "43-half-hour-timezone",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767655800,
+            "endTS": 1767663000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768260600,
+            "endTS": 1768267800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768865400,
+            "endTS": 1768872600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769470200,
+            "endTS": 1769477400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767655800,
+            "endTS": 1767663000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768260600,
+            "endTS": 1768267800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768865400,
+            "endTS": 1768872600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769470200,
+            "endTS": 1769477400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "44-cross-midnight-duration",
+      "arm": "B"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "01-weekly-basic",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "02-weekly-count-one",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "03-weekly-count-three",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "04-count-applies-before-window",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "05-until-inclusive",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "06-until-one-second-before",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "07-query-start-at-event-end",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "08-query-after-event-end",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "09-query-end-at-event-start",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "10-query-end-before-start",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "11-multiweek-two",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "12-multiweek-three",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768557600,
+            "endTS": 1768561200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769162400,
+            "endTS": 1769166000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769767200,
+            "endTS": 1769770800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768557600,
+            "endTS": 1768561200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769162400,
+            "endTS": 1769166000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769767200,
+            "endTS": 1769770800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "13-monday-wednesday-friday",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767520800,
+            "endTS": 1767524400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768730400,
+            "endTS": 1768734000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769940000,
+            "endTS": 1769943600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767520800,
+            "endTS": 1767524400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768730400,
+            "endTS": 1768734000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769940000,
+            "endTS": 1769943600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "14-biweekly-sunday-monday",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1767952800,
+            "endTS": 1767956400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "15-count-multiweekday",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767780000,
+            "endTS": 1767783600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768384800,
+            "endTS": 1768388400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768989600,
+            "endTS": 1768993200,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769594400,
+            "endTS": 1769598000,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "16-series-start-not-selected-weekday",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "17-empty-weekdays",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "18-edit-first-title",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "19-delete-first",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic changed"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "20-edit-middle-title",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "21-delete-middle",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic changed"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic changed"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "22-edit-last-title",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "23-delete-last",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768316400,
+            "endTS": 1768321800,
+            "title": "Synthetic moved"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768316400,
+            "endTS": 1768321800,
+            "title": "Synthetic moved"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "24-edit-moves-to-next-day",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "25-edit-moves-outside-window",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "26-delete-duplicate-deduplicates",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "27-count-does-not-replenish-excluded",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic saved"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic saved"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "28-edit-roundtrip-delete",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [],
+        "nextReminders": []
+      },
+      "case": "29-delete-series-including-child",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "30-one-reminder",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603600000
+          }
+        ]
+      },
+      "case": "31-three-reminders-source-order",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767603600000
+          }
+        ]
+      },
+      "case": "32-unsorted-reminders-source-order",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "33-reminder-exact-now-skipped",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          }
+        ]
+      },
+      "case": "34-reminder-one-second-before",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "35-deleted-first-reminder-next-series",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic child reminder"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606601000
+          },
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768210201000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic child reminder"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1767607200,
+            "notifyAtMillis": 1767606600000
+          },
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768210200000
+          }
+        ]
+      },
+      "case": "36-edited-reminder-independent-child",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768212000,
+            "endTS": 1768215600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768816800,
+            "endTS": 1768820400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769421600,
+            "endTS": 1769425200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1768212000,
+            "notifyAtMillis": 1768211400000
+          }
+        ]
+      },
+      "case": "37-edited-child-reminders-off",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767607200,
+            "endTS": 1767610800,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "38-expired-count-no-reminders",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1772377200,
+            "endTS": 1772380800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1772978400,
+            "endTS": 1772982000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1773583200,
+            "endTS": 1773586800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1774188000,
+            "endTS": 1774191600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1772377200,
+            "notifyAtMillis": 1772376601000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1772377200,
+            "endTS": 1772380800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1772978400,
+            "endTS": 1772982000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1773583200,
+            "endTS": 1773586800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1774188000,
+            "endTS": 1774191600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1772377200,
+            "notifyAtMillis": 1772376600000
+          }
+        ]
+      },
+      "case": "39-boundary-spring",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1792936800,
+            "endTS": 1792940400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1793545200,
+            "endTS": 1793548800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794150000,
+            "endTS": 1794153600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794754800,
+            "endTS": 1794758400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1792936800,
+            "notifyAtMillis": 1792936201000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1792936800,
+            "endTS": 1792940400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1793545200,
+            "endTS": 1793548800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794150000,
+            "endTS": 1794153600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1794754800,
+            "endTS": 1794758400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1792936800,
+            "notifyAtMillis": 1792936200000
+          }
+        ]
+      },
+      "case": "40-boundary-fall",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1834826400,
+            "endTS": 1834830000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1835431200,
+            "endTS": 1835434800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1836036000,
+            "endTS": 1836039600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1834826400,
+            "notifyAtMillis": 1834825801000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1834826400,
+            "endTS": 1834830000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1835431200,
+            "endTS": 1835434800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1836036000,
+            "endTS": 1836039600,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1834826400,
+            "notifyAtMillis": 1834825800000
+          }
+        ]
+      },
+      "case": "41-boundary-leap",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": false,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1798452000,
+            "endTS": 1798455600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799056800,
+            "endTS": 1799060400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799661600,
+            "endTS": 1799665200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1798452000,
+            "notifyAtMillis": 1798451401000
+          }
+        ]
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": false,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1798452000,
+            "endTS": 1798455600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799056800,
+            "endTS": 1799060400,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1799661600,
+            "endTS": 1799665200,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": [
+          {
+            "occurrenceTS": 1798452000,
+            "notifyAtMillis": 1798451400000
+          }
+        ]
+      },
+      "case": "42-boundary-year",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767587400,
+            "endTS": 1767591000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768192200,
+            "endTS": 1768195800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768797000,
+            "endTS": 1768800600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769401800,
+            "endTS": 1769405400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767587400,
+            "endTS": 1767591000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768192200,
+            "endTS": 1768195800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768797000,
+            "endTS": 1768800600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769401800,
+            "endTS": 1769405400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "43-half-hour-timezone",
+      "arm": "C"
+    },
+    {
+      "error": null,
+      "remindersPass": true,
+      "expected": {
+        "occurrences": [
+          {
+            "startTS": 1767655800,
+            "endTS": 1767663000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768260600,
+            "endTS": 1768267800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768865400,
+            "endTS": 1768872600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769470200,
+            "endTS": 1769477400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "run": {
+        "stdout": "",
+        "stderr": "",
+        "exit": 0
+      },
+      "pass": true,
+      "occurrencesPass": true,
+      "actual": {
+        "occurrences": [
+          {
+            "startTS": 1767655800,
+            "endTS": 1767663000,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768260600,
+            "endTS": 1768267800,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1768865400,
+            "endTS": 1768872600,
+            "title": "Synthetic weekly"
+          },
+          {
+            "startTS": 1769470200,
+            "endTS": 1769477400,
+            "title": "Synthetic weekly"
+          }
+        ],
+        "nextReminders": []
+      },
+      "case": "44-cross-midnight-duration",
+      "arm": "C"
+    }
+  ],
+  "notificationDelivery": "NOT_PROVEN",
+  "oracle": "frozen extracted-source JVM oracle with declared adapters"
+}

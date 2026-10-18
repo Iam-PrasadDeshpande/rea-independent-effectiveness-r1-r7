@@ -1,0 +1,15 @@
+{
+  "change": "Block find execution/write actions before A and C; B full inspect log audit retained, no dangerous find used",
+  "utc": "2026-10-18T05:02:12.6937983Z",
+  "files": [
+    {
+      "sha256": "02b9c27c3cc307014bd44c60124e0ea640415eb1f7e909ed522c585a4b7bdfbf",
+      "path": "scripts/Controlled-R7Mcp-v3.ps1"
+    },
+    {
+      "sha256": "089d7b0b807c32980c596704bd1333afb9fd80ad2fb9d6e7eff45bb20d7e217c",
+      "path": "scripts/Run-R7Data-v3.ps1"
+    }
+  ],
+  "limitation": "B completed under earlier enforcement version; policies and actual utilized operations unchanged; report enforcement gap explicitly"
+}

@@ -1,0 +1,23 @@
+{
+  "hostLoadBefore": "2.07 1.00 0.38 3/429 433",
+  "exit": 0,
+  "reasoning": "low",
+  "hostLoadAfter": "1.54 0.95 0.37 1/359 573",
+  "dollarCost": null,
+  "model": "gpt-6.1-sol",
+  "endedUtc": "2026-10-17T18:55:27.0828867Z",
+  "usage": {
+    "input_tokens": 30827,
+    "cached_input_tokens": 20096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 513,
+    "reasoning_output_tokens": 201
+  },
+  "arm": "A",
+  "toolCompleted": 0,
+  "toolCalls": 0,
+  "toolErrors": 0,
+  "stopReason": "completed",
+  "startedUtc": "2026-10-17T18:55:01.0228432Z",
+  "elapsedSeconds": 23.5060888
+}

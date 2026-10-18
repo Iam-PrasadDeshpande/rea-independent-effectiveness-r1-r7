@@ -1,0 +1,322 @@
+[
+  {
+    "Id": "C01",
+    "Scenario": "throws when no embedding provider is active",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 65,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C02",
+    "Scenario": "returns the closest note first for a text query",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 71,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C03",
+    "Scenario": "returns nothing for an empty query string",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 88,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C04",
+    "Scenario": "restricts to a folder when scope is folder",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 95,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C05",
+    "Scenario": "restricts to a tag when scope is tag",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 114,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C06",
+    "Scenario": "returns an empty array when the tag has no notes",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 134,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C07",
+    "Scenario": "reuses indexed vectors when querying by noteId",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 146,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C08",
+    "Scenario": "returns an empty array when querying by a noteId that has no embeddings",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 173,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C09",
+    "Scenario": "strict relevance returns fewer, higher-quality results than loose",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 185,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C10",
+    "Scenario": "getEmbeddings: throws when no embedding provider is active",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 201,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C11",
+    "Scenario": "getEmbeddings: returns chunks with raw vectors and model metadata",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 207,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C12",
+    "Scenario": "getEmbeddings: filters by noteIds and silently skips unindexed ids",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 224,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C13",
+    "Scenario": "getEmbeddings: paginates with a cursor and signals end-of-stream by omitting nextCursor",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 236,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C14",
+    "Scenario": "getEmbeddings: does not emit nextCursor when the page fills exactly to limit",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 260,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C15",
+    "Scenario": "getEmbeddings: rejects a malformed cursor",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 271,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C16",
+    "Scenario": "getEmbeddings: reads modelId from rows so a mid-flight provider swap cannot mislabel them",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 282,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C17",
+    "Scenario": "uses embedQuery when the provider exposes it",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 295,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C18",
+    "Scenario": "narrows search results down to a smaller chunk",
+    "Source": "packages/lib/services/ai/SearchService.test.ts",
+    "Line": 320,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C19",
+    "Scenario": "does nothing when no provider is installed",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 53,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C20",
+    "Scenario": "ai.embedding.enabled defaults to true",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 64,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C21",
+    "Scenario": "indexes a new note end-to-end via the test provider",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 70,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C22",
+    "Scenario": "returns the more relevant note first from similaritySearch",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 88,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C23",
+    "Scenario": "removes embeddings for a deleted note on the next maintenance",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 113,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C24",
+    "Scenario": "removes embeddings for a locked note on the next maintenance",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 130,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C25",
+    "Scenario": "skips trashed and conflict notes",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 147,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C26",
+    "Scenario": "skips notes with neither a title nor a body",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 171,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C27",
+    "Scenario": "indexes a note that has only a title (empty body)",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 182,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C28",
+    "Scenario": "embeds the title alongside the body so title-anchored queries match",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 195,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C29",
+    "Scenario": "advances the change-id cursor",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 221,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C30",
+    "Scenario": "clears the index and resets the cursor when the model id changes",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 232,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C31",
+    "Scenario": "does not concurrently overlap maintenance runs",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 251,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C32",
+    "Scenario": "getStatus reports unavailable when no provider is active",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 268,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C33",
+    "Scenario": "getStatus distinguishes between AI-off and indexing-off",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 274,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C34",
+    "Scenario": "getStatus reports downloaded for providers without a download stage",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 292,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C35",
+    "Scenario": "backfills notes whose item_changes are already past the cursor",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 300,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C36",
+    "Scenario": "skips a note that fails during the initial scan instead of looping on it",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 324,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C37",
+    "Scenario": "does not start in background when vector search is unavailable",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 358,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C38",
+    "Scenario": "getPluginStatus: ready is false until at least one note is indexed",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 408,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C39",
+    "Scenario": "getPluginStatus: modelId is null when no provider is active",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 433,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  },
+  {
+    "Id": "C40",
+    "Scenario": "getStatus counts indexed vs total notes and excludes trashed ones",
+    "Source": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Line": 445,
+    "Harness": "Pinned upstream deterministic test and test embedding provider; port or invoke only after signing and isolation gates",
+    "Status": "SOURCE_DERIVED_CANDIDATE_NOT_EXECUTED_NOT_FROZEN"
+  }
+]

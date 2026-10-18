@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "evidence://R1/\\FINAL_REPORT.md",
+    "Hash": "1200DF0705CB930AE6FCA980FC899BE16F0AD6E8DB2F8AABCB839B73DB7068F1"
+  },
+  {
+    "Path": "evidence://R1/\\REFERENCE_FINDINGS.md",
+    "Hash": "C95BCB611D315E28ABD83E26A6020FC7F58827D2E5B23B0C97936128438B71E9"
+  },
+  {
+    "Path": "evidence://R1/\\evidence\\paired-run-metrics.json",
+    "Hash": "FE5359078CFE3D7E5EF1CEEDC29752DBFA980EEFA4C4B55382E51611A194DAFB"
+  },
+  {
+    "Path": "evidence://R1/\\evidence\\mission-status.json",
+    "Hash": "CD9E0EBAF1EB6A5CF799E321855A96029CFB430A31918C5BF6CBC2A0ED516DC9"
+  }
+]

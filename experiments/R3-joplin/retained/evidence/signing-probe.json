@@ -1,0 +1,9 @@
+{
+  "File": "evidence://R3/\\evidence\\R3-SigningProbe.ps1",
+  "SigningResult": "Valid",
+  "ReadbackStatus": "Valid",
+  "Signer": "CN=AI-SAP Local Code Signing",
+  "Thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "Execution": "PASS_R3_SIGNING_PROBE_OK",
+  "Policy": "RemoteSigned"
+}

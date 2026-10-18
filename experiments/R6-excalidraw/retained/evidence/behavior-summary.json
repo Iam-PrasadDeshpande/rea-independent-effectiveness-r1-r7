@@ -1,0 +1,17 @@
+[
+  {
+    "passed": 3,
+    "arm": "A",
+    "total": 36
+  },
+  {
+    "passed": 30,
+    "arm": "B",
+    "total": 36
+  },
+  {
+    "passed": 27,
+    "arm": "C",
+    "total": 36
+  }
+]

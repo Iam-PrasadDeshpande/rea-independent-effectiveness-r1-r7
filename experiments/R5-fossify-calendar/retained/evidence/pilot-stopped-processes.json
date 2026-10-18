@@ -1,0 +1,10 @@
+[
+  {
+    "ProcessId": 28924,
+    "CommandLine": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy AllSigned -File R5\\scripts\\Run-R5Arm.ps1 -Arm C"
+  },
+  {
+    "ProcessId": 12236,
+    "CommandLine": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy AllSigned -File R5\\scripts\\Run-R5Arm.ps1 -Arm B"
+  }
+]

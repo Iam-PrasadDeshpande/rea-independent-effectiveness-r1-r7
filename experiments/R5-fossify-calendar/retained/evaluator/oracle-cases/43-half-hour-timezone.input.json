@@ -1,0 +1,20 @@
+{
+  "zone": "Asia/Kolkata",
+  "now": 1767484800,
+  "from": 1767225600,
+  "to": 1769990399,
+  "event": {
+    "id": 1,
+    "title": "Synthetic weekly",
+    "startTS": 1767587400,
+    "endTS": 1767591000,
+    "weeklyInterval": 1,
+    "weekdays": [
+      1
+    ],
+    "count": null,
+    "untilTS": null,
+    "remindersMinutes": []
+  },
+  "operations": []
+}

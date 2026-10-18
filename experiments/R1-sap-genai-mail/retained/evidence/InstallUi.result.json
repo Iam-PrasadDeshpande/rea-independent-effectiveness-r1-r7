@@ -1,0 +1,10 @@
+{
+    "task":  "InstallUi",
+    "command":  "npm.cmd install --ignore-scripts --no-audit --no-fund",
+    "cwd":  "evidence://R1/\\sap-reference\\app\\ui",
+    "started_utc":  "2026-10-17T16:20:55.1535052Z",
+    "ended_utc":  "2026-10-17T16:22:38.8880082Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

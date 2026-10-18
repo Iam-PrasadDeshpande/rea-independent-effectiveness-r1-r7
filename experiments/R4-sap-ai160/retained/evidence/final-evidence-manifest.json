@@ -1,0 +1,370 @@
+[
+  {
+    "path": "EXECUTION_CONTRACT.md",
+    "sha256": "E243C67BEC42C97EAE3A95214327DB8DB86A32006A6C97572DCF86A55D0EBE61"
+  },
+  {
+    "path": "EXPERIMENT_PROTOCOL.md",
+    "sha256": "C06DD1B2490DF1591AFE4C8D6DE674617284A3FD3118B243885E7519075013A4"
+  },
+  {
+    "path": "FINAL_REPORT.md",
+    "sha256": "5C2E85573066254C59F569A899AC996B61EC7780B6500A88D569295F3D1D8844"
+  },
+  {
+    "path": "PROTOCOL_AMENDMENT_1.md",
+    "sha256": "9489EEBC7E9DAAE2713F9B8C24864850E09C049614A9669BCF9114B127D845B9"
+  },
+  {
+    "path": "REFERENCE_FINDINGS.md",
+    "sha256": "67933BFCB80E306934940C86A2D6C60F874D9C34037AF732A561677A4F3B1EC0"
+  },
+  {
+    "path": "results\\arm-A.md",
+    "sha256": "39D062358E9EF5D16476BBC1F2779B58524F2993343A000DCF8CB6A4D068988B"
+  },
+  {
+    "path": "results\\arm-B-pilot.md",
+    "sha256": "2CD3CDFD591EE221D604963ECEB114C6AD42BC20954E3B86526652108CC175F2"
+  },
+  {
+    "path": "results\\arm-B.md",
+    "sha256": "8E8D73F57ABF09EC0AD4B1ED475C5816F58A9C802016A3AEC070BDEC2F2907BF"
+  },
+  {
+    "path": "results\\arm-C.md",
+    "sha256": "12744684667AE1D3E124BEDB5CBC8EDE620A1120F1C003A9FA1A0CB79D457F69"
+  },
+  {
+    "path": "reconstructions\\arm-A.cjs",
+    "sha256": "EBDA26D15EF8CCB165A64524BB8A0B9BFBAF4A1CFF82265E5FFA13FBDF693B92"
+  },
+  {
+    "path": "reconstructions\\arm-B-pilot.cjs",
+    "sha256": "EBDA26D15EF8CCB165A64524BB8A0B9BFBAF4A1CFF82265E5FFA13FBDF693B92"
+  },
+  {
+    "path": "reconstructions\\arm-B.cjs",
+    "sha256": "EBDA26D15EF8CCB165A64524BB8A0B9BFBAF4A1CFF82265E5FFA13FBDF693B92"
+  },
+  {
+    "path": "reconstructions\\arm-C.cjs",
+    "sha256": "EBDA26D15EF8CCB165A64524BB8A0B9BFBAF4A1CFF82265E5FFA13FBDF693B92"
+  },
+  {
+    "path": "evidence\\action-budget.json",
+    "sha256": "2D92AC38C74547ED51DBA481871459749AB7071C5067CF31D4070732281C9C7C"
+  },
+  {
+    "path": "evidence\\arm-A-runtime-audit.json",
+    "sha256": "929F44FDCFA0ED6B3B3223CABBF59902813C733837B527A1C3CAAB32156CCA38"
+  },
+  {
+    "path": "evidence\\arm-A-tool-transcript.jsonl",
+    "sha256": "D5ED4DB29C1630462781A1C4E83B1F1EBBAB154F95E676CFE11DFEE94473B094"
+  },
+  {
+    "path": "evidence\\arm-B-pilot-runtime-audit.json",
+    "sha256": "9A5C7CF2D0FE7F3506A9924595DBA83439192C71FD9377D50D44CC442158376D"
+  },
+  {
+    "path": "evidence\\arm-B-runtime-audit.json",
+    "sha256": "3E24BA99A8F0ACF24C8BB3CCEAE9E66FFB6CEE97965309B21636DC9D6A48AEA7"
+  },
+  {
+    "path": "evidence\\arm-B-tool-transcript.jsonl",
+    "sha256": "02E3ABD3A7A320E9D95D9D53C4B23635F86F3B2472AFEC3A4C677ABA809C59FB"
+  },
+  {
+    "path": "evidence\\arm-C-runtime-audit.json",
+    "sha256": "434A3BB5B790C3EEF2B0777CEB08752C309BCFEAB77D426C7501BE9DD2464294"
+  },
+  {
+    "path": "evidence\\arm-C-tool-transcript.jsonl",
+    "sha256": "A8D55FA055465BB5D07AE27F47CB10285C8FFC1F34056A029732C1DDE9469D19"
+  },
+  {
+    "path": "evidence\\arm-comparison.csv",
+    "sha256": "8C77467D3D4F42E440F6AC6B8EA5A8B69982661DB114642B465040A4EEFF40F4"
+  },
+  {
+    "path": "evidence\\arm-comparison.json",
+    "sha256": "13086C34DEE86BC621D35449D603F96FAD7189764F809A3C2034E0F7E84D4412"
+  },
+  {
+    "path": "evidence\\artifact-manifest.json",
+    "sha256": "0E0B5E2F04519C4A5AACC0DF5676864A946A18519F51ABEC2B3649082FC2AF8C"
+  },
+  {
+    "path": "evidence\\browser-recovery-attempt1.json",
+    "sha256": "D72A673072BFC6E336C1A45074AC37B4579761079E25B80B90D49E79B3546576"
+  },
+  {
+    "path": "evidence\\browser-results.json",
+    "sha256": "8C52E2E8B64EFF836878704775B5474A096A623BFC266F68760D5E6D0D234782"
+  },
+  {
+    "path": "evidence\\build-agent.log",
+    "sha256": "6E88008E6DC97F570A335586DC459A32656731B3D3D7BD4BDC0AB7D8CE04C95F"
+  },
+  {
+    "path": "evidence\\build-mock-server.log",
+    "sha256": "6CBBE34B5A7A31D74977C7CB444D56036D12FC58394CBFAB441372C88A78A2F4"
+  },
+  {
+    "path": "evidence\\build-ui.log",
+    "sha256": "E4AA55746012FF61C7939843A7569898A46ABA38CE3717B8B419130551E162ED"
+  },
+  {
+    "path": "evidence\\component-oracle.json",
+    "sha256": "8EDFD809EC72A6E91BB0F5E5FC3118D608F04A91E03D25B864546D6098AD5A4A"
+  },
+  {
+    "path": "evidence\\evaluator-ui-type-compatibility.patch",
+    "sha256": "E4E58E74F88B9718C993FFD10022EB7A98AD7A43EC1D4E5705E1F0E1A1144EF2"
+  },
+  {
+    "path": "evidence\\final-manifest-readback.json",
+    "sha256": "C69CDB2D74209F5A138BF2FE080FBC55C4A771F7F37EC881D1835ED846999C84"
+  },
+  {
+    "path": "evidence\\final-runtime-metrics.json",
+    "sha256": "11CB903C46CB36AFC1CE617E9001DF96BA229B179D167951104FE7857DC5A54A"
+  },
+  {
+    "path": "evidence\\final-signatures.json",
+    "sha256": "EB3F027677F9BB74D3FF4DEBD2CCA5CBF664F41C4F6C71B93184A581F472D053"
+  },
+  {
+    "path": "evidence\\final-source-readback.json",
+    "sha256": "DE32694BBA321BA78C8E063B5E782621B3C3805A4EFAB4D67CACE3B68678DE2A"
+  },
+  {
+    "path": "evidence\\freeze-integrity-readback.json",
+    "sha256": "AD926400DB0AC014E3ADB09CA0CF2540D7673311A0C94E611F9D64C866578A12"
+  },
+  {
+    "path": "evidence\\frozen-rubric.json",
+    "sha256": "EFE8DE2C2B2546077281E0E5921F3B0CACAC151B2B9175800A1BF2559B0B8846"
+  },
+  {
+    "path": "evidence\\independent-fact-scoring.json",
+    "sha256": "3D3ADC096FC2A375AF7E19909BD751FE0889A4EC0630A1578A3CBC1EAF8A7458"
+  },
+  {
+    "path": "evidence\\node-runtime-verification.json",
+    "sha256": "A37308E090156F067F788FA75E61E4A3CBAA552322AA1CA86192996BEDB2853F"
+  },
+  {
+    "path": "evidence\\oracle-freeze.json",
+    "sha256": "DFCFB7F4C87B2A70C98FEE5A0F58943806FAA290BF519E7A786197723389EAD5"
+  },
+  {
+    "path": "evidence\\oracle-results.json",
+    "sha256": "A988533ADD0577B0626361C5037E74AA81137AC7F92D5500D46778B95EF6F778"
+  },
+  {
+    "path": "evidence\\pre-investigator-freeze.json",
+    "sha256": "EE7C970F3B59C70CF3719DEBEAD0CB2038D8B5BE6041F11A3FE2932BB9B58A03"
+  },
+  {
+    "path": "evidence\\rea-canonical-build.json",
+    "sha256": "2F75BF9DE40237653E52024081A249AE72E8F4A147BB16E5C7BBCEC756CB068B"
+  },
+  {
+    "path": "evidence\\rea-dependency-install.log",
+    "sha256": "D7760BCCAD72879C060E36BBE54A8BE5A7431B99744A2B5238B44CEFF2CF1135"
+  },
+  {
+    "path": "evidence\\rea-emit.log",
+    "sha256": "336F9D8863AB38F9A9E1BDBABC328A6184EA29CC307E25F98EEEFCD58DF4878C"
+  },
+  {
+    "path": "evidence\\rea-full-build-dependencies.log",
+    "sha256": "80B92D471496C5454F3399C07C5A95FBB4EF8CED3CDB07021A2099BDA38458DB"
+  },
+  {
+    "path": "evidence\\rea-mcp-catalog.json",
+    "sha256": "23CDF3BC2A051258142235BEF380B9B02820D87028666D0FB1933B2508F4CF36"
+  },
+  {
+    "path": "evidence\\rea-mcp-transcript-attempt1.json",
+    "sha256": "DF9D11228FF665DCEC9527025DFA7035E019E85464EB7B690AE5C9AA609CC7E2"
+  },
+  {
+    "path": "evidence\\rea-mcp-transcript.json",
+    "sha256": "395AE3BF6A0CD766B5C40D75CC5E920E9DF0C1D688539820844B9FBF9FDC0C8D"
+  },
+  {
+    "path": "evidence\\rea-native-download-verification.json",
+    "sha256": "CEFC176BC14D980A5D72A012360C032D231254C6666D78F87D19E092C763BFE0"
+  },
+  {
+    "path": "evidence\\rea-sandbox-qualification-attempt2.log",
+    "sha256": "F0C428C04A20C33B80360B302FF704B0FCD4B6BA9D83D1B04B45091687F4F327"
+  },
+  {
+    "path": "evidence\\rea-sandbox-qualification.log",
+    "sha256": "493C2660C3C9B48D46E1DD5CBCB8C61F0A649FE9F7C75296AA1E33FD849C7672"
+  },
+  {
+    "path": "evidence\\reconstruction-results.json",
+    "sha256": "84A9A20427435EC33A176DEB93BE73B4DE21217ED3B3285409044798ABCE9012"
+  },
+  {
+    "path": "evidence\\reference-build-checks.json",
+    "sha256": "5B1C0FA3CB8B9EB0362AF2F23B7FC51ABE30EE13B81938CDC468B54008C956C2"
+  },
+  {
+    "path": "evidence\\root-lock-install-node22.log",
+    "sha256": "C40A2C55F0A84D687B92A091AD1D5940DDC6036B01C90606F651FC75E17AD20D"
+  },
+  {
+    "path": "evidence\\root-runtime-metrics-snapshot.json",
+    "sha256": "6269F31CF3A09AD2575160012E0ED12AE8E7DCAD09C9B0AEB439A264756A7607"
+  },
+  {
+    "path": "evidence\\root-tool-call-index.json",
+    "sha256": "37EA5C8E1D7C6496B458BAD87D280DFA1E31EE7E2E86E1D573B773872E990F14"
+  },
+  {
+    "path": "evidence\\runtime-staging-disposition.json",
+    "sha256": "5B1C21DE2F3C163E04593C06CD556CD5900EB937A9D169E91136C22D39E07E1A"
+  },
+  {
+    "path": "evidence\\sandbox-network-denial.log",
+    "sha256": "69882908CB97904C03706631C8F891AB43BCFA8D199E61DB2125003F1EF4D42F"
+  },
+  {
+    "path": "evidence\\sandbox-probes.json",
+    "sha256": "06B35BF820CAC5BFB59958F7209691DD1F5DB651A57EB1E94969CA54B0CE779D"
+  },
+  {
+    "path": "evidence\\sandbox-write-denial.log",
+    "sha256": "17657C24F9836255841C5C4A810B02F4F0C0C596C7013FD7AD921245FB7A46E8"
+  },
+  {
+    "path": "evidence\\sap-documented-completion.patch",
+    "sha256": "DC480BB6D6D75B4BBE85F2121E63CE82BC7423EFEDC0E6BD9775618EE2DCFFC0"
+  },
+  {
+    "path": "evidence\\signature-negative-probe.json",
+    "sha256": "9BBE52F02C59DAB9FACCC63BFF1E0E8445937CA2F4EB188DA05C34109F680013"
+  },
+  {
+    "path": "evidence\\signing-verification.json",
+    "sha256": "6B0DA61A1EB61A52C4BB5DD77EAE41F74BDA3182C356B10AC664A1F7C9207A7E"
+  },
+  {
+    "path": "evidence\\source-pins.json",
+    "sha256": "349C15EADC97E66C538F4E096078C2581BD11C2A1AF65B30D7E1EF75A28409AC"
+  },
+  {
+    "path": "evidence\\staging-resource-recovery.json",
+    "sha256": "79E5C62105C70A4AF7EAD13867A11FB1BC9EED015407D1A4C784AAFF5DF4A635"
+  },
+  {
+    "path": "evidence\\tamper-probe-never-executed.ps1",
+    "sha256": "EB1062457594A12C9299732C1B7BB16DFA7F7431F33C75A19F333BE3A5B66783"
+  },
+  {
+    "path": "evidence\\task-browser-receipt.json",
+    "sha256": "5E68E24989B38C001794314C597F9DA3DF1F42FCC87F7CBFDD9A67684ACF825A"
+  },
+  {
+    "path": "evidence\\task-build-receipt.json",
+    "sha256": "AC80E0FB4B474DE8552C03ADA490E1E3D86CD49ADB738E62D5A78A423EC82E94"
+  },
+  {
+    "path": "evidence\\task-oracle-receipt.json",
+    "sha256": "B2464122981DD2FD3FAAF9CE4C84A84575F88B387D1DE4B77B13CF34195E8167"
+  },
+  {
+    "path": "evidence\\task-rea-build-receipt.json",
+    "sha256": "9034A0902372645EDFCE59BE47BE9ABCD69C07EF2FEE56057C9118CCAEBA6590"
+  },
+  {
+    "path": "evidence\\task-rea-probe-receipt.json",
+    "sha256": "CD92B5F1266021249ED175325CFB58A299697115FA92CFE7CA2623C4F30EC927"
+  },
+  {
+    "path": "evidence\\task-reconstruct-receipt.json",
+    "sha256": "E8F70AF3B00DE86C47E95CCAC3836DFB4E789E21FB5CAA0EF384746DE0680476"
+  },
+  {
+    "path": "evidence\\ui-verification.png",
+    "sha256": "7C648034560750B721496F436297B365BD5A3D8D59E1350DB90977F5ACCAB40E"
+  },
+  {
+    "path": "execution-manifest.json",
+    "sha256": "081B0E09348A237A5A9F60051C74DBFA01065E33DBAC20CE0CC2152F4476947B"
+  },
+  {
+    "path": "blind-execution-manifest.json",
+    "sha256": "051011EDAA381033FBD376CA3227ED28CFC77831A826989BC8C84507A7679852"
+  },
+  {
+    "path": "tools\\blind-tool.cjs",
+    "sha256": "A2672B0532802D9D899EB83EE4E84142B837C2658247EC54E4111E951F68C583"
+  },
+  {
+    "path": "tools\\browser-check.cjs",
+    "sha256": "EB64C8A32008D1C1E97F8033C89982E1BF8BEFCBC9A3B68806F5060FEB548F9A"
+  },
+  {
+    "path": "tools\\build-rea.cjs",
+    "sha256": "6B58F1C9F9B5FB2B92F43B2AF05283FB61F0347DD70C58217B856F30BFFA1C89"
+  },
+  {
+    "path": "tools\\build-reference.cjs",
+    "sha256": "758809D276C14EB8DB1565769337843F6FC991B87B805908BA7239E7C3689B51"
+  },
+  {
+    "path": "tools\\Collect-R4Investigator.ps1",
+    "sha256": "420A5374CAEE3F1C7E574FCDC54B0E48ED391EAAD282C76088ADB19F2BE5EB4E"
+  },
+  {
+    "path": "tools\\component-runner.cjs",
+    "sha256": "032D2888D015F2DE2EC141CFE71433387B0DD567D178998CDAC090886A13EF2F"
+  },
+  {
+    "path": "tools\\Finalize-R4.ps1",
+    "sha256": "1AD180FEAD9EE703DCC6FFF6D2ADB8EE84B6B9F4B6C7F5D88BD741605DA6AAD6"
+  },
+  {
+    "path": "tools\\Inspect-R4Blind.ps1",
+    "sha256": "4C253D67CF1578798E933C567F9A2F759461C92AE93F3843F0A3161EB8B29368"
+  },
+  {
+    "path": "tools\\Inspect-R4Blind.template.txt",
+    "sha256": "031918CDF327353A2030686D1F460A7917E72910D5C730D9643BEDF9170AF249"
+  },
+  {
+    "path": "tools\\model-fixture.cjs",
+    "sha256": "F14B6F2924F72AF8B44DAAAFCB1169F3208E47AEC8DF9FA18054D52DA2F2A519"
+  },
+  {
+    "path": "tools\\oracle.cjs",
+    "sha256": "F98A7820ACD2C97DFF3CBA4FC797257A877BE4439B1BAEA4861EB97A29AB68D3"
+  },
+  {
+    "path": "tools\\rea-probe.cjs",
+    "sha256": "B0E1CB8A75677B1CF079BD0217719492E09E219200F86A314DF7520DD382C633"
+  },
+  {
+    "path": "tools\\Refresh-R4Signatures.ps1",
+    "sha256": "58B4F2823F7628140918A9006F1B7CDE01DCFBC6E20038CF183F2245D2982824"
+  },
+  {
+    "path": "tools\\Run-R4Verified.ps1",
+    "sha256": "E1F358747893F493934E8E904FD3A2A64889FE612ADFB1E8BC88AA981A4058FC"
+  },
+  {
+    "path": "tools\\Run-R4Verified.template.txt",
+    "sha256": "42F987632733799F57C87BD688074AB047C70DE86FFDF10EF459D6B1A4817352"
+  },
+  {
+    "path": "tools\\validate-reconstructions.cjs",
+    "sha256": "A348384161C1828A10F0E519CDB5FF488CF7AFF29EAB338FE833188EB9B1A086"
+  }
+]

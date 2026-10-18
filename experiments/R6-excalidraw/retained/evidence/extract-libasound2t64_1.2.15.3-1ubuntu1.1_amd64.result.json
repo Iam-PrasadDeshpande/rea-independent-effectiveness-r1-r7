@@ -1,0 +1,11 @@
+{
+  "exit": 0,
+  "argv": [
+    "/usr/bin/dpkg-deb",
+    "-x",
+    "/home/RESEARCH_USER/rea-r6-20261018/source/libasound2t64_1.2.15.3-1ubuntu1.1_amd64.deb",
+    "/home/RESEARCH_USER/rea-r6-20261018/tools/libs"
+  ],
+  "elapsedSeconds": 0.1141498,
+  "utc": "2026-10-18T02:39:55.2514939Z"
+}

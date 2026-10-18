@@ -1,0 +1,22 @@
+{
+  "zone": "America/New_York",
+  "now": 1792886400,
+  "from": 1792886400,
+  "to": 1794787200,
+  "event": {
+    "id": 1,
+    "title": "Synthetic weekly",
+    "startTS": 1792936800,
+    "endTS": 1792940400,
+    "weeklyInterval": 1,
+    "weekdays": [
+      7
+    ],
+    "count": null,
+    "untilTS": null,
+    "remindersMinutes": [
+      10
+    ]
+  },
+  "operations": []
+}

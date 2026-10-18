@@ -1,0 +1,12 @@
+{
+  "task": "oracle",
+  "started": "2026-10-17T18:14:01.5940323+00:00",
+  "ended": "2026-10-17T18:14:03.9049798+00:00",
+  "elapsedMs": 2317.3485,
+  "exitCode": 0,
+  "signature": "Valid",
+  "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "manifestSha256": "2A84730E8DFE2D74E013C0959B876109DD321D77DBF9365E80BD4CE13BFA17B9",
+  "environment": "explicit allowlist; no ambient credentials",
+  "sandbox": "not established by this launcher"
+}

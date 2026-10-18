@@ -1,0 +1,25 @@
+{
+  "PreviousEstablishedActions": 250,
+  "BBehavior": "40/40",
+  "ArchitectureFacts": 15,
+  "CumulativeActions": 290,
+  "InventoryEntriesChecked": 110,
+  "InventoryMismatches": 0,
+  "TotalExtension": 40,
+  "ExtensionInvestigatorItems": 8,
+  "ExtensionReviewerProviderActions": 3,
+  "Disposition": "PARTIAL_E2E_NOT_MET",
+  "AliasesAbsent": [
+    "R:",
+    "S:"
+  ],
+  "ArchitectureTotals": {
+    "C": 0,
+    "B": 16,
+    "A": 22
+  },
+  "Ceiling": 290,
+  "UTC": "2026-10-18T02:19:05.5555371Z",
+  "FrozenChecks": "MATCH",
+  "ExtensionRootActions": 29
+}

@@ -1,0 +1,47 @@
+{
+  "frozenUtc": "2026-10-18T02:44:23.7203671Z",
+  "referenceRepeat": "30 scenario statuses and positive input/encoded/decoded hashes identical",
+  "files": [
+    {
+      "sha256": "a0e33c5e403ccba34205dfa616966ab68da2c52052e34ab42718c840d018e4f3",
+      "path": "frozen/artifact-manifest.json"
+    },
+    {
+      "sha256": "f47a927492f0eb408c80c153f3b17d2d44b8ed635e01622a9027197fa609ddca",
+      "path": "evaluator/scenarios.json"
+    },
+    {
+      "sha256": "32d33b49a7a24cd32b288f28a96aad62bc973b83052e2aa729c6a8b99b70dfa7",
+      "path": "evaluator/reference1.json"
+    },
+    {
+      "sha256": "c965fbb3260f6e6983cc963474bbe9ed7194e311b71d09f915b2f2334e49aba5",
+      "path": "evaluator/reference2.json"
+    },
+    {
+      "sha256": "31e4d70a3cc98830e4edd869122252dbfd4761c87bfd56f3ff517e5097b907a4",
+      "path": "evaluator/RUBRIC.md"
+    },
+    {
+      "sha256": "f3644caf27b7720c364c690a79252fc71a8e833357ce0185c4c396a80b1ab8d3",
+      "path": "frozen/investigator-prompt.txt"
+    },
+    {
+      "sha256": "c16fd5942ebc8813d724272402de6a4bb7bfcbc3041dd7091e2da2a6f5400855",
+      "path": "scripts/browser-runner.js"
+    },
+    {
+      "sha256": "844c75e175fe98f70b3d69b923af53c90d2046751555c5ebc0b7e073ed6d6391",
+      "path": "scripts/Invoke-R7Sandbox.ps1"
+    },
+    {
+      "sha256": "4102cdaf16372afd080eba98a425a493d27aa591f279210ca7d32d2b33f27cbd",
+      "path": "scripts/Controlled-R7Mcp.ps1"
+    },
+    {
+      "sha256": "f3ed40ab88a38fd66281c1482801872ac9d9393ae821efee6036960a616f436e",
+      "path": "scripts/Run-R7Investigator.ps1"
+    }
+  ],
+  "sourceCommit": "e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3"
+}

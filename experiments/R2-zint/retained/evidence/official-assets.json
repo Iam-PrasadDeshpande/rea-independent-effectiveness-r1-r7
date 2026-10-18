@@ -1,0 +1,27 @@
+[
+  {
+    "name": "ghidra.zip",
+    "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+    "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip"
+  },
+  {
+    "name": "jdk.tar.gz",
+    "sha256": "4b2220e232a97997b436ca6ab15cbf70171ecff52958a46159dfa5a8c44ca4de",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_linux_hotspot_21.0.11_10.tar.gz"
+  },
+  {
+    "name": "cmake.tar.gz",
+    "sha256": "630615d8e98ac33eba7fbe472626dff5c899c85af3c024585ae109166a6909d0",
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.8/cmake-3.31.8-linux-x86_64.tar.gz"
+  },
+  {
+    "name": "ninja.zip",
+    "sha256": "0830252db77884957a1a4b87b05a1e2d9b5f658b8367f82999a941884cbe0238",
+    "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux.zip"
+  },
+  {
+    "name": "rea-agents-6.5.0.tgz",
+    "sha512": "0ba046ecbcab01d47be264a37abb4ce8faf126470d6766df40d389a2b9cfa3d7ab0c4a76b723d15583e757962876bfb546a7b009095aebc5ae9579559ef783f8",
+    "url": "https://registry.npmjs.org/rea-agents/-/rea-agents-6.5.0.tgz"
+  }
+]

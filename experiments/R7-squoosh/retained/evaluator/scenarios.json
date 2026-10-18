@@ -1,0 +1,1437 @@
+{
+  "timeoutMs": 15000,
+  "mode": "reference-probe",
+  "scenarios": [
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C01_png_default"
+    },
+    {
+      "input": {
+        "filename": "photo.jpeg",
+        "height": 48,
+        "pattern": "gradient",
+        "width": 64,
+        "format": "jpeg"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C02_jpeg_decode"
+    },
+    {
+      "input": {
+        "filename": "photo.webp",
+        "height": 48,
+        "pattern": "gradient",
+        "width": 64,
+        "format": "webp"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C03_webp_decode"
+    },
+    {
+      "input": {
+        "filename": "image.data",
+        "height": 48,
+        "pattern": "gradient",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C04_misleading_name"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C05_alpha_lossy"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 1,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C06_alpha_lossless"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 1,
+        "pattern": "solid",
+        "width": 1,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C07_one_pixel"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 49,
+        "pattern": "gradient",
+        "width": 65,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C08_odd_dimensions"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "lanczos3",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C09_down_lanczos"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 24,
+        "pattern": "gradient",
+        "width": 32,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 64,
+            "height": 48,
+            "method": "lanczos3",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C10_up_lanczos"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 61,
+        "pattern": "gradient",
+        "width": 17,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 9,
+            "height": 31,
+            "method": "lanczos3",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C11_portrait_stretch"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 24,
+            "height": 24,
+            "method": "lanczos3",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "contain"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C12_center_crop"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "triangle",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C13_triangle"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "catrom",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C14_catrom"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "mitchell",
+            "premultiply": true,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C15_mitchell"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "lanczos3",
+            "premultiply": false,
+            "linearRGB": true,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C16_no_premultiply"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "lanczos3",
+            "premultiply": true,
+            "linearRGB": false,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C17_no_linearRGB"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "resize",
+          "options": {
+            "width": 32,
+            "height": 24,
+            "method": "lanczos3",
+            "premultiply": false,
+            "linearRGB": false,
+            "fitMethod": "stretch"
+          }
+        },
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C18_alpha_no_flags"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 0,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C19_quality_zero"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 100,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C20_quality_hundred"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 0,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C21_fast_method"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 6,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C22_slow_method"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 1,
+            "near_lossless": 50,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C23_near_lossless"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 0,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C24_alpha_quality_zero"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 1,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C25_sharp_yuv"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 0,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 0,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C26_no_filter_sns"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 101,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C27_bad_quality"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "format": "png",
+        "pattern": "gradient",
+        "width": 64
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 7,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C28_bad_method"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "corrupt": true,
+        "pattern": "gradient",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 1,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C29_corrupt_input"
+    },
+    {
+      "input": {
+        "filename": "fixture.png",
+        "height": 48,
+        "pattern": "alpha",
+        "width": 64,
+        "format": "png"
+      },
+      "steps": [
+        {
+          "method": "webpEncode",
+          "options": {
+            "show_compressed": 0,
+            "use_sharp_yuv": 0,
+            "filter_sharpness": 0,
+            "thread_level": 0,
+            "alpha_compression": 3,
+            "filter_strength": 60,
+            "alpha_quality": 100,
+            "target_PSNR": 0,
+            "method": 4,
+            "use_delta_palette": 0,
+            "low_memory": 0,
+            "target_size": 0,
+            "partitions": 0,
+            "segments": 4,
+            "pass": 1,
+            "emulate_jpeg_size": 0,
+            "exact": 0,
+            "partition_limit": 0,
+            "lossless": 0,
+            "near_lossless": 100,
+            "alpha_filtering": 1,
+            "quality": 75,
+            "filter_type": 1,
+            "image_hint": 0,
+            "sns_strength": 50,
+            "preprocessing": 0,
+            "autofilter": 0
+          }
+        }
+      ],
+      "id": "C30_bad_alpha_config"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": "6.5.0",
+  "tarball": "https://registry.npmjs.org/rea-agents/-/rea-agents-6.5.0.tgz",
+  "integrity": "sha512-C6BG7LyrAdR74mSjertM6PrxJkcNZ2bfQNOJornPo9erDEp2tyPRVYPnV5Yodr+1RqewCQla68WulXlVnveD+A==",
+  "verified": true,
+  "purpose": "official Windows native companion; source pin remains unchanged"
+}

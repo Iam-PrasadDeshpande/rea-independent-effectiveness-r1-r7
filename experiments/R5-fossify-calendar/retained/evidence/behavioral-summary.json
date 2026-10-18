@@ -1,0 +1,35 @@
+[
+  {
+    "occurrencesPassed": 44,
+    "total": 44,
+    "sourceSha256": "D57625D78818B95ABB1F595E014B523895A9AC0145581728659C7C6EAA3A3248",
+    "passed": 32,
+    "remindersPassed": 32,
+    "userCasesTotal": 43,
+    "status": "EXECUTED",
+    "userCasesPassed": 31,
+    "arm": "A"
+  },
+  {
+    "occurrencesPassed": 44,
+    "total": 44,
+    "sourceSha256": "77107B801A8A7E921E1734A4485DA2346C32EEF208E6B10C117379684F18701C",
+    "passed": 32,
+    "remindersPassed": 32,
+    "userCasesTotal": 43,
+    "status": "EXECUTED",
+    "userCasesPassed": 31,
+    "arm": "B"
+  },
+  {
+    "occurrencesPassed": 44,
+    "total": 44,
+    "sourceSha256": "F23A09756B0501684DB998308034A9442ABB0AE2618C718EEF79D6937CB84FA2",
+    "passed": 32,
+    "remindersPassed": 32,
+    "userCasesTotal": 43,
+    "status": "EXECUTED",
+    "userCasesPassed": 31,
+    "arm": "C"
+  }
+]

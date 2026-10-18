@@ -1,0 +1,12 @@
+{
+  "sourceEquivalence": "NOT_CLAIMED",
+  "globalConfigurationChanged": false,
+  "npmIntegrityVerified": true,
+  "reaTarSha256": "531717A06E92CA651AAB52691190F916FAC044272C01F875E22C5E293218E699",
+  "nativeSha256": "665C57AB90AEF0712A6AAFC423C7992A88BF608BEA63B370CB30C695900F9AED",
+  "cachedDependencyCopy": "R2/tools/rea-reference/node_modules to R5/tools/rea/package/node_modules only; R2 read-only",
+  "customScriptSignature": "Valid",
+  "reaRegistryGitHead": null,
+  "customSigner": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "headlessJarSha256": "6E5EACF500B64292BFB73C49797C1958F6EE44646E43E868039AE7FEB573FF75"
+}

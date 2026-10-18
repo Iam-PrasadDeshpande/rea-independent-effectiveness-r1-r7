@@ -1,0 +1,14 @@
+[
+  {
+    "sha256": "4322d652f650c1ee117b549c9722f42fc93eb4676ff046d60ba033b5639697a5",
+    "name": "wasm2wat"
+  },
+  {
+    "sha256": "dad264def1a3b7755859c5bf48227f01259a95fa82b7c38358b12b9e70b27a41",
+    "name": "wasm-objdump"
+  },
+  {
+    "sha256": "6b722ed0df68204cfc7a8effdf1fc2ddeac2d184bd211cdf7fdfa5f9d49d3eb5",
+    "name": "wasm-validate"
+  }
+]

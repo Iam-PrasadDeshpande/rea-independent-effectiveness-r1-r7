@@ -1,0 +1,22 @@
+[
+  {
+    "sha256": "34b22d78cc501b0d1bcc94d550ff5206c23f19d90833a0032b5483d6dda21193",
+    "file": "investigation.md"
+  },
+  {
+    "sha256": "e00463fe593ba834119554024d03685127cad220748490f070b0d49c43d8aab6",
+    "file": "report.md"
+  },
+  {
+    "sha256": "e8ea320aec93718a01fc47648b51df808bccd760fcacb0089095c38805a50615",
+    "file": "result.json"
+  },
+  {
+    "sha256": "be9d882dccf25916f9cda741de6648cd14dcc81d299ac78bc76f44852f6ce6cb",
+    "file": "solution-worker.js"
+  },
+  {
+    "sha256": "5ab4dcdf9e9f8011bdcf8527923fd671acf659ea111ab3a074f89cb645b642e4",
+    "file": "solution.js"
+  }
+]

@@ -1,0 +1,1 @@
+{"result":{"content":[{"type":"text","text":"Input validation error: Invalid arguments for tool list_procedures: document: Invalid input: expected string, received null"}],"isError":true,"_meta":{"provenance":{"untrusted_content":true,"source":"analysis_target"}}},"jsonrpc":"2.0","id":4}

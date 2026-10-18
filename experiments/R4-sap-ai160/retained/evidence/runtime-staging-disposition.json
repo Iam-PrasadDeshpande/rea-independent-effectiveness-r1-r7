@@ -1,0 +1,6 @@
+{
+  "decision": "Use the already-qualified read-only Windows/WSL tool mount",
+  "cacheStaging": "Abandoned performance optimization; partial artifacts retained and never executed",
+  "reason": "Source analysis already succeeds; avoid spending further budget on speculative setup optimization",
+  "allSideProjectsUntouched": true
+}

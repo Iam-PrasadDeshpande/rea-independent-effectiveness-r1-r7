@@ -1,0 +1,338 @@
+[
+  {
+    "id": "F01",
+    "group": "fixed",
+    "data": "[00]000123456789012343",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F02",
+    "group": "fixed",
+    "data": "[01]09501101530003",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F03",
+    "group": "fixed",
+    "data": "[02]09501101530003",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F04",
+    "group": "fixed",
+    "data": "[11]260101",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F05",
+    "group": "fixed",
+    "data": "[13]261231",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F06",
+    "group": "fixed",
+    "data": "[15]271231",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F07",
+    "group": "fixed",
+    "data": "[17]271231",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F08",
+    "group": "fixed",
+    "data": "[20]01",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F09",
+    "group": "fixed",
+    "data": "[3103]001234",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F10",
+    "group": "fixed",
+    "data": "[3922]12345",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F11",
+    "group": "fixed",
+    "data": "[01]09501101530003[17]271231",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "F12",
+    "group": "fixed",
+    "data": "(01)09501101530003(17)271231",
+    "parentheses": true,
+    "escapes": false
+  },
+  {
+    "id": "V01",
+    "group": "variable",
+    "data": "[10]LOT1",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V02",
+    "group": "variable",
+    "data": "[10]ABCDEFGHIJKLMNOPQRST",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V03",
+    "group": "variable",
+    "data": "[21]SERIAL123",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V04",
+    "group": "variable",
+    "data": "[10]LOT1[21]SERIAL123",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V05",
+    "group": "variable",
+    "data": "[01]09501101530003[10]LOT1",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V06",
+    "group": "variable",
+    "data": "[10]LOT1[17]271231",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V07",
+    "group": "variable",
+    "data": "[21]12345678901234567890",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V08",
+    "group": "variable",
+    "data": "[240]ABC123",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V09",
+    "group": "variable",
+    "data": "[241]CUSTOMER-7",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V10",
+    "group": "variable",
+    "data": "[30]12",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V11",
+    "group": "variable",
+    "data": "[37]12345678",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "V12",
+    "group": "variable",
+    "data": "[10]A[10]B",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C01",
+    "group": "code_sets",
+    "data": "[10]12345678",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C02",
+    "group": "code_sets",
+    "data": "[10]1234567",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C03",
+    "group": "code_sets",
+    "data": "[10]AB123456CD",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C04",
+    "group": "code_sets",
+    "data": "[10]ab1234567890xy",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C05",
+    "group": "code_sets",
+    "data": "[21]1234A5678B90",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C06",
+    "group": "code_sets",
+    "data": "[10]A1B2C3",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C07",
+    "group": "code_sets",
+    "data": "[10]Z",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "C08",
+    "group": "code_sets",
+    "data": "[10]00000000000000000000",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "N01",
+    "group": "normalization",
+    "data": "(10)LOT-1(21)S-2",
+    "parentheses": true,
+    "escapes": false
+  },
+  {
+    "id": "N02",
+    "group": "normalization",
+    "data": "[10]LOT\\x2D1",
+    "parentheses": false,
+    "escapes": true
+  },
+  {
+    "id": "N03",
+    "group": "normalization",
+    "data": "[10]a_b/c+7",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "N04",
+    "group": "normalization",
+    "data": "[10]A\\x1DB",
+    "parentheses": false,
+    "escapes": true
+  },
+  {
+    "id": "E01",
+    "group": "error_probes",
+    "data": "",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E02",
+    "group": "error_probes",
+    "data": "12345",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E03",
+    "group": "error_probes",
+    "data": "[03]ABC",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E04",
+    "group": "error_probes",
+    "data": "[01]123",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E05",
+    "group": "error_probes",
+    "data": "[01]09501101530004",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E06",
+    "group": "error_probes",
+    "data": "[17]271332",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E07",
+    "group": "error_probes",
+    "data": "[17]270230",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E08",
+    "group": "error_probes",
+    "data": "[10]ABCDEFGHIJKLMNOPQRSTU",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E09",
+    "group": "error_probes",
+    "data": "[30]ABC",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E10",
+    "group": "error_probes",
+    "data": "[01]ABCDEFGHIJKLMN",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E11",
+    "group": "error_probes",
+    "data": "[10ABC",
+    "parentheses": false,
+    "escapes": false
+  },
+  {
+    "id": "E12",
+    "group": "error_probes",
+    "data": "[10]A[21]",
+    "parentheses": false,
+    "escapes": false
+  }
+]

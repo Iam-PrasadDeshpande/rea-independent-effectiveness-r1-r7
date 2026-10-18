@@ -1,0 +1,23 @@
+{
+  "uniqueToolInvocations": 150,
+  "scriptedInvestigatorQueries": 67,
+  "sessions": [
+    {
+      "id": "01a14cbb-8af0-7c20-b873-5dde4f3e03d4",
+      "ownCalls": 40
+    },
+    {
+      "id": "01a14cbf-836b-7400-bbfb-7636bb313791",
+      "ownCalls": 24
+    },
+    {
+      "id": "01a14cbf-aeb7-7cc3-937d-3434da532780",
+      "ownCalls": 37
+    },
+    {
+      "id": "01a14cc0-d851-7882-b33b-d556d24cbece",
+      "ownCalls": 49
+    }
+  ],
+  "usedAtSnapshot": 217
+}

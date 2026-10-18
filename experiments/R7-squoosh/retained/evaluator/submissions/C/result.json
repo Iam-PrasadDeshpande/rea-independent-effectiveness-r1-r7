@@ -1,0 +1,382 @@
+{
+  "mode": "reference-probe",
+  "startedAt": "2026-10-18T05:14:39.409Z",
+  "errors": [
+    "requestfailed https://www.google-analytics.com/analytics.js: {\"errorText\":\"net::ERR_BLOCKED_BY_CLIENT.Inspector\"}"
+  ],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    },
+    {
+      "type": "warning",
+      "text": "Service Worker registration blocked by Playwright"
+    }
+  ],
+  "workers": [
+    "http://127.0.0.1:43897/c/features-worker-b8ee33b5.js",
+    "http://127.0.0.1:43897/c/features-worker-b8ee33b5.js",
+    "http://127.0.0.1:43897/c/features-worker-b8ee33b5.js",
+    "http://127.0.0.1:43897/c/features-worker-b8ee33b5.js"
+  ],
+  "deniedRequests": [
+    "https://www.google-analytics.com/analytics.js"
+  ],
+  "scenarios": [
+    {
+      "id": "alpha-crop-lossless",
+      "status": "OBSERVED",
+      "durationMs": 413,
+      "result": {
+        "width": 29,
+        "height": 31,
+        "trace": [
+          {
+            "method": "resize",
+            "durationMs": 48.700000000186265
+          },
+          {
+            "method": "webpEncode",
+            "durationMs": 70.90000000037253
+          }
+        ],
+        "input": {
+          "mimeType": "image/png",
+          "filename": "alpha.png",
+          "sha256": "5a4c046e7fbc8d246050feef7e68b6d6077d96f20e21f20db837add73f0c4cec"
+        },
+        "decoded": {
+          "width": 29,
+          "height": 31,
+          "sha256": "3892a07ae5426e2a3887338a054cfb324a57d5375713cd7985c981d7d51d04cc"
+        },
+        "encoded": {
+          "size": 934,
+          "sha256": "a4469f91a1fb98bb9d68716ad4b85332617f32a5ac5f2251ff6bf3505602d036",
+          "file": "alpha-crop-lossless.webp"
+        },
+        "rgbaSha256": "3685c619d2f71209eda67b20c54a8f183b6df36fb1540754955408494d606152"
+      }
+    },
+    {
+      "id": "jpeg-settings",
+      "status": "OBSERVED",
+      "durationMs": 153,
+      "result": {
+        "width": 64,
+        "height": 48,
+        "trace": [
+          {
+            "method": "webpEncode",
+            "durationMs": 48.90000000037253
+          }
+        ],
+        "input": {
+          "mimeType": "image/jpeg",
+          "filename": "photo.jpg",
+          "sha256": "f0d43b915d5f676c2a600daef3f778ea6e0af68345016ff0a746dc1097501e79"
+        },
+        "decoded": {
+          "width": 64,
+          "height": 48,
+          "sha256": "06e4d2686a5a2765d42b18b6845c2c34cb6e3402b2f054189c19fb7078ad289e"
+        },
+        "encoded": {
+          "size": 232,
+          "sha256": "5a8ed8e859f92a9d2bb760d337ace6f77f9bfb0898f9249df6c6044b2c325abe",
+          "file": "jpeg-settings.webp"
+        },
+        "rgbaSha256": "d56eb6cc65a11897a19e34b02acfcc66238fa1801496e1516a235c1ea50b2135"
+      }
+    },
+    {
+      "id": "invalid-quality",
+      "status": "ERROR",
+      "durationMs": 1000,
+      "error": "page.evaluate: Error: {\"isError\":true,\"value\":{\"message\":\"Encoding error.\",\"name\":\"Error\",\"stack\":\"Error: Encoding error.\\n    at R (http://127.0.0.1:43897/c/features-worker-b8ee33b5.js:1:96299)\"}}\n    at worker.onmessage (eval at evaluate (:311:30), <anonymous>:5:68)\n    at main (/harness/browser-runner.js:116:35)"
+    }
+  ],
+  "inspect": {
+    "title": "inspect-input.png - Squoosh",
+    "download": {
+      "name": "inspect-input.webp",
+      "type": "image/webp",
+      "size": 302,
+      "width": 64,
+      "height": 48,
+      "sha256": "6771586a6dadf4c1d22d2189ed46e2e8bed1a09fcc2e7860064bb24b291a4ecb"
+    },
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": "Back"
+      },
+      {
+        "tag": "SELECT",
+        "name": "",
+        "type": "select-one",
+        "value": "identity",
+        "disabled": false,
+        "text": "Original Image (inspect-input.png)AVIFBrowser JPEGBrowser PNGJPEG XL (beta)MozJPEGOxiPNGQOIWebPWebP v2 (unstable)",
+        "options": [
+          {
+            "value": "identity",
+            "text": "Original Image (inspect-input.png)"
+          },
+          {
+            "value": "avif",
+            "text": "AVIF"
+          },
+          {
+            "value": "browserJPEG",
+            "text": "Browser JPEG"
+          },
+          {
+            "value": "browserPNG",
+            "text": "Browser PNG"
+          },
+          {
+            "value": "jxl",
+            "text": "JPEG XL (beta)"
+          },
+          {
+            "value": "mozJPEG",
+            "text": "MozJPEG"
+          },
+          {
+            "value": "oxiPNG",
+            "text": "OxiPNG"
+          },
+          {
+            "value": "qoi",
+            "text": "QOI"
+          },
+          {
+            "value": "webP",
+            "text": "WebP"
+          },
+          {
+            "value": "wp2",
+            "text": "WebP v2 (unstable)"
+          }
+        ]
+      },
+      {
+        "tag": "A",
+        "name": "",
+        "type": "",
+        "value": "",
+        "text": "Download"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "name": "",
+        "type": "submit",
+        "value": "",
+        "disabled": true,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "resize.enable",
+        "type": "checkbox",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "quantize.enable",
+        "type": "checkbox",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "SELECT",
+        "name": "",
+        "type": "select-one",
+        "value": "webP",
+        "disabled": false,
+        "text": "Original Image (inspect-input.png)AVIFBrowser JPEGBrowser PNGJPEG XL (beta)MozJPEGOxiPNGQOIWebPWebP v2 (unstable)",
+        "options": [
+          {
+            "value": "identity",
+            "text": "Original Image (inspect-input.png)"
+          },
+          {
+            "value": "avif",
+            "text": "AVIF"
+          },
+          {
+            "value": "browserJPEG",
+            "text": "Browser JPEG"
+          },
+          {
+            "value": "browserPNG",
+            "text": "Browser PNG"
+          },
+          {
+            "value": "jxl",
+            "text": "JPEG XL (beta)"
+          },
+          {
+            "value": "mozJPEG",
+            "text": "MozJPEG"
+          },
+          {
+            "value": "oxiPNG",
+            "text": "OxiPNG"
+          },
+          {
+            "value": "qoi",
+            "text": "QOI"
+          },
+          {
+            "value": "webP",
+            "text": "WebP"
+          },
+          {
+            "value": "wp2",
+            "text": "WebP v2 (unstable)"
+          }
+        ]
+      },
+      {
+        "tag": "INPUT",
+        "name": "lossless",
+        "type": "checkbox",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "method_input",
+        "type": "range",
+        "value": "4",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "",
+        "type": "number",
+        "value": "4",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "quality",
+        "type": "range",
+        "value": "75",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "",
+        "type": "number",
+        "value": "75",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "",
+        "type": "checkbox",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "name": "exact",
+        "type": "checkbox",
+        "value": "on",
+        "checked": false,
+        "disabled": false,
+        "text": ""
+      },
+      {
+        "tag": "A",
+        "name": "",
+        "type": "",
+        "value": "",
+        "text": "Download"
+      }
+    ]
+  },
+  "probeWorker": "http://127.0.0.1:43897/c/features-worker-b8ee33b5.js",
+  "finishedAt": "2026-10-18T05:14:42.255Z"
+}

@@ -1,0 +1,10 @@
+{
+    "task":  "BuildUi",
+    "command":  "npm.cmd run build:ui",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:25:13.0030224Z",
+    "ended_utc":  "2026-10-17T16:26:37.1532320Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

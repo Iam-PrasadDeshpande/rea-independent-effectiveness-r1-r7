@@ -1,0 +1,241 @@
+{
+  "startedUtc": "2026-10-18T04:49:56.1079342Z",
+  "endedUtc": "2026-10-18T05:07:55.8823734Z",
+  "instance": "arm-A-evaluation-final",
+  "label": "arm-A-evaluation-final",
+  "arm": "A",
+  "cases": [
+    {
+      "observations": [
+        {
+          "scene": []
+        }
+      ],
+      "error": null,
+      "name": "Fresh scene",
+      "id": "01"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Rectangle forward",
+      "id": "02"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Rectangle reverse",
+      "id": "03"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-diamond\"]').first()\n",
+      "name": "Diamond",
+      "id": "04"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-ellipse\"]').first()\n",
+      "name": "Ellipse",
+      "id": "05"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-line\"]').first()\n",
+      "name": "Line",
+      "id": "06"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-arrow\"]').first()\n",
+      "name": "Arrow",
+      "id": "07"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-freedraw\"]').first()\n",
+      "name": "Freedraw path",
+      "id": "08"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-text\"]').first()\n",
+      "name": "ASCII text",
+      "id": "09"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-text\"]').first()\n",
+      "name": "Multiline Unicode text",
+      "id": "10"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Move selected rectangle",
+      "id": "11"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Delete selected leaves survivor",
+      "id": "12"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Select all delete",
+      "id": "13"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Undo creation",
+      "id": "14"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Redo creation",
+      "id": "15"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Undo delete identity",
+      "id": "16"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Two undo two redo",
+      "id": "17"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "New edit invalidates redo",
+      "id": "18"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Selection change preserves redo",
+      "id": "19"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Duplicate selection",
+      "id": "20"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Group selection",
+      "id": "21"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Ungroup selection",
+      "id": "22"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Move undo geometry",
+      "id": "23"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Persistence reload",
+      "id": "24"
+    },
+    {
+      "observations": [],
+      "error": "Conversion from JSON failed with error: Unexpected end while parsing unquoted property name. Path '', line 1, position 8.",
+      "name": "Malformed stored scene recovery",
+      "id": "25"
+    },
+    {
+      "observations": [
+        {
+          "scene": []
+        }
+      ],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Malformed stored state recovery",
+      "id": "26"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Empty valid scene import",
+      "id": "27"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Malformed JSON import preserves scene",
+      "id": "28"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Wrong type import preserves scene",
+      "id": "29"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "JSON export actual download",
+      "id": "30"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "JSON excludes deleted element",
+      "id": "31"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "SVG file export",
+      "id": "32"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "PNG file export",
+      "id": "33"
+    },
+    {
+      "observations": [
+        {
+          "scene": []
+        }
+      ],
+      "error": null,
+      "name": "Undo empty scene is stable",
+      "id": "34"
+    },
+    {
+      "observations": [
+        {
+          "scene": []
+        }
+      ],
+      "error": null,
+      "name": "Redo empty scene is stable",
+      "id": "35"
+    },
+    {
+      "observations": [],
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "name": "Multiple surviving element persistence",
+      "id": "36"
+    }
+  ]
+}

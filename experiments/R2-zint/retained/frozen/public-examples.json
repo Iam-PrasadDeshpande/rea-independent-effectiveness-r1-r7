@@ -1,0 +1,50 @@
+[
+  {
+    "input": {
+      "id": "P1",
+      "data": "[10]DEMO123",
+      "parentheses": false,
+      "escapes": false
+    },
+    "result": {
+      "id": "P1",
+      "exit": 0,
+      "canonicalHex": "D39EBB225EEB111A2EC4769CD77BB7458C758",
+      "stdout": "D3 9E BB 22 5E EB 11 1A 2E C4 76 9C D7 7B B7 45 8C 75 8\n",
+      "stderr": "",
+      "stderrPresent": false
+    }
+  },
+  {
+    "input": {
+      "id": "P2",
+      "data": "(10)PUBLIC42",
+      "parentheses": true,
+      "escapes": false
+    },
+    "result": {
+      "id": "P2",
+      "exit": 0,
+      "canonicalHex": "D39EBB225EEEEDBBA2C46EC4511AEF5B8DBD8EB",
+      "stdout": "D3 9E BB 22 5E EE ED BB A2 C4 6E C4 51 1A EF 5B 8D BD 8E B\n",
+      "stderr": "",
+      "stderrPresent": false
+    }
+  },
+  {
+    "input": {
+      "id": "P3",
+      "data": "[17]280101",
+      "parentheses": false,
+      "escapes": false
+    },
+    "result": {
+      "id": "P3",
+      "exit": 0,
+      "canonicalHex": "D39EBA73734CD99B39663AC",
+      "stdout": "D3 9E BA 73 73 4C D9 9B 39 66 3A C\n",
+      "stderr": "",
+      "stderrPresent": false
+    }
+  }
+]

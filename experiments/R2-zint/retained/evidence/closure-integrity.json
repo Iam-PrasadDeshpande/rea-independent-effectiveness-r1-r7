@@ -1,0 +1,131 @@
+{
+  "scope": "Recorded artifacts, frozen inputs, signatures, tracked REA pin and R1 closure only; no global filesystem or production attestation is claimed",
+  "checks": [
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "EXPERIMENT_PROTOCOL.md"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evaluator\\RUBRIC.md"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evaluator\\oracle\\hidden-cases.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evaluator\\oracle\\expected-results.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "frozen\\public-examples.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "ControlledCliMcp.ps1"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "Freeze-R2Oracle.ps1"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "ReaNativeMcpProxy.ps1"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "Run-R2Investigator.ps1"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "frozen\\investigator-prompt.txt"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "tools\\direct-ghidra\\R2DirectGhidra.java"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evidence\\direct-ghidra-build.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evidence\\harness-Cli.result.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evidence\\harness-Direct.result.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evidence\\harness-Rea.result.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "Run-R2DataInvestigator.ps1"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "frozen\\action-schema.json"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "HARNESS_AMENDMENT.md"
+    },
+    {
+      "match": true,
+      "check": "frozen-input",
+      "path": "evidence\\experiment-freeze-manifest.json"
+    },
+    {
+      "sha256": "08af4075a1fd8b2fff65967435512582afbb52f2daf4a7971f025a888eff7ad4",
+      "check": "artifact",
+      "match": true,
+      "arm": "A"
+    },
+    {
+      "sha256": "08af4075a1fd8b2fff65967435512582afbb52f2daf4a7971f025a888eff7ad4",
+      "check": "artifact",
+      "match": true,
+      "arm": "B"
+    },
+    {
+      "sha256": "08af4075a1fd8b2fff65967435512582afbb52f2daf4a7971f025a888eff7ad4",
+      "check": "artifact",
+      "match": true,
+      "arm": "C"
+    },
+    {
+      "sha256": "1200DF0705CB930AE6FCA980FC899BE16F0AD6E8DB2F8AABCB839B73DB7068F1",
+      "check": "R1-closure",
+      "match": true
+    },
+    {
+      "check": "REA-pinned-clean-tracked-source",
+      "match": true,
+      "head": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc"
+    }
+  ],
+  "signing": "PASS",
+  "scriptCount": 18,
+  "utc": "2026-10-17T19:22:50.4633339Z"
+}

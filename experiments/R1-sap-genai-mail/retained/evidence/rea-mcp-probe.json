@@ -1,0 +1,13 @@
+{
+  "scope": "nonblind deterministic MCP capability validation; no investigator inference",
+  "network": "WSL bubblewrap --unshare-net; read-only /rea and /artifact; no reference/oracle mount",
+  "server": {
+    "name": "rea",
+    "version": "6.5.0"
+  },
+  "toolCount": 207,
+  "allowedTool": "analyze_javascript_application",
+  "isError": false,
+  "status": "CALL_COMPLETED",
+  "elapsed_ms": 52530
+}

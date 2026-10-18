@@ -1,0 +1,10 @@
+{
+  "arguments": [
+    "/usr/bin/mkdir",
+    "-p",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/ghidra"
+  ],
+  "elapsedSeconds": 0.257243,
+  "exit": 0,
+  "utc": "2026-10-17T18:19:53.2837898Z"
+}

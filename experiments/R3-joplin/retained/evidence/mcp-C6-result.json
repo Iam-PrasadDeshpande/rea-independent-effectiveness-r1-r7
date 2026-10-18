@@ -1,0 +1,19 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"error\":{\"code\":\"capability_unavailable\",\"category\":\"unavailable\",\"message\":\"Required runtime controls are unavailable for this attempt.\",\"retryable\":true,\"remediation\":{\"action\":\"Review details.reason, then retry the same analysis after the condition clears.\"},\"details\":{\"provider_id\":\"javascript-static-analysis\",\"operation\":\"analyze_javascript_application\",\"reason\":\"REA Windows native self-test failed: Open Windows path component failed [C:\\\\] (Win32 5): Access is denied.\\r\\n\",\"partial_observation\":{\"kind\":\"retained-evidence\",\"evidence_id\":\"ev_cab18a5c339270c3f7fdaef40856f0428072071efab628b0fd45726a6b04a908\"}}}}"
+      }
+    ],
+    "isError": true
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

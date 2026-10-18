@@ -1,0 +1,12 @@
+[
+  {
+    "Drive": "R:",
+    "PriorMapping": "R:\\: => evidence://R3/\\setup-output\\rea-qualified-v2",
+    "Removed": true
+  },
+  {
+    "Drive": "S:",
+    "PriorMapping": "S:\\: => evidence://R3/\\tools\\rea-runtime-recovery",
+    "Removed": true
+  }
+]

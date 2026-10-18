@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "UI rendered",
+    "Existing note read-only, no Send",
+    "Draft Cancel produces no note request",
+    "Send submits exactly one expected note request",
+    "Successful send suppresses duplicate Send in UI state"
+  ],
+  "writes": [
+    {
+      "purchaseOrder": "4500000001",
+      "purchaseOrderItem": "10",
+      "noteText": "R4 approved UI note"
+    }
+  ],
+  "blockedExternal": [
+    "https://www.sap.com"
+  ],
+  "scope": "UI with deterministic API response fixtures; separate oracle validates real mock note writes",
+  "status": "PASS"
+}

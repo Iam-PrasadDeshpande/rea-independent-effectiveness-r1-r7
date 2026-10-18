@@ -1,0 +1,110 @@
+[
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "4ac1fa408ee836613b9a588fa5ca2ab7bda76768e332640aaaeba63519ad79c0",
+    "path": "Acquire-R2ShortRanges.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "e0a6444be20a6180d167568b05cfd222fb16d4d891fcf3f409c4bc286418b8af",
+    "path": "Build-R2DirectGhidra.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "fa761f1bc11243f378d8bcd1c0702045f39d8f21a3235b453379dd6b17e0473f",
+    "path": "Build-R2Zint.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "2cea5aab1948f3962233c88d832dd3adf58aca1b2e24f6aa7b7d815def3227c6",
+    "path": "Close-R2Evidence.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "69c28f363dd9675516c882fd2b25916cf86bf2e18bb54203bf93b8cc732ad1a4",
+    "path": "Complete-R2Runs.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "9a5cf3c05894b7d2ba7befab69a6be33c71adf3f93b3c529d1e435639bb00da2",
+    "path": "ControlledCliMcp.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "0fb596e8d86f018ebcc18b27d027e896ba6eb2d5247185fd7779d4c65b1b56ec",
+    "path": "Freeze-R2Oracle.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "165d6324992855486618a4b77c45a1b01641bf7876f9b5350a04e8d959baf9a0",
+    "path": "Install-R2Ext4.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "6adbe749152eb096da610ae3ac22c898d27fb400fe73489078673879316122bd",
+    "path": "Invoke-R2.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "df913f46542e6f219eb1fc2ac5b599f9789693f287f6e9734a223b86792b9905",
+    "path": "Invoke-R2Native.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "0cc464154366d3e1c490070fd3ab81060cfad5f99f4018d6057a2ba5a97cec8f",
+    "path": "Prepare-R2Reference.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "62751ad7b68c3e1a63655d486643f4d4db0d71b30cdf5754f1440f441fb8ffd0",
+    "path": "Probe-R2Harness.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "79030bb151f1f7f47fa4df708a1f1e25a26baef037324e3b0ae46f10ca2235c6",
+    "path": "ReaNativeMcpProxy.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "a2768f6a3ad884f197fa9854f4f5a327a33213ddfb73267acab381ee79839f47",
+    "path": "Recover-R2Acquisition.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "4b5b374706764151231c2ec8850c654e47a427881030b136197dc749acdeb77b",
+    "path": "Run-R2DataInvestigator.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "4a195a8f0e045f82ec63fd78f45a37915ed557ac765a6f6733863ef85a515978",
+    "path": "Run-R2Investigator.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "4131c08681471215e47124816c492340ff7dec4161e2c1f830a420275f82918d",
+    "path": "Validate-R2Submissions.ps1"
+  },
+  {
+    "status": "Valid",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "875b28f027096362fee77d99b73cc9ce56a9d3a43ed913c51ea94fdf15c971df",
+    "path": "Verify-R2Ninja.ps1"
+  }
+]

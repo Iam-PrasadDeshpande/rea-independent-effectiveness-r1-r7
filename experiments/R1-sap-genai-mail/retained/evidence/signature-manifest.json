@@ -1,0 +1,62 @@
+[
+  {
+    "path": "Run-PocTask.ps1",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "ef5f6adf40fbbc3df94c8764a86bd9c2e8c67c5400b784cb6092cd455efce822"
+  },
+  {
+    "path": "Run-BlindArm.ps1",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "963902a0c17ff1d9716549841dbfcf77b84330ea06d3dfbc05968cdf1cac0527"
+  },
+  {
+    "path": "Probe-Rea-Mcp.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "c5bdfdd49fda78dfeb33ddcadde1eac683a6db22f8064f27651fb6526c9a3947"
+  },
+  {
+    "path": "Validate-Reconstruction.ps1",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "bb8c56aa1959e1c365f7a050f1eeaf7d73891aed7a36496e5d5da7aaace3a7fe"
+  },
+  {
+    "path": "tools\\Launch-Rea-Mcp.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "6fe472082fb3d12f8b400ad23821beee39e12f1139e130ffad3060087944b90b"
+  },
+  {
+    "path": "oracle\\fixture-tests.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "ea311275cdc19a5d9fc355d08233df609b00f9de694b6b013500fc07a0f951c8"
+  },
+  {
+    "path": "oracle\\reconstruction-tests.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "7a37f287b3732cdd7689ed07c126e56fd9de3946e777a5e53e7e989a6a716ae3"
+  },
+  {
+    "path": "oracle\\submissions\\baseline\\submitted.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "a31eba4fc847ee69da6cf2a81a7143cc9785ab9d9511579353b4ea2eec3b1ddb"
+  },
+  {
+    "path": "oracle\\submissions\\rea-arm\\submitted.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "73ac3b5a17b040b885fc36e309f2647a97b869948f598a8b5a42063ec413aaa2"
+  },
+  {
+    "path": "oracle\\invalid-rea-attempt1\\submitted.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "883654fd333cbd0340b7106537ad0461da48b269b1d0768f16805ada54dd414c"
+  }
+]

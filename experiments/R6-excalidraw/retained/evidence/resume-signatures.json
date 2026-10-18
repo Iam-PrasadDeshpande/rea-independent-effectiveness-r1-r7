@@ -1,0 +1,32 @@
+[
+  {
+    "status": "Valid",
+    "path": "evidence://R6/\\Invoke-R6.ps1",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "status": "Valid",
+    "path": "evidence://R6/\\Invoke-R6Oracle.ps1",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "status": "Valid",
+    "path": "evidence://R6/\\Run-R6Browser.ps1",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "status": "Valid",
+    "path": "evidence://R6/\\Run-R6Investigator.ps1",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "status": "Valid",
+    "path": "evidence://R6/\\tools\\BrowserHarness.js",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "status": "Valid",
+    "path": "evidence://R6/\\tools\\signature-probe.js",
+    "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  }
+]

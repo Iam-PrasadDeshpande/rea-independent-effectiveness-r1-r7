@@ -1,0 +1,7 @@
+# Independent architecture adjudication — recovery
+
+All15 frozen facts graded conservatively by the independent reviewer: A22/30, B-recovery16/30, C0/30. Fact-level numbers are in architecture-adjudication.json. Score1 retains correct/partial claims with incompletely checked support; it does not manufacture full citation verification. Score2 requires checked packaged support. C0 describes no valid submitted work, not REA's intrinsic quality.
+
+Checked support includes startup/provider injection, CPU/tokenization/pooling, model invalidation, chunk replacement, model provisioning and the renderer startup relationship. Six selected claim/location checks were supported out of six checked. This is NOT an exhaustive evidence-precision estimate. Full citation precision remains NOT_COMPLETE. No material false claim was established in that selected subset.
+
+A preserves runtime/native availability, model quality, live database state, UI error handling, concurrency, folder semantics and download integrity as unknowns. B recovers shared retrieval and submitted clean deterministic code; its assigned conventional MCP invocation was denied. C has no qualified investigator submission. The review scores do not validate a three-arm comparison or REA improvement. Earlier partial scores and U entries are superseded by this final conservative table; no investigator feedback or repairs followed oracle evaluation.

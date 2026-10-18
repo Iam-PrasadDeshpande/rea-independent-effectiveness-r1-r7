@@ -1,0 +1,10 @@
+{
+  "arguments": [
+    "/usr/bin/readelf",
+    "--sections",
+    "/home/RESEARCH_USER/rea-r2-20261017/evaluator/reference/app"
+  ],
+  "elapsedSeconds": 0.8337965,
+  "exit": 0,
+  "utc": "2026-10-17T18:39:15.2840099Z"
+}

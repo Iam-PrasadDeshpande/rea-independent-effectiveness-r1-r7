@@ -1,0 +1,38 @@
+[
+  {
+    "name": "@sap/cds",
+    "version": "8.7.1"
+  },
+  {
+    "name": "@sap/cds-dk",
+    "version": "8.7.1"
+  },
+  {
+    "name": "@sap/cds-compiler",
+    "version": "7.1.2"
+  },
+  {
+    "name": "typescript",
+    "version": "5.7.3"
+  },
+  {
+    "name": "ts-node",
+    "version": "10.9.2"
+  },
+  {
+    "name": "zod",
+    "version": "3.24.2"
+  },
+  {
+    "name": "zod-to-json-schema",
+    "version": "3.24.1"
+  },
+  {
+    "name": "@langchain/core",
+    "version": "0.3.36"
+  },
+  {
+    "name": "@sap-ai-sdk/langchain",
+    "version": "1.7.0"
+  }
+]

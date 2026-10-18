@@ -1,0 +1,54 @@
+{
+  "MISSION": "REA_CODEX_JOPLIN_SEMANTIC_SEARCH_R3",
+  "ACTIONS_USED_TOTAL": 290,
+  "ACTIONS_REMAINING": 0,
+  "ARM_A_RESULT": "40/40; preserved valid ordinary-inspection control",
+  "ARM_B_RESULT": "40/40 behavior; INVALID_ASSIGNED_FACILITY",
+  "ARM_C_RESULT": "BLOCKED_PREFLIGHT; no qualified new investigator",
+  "REA_INVOCATION_VERIFIED": false,
+  "BEHAVIORAL_TEST_RESULTS": {
+    "B": "40/40 recovery1 executed",
+    "A": "40/40 retained",
+    "C": "No valid REA-assisted component; historical placeholder0/40"
+  },
+  "ARCHITECTURE_ADJUDICATION": {
+    "A": 22,
+    "B": 16,
+    "FullCitationPrecision": "NOT_COMPLETE",
+    "C": 0,
+    "All15FactsGraded": true,
+    "SelectedAudit": "6/6 supported subset",
+    "Denominator": 30
+  },
+  "REA_INCREMENTAL_VALUE": "UNKNOWN; invalid comparison",
+  "TOKEN_AND_LATENCY": {
+    "AInput": 249996,
+    "AWallSeconds": 146.4966187,
+    "RecoveryOverhead": "separately retained",
+    "BRecoveryInput": 281213,
+    "BRecoveryOutput": 6797,
+    "CREATreatment": "UNAVAILABLE",
+    "AOutput": 8041,
+    "Cost": "UNKNOWN",
+    "BRecoveryWallSeconds": 401.195641
+  },
+  "SIGNING_STATUS": "PASS for checked recovery scripts, Microsoft shell, evaluator catalog",
+  "EVIDENCE_INTEGRITY": "Frozen hashes and originalA component unchanged; B signed/evaluated copy hash matched; R/S aliases removed",
+  "LIMITATIONS": [
+    "B assigned MCP denied by approval policy",
+    "C worker startup failed, then code-namespace startup timed out",
+    "Automatic alias cleanup after hard kill unproven; coordinator cleanup verified",
+    "Full citation precision incomplete",
+    "No live application/model/indexer integration proof"
+  ],
+  "FINAL_DISPOSITION": "PARTIAL_E2E_NOT_MET",
+  "NEXT_ACTION": "Renew bounded current-mission action authorization for MCP policy/startup repair and matched B/C reruns; preserve existing freeze",
+  "Accounting": {
+    "Convention": "Same provider/dispatch plus recorded investigator-item convention as prior250; wait/routing wrappers excluded; nested item boundaries disclosed",
+    "ReviewerReportedActions": 14,
+    "CumulativeCeiling": 290,
+    "RootProviderDispatchActions": 245,
+    "InvestigatorRecordedItems": 31,
+    "EstablishedPreviousCeiling": 250
+  }
+}

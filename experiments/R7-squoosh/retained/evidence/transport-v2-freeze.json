@@ -1,0 +1,28 @@
+{
+  "sameFrozenOracle": true,
+  "utc": "2026-10-18T04:58:01.5595343Z",
+  "signingRecovery": "Separate verified signed subprocess; closed stdin; original signing stalls retained; no policy weakening",
+  "validatorChange": "Archives all previous scratch output before each evaluation, preventing stale reference images from being attributed to submissions; scoring unchanged",
+  "files": [
+    {
+      "sha256": "3bf08dce3dc9edb82ccc3df7b95c6e12a2ff02aa7e4fe543f50c10bcba793138",
+      "path": "scripts/Controlled-R7Mcp-v2.ps1"
+    },
+    {
+      "sha256": "dace9347454bbf8a5a6c248a26492c107a290e6be240db26a24c960c7b6bd596",
+      "path": "scripts/Sign-R7Submission.ps1"
+    },
+    {
+      "sha256": "a3d72d6341fa25eeddac08acf0852e29b84b3976ea1d8f9900bf1e315799a118",
+      "path": "scripts/Run-R7Data-v2.ps1"
+    },
+    {
+      "sha256": "e5e377ad4000037f7f23ba385d5ffeac4102c34898a9a11812814f7fb75202c8",
+      "path": "scripts/Resume-R7B-v2.ps1"
+    },
+    {
+      "sha256": "e1d1d8c101e58961020a7aaeda0849182486767149d4ac56118db7cd6272cb62",
+      "path": "scripts/Validate-R7-v2.ps1"
+    }
+  ]
+}

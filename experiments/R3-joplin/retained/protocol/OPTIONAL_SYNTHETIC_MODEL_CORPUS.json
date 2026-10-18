@@ -1,0 +1,37 @@
+{
+  "status": "OPTIONAL_MODEL_QUALITY_NOT_RUN",
+  "notes": [
+    {
+      "body": "Tomato seedlings need regular water.",
+      "id": "n1"
+    },
+    {
+      "body": "Reserve rail tickets for Friday.",
+      "id": "n2"
+    },
+    {
+      "body": "SQLite stores local vectors.",
+      "id": "n3"
+    }
+  ],
+  "queries": [
+    {
+      "text": "caring for plants",
+      "relevant": [
+        "n1"
+      ]
+    },
+    {
+      "text": "rail journey",
+      "relevant": [
+        "n2"
+      ]
+    },
+    {
+      "text": "local vector persistence",
+      "relevant": [
+        "n3"
+      ]
+    }
+  ]
+}

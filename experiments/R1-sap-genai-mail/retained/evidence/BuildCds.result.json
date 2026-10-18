@@ -1,0 +1,10 @@
+{
+    "task":  "BuildCds",
+    "command":  "npm.cmd run build:cds",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:25:35.2367653Z",
+    "ended_utc":  "2026-10-17T16:25:35.8409919Z",
+    "exit_code":  1,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

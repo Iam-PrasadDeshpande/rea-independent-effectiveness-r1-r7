@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FOR_DEFINED_EXPERIMENT",
+  "differentialComparisons": 144,
+  "allCitedReaIdsRetained": true,
+  "directHelperSha256": "6e60c7857f997287840b733feb2114d19f78eca453ad92bf7bd8f89066128631",
+  "referenceOfflineSuites": 60,
+  "scope": "Experiment execution complete; functional superiority not demonstrated; no production or full GS1 equivalence claim",
+  "signatures": "PASS",
+  "exactMatches": 144,
+  "rubricFrozen": 40,
+  "originalAndRunFreezeUnchanged": true,
+  "casesFrozen": 48,
+  "utc": "2026-10-17T19:22:52.8058535Z"
+}

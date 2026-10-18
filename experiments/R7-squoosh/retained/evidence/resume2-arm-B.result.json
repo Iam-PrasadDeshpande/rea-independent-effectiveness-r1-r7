@@ -1,0 +1,78 @@
+{
+  "elapsedSeconds": 193.4073544,
+  "transport": "signed-Windows-data-dispatch-no-JS-execution",
+  "remainingAtResumeSeconds": 754.822722,
+  "hostLoadBefore": "0.12 0.17 0.22 1/451 2261",
+  "hostLoadAfter": "0.24 0.26 0.26 1/457 4126",
+  "dispatchedToolCalls": 25,
+  "endedUtc": "2026-10-18T05:01:15.7812591Z",
+  "actions": [
+    {
+      "server": "cli",
+      "number": 17,
+      "tool": "browser",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 18,
+      "tool": "search_text",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 19,
+      "tool": "inspect",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 20,
+      "tool": "browser",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 21,
+      "tool": "browser",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 22,
+      "tool": "inspect",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 23,
+      "tool": "search_text",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 24,
+      "tool": "read_file",
+      "isError": false
+    },
+    {
+      "server": "cli",
+      "number": 25,
+      "tool": "write_file",
+      "isError": false
+    }
+  ],
+  "startedUtc": "2026-10-18T04:58:02.1019958Z",
+  "dollarCost": null,
+  "stopReason": "completed",
+  "thread": "01a14ce7-6be2-7300-9b98-8397ba7b34c2",
+  "totalActiveSeconds": 638.5846324,
+  "turns": 26,
+  "arm": "B",
+  "usage": {
+    "cached_input_tokens": 6272384,
+    "input_tokens": 7402275,
+    "output_tokens": 65728
+  },
+  "priorActiveSeconds": 445.177278
+}

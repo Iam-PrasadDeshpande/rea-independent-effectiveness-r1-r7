@@ -1,0 +1,9 @@
+{
+  "arm": "rea-arm",
+  "mode": "Run",
+  "probe": "rea-arm-investigation",
+  "exit_code": 0,
+  "started_utc": "2026-10-17T16:47:18.2531673Z",
+  "ended_utc": "2026-10-17T16:49:57.0425704Z",
+  "elapsed_ms": 158791.5573
+}

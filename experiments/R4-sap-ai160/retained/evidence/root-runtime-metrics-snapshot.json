@@ -1,0 +1,27 @@
+{
+  "rootToolEnvelopes": {
+    "spawn_agent": 1,
+    "wait": 1,
+    "exec": 77
+  },
+  "rootUsage": {
+    "total_token_usage": {
+      "input_tokens": 14100924,
+      "cached_input_tokens": 13840384,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 85320,
+      "reasoning_output_tokens": 37658,
+      "total_tokens": 14186244
+    },
+    "last_token_usage": {
+      "input_tokens": 269481,
+      "cached_input_tokens": 267264,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 947,
+      "reasoning_output_tokens": 245,
+      "total_tokens": 270428
+    },
+    "model_context_window": 475000
+  },
+  "scope": "Observed root session counters; child sessions and billing are separate"
+}

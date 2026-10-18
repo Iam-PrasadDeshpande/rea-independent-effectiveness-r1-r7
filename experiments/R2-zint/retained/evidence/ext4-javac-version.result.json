@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-17T18:23:14.8035149Z",
+  "arguments": [
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/jdk/jdk-21.0.11+10/bin/javac",
+    "-version"
+  ],
+  "exit": 0,
+  "elapsedSeconds": 0.4169864
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "peakRss": null,
+    "usageBasis": "Last cumulative total_token_usage in actual Codex session; do not sum cumulative turn.completed counters",
+    "calls": 23,
+    "thread": "01a14d2e-f289-7880-a0b4-23ab692cf939",
+    "arm": "A",
+    "elapsedSeconds": 730.9177554,
+    "monetaryCost": null,
+    "usage": {
+      "input_tokens": 2839122,
+      "cached_input_tokens": 2663552,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 32977,
+      "reasoning_output_tokens": 1546,
+      "total_tokens": 2872099
+    },
+    "rawAggregatesOvercount": true,
+    "reason": "completed"
+  },
+  {
+    "peakRss": null,
+    "usageBasis": "Last cumulative total_token_usage in actual Codex session; do not sum cumulative turn.completed counters",
+    "calls": 24,
+    "thread": "01a14d3a-217d-7fb3-9c0f-f12540f2aad2",
+    "arm": "B",
+    "elapsedSeconds": 852.4327387,
+    "monetaryCost": null,
+    "usage": {
+      "input_tokens": 2733201,
+      "cached_input_tokens": 2412032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37758,
+      "reasoning_output_tokens": 868,
+      "total_tokens": 2770959
+    },
+    "rawAggregatesOvercount": true,
+    "reason": "completed"
+  },
+  {
+    "peakRss": null,
+    "usageBasis": "Last cumulative total_token_usage in actual Codex session; do not sum cumulative turn.completed counters",
+    "calls": 21,
+    "thread": "01a14d47-544c-75c2-ad5b-52801a77d5b0",
+    "arm": "C",
+    "elapsedSeconds": 1117.2651255,
+    "monetaryCost": null,
+    "usage": {
+      "input_tokens": 748720,
+      "cached_input_tokens": 683392,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 9298,
+      "reasoning_output_tokens": 350,
+      "total_tokens": 758018
+    },
+    "rawAggregatesOvercount": true,
+    "reason": "error",
+    "rawRecoveryElapsedInvalid": true
+  }
+]

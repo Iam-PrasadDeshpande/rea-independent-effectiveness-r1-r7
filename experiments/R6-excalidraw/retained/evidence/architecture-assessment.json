@@ -1,0 +1,767 @@
+{
+  "method": "Report target sections only, frozen source-grounded rubric, compatible action references and bounded markers; no clone-design credit, weighted percentage or exhaustive raw-evidence reread",
+  "grader": "oracle_design independent preparation/grading agent",
+  "factCountPerArm": 30,
+  "scope": "Recovered TARGET architecture only",
+  "traceLegend": {
+    "R": "Compatible browser action references and selected markers",
+    "N": "No sufficient target claim or attribution",
+    "S": "Asset references and bounded source markers"
+  },
+  "behavioralResultsRead": false,
+  "limits": [
+    "Missing C report means UNKNOWN, not zero capability",
+    "No NOT_OBSERVABLE exclusion for omissions",
+    "Zero INCORRECT does not establish absence of all false claims",
+    "Traceability checked separately and not exhaustive"
+  ],
+  "filesystemToolInvocations": 2,
+  "ratingCount": 90,
+  "counts": {
+    "B": {
+      "INCORRECT": 0,
+      "PARTIAL": 11,
+      "FULL": 6,
+      "UNKNOWN": 13,
+      "NOT_OBSERVABLE": 0
+    },
+    "A": {
+      "INCORRECT": 0,
+      "PARTIAL": 13,
+      "FULL": 1,
+      "UNKNOWN": 16,
+      "NOT_OBSERVABLE": 0
+    },
+    "C": {
+      "INCORRECT": 0,
+      "PARTIAL": 0,
+      "FULL": 0,
+      "UNKNOWN": 30,
+      "NOT_OBSERVABLE": 0
+    }
+  },
+  "rubric": "frozen/architecture-rubric.json",
+  "schema": "r6-architecture-assessment-v1",
+  "ratings": [
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Wrapper/component ownership and onChange persistence edge unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A01"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Distinct Scene Store History construction unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A02"
+    },
+    {
+      "reportLocalEvidenceReferences": "A2 A3 A10",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Pointer drawing and movement observed; core handler ownership unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A03"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Serialized records do not establish Scene ownership.",
+      "rating": "UNKNOWN",
+      "factId": "A04"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Tool controls do not establish registry linking tools icons shortcuts.",
+      "rating": "UNKNOWN",
+      "factId": "A05"
+    },
+    {
+      "reportLocalEvidenceReferences": "A2",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Tool selection updates activeTool; registry generation unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A06"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Distinct transient interactive layer not established.",
+      "rating": "UNKNOWN",
+      "factId": "A07"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Static versus interactive rendering separation unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A08"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Text records observed; target textarea mechanism not claimed.",
+      "rating": "UNKNOWN",
+      "factId": "A09"
+    },
+    {
+      "reportLocalEvidenceReferences": "A3",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Property edit changes selected element and current defaults; named action unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A10"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Named duplicate action shortcut immediate capture unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A11"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Selection-dependent delete capture timing unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A12"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "History internal representation explicitly unknown.",
+      "rating": "UNKNOWN",
+      "factId": "A13"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Element versus app-state redo invalidation unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A14"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Stack transfer and invisible-entry skipping unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A15"
+    },
+    {
+      "reportLocalEvidenceReferences": "A6",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Disabled history buttons after reload observed; Store relationship unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A16"
+    },
+    {
+      "reportLocalEvidenceReferences": "A8",
+      "arm": "A",
+      "traceabilityClass": "S",
+      "rationale": "Scene/app-state persistence and file callbacks identified; scheduling/save edge partial.",
+      "rating": "PARTIAL",
+      "factId": "A17"
+    },
+    {
+      "reportLocalEvidenceReferences": "A8",
+      "arm": "A",
+      "traceabilityClass": "S",
+      "rationale": "Correct keys recovered; exact debounce unknown.",
+      "rating": "PARTIAL",
+      "factId": "A18"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Hidden-document/save-lock pause unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A19"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "File maps and IDB_LIBRARY do not establish image IndexedDB storage.",
+      "rating": "UNKNOWN",
+      "factId": "A20"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "Malformed localStorage recovery uninvestigated.",
+      "rating": "UNKNOWN",
+      "factId": "A21"
+    },
+    {
+      "reportLocalEvidenceReferences": "A2 A5",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Export excludes browser selection/tool state; server whitelist unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A22"
+    },
+    {
+      "reportLocalEvidenceReferences": "A10",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Deletion absent from persisted scene; export and linear clearing unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A23"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "JSON envelope and reduced state observed; file filtering/database mode unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A24"
+    },
+    {
+      "reportLocalEvidenceReferences": "A9",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Valid import restores defaults/replaces scene; validator/binding pipeline unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A25"
+    },
+    {
+      "reportLocalEvidenceReferences": "A6",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Invalid drop exposes error/preserves scene; files/cancellation branches unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A26"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "Selected-only background dark embed scale and PNG/SVG actions recovered.",
+      "rating": "FULL",
+      "factId": "A27"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5 A6",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "SVG/PNG downloads observed; empty guard/pipelines/filesystem unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A28"
+    },
+    {
+      "reportLocalEvidenceReferences": "A6",
+      "arm": "A",
+      "traceabilityClass": "R",
+      "rationale": "SVG viewBox text background padding observed; scaling/scene metadata unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A29"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "A",
+      "traceabilityClass": "N",
+      "rationale": "PNG bytes observed; canvas/blob/metadata pipeline unresolved.",
+      "rating": "UNKNOWN",
+      "factId": "A30"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Wrapper/component/onChange ownership unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A01"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Scene Store History construction unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A02"
+    },
+    {
+      "reportLocalEvidenceReferences": "A2 A9",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Pointer state transitions observed; handler internals unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A03"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Serialized boundary does not establish collection ownership.",
+      "rating": "UNKNOWN",
+      "factId": "A04"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Tool inventory does not establish registry.",
+      "rating": "UNKNOWN",
+      "factId": "A05"
+    },
+    {
+      "reportLocalEvidenceReferences": "A1 A2 A9",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Radio controls and active tool recovered; registry generation unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A06"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Distinct interactive canvas observed; transient rendering responsibility partial.",
+      "rating": "PARTIAL",
+      "factId": "A07"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Static and interactive canvases identified by actual classes/dimensions.",
+      "rating": "FULL",
+      "factId": "A08"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Text data observed; target textarea mechanism not claimed.",
+      "rating": "UNKNOWN",
+      "factId": "A09"
+    },
+    {
+      "reportLocalEvidenceReferences": "A12 A9",
+      "arm": "B",
+      "traceabilityClass": "S",
+      "rationale": "Action dispatch and property updates recovered; property-action body inferred.",
+      "rating": "PARTIAL",
+      "factId": "A10"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Duplicate action/immediate capture unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A11"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Deletion capture conditional on selection unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A12"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Snapshot-versus-delta history explicitly unresolved.",
+      "rating": "UNKNOWN",
+      "factId": "A13"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Selection-only redo preservation mechanism unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A14"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Stack transfer/invisible-entry skipping unresolved.",
+      "rating": "UNKNOWN",
+      "factId": "A15"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Disabled history buttons observed; History/Store context unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A16"
+    },
+    {
+      "reportLocalEvidenceReferences": "A7 A8",
+      "arm": "B",
+      "traceabilityClass": "S",
+      "rationale": "Scheduled scene/app-state persistence and separate binary file flow recovered.",
+      "rating": "FULL",
+      "factId": "A17"
+    },
+    {
+      "reportLocalEvidenceReferences": "A7 A8",
+      "arm": "B",
+      "traceabilityClass": "S",
+      "rationale": "300ms timer and exact two localStorage keys recovered.",
+      "rating": "FULL",
+      "factId": "A18"
+    },
+    {
+      "reportLocalEvidenceReferences": "A8",
+      "arm": "B",
+      "traceabilityClass": "S",
+      "rationale": "Hidden-document and lock save pause recovered.",
+      "rating": "FULL",
+      "factId": "A19"
+    },
+    {
+      "reportLocalEvidenceReferences": "A7 A8",
+      "arm": "B",
+      "traceabilityClass": "S",
+      "rationale": "IndexedDB files-db/files-store and file manager recovered.",
+      "rating": "FULL",
+      "factId": "A20"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Damaged storage startup recovery explicitly unknown.",
+      "rating": "UNKNOWN",
+      "factId": "A21"
+    },
+    {
+      "reportLocalEvidenceReferences": "A1 A4",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Browser/export state distinction recovered; server policy unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A22"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "Shared deletion filters/linear point clearing unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A23"
+    },
+    {
+      "reportLocalEvidenceReferences": "A4",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "JSON envelope/reduced state observed; file filtering/database mode unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A24"
+    },
+    {
+      "reportLocalEvidenceReferences": "A9 A10",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Import defaults negative normalization/type filtering recovered; binding/schema pipeline unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A25"
+    },
+    {
+      "reportLocalEvidenceReferences": "A9",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Invalid drop preserves scene/error; cancellation/files branches unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A26"
+    },
+    {
+      "reportLocalEvidenceReferences": "A12 A4 A5",
+      "arm": "B",
+      "traceabilityClass": "S",
+      "rationale": "Selection background dark embed scale and outputs recovered.",
+      "rating": "FULL",
+      "factId": "A27"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5 A12",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "Outputs/preview identified; empty guard/encoder/filesystem split unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A28"
+    },
+    {
+      "reportLocalEvidenceReferences": "A5",
+      "arm": "B",
+      "traceabilityClass": "R",
+      "rationale": "SVG viewBox bounds padding paths background recovered; scaling/payload unresolved.",
+      "rating": "PARTIAL",
+      "factId": "A29"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "B",
+      "traceabilityClass": "N",
+      "rationale": "PNG download observed; canvas/blob/metadata pipeline unrecovered.",
+      "rating": "UNKNOWN",
+      "factId": "A30"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A01"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A02"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A03"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A04"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A05"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A06"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A07"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A08"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A09"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A10"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A11"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A12"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A13"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A14"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A15"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A16"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A17"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A18"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A19"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A20"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A21"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A22"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A23"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A24"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A25"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A26"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A27"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A28"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A29"
+    },
+    {
+      "reportLocalEvidenceReferences": "",
+      "arm": "C",
+      "traceabilityClass": "N",
+      "rationale": "Architecture report absent.",
+      "rating": "UNKNOWN",
+      "factId": "A30"
+    }
+  ]
+}

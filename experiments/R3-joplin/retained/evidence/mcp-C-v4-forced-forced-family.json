@@ -1,0 +1,54 @@
+{
+  "AllGone": true,
+  "SurvivingOwned": [],
+  "Owned": [
+    {
+      "ProcessId": 40464,
+      "ParentProcessId": 14452,
+      "CreationDate": "2026-10-18T08:13:36.628934+05:30",
+      "Name": "pwsh.exe"
+    },
+    {
+      "ProcessId": 28880,
+      "ParentProcessId": 40464,
+      "CreationDate": "2026-10-18T08:13:37.363921+05:30",
+      "Name": "pwsh.exe"
+    },
+    {
+      "ProcessId": 40524,
+      "ParentProcessId": 28880,
+      "CreationDate": "2026-10-18T08:13:37.377712+05:30",
+      "Name": "conhost.exe"
+    },
+    {
+      "ProcessId": 40992,
+      "ParentProcessId": 28880,
+      "CreationDate": "2026-10-18T08:13:57.731095+05:30",
+      "Name": "codex.exe"
+    },
+    {
+      "ProcessId": 40760,
+      "ParentProcessId": 40992,
+      "CreationDate": "2026-10-18T08:13:57.744145+05:30",
+      "Name": "conhost.exe"
+    },
+    {
+      "ProcessId": 8564,
+      "ParentProcessId": 40992,
+      "CreationDate": "2026-10-18T08:13:57.94819+05:30",
+      "Name": "codex.exe"
+    },
+    {
+      "ProcessId": 41268,
+      "ParentProcessId": 8564,
+      "CreationDate": "2026-10-18T08:13:58.135744+05:30",
+      "Name": "node.exe"
+    },
+    {
+      "ProcessId": 41368,
+      "ParentProcessId": 41268,
+      "CreationDate": "2026-10-18T08:13:58.164708+05:30",
+      "Name": "conhost.exe"
+    }
+  ]
+}

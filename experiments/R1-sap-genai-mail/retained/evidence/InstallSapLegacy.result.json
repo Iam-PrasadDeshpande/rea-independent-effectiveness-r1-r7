@@ -1,0 +1,10 @@
+{
+    "task":  "InstallSapLegacy",
+    "command":  "npm.cmd install --ignore-scripts --legacy-peer-deps --no-audit --no-fund",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:22:52.1079111Z",
+    "ended_utc":  "2026-10-17T16:24:47.6566017Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

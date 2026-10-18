@@ -1,0 +1,51 @@
+[
+  {
+    "jsonrpc": "2.0",
+    "id": 3,
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"total\":223,\"entries\":[\"node_modules/@electron/remote/package.json\",\"node_modules/@gar/promisify/package.json\"]}"
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 4,
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"entry\":\"package.json\",\"characters\":811,\"start\":0,\"end\":200,\"text\":\"{\\n  \\\"name\\\": \\\"@joplin/app-desktop\\\",\\n  \\\"version\\\": \\\"3.7.21\\\",\\n  \\\"description\\\": \\\"Joplin for Desktop\\\",\\n  \\\"main\\\": \\\"main.bundle.js\\\",\\n  \\\"private\\\": true,\\n  \\\"repository\\\": {\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"url\\\": \\\"git+htt\"}"
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 5,
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"entry\":\"package.json\",\"characters\":811,\"start\":0,\"end\":200,\"text\":\"{\\n  \\\"name\\\": \\\"@joplin/app-desktop\\\",\\n  \\\"version\\\": \\\"3.7.21\\\",\\n  \\\"description\\\": \\\"Joplin for Desktop\\\",\\n  \\\"main\\\": \\\"main.bundle.js\\\",\\n  \\\"private\\\": true,\\n  \\\"repository\\\": {\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"url\\\": \\\"git+htt\"}"
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 6,
+    "result": {
+      "isError": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "Invalid archive entry"
+        }
+      ]
+    }
+  }
+]

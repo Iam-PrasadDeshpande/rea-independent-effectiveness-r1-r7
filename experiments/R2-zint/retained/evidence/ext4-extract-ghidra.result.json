@@ -1,0 +1,13 @@
+{
+  "arguments": [
+    "/usr/bin/unzip",
+    "-q",
+    "-o",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/ghidra.zip",
+    "-d",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/ghidra"
+  ],
+  "elapsedSeconds": 12.3606147,
+  "exit": 0,
+  "utc": "2026-10-17T18:20:05.6951484Z"
+}

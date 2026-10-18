@@ -1,0 +1,86 @@
+{
+  "mode": "reconstruction",
+  "startedAt": "2026-10-18T04:59:18.783Z",
+  "errors": [],
+  "console": [],
+  "workers": [
+    "http://127.0.0.1:42499/submission/solution-worker.js",
+    "http://127.0.0.1:42499/submission/solution-worker.js",
+    "http://127.0.0.1:42499/submission/solution-worker.js",
+    "http://127.0.0.1:42499/submission/solution-worker.js"
+  ],
+  "deniedRequests": [],
+  "scenarios": [
+    {
+      "id": "jpeg-triangle",
+      "status": "OBSERVED",
+      "result": {
+        "input": {
+          "mimeType": "image/jpeg",
+          "filename": "photo.jpg",
+          "sha256": "ab5845aeab798595593b600f017acdfccf66b096209ee3b1041a125e1d32c8a7"
+        },
+        "mimeType": "image/webp",
+        "filename": "photo.webp",
+        "decoded": {
+          "width": 27,
+          "height": 17,
+          "sha256": "a409c3590d1168e41da5adb8ae2d831ceb77b49dcc68e419e4cd0df0958330dd"
+        },
+        "sha256": "05eea4028135090eb454a87c6fa1de8729aa197e99578271c73dafc87e889beb",
+        "size": 142
+      }
+    },
+    {
+      "id": "webp-mitchell",
+      "status": "OBSERVED",
+      "result": {
+        "input": {
+          "mimeType": "image/webp",
+          "filename": "source.webp",
+          "sha256": "3d921ed5c331a876268f1c83ab833273b5ee997379d59d795cabd94cca7c919b"
+        },
+        "mimeType": "image/webp",
+        "filename": "source.webp",
+        "decoded": {
+          "width": 51,
+          "height": 37,
+          "sha256": "d48e2a064a81d235670f55bdcaf5a4f44c777062920425c249bf3236493749f5"
+        },
+        "sha256": "7a0ee18704d3440e003d611e30d24c096f6fa84030519b42e0ee1b5115639eb5",
+        "size": 284
+      }
+    },
+    {
+      "id": "no-resize",
+      "status": "OBSERVED",
+      "result": {
+        "input": {
+          "mimeType": "image/png",
+          "filename": "solid.png",
+          "sha256": "f24d528c93dec4681637c5921e926e045d4828241fc801865ae44b08534af85a"
+        },
+        "mimeType": "image/webp",
+        "filename": "solid.webp",
+        "decoded": {
+          "width": 19,
+          "height": 13,
+          "sha256": "7cd3fe38a226346138cdcc8e4ceb0197ea811b14c2a6c4fd04cffe09dbebfd89"
+        },
+        "sha256": "aba0a0edc428b96364a34cab52296ea564a110cf7536511397f09e8db8990e6a",
+        "size": 74
+      }
+    },
+    {
+      "id": "invalid-quality",
+      "status": "ERROR",
+      "error": "page.evaluate: Error: Encoding error.\n    at worker.onmessage (http://127.0.0.1:42499/submission/solution.js:29:53)\n    at main (/harness/browser-runner.js:64:35)"
+    },
+    {
+      "id": "corrupt",
+      "status": "ERROR",
+      "error": "page.evaluate: Error: Image decoding failed\n    at img.onerror (http://127.0.0.1:42499/submission/solution.js:16:97)\n    at main (/harness/browser-runner.js:64:35)"
+    }
+  ],
+  "finishedAt": "2026-10-18T04:59:19.344Z"
+}

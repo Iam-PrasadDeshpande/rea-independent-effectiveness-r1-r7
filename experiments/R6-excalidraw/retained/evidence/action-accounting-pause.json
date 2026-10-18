@@ -1,0 +1,18 @@
+{
+  "budget": 250,
+  "actionsRemaining": 153,
+  "investigatorDispatchedActions": 0,
+  "status": "PAUSED",
+  "utc": "2026-10-18T02:54:28.9662259Z",
+  "rootToolInvocations": 75,
+  "actionsUsed": 97,
+  "rootByTool": {
+    "followup_task": 1,
+    "sleep": 1,
+    "exec": 71,
+    "spawn_agent": 2
+  },
+  "preparationAccountingBasis": "rea_preflight reported10; oracle_design reported9+3",
+  "preparationAgentActions": 22,
+  "policy": "Root top-level tool invocations after R6 authorization, including pause cleanup and checkpoint, plus reported preparation-agent tool invocations and future dispatched investigator actions. Deterministic internal build/browser/test commands are not extra AI actions."
+}

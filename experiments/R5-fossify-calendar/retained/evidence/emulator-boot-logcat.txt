@@ -1,0 +1,63 @@
+--------- beginning of system
+10-18 07:36:36.178   665   665 I PackageManager: /system/priv-app/ContactsProvider changed; collecting certs
+10-18 07:36:36.185   665   665 W PackageManager: Adding duplicate app id: 10106 name=com.android.providers.contacts
+10-18 07:36:36.193   665   665 I PackageManager: /system/priv-app/CellBroadcastLegacyApp changed; collecting certs
+10-18 07:36:36.209   665   665 I PackageManager: /system/priv-app/LocalTransport changed; collecting certs
+10-18 07:36:36.229   665   665 W PackageManager: Adding duplicate shared id: 1000 name=com.android.localtransport
+10-18 07:36:36.238   665   665 I PackageManager: /system/priv-app/UserDictionaryProvider changed; collecting certs
+10-18 07:36:36.265   665   665 W PackageManager: Adding duplicate app id: 10106 name=com.android.providers.userdictionary
+10-18 07:36:36.298   665   665 I PackageManager: /system/priv-app/FusedLocation changed; collecting certs
+--------- beginning of main
+10-18 07:36:36.348   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.348   665   665 W PackageManager: Adding duplicate shared id: 1000 name=com.android.location.fused
+10-18 07:36:36.359   665   665 I PackageManager: /system/priv-app/TagGoogle changed; collecting certs
+10-18 07:36:36.380   665   665 I PackageManager: New shared user android.uid.calendar: id=10112
+10-18 07:36:36.381   665   665 I PackageManager: /system/priv-app/CalendarProvider changed; collecting certs
+10-18 07:36:36.388   501   501 W libbinder.ServiceManagerCppClient: Waited one second for activity (is service started? Number of threads started in the threadpool: 16. Are binder threads started and available?)
+10-18 07:36:36.410   273   736 W libc    : Unable to set property "ctl.interface_start" to "aidl/activity": PROP_ERROR_HANDLE_CONTROL_MESSAGE (0x20)
+--------- beginning of kernel
+10-18 07:36:36.371     0     0 I servicemanager: Caller(pid=501,uid=1041,sid=u:r:audioserver:s0) Since 'activity' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+10-18 07:36:36.383     0     0 E init    : Control message: Could not find 'aidl/activity' for ctl.interface_start from pid: 273 (/system/bin/servicemanager)
+10-18 07:36:36.387     0     0 I servicemanager: Caller(pid=501,uid=1041,sid=u:r:audioserver:s0) Tried to start aidl service activity as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+10-18 07:36:36.433   665   665 W PackageManager: Adding duplicate app id: 10112 name=com.android.providers.calendar
+10-18 07:36:36.452   665   665 I PackageManager: /system/priv-app/SettingsProvider changed; collecting certs
+10-18 07:36:36.475   665   665 W PackageManager: Adding duplicate shared id: 1000 name=com.android.providers.settings
+10-18 07:36:36.498   665   665 I PackageManager: /system/priv-app/CredentialManager changed; collecting certs
+10-18 07:36:36.532   665   665 I PackageManager: /system/priv-app/DynamicSystemInstallationService changed; collecting certs
+10-18 07:36:36.540   665   665 W PackageManager: Adding duplicate shared id: 1000 name=com.android.dynsystem
+10-18 07:36:36.550   665   665 I PackageManager: /system/priv-app/BackupRestoreConfirmation changed; collecting certs
+10-18 07:36:36.568   665   665 I PackageManager: /system/priv-app/DownloadProviderUi changed; collecting certs
+10-18 07:36:36.580   665   665 W PackageManager: Adding duplicate app id: 10104 name=com.android.providers.downloads.ui
+10-18 07:36:36.582   513   513 I adbd    : adbd service requested 'shell,v2,TERM=dumb,raw:getprop sys.boot_completed'
+10-18 07:36:36.642   665   665 I PackageManager: /system/priv-app/ManagedProvisioning changed; collecting certs
+10-18 07:36:36.673   665   665 I PackageManager: /system/priv-app/DownloadProvider changed; collecting certs
+10-18 07:36:36.689   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.748   665   665 W PackageManager: Adding duplicate app id: 10104 name=com.android.providers.downloads
+10-18 07:36:36.765   665   665 I PackageManager: /system/priv-app/DocumentsUIGoogle changed; collecting certs
+10-18 07:36:36.766   513   513 I adbd    : adbd service requested 'shell,v2,TERM=dumb,raw:getprop init.svc.bootanim'
+10-18 07:36:36.781   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.840   665   731 W PackageParsing: No actions in intent-filter at /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk Binary XML file line #1527
+10-18 07:36:36.859   665   665 I PackageManager: /system/priv-app/EyeDropper changed; collecting certs
+10-18 07:36:36.869   665   731 I PackageParsing: Parse times for '/product/priv-app/PrebuiltBugle': parse=1429ms, update_cache=13 ms
+10-18 07:36:36.894   665   730 I PackageParsing: Parse times for '/product/app/Drive': parse=719ms, update_cache=81 ms
+10-18 07:36:36.895   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.897   513   513 I adbd    : adbd service requested 'shell,v2,TERM=dumb:export ANDROID_LOG_TAGS=''; exec logcat '-d' '-t' '60''
+10-18 07:36:36.904   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.905   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.906   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.909   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.918   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.922   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.923   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.935   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.940   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.945   665   665 I PackageManager: /system/priv-app/ExternalStorageProvider changed; collecting certs
+10-18 07:36:36.949   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.956   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.965   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.975   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.982   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.983   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.991   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.992   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+10-18 07:36:36.992   505   550 W skia    : AGTM parsing failed flags.readFromStream(s) at 159

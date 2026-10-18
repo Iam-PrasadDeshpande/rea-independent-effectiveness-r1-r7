@@ -1,0 +1,75 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "tools": [
+      {
+        "name": "list_archive",
+        "description": "Conventional ASAR inventory; bounded path substring filter.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "filter": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200
+            }
+          }
+        }
+      },
+      {
+        "name": "read_archive_entry",
+        "description": "Conventional ASAR extraction to UTF-8 text, returning a bounded character window and byte location. Never executes target code.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "entry": {
+              "type": "string"
+            },
+            "find": {
+              "type": "string"
+            },
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "length": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12000
+            }
+          },
+          "required": [
+            "entry"
+          ]
+        }
+      },
+      {
+        "name": "parse_archive_entry",
+        "description": "Conventional Babel JavaScript AST inventory of lexical function names and call expressions. No application-level graph or inferred relationships.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "entry": {
+              "type": "string"
+            },
+            "filter": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "entry"
+          ]
+        }
+      }
+    ]
+  }
+}

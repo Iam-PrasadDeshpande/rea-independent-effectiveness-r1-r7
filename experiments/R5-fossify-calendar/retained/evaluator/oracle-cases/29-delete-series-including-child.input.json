@@ -1,0 +1,31 @@
+{
+  "zone": "UTC",
+  "now": 1767484800,
+  "from": 1767225600,
+  "to": 1769990399,
+  "event": {
+    "id": 1,
+    "title": "Synthetic weekly",
+    "startTS": 1767607200,
+    "endTS": 1767610800,
+    "weeklyInterval": 1,
+    "weekdays": [
+      1
+    ],
+    "count": null,
+    "untilTS": null,
+    "remindersMinutes": []
+  },
+  "operations": [
+    {
+      "occurrenceTS": 1768212000,
+      "kind": "editOne",
+      "changes": {
+        "title": "Synthetic child"
+      }
+    },
+    {
+      "kind": "deleteSeries"
+    }
+  ]
+}

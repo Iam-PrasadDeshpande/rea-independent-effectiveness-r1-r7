@@ -1,0 +1,34 @@
+[
+  {
+    "name": "compile",
+    "args": [
+      "node_modules/typescript/bin/tsc",
+      "-p",
+      "tsconfig.build.json"
+    ],
+    "elapsedMs": 19606.6339,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "catalog",
+    "args": [
+      "scripts/record-catalog-digests.mjs"
+    ],
+    "elapsedMs": 13501.5045,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "bundle",
+    "args": [
+      "scripts/bundle-runtime.mjs"
+    ],
+    "elapsedMs": 2388.005400000002,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "\u001b[33m[INEFFECTIVE_DYNAMIC_IMPORT] \u001b[0mdist/composition/binary.js is dynamically imported by dist/composition/directAnalysis.js but also statically imported by dist/main.js, dynamic import will not move module into another chunk.\n\n\u001b[33m[INEFFECTIVE_DYNAMIC_IMPORT] \u001b[0mdist/dotnet/ManagedStaticProvider.js is dynamically imported by dist/composition/auxiliaryAnalysisProviders.js but also statically imported by dist/composition/binary.js, dynamic import will not move module into another chunk.\n\n"
+  }
+]

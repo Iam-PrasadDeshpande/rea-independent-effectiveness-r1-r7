@@ -1,0 +1,9 @@
+{
+  "arm": "rea-arm",
+  "mode": "McpProbe",
+  "probe": "rea-arm-mcp-visibility",
+  "exit_code": 1,
+  "started_utc": "2026-10-17T16:56:20.0413422Z",
+  "ended_utc": "2026-10-17T16:56:39.0892488Z",
+  "elapsed_ms": 19050.6219
+}

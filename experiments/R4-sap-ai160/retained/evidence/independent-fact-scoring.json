@@ -1,0 +1,413 @@
+[
+  {
+    "arm": "A",
+    "score": 14.0,
+    "possible": 16,
+    "facts": [
+      {
+        "fact": "architecture",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 1,
+        "referenceCitation": "ui.js:24573; server.cjs:314; mock-api.cjs:2343",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "toolNames",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:215-229",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "graph",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 3,
+        "referenceCitation": "agent.cjs:230-240",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "state",
+        "earned": 0,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "agent.cjs:238",
+        "reason": "Messages/state behavior described, but the frozen specific MessagesAnnotation state fact is not explicitly identified; conservative zero"
+      },
+      {
+        "fact": "checkpoint",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "agent.cjs:239-240; server.cjs:329-330",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "retrievalFilters",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:116-120",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "supplierFilter",
+        "earned": 0,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:116-120",
+        "reason": "Report lists supported filters but does not explicitly recover absence of supplier filter"
+      },
+      {
+        "fact": "overdue",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:195-210",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "format",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:163-190",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "businessOrdering",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 4,
+        "referenceCitation": "agent.cjs:258-279; 230-240",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "nonOverdueExclusion",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 4,
+        "referenceCitation": "agent.cjs:258-279",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "noteWrite",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 5,
+        "referenceCitation": "agent.cjs:67-89",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "humanGate",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 8,
+        "referenceCitation": "server.cjs:314-385; ui.js:24636-24652",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "duplicates",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "mock-api.cjs:2234; ui.js:24656-24658",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "retry",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 7,
+        "referenceCitation": "agent.cjs:228",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "cancellation",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 7,
+        "referenceCitation": "ui.js:24628-24631",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      }
+    ],
+    "unsupportedMaterialAssertionsObserved": 0,
+    "judgmentScope": "Evaluator manually compared reports to frozen source facts; no independent second human grader; omitted facts score zero, not false claims"
+  },
+  {
+    "arm": "B",
+    "score": 14.0,
+    "possible": 16,
+    "facts": [
+      {
+        "fact": "architecture",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 1,
+        "referenceCitation": "ui.js:24573; server.cjs:314; mock-api.cjs:2343",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "toolNames",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:215-229",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "graph",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 3,
+        "referenceCitation": "agent.cjs:230-240",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "state",
+        "earned": 0,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "agent.cjs:238",
+        "reason": "Messages/state behavior described, but the frozen specific MessagesAnnotation state fact is not explicitly identified; conservative zero"
+      },
+      {
+        "fact": "checkpoint",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "agent.cjs:239-240; server.cjs:329-330",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "retrievalFilters",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:116-120",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "supplierFilter",
+        "earned": 0,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:116-120",
+        "reason": "Report lists supported filters but does not explicitly recover absence of supplier filter"
+      },
+      {
+        "fact": "overdue",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:195-210",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "format",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:163-190",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "businessOrdering",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 4,
+        "referenceCitation": "agent.cjs:258-279; 230-240",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "nonOverdueExclusion",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 4,
+        "referenceCitation": "agent.cjs:258-279",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "noteWrite",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 5,
+        "referenceCitation": "agent.cjs:67-89",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "humanGate",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 8,
+        "referenceCitation": "server.cjs:314-385; ui.js:24636-24652",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "duplicates",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "mock-api.cjs:2234; ui.js:24656-24658",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "retry",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 7,
+        "referenceCitation": "agent.cjs:228",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "cancellation",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 7,
+        "referenceCitation": "ui.js:24628-24631",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      }
+    ],
+    "unsupportedMaterialAssertionsObserved": 0,
+    "judgmentScope": "Evaluator manually compared reports to frozen source facts; no independent second human grader; omitted facts score zero, not false claims"
+  },
+  {
+    "arm": "C",
+    "score": 15.0,
+    "possible": 16,
+    "facts": [
+      {
+        "fact": "architecture",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 1,
+        "referenceCitation": "ui.js:24573; server.cjs:314; mock-api.cjs:2343",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "toolNames",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:215-229",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "graph",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 3,
+        "referenceCitation": "agent.cjs:230-240",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "state",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "agent.cjs:238",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "checkpoint",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "agent.cjs:239-240; server.cjs:329-330",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "retrievalFilters",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:116-120",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "supplierFilter",
+        "earned": 0,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:116-120",
+        "reason": "Report lists supported filters but does not explicitly recover absence of supplier filter"
+      },
+      {
+        "fact": "overdue",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:195-210",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "format",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 2,
+        "referenceCitation": "agent.cjs:163-190",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "businessOrdering",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 4,
+        "referenceCitation": "agent.cjs:258-279; 230-240",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "nonOverdueExclusion",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 4,
+        "referenceCitation": "agent.cjs:258-279",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "noteWrite",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 5,
+        "referenceCitation": "agent.cjs:67-89",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "humanGate",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 8,
+        "referenceCitation": "server.cjs:314-385; ui.js:24636-24652",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "duplicates",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 6,
+        "referenceCitation": "mock-api.cjs:2234; ui.js:24656-24658",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "retry",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 7,
+        "referenceCitation": "agent.cjs:228",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      },
+      {
+        "fact": "cancellation",
+        "earned": 1,
+        "possible": 1,
+        "reportSection": 7,
+        "referenceCitation": "ui.js:24628-24631",
+        "reason": "Correct bounded finding with artifact citation in numbered report section"
+      }
+    ],
+    "unsupportedMaterialAssertionsObserved": 0,
+    "judgmentScope": "Evaluator manually compared reports to frozen source facts; no independent second human grader; omitted facts score zero, not false claims"
+  }
+]

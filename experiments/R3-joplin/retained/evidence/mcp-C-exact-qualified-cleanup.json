@@ -1,0 +1,18 @@
+{
+  "Aliases": [
+    {
+      "ExpectedTarget": "evidence://R3/\\arms\\C-recovery2\\work",
+      "PriorMapping": "",
+      "Absent": true,
+      "Drive": "R:"
+    },
+    {
+      "ExpectedTarget": "evidence://R3/\\tools\\rea-runtime-recovery",
+      "PriorMapping": "",
+      "Absent": true,
+      "Drive": "S:"
+    }
+  ],
+  "ProcessTerminationPrecondition": "Caller confirms owned process/job terminated before cleanup",
+  "UTC": "2026-10-18T02:46:03.4442297Z"
+}

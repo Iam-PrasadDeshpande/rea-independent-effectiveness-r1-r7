@@ -1,0 +1,33 @@
+{
+  "mode": "reconstruction",
+  "startedAt": "2026-10-18T05:08:17.812Z",
+  "errors": [],
+  "console": [],
+  "workers": [
+    "http://127.0.0.1:46167/submission/solution-worker.js"
+  ],
+  "deniedRequests": [],
+  "scenarios": [
+    {
+      "id": "encode-only",
+      "status": "OBSERVED",
+      "result": {
+        "input": {
+          "mimeType": "image/png",
+          "filename": "direct.png",
+          "sha256": "cc9941d541501e5c2c2805e53a50c8c7a12716272344fbe5b727ec0be376965f"
+        },
+        "mimeType": "image/webp",
+        "filename": "direct.webp",
+        "decoded": {
+          "width": 48,
+          "height": 32,
+          "sha256": "65c323f548347a434acedb04092a9339faeed9c28a16982794fbb849d3097555"
+        },
+        "sha256": "2d9707e015c19c95ffbe2ffd4d1613118b727b9de4d6e3a1a18c670be2baff44",
+        "size": 1376
+      }
+    }
+  ],
+  "finishedAt": "2026-10-18T05:08:18.198Z"
+}

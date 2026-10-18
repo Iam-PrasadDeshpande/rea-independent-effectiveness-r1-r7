@@ -1,0 +1,14 @@
+{
+  "Catalog": "Complete5/5SHA256 package validation",
+  "NewProviderCalls": 3,
+  "Isolation": "MXC rootdenial,packageread/outputwrite,networkdenial",
+  "Boundary": "Deterministic component evidence only",
+  "Harness": "Only B,C arm list andtrailingnewlines changed",
+  "Signatures": "Approvedidentity Valid gate/catalog",
+  "CaseIDs": "40 frozen IDs each, no duplicates",
+  "RerunPerformed": false,
+  "Reviewer": "signing_review",
+  "Discrepancies": 0,
+  "Hashes": "Cases/gold matchfreeze; B/C copies unchanged; A matchesoriginal evaluatedcopy",
+  "Behavior": "Independently compared80 actual records with storedexpected and frozen gold; object order ignored,array order retained; no pass flags trusted"
+}

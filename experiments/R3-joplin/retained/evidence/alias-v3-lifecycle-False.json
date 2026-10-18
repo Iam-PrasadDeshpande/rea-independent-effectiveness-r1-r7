@@ -1,0 +1,10 @@
+{
+  "Mapping": "R:\\: => evidence://R3/\\setup-output\\rea-qualified-v2",
+  "ChildStarted": true,
+  "RetargetTest": false,
+  "AliasRemoved": true,
+  "GuardChecks": 1032,
+  "Target": "evidence://R3/\\setup-output\\rea-qualified-v2",
+  "UTC": "2026-10-18T02:38:10.0845302Z",
+  "Failure": null
+}

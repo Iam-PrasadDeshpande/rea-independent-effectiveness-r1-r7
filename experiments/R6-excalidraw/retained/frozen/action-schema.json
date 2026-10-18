@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "done": {
+      "type": "boolean"
+    },
+    "arguments_json": {
+      "type": "string"
+    },
+    "report": {
+      "type": "string"
+    },
+    "tool": {
+      "type": "string"
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "done",
+    "tool",
+    "arguments_json",
+    "report"
+  ]
+}

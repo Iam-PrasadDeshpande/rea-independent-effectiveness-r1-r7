@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIED",
+  "noOwnedProcessesRunning": true,
+  "manifestSha256": "e3994a0fb9fac1b3861185935d2d14ed81632ef238f7fcbc81d549df754793c0",
+  "verifiedFiles": 1474,
+  "utc": "2026-10-18T05:28:05.0782755Z",
+  "disposition": "PASS_WITH_GAPS"
+}

@@ -1,0 +1,134 @@
+{
+  "frozenDrift": 0,
+  "signatures": [
+    {
+      "path": "evidence://R6/\\Compare-R6.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Complete-R6.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Freeze-R6.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Invoke-R6.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Invoke-R6Oracle.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Recover-R6Investigator.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\RecoverComplete-R6.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Run-R6Browser.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Run-R6Gate.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Run-R6Investigator.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\Test-R6Transport.ps1",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\tools\\BrowserHarness.js",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\arms\\A\\submission\\solution.js",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\arms\\B\\submission\\solution.js",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    },
+    {
+      "path": "evidence://R6/\\arms\\C\\submission\\solution.js",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "status": "Valid"
+    }
+  ],
+  "frozenInputs": 403,
+  "utc": "2026-10-18T04:51:17.1029869Z",
+  "sealedSubmissionChecks": [
+    {
+      "unchanged": true,
+      "file": "architecture.md",
+      "arm": "A"
+    },
+    {
+      "unchanged": true,
+      "file": "index.html",
+      "arm": "A"
+    },
+    {
+      "unchanged": true,
+      "file": "investigation.md",
+      "arm": "A"
+    },
+    {
+      "unchanged": true,
+      "file": "solution.js",
+      "arm": "A"
+    },
+    {
+      "unchanged": true,
+      "file": "architecture.md",
+      "arm": "B"
+    },
+    {
+      "unchanged": true,
+      "file": "index.html",
+      "arm": "B"
+    },
+    {
+      "unchanged": true,
+      "file": "investigation.md",
+      "arm": "B"
+    },
+    {
+      "unchanged": true,
+      "file": "solution.js",
+      "arm": "B"
+    },
+    {
+      "unchanged": true,
+      "file": "index.html",
+      "arm": "C"
+    },
+    {
+      "unchanged": true,
+      "file": "solution.js",
+      "arm": "C"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "UTC": "2026-10-18T02:44:27.3834646Z",
+  "Target": "evidence://R3/\\setup-output\\rea-qualified-v2",
+  "Removed": [
+    "R:"
+  ],
+  "ChildStarted": true,
+  "Failure": "CODE_ALIAS_RETARGET_REJECTED",
+  "CleanupFailures": [
+    "OWNERSHIP_MISMATCH S:"
+  ],
+  "PreservedForeignMappings": [
+    "S:\\: => evidence://R3/\\setup-output\\alias-retarget-denied"
+  ],
+  "RetargetTest": false,
+  "GuardChecks": 0,
+  "JobDisposed": true,
+  "RetargetCodeTest": true
+}

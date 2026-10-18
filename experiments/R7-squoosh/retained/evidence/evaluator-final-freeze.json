@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "sha256": "7b0e8b6e5f51e641c1bed5eae7e55f248008a8784327141ed1575e8b87c8d358",
+      "path": "scripts/browser-evaluator-v3.js"
+    },
+    {
+      "sha256": "65e4e97652cc1d1cd5a6d6561d7f9f2c668bd4c6e468eba0c47890cf27a99b2a",
+      "path": "scripts/Invoke-R7Evaluator-v3.ps1"
+    },
+    {
+      "sha256": "8c0874d440cca7f0aa124ddc11bf44eaf23b2fc5286ffccdac7f3a5ea5a4e27c",
+      "path": "scripts/Validate-R7-v4.ps1"
+    }
+  ],
+  "utc": "2026-10-18T05:02:53.5925740Z",
+  "canary": "PASS output-decode failure distinct from reconstruction rejection"
+}

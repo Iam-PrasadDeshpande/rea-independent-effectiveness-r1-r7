@@ -1,0 +1,189 @@
+{
+  "arm": "C",
+  "hostLoadBefore": "0.15 0.64 0.58 1/331 9361",
+  "hostLoadAfter": "0.19 0.53 0.58 1/334 13568",
+  "startedUtc": "2026-10-17T19:11:52.2092638Z",
+  "usage": {
+    "output_tokens": 64788,
+    "cached_input_tokens": 73172864,
+    "input_tokens": 79758068
+  },
+  "endedUtc": "2026-10-17T19:17:36.7359105Z",
+  "transport": "signed-Windows-data-dispatch-no-JS-execution",
+  "actions": [
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 1,
+      "tool": "open_binary"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 2,
+      "tool": "search_strings"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 3,
+      "tool": "xrefs"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 4,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 5,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 6,
+      "tool": "xrefs"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 7,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 8,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 9,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 10,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 11,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 12,
+      "tool": "run_target"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 13,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 14,
+      "tool": "procedure_pseudo_code"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 15,
+      "tool": "exec_cli"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 16,
+      "tool": "exec_cli"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 17,
+      "tool": "run_target"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 18,
+      "tool": "run_target"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 19,
+      "tool": "write_file"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 20,
+      "tool": "compile_cpp"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 21,
+      "tool": "run_cpp"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 22,
+      "tool": "run_target"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 23,
+      "tool": "run_cpp"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 24,
+      "tool": "run_target"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 25,
+      "tool": "run_cpp"
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "number": 26,
+      "tool": "run_cpp"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 27,
+      "tool": "export_evidence_bundle"
+    },
+    {
+      "server": "rea",
+      "isError": null,
+      "number": 28,
+      "tool": "close_binary"
+    }
+  ],
+  "elapsedSeconds": 344.4090513,
+  "thread": "01a14b47-36de-7783-a221-3b1615d947da",
+  "turns": 29,
+  "dollarCost": null,
+  "stopReason": "completed",
+  "dispatchedToolCalls": 28
+}

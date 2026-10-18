@@ -1,0 +1,13 @@
+{
+  "path": "evidence://R6/\\downloads\\source.tar",
+  "kind": "SOURCE_ONLY_NOT_FINAL_EVIDENCE_ARCHIVE",
+  "sha256": "ee0e78a194e32071ef11b6f4b9d119312c07de339063cc4fd8ff4b83fece1907",
+  "members": 1234,
+  "payloadBytesRead": 52757233,
+  "structureRead": "PASS",
+  "finalEvidenceArchive": "NOT_LOCATED_IN_INSPECTED_R6_WINDOWS_AND_NATIVE_ROOTS",
+  "finalJob": "COMPLETED_EXIT_0; final-evidence-manifest.json written; 8994 entries",
+  "historicalWording": "Archive job completion had not been read back; retained final command actually generates an evidence manifest and SHA256 sidecar, not a ZIP/TAR archive",
+  "retainedCommandId": "exec-9a042b40-98e7-48f6-a372-960df1a0069b",
+  "threadId": "01a14cd5-1a81-7b93-911b-3aa03a2e764e"
+}

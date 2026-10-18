@@ -1,0 +1,141 @@
+{
+  "MISSION": "REA_CODEX_JOPLIN_SEMANTIC_SEARCH_R3",
+  "State": "CLOSED_BOUNDED_EXPERIMENT_WITH_LIMITATIONS",
+  "UTC": "2026-10-18T03:25:22.5756752Z",
+  "ACTIONS_USED_TOTAL": 495,
+  "ACTIONS_REMAINING": "Not applicable; owner E2E extension had no numeric ceiling; current mission closed",
+  "ActionBreakdown": {
+    "RootProviderAndDispatch": 373,
+    "SigningReviewer": 27,
+    "ArchitectureAdjudicator": 18,
+    "PriorInvestigatorItems": 31,
+    "BRecovery2": 9,
+    "BRecovery3": 8,
+    "BRecovery4OwnerInterrupted": 2,
+    "BRecovery5": 9,
+    "BRecovery6": 8,
+    "CRecovery2": 8,
+    "PolicyDiagnosticItems": 2
+  },
+  "CountingConvention": "Cumulative provider/dispatch plus recorded model-investigator items; failed calls and ninth attempted items count; routing/waits excluded. Prior403 preserved; no counter reset.",
+  "ARM_A_RESULT": "VALID;40/40;original preserved",
+  "ARM_B_RESULT": "VALID recovery6;40/40;successful conventional ASAR facility",
+  "ARM_C_RESULT": "VALID recovery2 facility-use investigation;40/40;successful REA analysis limited to peripheral module",
+  "REA_INVOCATION_VERIFIED": true,
+  "BEHAVIORAL_TEST_RESULTS": {
+    "Comparison": "Exact returned values/errors and dependency-call traces against40 frozen gold cases",
+    "B": "40/40 independently verified",
+    "CandidatesUnchanged": true,
+    "A": "40/40 original receipt retained",
+    "C": "40/40 independently verified"
+  },
+  "ARCHITECTURE_ADJUDICATION": {
+    "AllFactsPerArm": 15,
+    "Maximum": 30,
+    "IncorrectMaterialClaim": "A clearAll table-drop assertion; original code only deletes rows",
+    "A": 27,
+    "SupplementalCitations": {
+      "B": "22/22 supported",
+      "A": "44/45 supported",
+      "C": "41/44 supported"
+    },
+    "C": 25,
+    "ReportCitations": {
+      "B": "19/19 supported",
+      "A": "32/37 supported",
+      "C": "48/49 supported"
+    },
+    "Complete": true,
+    "B": 11
+  },
+  "REA_INCREMENTAL_VALUE": {
+    "Reason": "REA analysed490byte clipboard module; target retrieval reconstructed from ordinary bundle inspection. One retained valid run perarm, operative prompt/recovery and coverage differences preclude causal superiority.",
+    "CausalREAEffect": "UNKNOWN; no REA-specific effectiveness gain demonstrated",
+    "ObservedBehavioralGain": "0 additional passing cases versus A or B",
+    "ArchitectureCminusB": 14,
+    "Capability": "Retained structured static evidence IDs, artifact digest and explicit partial coverage verified",
+    "ArchitectureCminusA": -2
+  },
+  "TOKEN_AND_LATENCY": {
+    "ValidArms": [
+      {
+        "Session": "A",
+        "WallSeconds": 146.4966187,
+        "ToolActions": 8,
+        "Input": 249996,
+        "CachedInput": 182400,
+        "Output": 8041,
+        "ReasoningOutput": 590,
+        "StopReason": "COMPLETED",
+        "ExitCode": 0,
+        "PeakCliBytes": 289804288,
+        "SelectedValidArm": true
+      },
+      {
+        "Session": "B-recovery6",
+        "WallSeconds": 147.4684058,
+        "ToolActions": 8,
+        "Input": 271586,
+        "CachedInput": 234240,
+        "Output": 5346,
+        "ReasoningOutput": 380,
+        "StopReason": "COMPLETED",
+        "ExitCode": 0,
+        "PeakCliBytes": 274100224,
+        "SelectedValidArm": true
+      },
+      {
+        "Session": "C-recovery2",
+        "WallSeconds": 272.7647969,
+        "ToolActions": 8,
+        "Input": 480277,
+        "CachedInput": 386048,
+        "Output": 9583,
+        "ReasoningOutput": 529,
+        "StopReason": "COMPLETED",
+        "ExitCode": 0,
+        "PeakCliBytes": 273977344,
+        "SelectedValidArm": true
+      }
+    ],
+    "KnownAllAttemptOutput": 52112.0,
+    "RootReviewerTokenCost": "UNKNOWN",
+    "MonetaryCost": "UNKNOWN; no billing evidence",
+    "KnownAllAttemptCached": 1479424.0,
+    "MissingUsageSessions": [
+      "A-argument-rejected",
+      "A-startup-rejected",
+      "B-recovery2",
+      "B-recovery4",
+      "B-recovery5",
+      "C-recovery1"
+    ],
+    "Recovery": "Separately retained in FINAL_TOKEN_LATENCY.json and failed-attempt/preflight receipts",
+    "Contention": "C overlapped B catalog setup; B overlapped independent architecture review. CLI/host and setup-process samples only; no clean speedup claim.",
+    "KnownAllAttemptInput": 1899997.0
+  },
+  "SIGNING_STATUS": "PASS for active approved-identity gates/catalogs; independent complete5/5 final-package validation; immutable code and MXC retained",
+  "EVIDENCE_INTEGRITY": {
+    "NoOracleOrCandidateRepair": true,
+    "AliasesAbsent": true,
+    "LiveInvestigators": 0,
+    "Manifest": "evidence/FINAL_EVIDENCE_MANIFEST.json",
+    "OriginalAUnchanged": true,
+    "SourceFilesChecked": 18,
+    "PinnedInputs": true,
+    "SourceMismatches": 0
+  },
+  "LIMITATIONS": [
+    "REA core-bundle analysis timed out120s; actual C analysis covers only490byte clipboard module and leaves2848 files unselected",
+    "No causal or generalized REA superiority claim; single target/order and failed-attempt selection, operational clarifications and tool-coverage differences",
+    "No full application/UI,real SQLite/indexer integration,real embedding/model-quality validation",
+    "Sanitized artifact structural validation does not prove runtime equivalence",
+    "No full process-family CPU/memory or causal host contention measurement; incomplete usage on interrupted attempts and unknown actual monetary cost",
+    "R3-specific SUBST qualification, not a claim of upstream general Windows/P0 support",
+    "Runtime npm6.5.0 publication commit3b79af28 differs preferred later742b6f58; full attestation chain not verified"
+  ],
+  "FINAL_DISPOSITION": "COMPLETED_BOUNDED_THREE_ARM_EXPERIMENT_WITH_LIMITATIONS; NO_REA_BENEFIT_DEMONSTRATED; NOT_A_FULL_APPLICATION_PASS",
+  "IrreducibleAuthorizationBlockers": [],
+  "NEXT_ACTION": "NONE_REQUIRED_FOR_R3_CLOSURE; any broader core-coverage/model-quality experiment requires new scoped authorization",
+  "Report": "reports/FINAL_REPORT.md"
+}

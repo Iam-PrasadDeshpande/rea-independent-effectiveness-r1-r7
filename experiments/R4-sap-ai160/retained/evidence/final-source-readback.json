@@ -1,0 +1,27 @@
+{
+  "sapCommit": "222db8ceaed6f4694eda0c1207bfea8777d11994",
+  "reaCommit": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc",
+  "sapChanged": [
+    " M exercises/javascript/app/agent/src/po-agent.ts",
+    " M exercises/javascript/app/agent/src/tools/create-note.ts",
+    " M exercises/javascript/app/agent/src/tools/get-purchase-order-item.ts",
+    " M exercises/javascript/app/ui/src/App.tsx",
+    "?? exercises/javascript/app/agent/.r4build/",
+    "?? exercises/javascript/app/agent/src/po-agent.js",
+    "?? exercises/javascript/app/agent/src/server.js",
+    "?? exercises/javascript/app/agent/src/setup.js",
+    "?? exercises/javascript/app/agent/src/tools/calculate-overdue.js",
+    "?? exercises/javascript/app/agent/src/tools/create-note.js",
+    "?? exercises/javascript/app/agent/src/tools/format-response.js",
+    "?? exercises/javascript/app/agent/src/tools/get-purchase-order-item.js",
+    "?? exercises/javascript/app/mock-server/src/app.js",
+    "?? exercises/javascript/app/mock-server/src/odata-helpers.js",
+    "?? exercises/javascript/app/mock-server/src/purchase-order/purchase-order-api.js",
+    "?? exercises/javascript/app/mock-server/src/purchase-order/purchase-order-data.js",
+    "?? exercises/javascript/app/mock-server/src/purchase-order/purchase-order-model.js",
+    "?? exercises/javascript/app/mock-server/src/server.js",
+    "?? exercises/javascript/app/ui/dist/"
+  ],
+  "reaChanged": [],
+  "scope": "SAP exercise completion plus separately recorded UI Boolean type repair; REA tracked source clean"
+}

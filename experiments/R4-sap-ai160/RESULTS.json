@@ -1,0 +1,186 @@
+{
+  "originalDisposition": "QUALIFIED_BOUNDED_POC",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "BOUNDED_CLOSURE_SUPPORTED_WITH_RETAINED_LIMITATIONS",
+  "sourceReportSha256": "5c2e85573066254c59f569a899ac996b61ec7780b6500a88d569295f3d1d8844",
+  "poc": "R4",
+  "recordedResults": [
+    {
+      "experiment": "R4",
+      "arm": "A",
+      "total": 12,
+      "passed": 12,
+      "scope": "Recomputed retained helper values/error occurrence against frozen cases",
+      "source": "R4/evidence/reconstruction-results.json",
+      "detail": [
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "C09",
+          "match": true
+        },
+        {
+          "id": "C10",
+          "match": true
+        },
+        {
+          "id": "C11",
+          "match": true
+        },
+        {
+          "id": "C12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R4",
+      "arm": "B",
+      "total": 12,
+      "passed": 12,
+      "scope": "Recomputed retained helper values/error occurrence against frozen cases",
+      "source": "R4/evidence/reconstruction-results.json",
+      "detail": [
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "C09",
+          "match": true
+        },
+        {
+          "id": "C10",
+          "match": true
+        },
+        {
+          "id": "C11",
+          "match": true
+        },
+        {
+          "id": "C12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R4",
+      "arm": "C",
+      "total": 12,
+      "passed": 12,
+      "scope": "Recomputed retained helper values/error occurrence against frozen cases",
+      "source": "R4/evidence/reconstruction-results.json",
+      "detail": [
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "C09",
+          "match": true
+        },
+        {
+          "id": "C10",
+          "match": true
+        },
+        {
+          "id": "C11",
+          "match": true
+        },
+        {
+          "id": "C12",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "name": "SAP AI160 Purchase Order Agent",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "222db8ceaed6f4694eda0c1207bfea8777d11994"
+}

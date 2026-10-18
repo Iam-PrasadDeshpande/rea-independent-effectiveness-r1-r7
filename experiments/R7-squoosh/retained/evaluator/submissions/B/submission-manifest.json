@@ -1,0 +1,26 @@
+[
+  {
+    "file": "investigation.md",
+    "sha256": "c65b9953debd7d16f502bcab25a6ec5a342536e4b41daf0bdf980c58ed22e76f"
+  },
+  {
+    "file": "report.md",
+    "sha256": "7a056974b7b87f281e6ae84f5f5c3a15e20c809c2f14b32b6dd045abd31414d8"
+  },
+  {
+    "file": "result.json",
+    "sha256": "0a897cc34a57a63327390da080dac093a79ef4fed7fde11e0947eeee84df1b80"
+  },
+  {
+    "file": "signing-recovery-probe.js",
+    "sha256": "8f933b567470d848c19c5ad17b5c9af8413bbb20c08a727c7ad592fcfc81e5fe"
+  },
+  {
+    "file": "solution-worker.js",
+    "sha256": "5e5c0daa5972c5d12734918773638f867c083ac326341ac6d41049cc16ab4539"
+  },
+  {
+    "file": "solution.js",
+    "sha256": "015e23df479d05e61f86e147cd31ec5fbea776d8c08803b51964d27acfe91840"
+  }
+]

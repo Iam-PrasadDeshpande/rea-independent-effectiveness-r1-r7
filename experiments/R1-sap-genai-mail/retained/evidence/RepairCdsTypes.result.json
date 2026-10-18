@@ -1,0 +1,10 @@
+{
+    "task":  "RepairCdsTypes",
+    "command":  "npm.cmd run dependencies --prefix node_modules/@cap-js/cds-types",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:59:36.8059480Z",
+    "ended_utc":  "2026-10-17T16:59:37.3362552Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

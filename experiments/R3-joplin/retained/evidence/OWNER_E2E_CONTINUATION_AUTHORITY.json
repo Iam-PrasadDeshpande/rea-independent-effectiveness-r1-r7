@@ -1,0 +1,9 @@
+{
+  "Mission": "REA_CODEX_JOPLIN_SEMANTIC_SEARCH_R3",
+  "Authorization": "Owner approved extra budget till E2E completion",
+  "Counting": "Cumulative action ledger retained; no reset",
+  "Scope": "Existing R3 only",
+  "NumericCeiling": null,
+  "PreviousCeiling": 290,
+  "Boundaries": "Frozen evidence, signing, isolation and protected actions unchanged"
+}

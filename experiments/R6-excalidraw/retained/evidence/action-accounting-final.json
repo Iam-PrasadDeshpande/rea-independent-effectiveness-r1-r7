@@ -1,0 +1,10 @@
+{
+  "preparationAgentActions": 22,
+  "investigatorDispatchedActions": 68,
+  "architectureAgentActions": 2,
+  "utc": "2026-10-18T05:24:55.8273246Z",
+  "rootToolInvocations": 158,
+  "used": 250,
+  "budget": 250,
+  "remaining": 0
+}

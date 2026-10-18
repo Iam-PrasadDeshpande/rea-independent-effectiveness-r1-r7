@@ -1,0 +1,30 @@
+{
+  "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "Verdict": "QUALIFIED",
+  "UTC": "2026-10-18T03:13:04.6803462Z",
+  "CatalogStatus": "Valid",
+  "NoNewPermissions": true,
+  "FullCatalogValidation": "Succeeded in signed launch gate before MCP startup",
+  "PathFixtureResults": [
+    {
+      "isError": false,
+      "text": "{\"total\":223,\"entries\":[\"node_modules/@electron/remote/package.json\",\"node_modules/@gar/promisify/package.json\"]}",
+      "id": 3
+    },
+    {
+      "isError": false,
+      "text": "{\"entry\":\"package.json\",\"characters\":811,\"start\":0,\"end\":200,\"text\":\"{\\n  \\\"name\\\": \\\"@joplin/app-desktop\\\",\\n  \\\"version\\\": \\\"3.7.21\\\",\\n  \\\"description\\\": \\\"Joplin for Desktop\\\",\\n  \\\"main\\\": \\\"main.bundle.js\\\",\\n  \\\"private\\\": true,\\n  \\\"repository\\\": {\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"url\\\": \\\"git+htt\"}",
+      "id": 4
+    },
+    {
+      "isError": false,
+      "text": "{\"entry\":\"package.json\",\"characters\":811,\"start\":0,\"end\":200,\"text\":\"{\\n  \\\"name\\\": \\\"@joplin/app-desktop\\\",\\n  \\\"version\\\": \\\"3.7.21\\\",\\n  \\\"description\\\": \\\"Joplin for Desktop\\\",\\n  \\\"main\\\": \\\"main.bundle.js\\\",\\n  \\\"private\\\": true,\\n  \\\"repository\\\": {\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"url\\\": \\\"git+htt\"}",
+      "id": 5
+    },
+    {
+      "isError": true,
+      "text": "Invalid archive entry",
+      "id": 6
+    }
+  ]
+}

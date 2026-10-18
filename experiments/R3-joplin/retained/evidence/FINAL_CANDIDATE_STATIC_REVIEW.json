@@ -1,0 +1,9 @@
+{
+  "Review": "Both are pure exported search functions using supplied dependencies only; no imports, filesystem/network/process/eval/target execution",
+  "C": "arms/C-recovery2/work/component.mjs",
+  "Boundary": "Review for safe evaluation only; no candidate modifications",
+  "BHash": "3DEDC70B10C7367730AE988E604D806DC623F1F498DD19A81A6F144976DDF811",
+  "CHash": "5CA6DF418F0399A72BB69D86F25498C607CF5AD82C33B07BA857A43302A67D79",
+  "UTC": "2026-10-18T03:19:30.6826652Z",
+  "B": "arms/B-recovery6/work/component.mjs"
+}

@@ -1,0 +1,10 @@
+{
+    "task":  "PinParserDependency",
+    "command":  "npm.cmd install --no-save --ignore-scripts --legacy-peer-deps --no-audit --no-fund ts-node@10.9.2 zod-to-json-schema@3.24.1",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:29:58.3207960Z",
+    "ended_utc":  "2026-10-17T16:30:00.7437206Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

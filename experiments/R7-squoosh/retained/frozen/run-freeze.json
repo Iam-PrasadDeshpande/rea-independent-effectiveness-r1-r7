@@ -1,0 +1,17 @@
+{
+  "frozenUtc": "2026-10-18T02:46:33.8465440Z",
+  "files": [
+    {
+      "path": "scripts/Run-R7DataInvestigator.ps1",
+      "sha256": "daae0ea8a7ab3153fa1c56842e138884d29a451773a5f09007afd57a8541052f"
+    },
+    {
+      "path": "HARNESS_AMENDMENT.md",
+      "sha256": "82bd3a606a128c61dcfa010a653c309a38dbbae66249b2274b53bfb9f7989ac6"
+    },
+    {
+      "path": "frozen/action-schema.json",
+      "sha256": "3a68ffa0c123b3be11965b59da4a1a985762e996147c228d4cfa90296aa5a363"
+    }
+  ]
+}

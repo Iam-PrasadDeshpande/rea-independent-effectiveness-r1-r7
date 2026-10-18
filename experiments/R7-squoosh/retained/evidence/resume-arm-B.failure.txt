@@ -1,0 +1,6 @@
+Exception: evidence://R7/\scripts\Resume-R7B.ps1:12
+Line |
+  12 |  … =$read.GetAwaiter().GetResult();if(!$line){throw 'MCP closed'};$reply …
+     |                                               ~~~~~~~~~~~~~~~~~~
+     | MCP closed
+

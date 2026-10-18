@@ -1,0 +1,95 @@
+[
+  {
+    "arm": "baseline",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning": "low",
+    "elapsed_ms": 189302.5842,
+    "usage": {
+      "input_tokens": 190805,
+      "cached_input_tokens": 157312,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7910,
+      "reasoning_output_tokens": 584
+    },
+    "command_count": 5,
+    "mcp_calls": [],
+    "file_changes": 2,
+    "commands": [
+      {
+        "command": "/bin/bash -lc 'rg --files artifact'",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc 'nl -ba artifact/package.json; nl -ba artifact/srv/mail-insights-service.js; nl -ba artifact/srv/constants.js; nl -ba artifact/srv/schemas.js; nl -ba artifact/srv/types.js; nl -ba artifact/srv/utils/ai-core.js'",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc \"nl -ba artifact/srv/mail-insights-service.js | sed -n '373,595p'\"",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc \"nl -ba artifact/srv/mail-insights-service.js | sed -n '263,365p;596,630p'; wc -l -c artifact/package.json artifact/srv/*.js artifact/srv/utils/*.js\"",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc 'wc -l -c output/investigation.md; tail -n 5 output/investigation.md'",
+        "exit_code": 0
+      }
+    ]
+  },
+  {
+    "arm": "rea-arm",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning": "low",
+    "elapsed_ms": 190753.2123,
+    "usage": {
+      "input_tokens": 260453,
+      "cached_input_tokens": 197248,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7334,
+      "reasoning_output_tokens": 238
+    },
+    "command_count": 6,
+    "mcp_calls": [
+      {
+        "server": "rea",
+        "tool": "analyze_javascript_application",
+        "status": "completed",
+        "error": null
+      },
+      {
+        "server": "rea",
+        "tool": "inspect_analysis_view",
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "file_changes": 1,
+    "commands": [
+      {
+        "command": "/bin/bash -lc 'rg --files artifact'",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc 'nl -ba artifact/srv/mail-insights-service.js'",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc \"nl -ba artifact/srv/mail-insights-service.js | sed -n '1,269p'\"",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc 'nl -ba artifact/package.json; nl -ba artifact/srv/utils/ai-core.js; nl -ba artifact/srv/constants.js; nl -ba artifact/srv/types.js; nl -ba artifact/srv/schemas.js'",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc \"nl -ba artifact/srv/mail-insights-service.js | sed -n '269,415p'\"",
+        "exit_code": 0
+      },
+      {
+        "command": "/bin/bash -lc \"nl -ba artifact/srv/mail-insights-service.js | sed -n '422,630p'\"",
+        "exit_code": 0
+      }
+    ]
+  }
+]

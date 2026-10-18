@@ -1,0 +1,1406 @@
+[
+  {
+    "arm": "A",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C01_png_default.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C01_png_default.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C01_png_default.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C02_jpeg_decode.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C02_jpeg_decode.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C02_jpeg_decode.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C03_webp_decode.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C03_webp_decode.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C03_webp_decode.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C04_misleading_name.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C04_misleading_name.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C04_misleading_name.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C05_alpha_lossy.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C05_alpha_lossy.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C05_alpha_lossy.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C06_alpha_lossless.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C06_alpha_lossless.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C06_alpha_lossless.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C07_one_pixel.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C07_one_pixel.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C07_one_pixel.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C08_odd_dimensions.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C08_odd_dimensions.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C08_odd_dimensions.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C09_down_lanczos.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C09_down_lanczos.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C09_down_lanczos.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C10_up_lanczos.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C10_up_lanczos.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C10_up_lanczos.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C11_portrait_stretch.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C11_portrait_stretch.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C11_portrait_stretch.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C12_center_crop.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C12_center_crop.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C12_center_crop.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C13_triangle.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C13_triangle.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C13_triangle.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C14_catrom.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C14_catrom.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C14_catrom.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C15_mitchell.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C15_mitchell.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C15_mitchell.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C16_no_premultiply.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C16_no_premultiply.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C16_no_premultiply.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C17_no_linearRGB.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C17_no_linearRGB.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C17_no_linearRGB.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C18_alpha_no_flags.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C18_alpha_no_flags.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C18_alpha_no_flags.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C19_quality_zero.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C19_quality_zero.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C19_quality_zero.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C20_quality_hundred.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C20_quality_hundred.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C20_quality_hundred.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C21_fast_method.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C21_fast_method.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C21_fast_method.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C22_slow_method.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C22_slow_method.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C22_slow_method.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C23_near_lossless.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C23_near_lossless.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C23_near_lossless.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C24_alpha_quality_zero.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C24_alpha_quality_zero.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C24_alpha_quality_zero.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C25_sharp_yuv.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C25_sharp_yuv.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C25_sharp_yuv.input",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C26_no_filter_sns.webp",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C26_no_filter_sns.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "A",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\A\\C26_no_filter_sns.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C01_png_default.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C01_png_default.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C01_png_default.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C02_jpeg_decode.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C02_jpeg_decode.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C02_jpeg_decode.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C03_webp_decode.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C03_webp_decode.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C03_webp_decode.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C04_misleading_name.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C04_misleading_name.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C04_misleading_name.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C05_alpha_lossy.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C05_alpha_lossy.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C05_alpha_lossy.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C06_alpha_lossless.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C06_alpha_lossless.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C06_alpha_lossless.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C07_one_pixel.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C07_one_pixel.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C07_one_pixel.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C08_odd_dimensions.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C08_odd_dimensions.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C08_odd_dimensions.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C09_down_lanczos.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C09_down_lanczos.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C09_down_lanczos.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C10_up_lanczos.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C10_up_lanczos.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C10_up_lanczos.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C11_portrait_stretch.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C11_portrait_stretch.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C11_portrait_stretch.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C12_center_crop.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C12_center_crop.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C12_center_crop.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C13_triangle.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C13_triangle.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C13_triangle.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C14_catrom.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C14_catrom.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C14_catrom.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C15_mitchell.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C15_mitchell.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C15_mitchell.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C16_no_premultiply.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C16_no_premultiply.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C16_no_premultiply.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C17_no_linearRGB.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C17_no_linearRGB.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C17_no_linearRGB.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C18_alpha_no_flags.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C18_alpha_no_flags.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C18_alpha_no_flags.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C19_quality_zero.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C19_quality_zero.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C19_quality_zero.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C20_quality_hundred.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C20_quality_hundred.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C20_quality_hundred.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C21_fast_method.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C21_fast_method.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C21_fast_method.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C22_slow_method.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C22_slow_method.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C22_slow_method.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C23_near_lossless.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C23_near_lossless.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C23_near_lossless.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C24_alpha_quality_zero.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C24_alpha_quality_zero.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C24_alpha_quality_zero.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C25_sharp_yuv.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C25_sharp_yuv.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C25_sharp_yuv.input",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C26_no_filter_sns.webp",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C26_no_filter_sns.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "B",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\B\\C26_no_filter_sns.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C01_png_default.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C01_png_default.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C01_png_default",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C01_png_default.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C02_jpeg_decode.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C02_jpeg_decode.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C02_jpeg_decode",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C02_jpeg_decode.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C03_webp_decode.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C03_webp_decode.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C03_webp_decode",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C03_webp_decode.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C04_misleading_name.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C04_misleading_name.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C04_misleading_name",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C04_misleading_name.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C05_alpha_lossy.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C05_alpha_lossy.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C05_alpha_lossy",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C05_alpha_lossy.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C06_alpha_lossless.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C06_alpha_lossless.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C06_alpha_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C06_alpha_lossless.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C07_one_pixel.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C07_one_pixel.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C07_one_pixel",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C07_one_pixel.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C08_odd_dimensions.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C08_odd_dimensions.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C08_odd_dimensions",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C08_odd_dimensions.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C09_down_lanczos.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C09_down_lanczos.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C09_down_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C09_down_lanczos.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C10_up_lanczos.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C10_up_lanczos.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C10_up_lanczos",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C10_up_lanczos.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C11_portrait_stretch.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C11_portrait_stretch.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C11_portrait_stretch",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C11_portrait_stretch.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C12_center_crop.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C12_center_crop.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C12_center_crop",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C12_center_crop.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C13_triangle.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C13_triangle.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C13_triangle",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C13_triangle.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C14_catrom.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C14_catrom.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C14_catrom",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C14_catrom.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C15_mitchell.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C15_mitchell.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C15_mitchell",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C15_mitchell.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C16_no_premultiply.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C16_no_premultiply.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C16_no_premultiply",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C16_no_premultiply.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C17_no_linearRGB.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C17_no_linearRGB.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C17_no_linearRGB",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C17_no_linearRGB.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C18_alpha_no_flags.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C18_alpha_no_flags.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C18_alpha_no_flags",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C18_alpha_no_flags.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C19_quality_zero.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C19_quality_zero.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C19_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C19_quality_zero.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C20_quality_hundred.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C20_quality_hundred.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C20_quality_hundred",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C20_quality_hundred.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C21_fast_method.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C21_fast_method.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C21_fast_method",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C21_fast_method.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C22_slow_method.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C22_slow_method.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C22_slow_method",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C22_slow_method.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C23_near_lossless.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C23_near_lossless.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C23_near_lossless",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C23_near_lossless.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C24_alpha_quality_zero.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C24_alpha_quality_zero.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C24_alpha_quality_zero",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C24_alpha_quality_zero.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C25_sharp_yuv.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C25_sharp_yuv.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C25_sharp_yuv",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C25_sharp_yuv.input",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C26_no_filter_sns.webp",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C26_no_filter_sns.decoded.rgba",
+    "match": true
+  },
+  {
+    "arm": "C",
+    "id": "C26_no_filter_sns",
+    "path": "evidence://R7/\\evaluator\\results\\C\\C26_no_filter_sns.input",
+    "match": true
+  }
+]

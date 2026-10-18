@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-18T05:55:21.065403+00:00",
+  "manifest": "evidence://PORTFOLIO/\\REA-R1-R7-EVIDENCE-MANIFEST.json",
+  "manifestSha256": "5ab64a2fe87eec0653de4d7aeedc43aea330d63988fd8f96c97de702545ebfbc",
+  "entries": 15489,
+  "verified": 15489,
+  "bytesRead": 2595100391,
+  "discrepancies": [],
+  "documentAndEvidenceChecks": {
+    "sevenExperiments": true,
+    "reportSections": true,
+    "linkedInSections": true,
+    "linkedInNoPrivatePaths": true,
+    "closureChecks": true,
+    "freezeExceptionPreserved": true,
+    "signatures": true,
+    "detachedR4": true,
+    "r7OutputFiles": true,
+    "r1SourceFiles": true,
+    "finalFreezeHeld": true,
+    "manifestSealMatches": true
+  },
+  "verification": "PASS_CURRENT_BYTE_BASELINE",
+  "qualification": "AUDIT_COMPLETE_WITH_GAPS;FINAL_FREEZE_HOLD",
+  "limits": "Readback proves these current bytes match new manifest. It does not resolve old R1 freeze exception, sign the baseline, create an archive, rerun experiments or certify external trust."
+}

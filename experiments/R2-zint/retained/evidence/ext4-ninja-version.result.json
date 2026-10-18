@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-17T18:23:15.2804126Z",
+  "arguments": [
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/ninja/ninja",
+    "--version"
+  ],
+  "exit": 0,
+  "elapsedSeconds": 0.1813122
+}

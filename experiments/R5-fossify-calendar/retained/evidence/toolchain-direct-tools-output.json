@@ -1,0 +1,553 @@
+{
+  "id": 2,
+  "result": {
+    "tools": [
+      {
+        "name": "status",
+        "inputSchema": {
+          "properties": {},
+          "type": "object"
+        },
+        "description": "Report whether an APK is loaded and basic info (path, class count, resource count, load duration)."
+      },
+      {
+        "name": "load_apk",
+        "inputSchema": {
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Absolute path to the APK / DEX / JAR."
+            },
+            "include_packages": {
+              "type": "string",
+              "description": "Comma-separated package/FQN prefixes to KEEP (e.g. com.gcash,com.mynt). Overrides CLI --include-packages for this load."
+            },
+            "exclude_packages": {
+              "type": "string",
+              "description": "Comma-separated package prefixes to DROP (e.g. androidx,kotlin). Overrides CLI --exclude-packages for this load."
+            },
+            "threads": {
+              "type": "integer",
+              "description": "jadx pre-decompile workers. 0 = all cores. Omit to keep the server default (min(CPU,4))."
+            },
+            "code_cache_size": {
+              "type": "integer",
+              "description": "Max decompiled top-level classes kept in RAM (LRU). 0 = unlimited. Omit to keep the server default (64)."
+            },
+            "resources": {
+              "type": "string",
+              "description": "full | lite | none. lite keeps Manifest+strings+arsc; none hides non-manifest resources. jadx 1.5.6 still parses arsc at load."
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "type": "object"
+        },
+        "description": "Load an APK / DEX / JAR. Replaces any currently-loaded file. Blocks until indexing completes (typically a few seconds to a minute depending on size). Optional include_packages/exclude_packages, threads, code_cache_size, resources (full|lite|none) override the server CLI defaults for this load."
+      },
+      {
+        "name": "unload_apk",
+        "inputSchema": {
+          "properties": {},
+          "type": "object"
+        },
+        "description": "Release the currently-loaded APK and free memory. No-op if nothing is loaded."
+      },
+      {
+        "name": "get_app_info",
+        "inputSchema": {
+          "properties": {},
+          "type": "object"
+        },
+        "description": "Return package name, version, minSdk/targetSdk, and permissions parsed from AndroidManifest.xml."
+      },
+      {
+        "name": "get_android_manifest",
+        "inputSchema": {
+          "properties": {
+            "section": {
+              "type": "string",
+              "description": "One of: permissions, activities, services, providers, receivers, application. Omit for full manifest."
+            },
+            "max_bytes": {
+              "type": "integer",
+              "description": "Per-call truncation; overrides server default."
+            }
+          },
+          "type": "object"
+        },
+        "description": "Return decoded AndroidManifest.xml. Use section=permissions|activities|services|providers|receivers|application to slice (much cheaper than the full manifest, which can be 50KB+). max_bytes truncates the result."
+      },
+      {
+        "name": "get_main_activity_class",
+        "inputSchema": {
+          "properties": {},
+          "type": "object"
+        },
+        "description": "Return the FQN of the LAUNCHER activity (action MAIN + category LAUNCHER)."
+      },
+      {
+        "name": "list_classes",
+        "inputSchema": {
+          "properties": {
+            "prefix": {
+              "type": "string",
+              "description": "Optional FQN prefix, e.g. 'com.applovin'. Matches both equal and dot-suffix."
+            },
+            "offset": {
+              "type": "integer",
+              "default": 0
+            },
+            "limit": {
+              "type": "integer",
+              "default": 200
+            }
+          },
+          "type": "object"
+        },
+        "description": "Paginated list of class FQNs. Optional prefix narrows to a package subtree (e.g. 'com.applovin')."
+      },
+      {
+        "name": "get_main_application_classes_names",
+        "inputSchema": {
+          "properties": {
+            "offset": {
+              "type": "integer",
+              "default": 0
+            },
+            "limit": {
+              "type": "integer",
+              "default": 500
+            }
+          },
+          "type": "object"
+        },
+        "description": "Return FQNs of classes whose package matches the AndroidManifest 'package' attribute. Useful as a lightweight 'is the right APK loaded' probe."
+      },
+      {
+        "name": "get_class_source",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string",
+              "description": "Fully-qualified class name, e.g. com.example.Foo. Inner/Companion forms (Outer$Inner, Outer.Companion) are accepted."
+            },
+            "max_bytes": {
+              "type": "integer",
+              "description": "Per-call truncation AFTER decompile; does not speed up jadx. Prefer smaller fetches via get_method_by_name."
+            },
+            "smali_fallback": {
+              "type": "boolean",
+              "description": "Auto-fall back to smali when Java decompilation fails (default true). Set false to force the partial Java.",
+              "default": true
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "Return decompiled Java source. If jadx hits anti-decompile stubs (goto obfuscation, 'Code decompiled incorrectly' / 'Method not decompiled' banners), it transparently returns the class SMALI instead, prefixed with '// [jadx java-decompile failed → smali]' (disable with smali_fallback=false). Accepts inner/$Companion names. Truncated at max_bytes AFTER jadx finishes; hard-aborts after decompile_timeout_ms (default 90s). Prefer get_class_summary + get_method_by_name/get_method_body for large classes."
+      },
+      {
+        "name": "get_class_summary",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "Lightweight class skeleton: method signatures, field names, inner class names — no method bodies. Cheaper than get_class_source for navigation; use it to pick which method to drill into."
+      },
+      {
+        "name": "get_smali_of_class",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "max_bytes": {
+              "type": "integer",
+              "description": "Per-call window/truncation size (default server --max-source-bytes)."
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Byte offset into the full class smali to start from (for paging). Default 0.",
+              "default": 0
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "Return smali (DEX disassembly). Smali is often 2-3x source size, so large classes truncate. To page a huge class pass offset (byte offset into the full smali) with max_bytes as the window size; the response header reports total_bytes and next_offset. For a single method prefer get_method_smali. Hard-aborts after decompile_timeout_ms (default 90s). Accepts inner/$Companion names."
+      },
+      {
+        "name": "get_fields_of_class",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "filter": {
+              "type": "string",
+              "description": "case-insensitive substring on field name"
+            },
+            "offset": {
+              "type": "integer",
+              "default": 0
+            },
+            "limit": {
+              "type": "integer",
+              "default": 200
+            },
+            "names_only": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "List fields of a class. Paginated; use filter to narrow by name (case-insensitive substring); names_only=true for a compact name list."
+      },
+      {
+        "name": "get_inner_classes",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "List the inner/nested classes of a class, each with its dotted full_name AND raw_name (the $-joined runtime form, e.g. Outer$Companion) so you can address them directly. Resolves $Companion / inner / fuzzy names."
+      },
+      {
+        "name": "resolve_class",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "Resolve a possibly-inaccurate class name (inner/$Companion/dotted/fuzzy) to its exact FQN, or list candidate FQNs when ambiguous. Use this when get_class_source says 'class not found'. Metadata-only (no decompile)."
+      },
+      {
+        "name": "get_methods_of_class",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "filter": {
+              "type": "string",
+              "description": "case-insensitive substring on method name"
+            },
+            "offset": {
+              "type": "integer",
+              "default": 0
+            },
+            "limit": {
+              "type": "integer",
+              "default": 100
+            },
+            "names_only": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "List methods of a class. Paginated; use filter to narrow by name (case-insensitive substring); names_only=true for a compact name list."
+      },
+      {
+        "name": "get_method_by_name",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "method_name": {
+              "type": "string"
+            },
+            "smali_fallback": {
+              "type": "boolean",
+              "description": "Fall back to method smali when Java decompile fails (default true).",
+              "default": true
+            }
+          },
+          "required": [
+            "class_name",
+            "method_name"
+          ],
+          "type": "object"
+        },
+        "description": "Return the decompiled Java source of a single method. If overloaded, returns the first match. If jadx fails to decompile the body (anti-decompile stub), transparently returns that method's SMALI with a '// [jadx java-decompile failed → smali]' marker (disable via smali_fallback=false). Accepts inner/$Companion class names."
+      },
+      {
+        "name": "get_method_body",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "method_name": {
+              "type": "string"
+            },
+            "overload_index": {
+              "type": "integer",
+              "description": "0-based index when the name is overloaded (default 0).",
+              "default": 0
+            },
+            "smali_fallback": {
+              "type": "boolean",
+              "description": "Fall back to method smali when Java decompile fails (default true).",
+              "default": true
+            },
+            "max_bytes": {
+              "type": "integer",
+              "description": "Per-call truncation of the body."
+            }
+          },
+          "required": [
+            "class_name",
+            "method_name"
+          ],
+          "type": "object"
+        },
+        "description": "Return ONE method as Java if it decompiles, else its SMALI — with a JSON envelope reporting which. The method-level counterpart of get_class_source's smali fallback; use it to read a single method out of a huge/obfuscated class without dumping the whole class. Reports mode ('java'|'smali'), fell_back, and any decompile-failure markers. Accepts inner/$Companion class names and overloaded methods (set overload_index)."
+      },
+      {
+        "name": "get_method_smali",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "method_name": {
+              "type": "string"
+            },
+            "max_bytes": {
+              "type": "integer",
+              "description": "Per-call truncation."
+            }
+          },
+          "required": [
+            "class_name",
+            "method_name"
+          ],
+          "type": "object"
+        },
+        "description": "Return the SMALI of a single method (all overloads of the name), sliced out of the class disassembly. Cheap way to read one method from a huge class instead of get_smali_of_class. Accepts inner/$Companion class names."
+      },
+      {
+        "name": "search_method_by_name",
+        "inputSchema": {
+          "properties": {
+            "method_name": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 100
+            }
+          },
+          "required": [
+            "method_name"
+          ],
+          "type": "object"
+        },
+        "description": "Search for methods by name across all classes. Exact match preferred, falls back to substring."
+      },
+      {
+        "name": "search_classes_by_keyword",
+        "inputSchema": {
+          "properties": {
+            "search_term": {
+              "type": "string"
+            },
+            "search_in": {
+              "type": "string",
+              "description": "Comma-separated subset of: class,method,field,code. Default 'class'.",
+              "default": "class"
+            },
+            "package": {
+              "type": "string",
+              "description": "Optional FQN prefix filter, e.g. 'com.applovin'. Strongly recommended with 'code' scope."
+            },
+            "offset": {
+              "type": "integer",
+              "default": 0
+            },
+            "count": {
+              "type": "integer",
+              "default": 20
+            },
+            "max_scan": {
+              "type": "integer",
+              "description": "Cap on classes scanned. 0 = use defaults (all classes for metadata; 20000 with package + code; 5000 without package + code). Overridable server-wide via --max-scan.",
+              "default": 0
+            }
+          },
+          "required": [
+            "search_term"
+          ],
+          "type": "object"
+        },
+        "description": "Search classes across one or more scopes: 'class' (FQN), 'method', 'field' names (all cheap, metadata-only), and 'code' (decompiled source body — expensive: decompiles each scanned class). Always pass 'package' when using 'code' scope on large APKs, otherwise the scan cap will cut you off. Accepts comma-separated 'search_in' (default 'class'). Returns hits with which scope matched and a code snippet when 'code' matches."
+      },
+      {
+        "name": "get_xrefs_to_class",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 200
+            },
+            "resolve_line": {
+              "type": "boolean",
+              "description": "Resolve each usage's source line (force-decompiles its class). Default false; set true only when you need line numbers.",
+              "default": false
+            }
+          },
+          "required": [
+            "class_name"
+          ],
+          "type": "object"
+        },
+        "description": "List code sites that reference the given class."
+      },
+      {
+        "name": "get_xrefs_to_method",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "method_name": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 200
+            },
+            "resolve_line": {
+              "type": "boolean",
+              "description": "Resolve each usage's source line (force-decompiles its class). Default false; set true only when you need line numbers.",
+              "default": false
+            }
+          },
+          "required": [
+            "class_name",
+            "method_name"
+          ],
+          "type": "object"
+        },
+        "description": "List code sites that call the given method."
+      },
+      {
+        "name": "get_xrefs_to_field",
+        "inputSchema": {
+          "properties": {
+            "class_name": {
+              "type": "string"
+            },
+            "field_name": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 200
+            },
+            "resolve_line": {
+              "type": "boolean",
+              "description": "Resolve each usage's source line (force-decompiles its class). Default false; set true only when you need line numbers.",
+              "default": false
+            }
+          },
+          "required": [
+            "class_name",
+            "field_name"
+          ],
+          "type": "object"
+        },
+        "description": "List code sites that reference the given field."
+      },
+      {
+        "name": "get_strings",
+        "inputSchema": {
+          "properties": {
+            "filter": {
+              "type": "string",
+              "description": "case-insensitive substring filter on string value or name"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 500
+            }
+          },
+          "type": "object"
+        },
+        "description": "Return string resources from res/values/strings*.xml. Optionally filter by substring."
+      },
+      {
+        "name": "list_resource_files",
+        "inputSchema": {
+          "properties": {
+            "filter": {
+              "type": "string",
+              "description": "case-insensitive substring filter on file name"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 500
+            }
+          },
+          "type": "object"
+        },
+        "description": "List names of resource files in the APK. With resources=lite this is Manifest + strings XML + arsc; with resources=none only AndroidManifest.xml."
+      },
+      {
+        "name": "get_resource_file",
+        "inputSchema": {
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Resource file name as reported by list_resource_files"
+            }
+          },
+          "required": [
+            "name"
+          ],
+          "type": "object"
+        },
+        "description": "Return the content of a resource file (text decoded if possible, otherwise base64)."
+      }
+    ]
+  },
+  "jsonrpc": "2.0"
+}

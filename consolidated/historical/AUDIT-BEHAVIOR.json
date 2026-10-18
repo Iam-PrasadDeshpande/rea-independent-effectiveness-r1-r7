@@ -1,0 +1,3270 @@
+{
+  "utc": "2026-10-18T05:42:25.665214+00:00",
+  "method": "Historical data comparisons only; no target/oracle/submission execution; no test changes",
+  "results": [
+    {
+      "experiment": "R1",
+      "arm": "A",
+      "total": 8,
+      "passed": 8,
+      "scope": "Retained TAP receipts inspected; no raw dependency-event recomputation",
+      "source": "../REA_SAP_MAIL_POC_R1_20261017/evidence/baseline-reconstruction.tap",
+      "detail": {
+        "failed": 0,
+        "ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "experiment": "R1",
+      "arm": "C",
+      "total": 8,
+      "passed": 8,
+      "scope": "Retained TAP receipts inspected; no raw dependency-event recomputation",
+      "source": "../REA_SAP_MAIL_POC_R1_20261017/evidence/rea-arm-reconstruction.tap",
+      "detail": {
+        "failed": 0,
+        "ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "experiment": "R2",
+      "arm": "A",
+      "total": 48,
+      "passed": 48,
+      "scope": "Recomputed recorded exit and stdout versus frozen oracle",
+      "source": "R2/evidence/validation-A-cases.json",
+      "detail": [
+        {
+          "id": "F01",
+          "match": true
+        },
+        {
+          "id": "F02",
+          "match": true
+        },
+        {
+          "id": "F03",
+          "match": true
+        },
+        {
+          "id": "F04",
+          "match": true
+        },
+        {
+          "id": "F05",
+          "match": true
+        },
+        {
+          "id": "F06",
+          "match": true
+        },
+        {
+          "id": "F07",
+          "match": true
+        },
+        {
+          "id": "F08",
+          "match": true
+        },
+        {
+          "id": "F09",
+          "match": true
+        },
+        {
+          "id": "F10",
+          "match": true
+        },
+        {
+          "id": "F11",
+          "match": true
+        },
+        {
+          "id": "F12",
+          "match": true
+        },
+        {
+          "id": "V01",
+          "match": true
+        },
+        {
+          "id": "V02",
+          "match": true
+        },
+        {
+          "id": "V03",
+          "match": true
+        },
+        {
+          "id": "V04",
+          "match": true
+        },
+        {
+          "id": "V05",
+          "match": true
+        },
+        {
+          "id": "V06",
+          "match": true
+        },
+        {
+          "id": "V07",
+          "match": true
+        },
+        {
+          "id": "V08",
+          "match": true
+        },
+        {
+          "id": "V09",
+          "match": true
+        },
+        {
+          "id": "V10",
+          "match": true
+        },
+        {
+          "id": "V11",
+          "match": true
+        },
+        {
+          "id": "V12",
+          "match": true
+        },
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "N01",
+          "match": true
+        },
+        {
+          "id": "N02",
+          "match": true
+        },
+        {
+          "id": "N03",
+          "match": true
+        },
+        {
+          "id": "N04",
+          "match": true
+        },
+        {
+          "id": "E01",
+          "match": true
+        },
+        {
+          "id": "E02",
+          "match": true
+        },
+        {
+          "id": "E03",
+          "match": true
+        },
+        {
+          "id": "E04",
+          "match": true
+        },
+        {
+          "id": "E05",
+          "match": true
+        },
+        {
+          "id": "E06",
+          "match": true
+        },
+        {
+          "id": "E07",
+          "match": true
+        },
+        {
+          "id": "E08",
+          "match": true
+        },
+        {
+          "id": "E09",
+          "match": true
+        },
+        {
+          "id": "E10",
+          "match": true
+        },
+        {
+          "id": "E11",
+          "match": true
+        },
+        {
+          "id": "E12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R2",
+      "arm": "B",
+      "total": 48,
+      "passed": 48,
+      "scope": "Recomputed recorded exit and stdout versus frozen oracle",
+      "source": "R2/evidence/validation-B-cases.json",
+      "detail": [
+        {
+          "id": "F01",
+          "match": true
+        },
+        {
+          "id": "F02",
+          "match": true
+        },
+        {
+          "id": "F03",
+          "match": true
+        },
+        {
+          "id": "F04",
+          "match": true
+        },
+        {
+          "id": "F05",
+          "match": true
+        },
+        {
+          "id": "F06",
+          "match": true
+        },
+        {
+          "id": "F07",
+          "match": true
+        },
+        {
+          "id": "F08",
+          "match": true
+        },
+        {
+          "id": "F09",
+          "match": true
+        },
+        {
+          "id": "F10",
+          "match": true
+        },
+        {
+          "id": "F11",
+          "match": true
+        },
+        {
+          "id": "F12",
+          "match": true
+        },
+        {
+          "id": "V01",
+          "match": true
+        },
+        {
+          "id": "V02",
+          "match": true
+        },
+        {
+          "id": "V03",
+          "match": true
+        },
+        {
+          "id": "V04",
+          "match": true
+        },
+        {
+          "id": "V05",
+          "match": true
+        },
+        {
+          "id": "V06",
+          "match": true
+        },
+        {
+          "id": "V07",
+          "match": true
+        },
+        {
+          "id": "V08",
+          "match": true
+        },
+        {
+          "id": "V09",
+          "match": true
+        },
+        {
+          "id": "V10",
+          "match": true
+        },
+        {
+          "id": "V11",
+          "match": true
+        },
+        {
+          "id": "V12",
+          "match": true
+        },
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "N01",
+          "match": true
+        },
+        {
+          "id": "N02",
+          "match": true
+        },
+        {
+          "id": "N03",
+          "match": true
+        },
+        {
+          "id": "N04",
+          "match": true
+        },
+        {
+          "id": "E01",
+          "match": true
+        },
+        {
+          "id": "E02",
+          "match": true
+        },
+        {
+          "id": "E03",
+          "match": true
+        },
+        {
+          "id": "E04",
+          "match": true
+        },
+        {
+          "id": "E05",
+          "match": true
+        },
+        {
+          "id": "E06",
+          "match": true
+        },
+        {
+          "id": "E07",
+          "match": true
+        },
+        {
+          "id": "E08",
+          "match": true
+        },
+        {
+          "id": "E09",
+          "match": true
+        },
+        {
+          "id": "E10",
+          "match": true
+        },
+        {
+          "id": "E11",
+          "match": true
+        },
+        {
+          "id": "E12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R2",
+      "arm": "C",
+      "total": 48,
+      "passed": 48,
+      "scope": "Recomputed recorded exit and stdout versus frozen oracle",
+      "source": "R2/evidence/validation-C-cases.json",
+      "detail": [
+        {
+          "id": "F01",
+          "match": true
+        },
+        {
+          "id": "F02",
+          "match": true
+        },
+        {
+          "id": "F03",
+          "match": true
+        },
+        {
+          "id": "F04",
+          "match": true
+        },
+        {
+          "id": "F05",
+          "match": true
+        },
+        {
+          "id": "F06",
+          "match": true
+        },
+        {
+          "id": "F07",
+          "match": true
+        },
+        {
+          "id": "F08",
+          "match": true
+        },
+        {
+          "id": "F09",
+          "match": true
+        },
+        {
+          "id": "F10",
+          "match": true
+        },
+        {
+          "id": "F11",
+          "match": true
+        },
+        {
+          "id": "F12",
+          "match": true
+        },
+        {
+          "id": "V01",
+          "match": true
+        },
+        {
+          "id": "V02",
+          "match": true
+        },
+        {
+          "id": "V03",
+          "match": true
+        },
+        {
+          "id": "V04",
+          "match": true
+        },
+        {
+          "id": "V05",
+          "match": true
+        },
+        {
+          "id": "V06",
+          "match": true
+        },
+        {
+          "id": "V07",
+          "match": true
+        },
+        {
+          "id": "V08",
+          "match": true
+        },
+        {
+          "id": "V09",
+          "match": true
+        },
+        {
+          "id": "V10",
+          "match": true
+        },
+        {
+          "id": "V11",
+          "match": true
+        },
+        {
+          "id": "V12",
+          "match": true
+        },
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "N01",
+          "match": true
+        },
+        {
+          "id": "N02",
+          "match": true
+        },
+        {
+          "id": "N03",
+          "match": true
+        },
+        {
+          "id": "N04",
+          "match": true
+        },
+        {
+          "id": "E01",
+          "match": true
+        },
+        {
+          "id": "E02",
+          "match": true
+        },
+        {
+          "id": "E03",
+          "match": true
+        },
+        {
+          "id": "E04",
+          "match": true
+        },
+        {
+          "id": "E05",
+          "match": true
+        },
+        {
+          "id": "E06",
+          "match": true
+        },
+        {
+          "id": "E07",
+          "match": true
+        },
+        {
+          "id": "E08",
+          "match": true
+        },
+        {
+          "id": "E09",
+          "match": true
+        },
+        {
+          "id": "E10",
+          "match": true
+        },
+        {
+          "id": "E11",
+          "match": true
+        },
+        {
+          "id": "E12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R3",
+      "arm": "A",
+      "total": 40,
+      "passed": 40,
+      "scope": "Recomputed JSON results/errors and dependency traces versus unchanged gold",
+      "source": "R3/evaluation-output/{final,matched-final}/behavior-results.json",
+      "detail": [
+        {
+          "id": "S01",
+          "match": true
+        },
+        {
+          "id": "S02",
+          "match": true
+        },
+        {
+          "id": "S03",
+          "match": true
+        },
+        {
+          "id": "S04",
+          "match": true
+        },
+        {
+          "id": "S05",
+          "match": true
+        },
+        {
+          "id": "S06",
+          "match": true
+        },
+        {
+          "id": "S07",
+          "match": true
+        },
+        {
+          "id": "S08",
+          "match": true
+        },
+        {
+          "id": "S09",
+          "match": true
+        },
+        {
+          "id": "S10",
+          "match": true
+        },
+        {
+          "id": "S11",
+          "match": true
+        },
+        {
+          "id": "S12",
+          "match": true
+        },
+        {
+          "id": "S13",
+          "match": true
+        },
+        {
+          "id": "S14",
+          "match": true
+        },
+        {
+          "id": "S15",
+          "match": true
+        },
+        {
+          "id": "S16",
+          "match": true
+        },
+        {
+          "id": "S17",
+          "match": true
+        },
+        {
+          "id": "S18",
+          "match": true
+        },
+        {
+          "id": "S19",
+          "match": true
+        },
+        {
+          "id": "S20",
+          "match": true
+        },
+        {
+          "id": "S21",
+          "match": true
+        },
+        {
+          "id": "S22",
+          "match": true
+        },
+        {
+          "id": "S23",
+          "match": true
+        },
+        {
+          "id": "S24",
+          "match": true
+        },
+        {
+          "id": "S25",
+          "match": true
+        },
+        {
+          "id": "S26",
+          "match": true
+        },
+        {
+          "id": "S27",
+          "match": true
+        },
+        {
+          "id": "S28",
+          "match": true
+        },
+        {
+          "id": "S29",
+          "match": true
+        },
+        {
+          "id": "S30",
+          "match": true
+        },
+        {
+          "id": "S31",
+          "match": true
+        },
+        {
+          "id": "S32",
+          "match": true
+        },
+        {
+          "id": "S33",
+          "match": true
+        },
+        {
+          "id": "S34",
+          "match": true
+        },
+        {
+          "id": "S35",
+          "match": true
+        },
+        {
+          "id": "S36",
+          "match": true
+        },
+        {
+          "id": "S37",
+          "match": true
+        },
+        {
+          "id": "S38",
+          "match": true
+        },
+        {
+          "id": "S39",
+          "match": true
+        },
+        {
+          "id": "S40",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R3",
+      "arm": "B",
+      "total": 40,
+      "passed": 40,
+      "scope": "Recomputed JSON results/errors and dependency traces versus unchanged gold",
+      "source": "R3/evaluation-output/{final,matched-final}/behavior-results.json",
+      "detail": [
+        {
+          "id": "S01",
+          "match": true
+        },
+        {
+          "id": "S02",
+          "match": true
+        },
+        {
+          "id": "S03",
+          "match": true
+        },
+        {
+          "id": "S04",
+          "match": true
+        },
+        {
+          "id": "S05",
+          "match": true
+        },
+        {
+          "id": "S06",
+          "match": true
+        },
+        {
+          "id": "S07",
+          "match": true
+        },
+        {
+          "id": "S08",
+          "match": true
+        },
+        {
+          "id": "S09",
+          "match": true
+        },
+        {
+          "id": "S10",
+          "match": true
+        },
+        {
+          "id": "S11",
+          "match": true
+        },
+        {
+          "id": "S12",
+          "match": true
+        },
+        {
+          "id": "S13",
+          "match": true
+        },
+        {
+          "id": "S14",
+          "match": true
+        },
+        {
+          "id": "S15",
+          "match": true
+        },
+        {
+          "id": "S16",
+          "match": true
+        },
+        {
+          "id": "S17",
+          "match": true
+        },
+        {
+          "id": "S18",
+          "match": true
+        },
+        {
+          "id": "S19",
+          "match": true
+        },
+        {
+          "id": "S20",
+          "match": true
+        },
+        {
+          "id": "S21",
+          "match": true
+        },
+        {
+          "id": "S22",
+          "match": true
+        },
+        {
+          "id": "S23",
+          "match": true
+        },
+        {
+          "id": "S24",
+          "match": true
+        },
+        {
+          "id": "S25",
+          "match": true
+        },
+        {
+          "id": "S26",
+          "match": true
+        },
+        {
+          "id": "S27",
+          "match": true
+        },
+        {
+          "id": "S28",
+          "match": true
+        },
+        {
+          "id": "S29",
+          "match": true
+        },
+        {
+          "id": "S30",
+          "match": true
+        },
+        {
+          "id": "S31",
+          "match": true
+        },
+        {
+          "id": "S32",
+          "match": true
+        },
+        {
+          "id": "S33",
+          "match": true
+        },
+        {
+          "id": "S34",
+          "match": true
+        },
+        {
+          "id": "S35",
+          "match": true
+        },
+        {
+          "id": "S36",
+          "match": true
+        },
+        {
+          "id": "S37",
+          "match": true
+        },
+        {
+          "id": "S38",
+          "match": true
+        },
+        {
+          "id": "S39",
+          "match": true
+        },
+        {
+          "id": "S40",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R3",
+      "arm": "C",
+      "total": 40,
+      "passed": 40,
+      "scope": "Recomputed JSON results/errors and dependency traces versus unchanged gold",
+      "source": "R3/evaluation-output/{final,matched-final}/behavior-results.json",
+      "detail": [
+        {
+          "id": "S01",
+          "match": true
+        },
+        {
+          "id": "S02",
+          "match": true
+        },
+        {
+          "id": "S03",
+          "match": true
+        },
+        {
+          "id": "S04",
+          "match": true
+        },
+        {
+          "id": "S05",
+          "match": true
+        },
+        {
+          "id": "S06",
+          "match": true
+        },
+        {
+          "id": "S07",
+          "match": true
+        },
+        {
+          "id": "S08",
+          "match": true
+        },
+        {
+          "id": "S09",
+          "match": true
+        },
+        {
+          "id": "S10",
+          "match": true
+        },
+        {
+          "id": "S11",
+          "match": true
+        },
+        {
+          "id": "S12",
+          "match": true
+        },
+        {
+          "id": "S13",
+          "match": true
+        },
+        {
+          "id": "S14",
+          "match": true
+        },
+        {
+          "id": "S15",
+          "match": true
+        },
+        {
+          "id": "S16",
+          "match": true
+        },
+        {
+          "id": "S17",
+          "match": true
+        },
+        {
+          "id": "S18",
+          "match": true
+        },
+        {
+          "id": "S19",
+          "match": true
+        },
+        {
+          "id": "S20",
+          "match": true
+        },
+        {
+          "id": "S21",
+          "match": true
+        },
+        {
+          "id": "S22",
+          "match": true
+        },
+        {
+          "id": "S23",
+          "match": true
+        },
+        {
+          "id": "S24",
+          "match": true
+        },
+        {
+          "id": "S25",
+          "match": true
+        },
+        {
+          "id": "S26",
+          "match": true
+        },
+        {
+          "id": "S27",
+          "match": true
+        },
+        {
+          "id": "S28",
+          "match": true
+        },
+        {
+          "id": "S29",
+          "match": true
+        },
+        {
+          "id": "S30",
+          "match": true
+        },
+        {
+          "id": "S31",
+          "match": true
+        },
+        {
+          "id": "S32",
+          "match": true
+        },
+        {
+          "id": "S33",
+          "match": true
+        },
+        {
+          "id": "S34",
+          "match": true
+        },
+        {
+          "id": "S35",
+          "match": true
+        },
+        {
+          "id": "S36",
+          "match": true
+        },
+        {
+          "id": "S37",
+          "match": true
+        },
+        {
+          "id": "S38",
+          "match": true
+        },
+        {
+          "id": "S39",
+          "match": true
+        },
+        {
+          "id": "S40",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R4",
+      "arm": "A",
+      "total": 12,
+      "passed": 12,
+      "scope": "Recomputed retained helper values/error occurrence against frozen cases",
+      "source": "R4/evidence/reconstruction-results.json",
+      "detail": [
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "C09",
+          "match": true
+        },
+        {
+          "id": "C10",
+          "match": true
+        },
+        {
+          "id": "C11",
+          "match": true
+        },
+        {
+          "id": "C12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R4",
+      "arm": "B",
+      "total": 12,
+      "passed": 12,
+      "scope": "Recomputed retained helper values/error occurrence against frozen cases",
+      "source": "R4/evidence/reconstruction-results.json",
+      "detail": [
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "C09",
+          "match": true
+        },
+        {
+          "id": "C10",
+          "match": true
+        },
+        {
+          "id": "C11",
+          "match": true
+        },
+        {
+          "id": "C12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R4",
+      "arm": "C",
+      "total": 12,
+      "passed": 12,
+      "scope": "Recomputed retained helper values/error occurrence against frozen cases",
+      "source": "R4/evidence/reconstruction-results.json",
+      "detail": [
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "C09",
+          "match": true
+        },
+        {
+          "id": "C10",
+          "match": true
+        },
+        {
+          "id": "C11",
+          "match": true
+        },
+        {
+          "id": "C12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R5",
+      "arm": "A",
+      "total": 44,
+      "passed": 32,
+      "scope": "Recomputed retained whole JSON output, occurrence/reminder lanes",
+      "source": "R5/evidence/behavioral-validation.json",
+      "detail": {
+        "occurrencesPassed": 44,
+        "reminderBearing": 12,
+        "reminderBearingPassed": 0,
+        "checks": [
+          {
+            "id": "01-weekly-basic",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "02-weekly-count-one",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "03-weekly-count-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "04-count-applies-before-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "05-until-inclusive",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "06-until-one-second-before",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "07-query-start-at-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "08-query-after-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "09-query-end-at-event-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "10-query-end-before-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "11-multiweek-two",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "12-multiweek-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "13-monday-wednesday-friday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "14-biweekly-sunday-monday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "15-count-multiweekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "16-series-start-not-selected-weekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "17-empty-weekdays",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "18-edit-first-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "19-delete-first",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "20-edit-middle-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "21-delete-middle",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "22-edit-last-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "23-delete-last",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "24-edit-moves-to-next-day",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "25-edit-moves-outside-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "26-delete-duplicate-deduplicates",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "27-count-does-not-replenish-excluded",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "28-edit-roundtrip-delete",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "29-delete-series-including-child",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "30-one-reminder",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "31-three-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "32-unsorted-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "33-reminder-exact-now-skipped",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "34-reminder-one-second-before",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "35-deleted-first-reminder-next-series",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "36-edited-reminder-independent-child",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "37-edited-child-reminders-off",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "38-expired-count-no-reminders",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "39-boundary-spring",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "40-boundary-fall",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "41-boundary-leap",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "42-boundary-year",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "43-half-hour-timezone",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "44-cross-midnight-duration",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R5",
+      "arm": "B",
+      "total": 44,
+      "passed": 32,
+      "scope": "Recomputed retained whole JSON output, occurrence/reminder lanes",
+      "source": "R5/evidence/behavioral-validation.json",
+      "detail": {
+        "occurrencesPassed": 44,
+        "reminderBearing": 12,
+        "reminderBearingPassed": 0,
+        "checks": [
+          {
+            "id": "01-weekly-basic",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "02-weekly-count-one",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "03-weekly-count-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "04-count-applies-before-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "05-until-inclusive",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "06-until-one-second-before",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "07-query-start-at-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "08-query-after-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "09-query-end-at-event-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "10-query-end-before-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "11-multiweek-two",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "12-multiweek-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "13-monday-wednesday-friday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "14-biweekly-sunday-monday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "15-count-multiweekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "16-series-start-not-selected-weekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "17-empty-weekdays",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "18-edit-first-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "19-delete-first",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "20-edit-middle-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "21-delete-middle",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "22-edit-last-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "23-delete-last",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "24-edit-moves-to-next-day",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "25-edit-moves-outside-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "26-delete-duplicate-deduplicates",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "27-count-does-not-replenish-excluded",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "28-edit-roundtrip-delete",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "29-delete-series-including-child",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "30-one-reminder",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "31-three-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "32-unsorted-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "33-reminder-exact-now-skipped",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "34-reminder-one-second-before",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "35-deleted-first-reminder-next-series",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "36-edited-reminder-independent-child",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "37-edited-child-reminders-off",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "38-expired-count-no-reminders",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "39-boundary-spring",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "40-boundary-fall",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "41-boundary-leap",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "42-boundary-year",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "43-half-hour-timezone",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "44-cross-midnight-duration",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R5",
+      "arm": "C",
+      "total": 44,
+      "passed": 32,
+      "scope": "Recomputed retained whole JSON output, occurrence/reminder lanes",
+      "source": "R5/evidence/behavioral-validation.json",
+      "detail": {
+        "occurrencesPassed": 44,
+        "reminderBearing": 12,
+        "reminderBearingPassed": 0,
+        "checks": [
+          {
+            "id": "01-weekly-basic",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "02-weekly-count-one",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "03-weekly-count-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "04-count-applies-before-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "05-until-inclusive",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "06-until-one-second-before",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "07-query-start-at-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "08-query-after-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "09-query-end-at-event-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "10-query-end-before-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "11-multiweek-two",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "12-multiweek-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "13-monday-wednesday-friday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "14-biweekly-sunday-monday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "15-count-multiweekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "16-series-start-not-selected-weekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "17-empty-weekdays",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "18-edit-first-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "19-delete-first",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "20-edit-middle-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "21-delete-middle",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "22-edit-last-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "23-delete-last",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "24-edit-moves-to-next-day",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "25-edit-moves-outside-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "26-delete-duplicate-deduplicates",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "27-count-does-not-replenish-excluded",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "28-edit-roundtrip-delete",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "29-delete-series-including-child",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "30-one-reminder",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "31-three-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "32-unsorted-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "33-reminder-exact-now-skipped",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "34-reminder-one-second-before",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "35-deleted-first-reminder-next-series",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "36-edited-reminder-independent-child",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "37-edited-child-reminders-off",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "38-expired-count-no-reminders",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "39-boundary-spring",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "40-boundary-fall",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "41-boundary-leap",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "42-boundary-year",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "43-half-hour-timezone",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "44-cross-midnight-duration",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R6",
+      "arm": "A",
+      "total": 36,
+      "passed": 3,
+      "scope": "Recomputed frozen normalized observations; INVALID_COMPARISON retained",
+      "source": "R6/evaluator/arm-A-evaluation.json",
+      "detail": [
+        {
+          "id": "01",
+          "match": true
+        },
+        {
+          "id": "02",
+          "match": false
+        },
+        {
+          "id": "03",
+          "match": false
+        },
+        {
+          "id": "04",
+          "match": false
+        },
+        {
+          "id": "05",
+          "match": false
+        },
+        {
+          "id": "06",
+          "match": false
+        },
+        {
+          "id": "07",
+          "match": false
+        },
+        {
+          "id": "08",
+          "match": false
+        },
+        {
+          "id": "09",
+          "match": false
+        },
+        {
+          "id": "10",
+          "match": false
+        },
+        {
+          "id": "11",
+          "match": false
+        },
+        {
+          "id": "12",
+          "match": false
+        },
+        {
+          "id": "13",
+          "match": false
+        },
+        {
+          "id": "14",
+          "match": false
+        },
+        {
+          "id": "15",
+          "match": false
+        },
+        {
+          "id": "16",
+          "match": false
+        },
+        {
+          "id": "17",
+          "match": false
+        },
+        {
+          "id": "18",
+          "match": false
+        },
+        {
+          "id": "19",
+          "match": false
+        },
+        {
+          "id": "20",
+          "match": false
+        },
+        {
+          "id": "21",
+          "match": false
+        },
+        {
+          "id": "22",
+          "match": false
+        },
+        {
+          "id": "23",
+          "match": false
+        },
+        {
+          "id": "24",
+          "match": false
+        },
+        {
+          "id": "25",
+          "match": false
+        },
+        {
+          "id": "26",
+          "match": false
+        },
+        {
+          "id": "27",
+          "match": false
+        },
+        {
+          "id": "28",
+          "match": false
+        },
+        {
+          "id": "29",
+          "match": false
+        },
+        {
+          "id": "30",
+          "match": false
+        },
+        {
+          "id": "31",
+          "match": false
+        },
+        {
+          "id": "32",
+          "match": false
+        },
+        {
+          "id": "33",
+          "match": false
+        },
+        {
+          "id": "34",
+          "match": true
+        },
+        {
+          "id": "35",
+          "match": true
+        },
+        {
+          "id": "36",
+          "match": false
+        }
+      ]
+    },
+    {
+      "experiment": "R6",
+      "arm": "B",
+      "total": 36,
+      "passed": 30,
+      "scope": "Recomputed frozen normalized observations; INVALID_COMPARISON retained",
+      "source": "R6/evaluator/arm-B-evaluation.json",
+      "detail": [
+        {
+          "id": "01",
+          "match": true
+        },
+        {
+          "id": "02",
+          "match": true
+        },
+        {
+          "id": "03",
+          "match": true
+        },
+        {
+          "id": "04",
+          "match": true
+        },
+        {
+          "id": "05",
+          "match": true
+        },
+        {
+          "id": "06",
+          "match": false
+        },
+        {
+          "id": "07",
+          "match": true
+        },
+        {
+          "id": "08",
+          "match": false
+        },
+        {
+          "id": "09",
+          "match": false
+        },
+        {
+          "id": "10",
+          "match": false
+        },
+        {
+          "id": "11",
+          "match": true
+        },
+        {
+          "id": "12",
+          "match": true
+        },
+        {
+          "id": "13",
+          "match": true
+        },
+        {
+          "id": "14",
+          "match": true
+        },
+        {
+          "id": "15",
+          "match": true
+        },
+        {
+          "id": "16",
+          "match": true
+        },
+        {
+          "id": "17",
+          "match": true
+        },
+        {
+          "id": "18",
+          "match": true
+        },
+        {
+          "id": "19",
+          "match": true
+        },
+        {
+          "id": "20",
+          "match": true
+        },
+        {
+          "id": "21",
+          "match": false
+        },
+        {
+          "id": "22",
+          "match": false
+        },
+        {
+          "id": "23",
+          "match": true
+        },
+        {
+          "id": "24",
+          "match": true
+        },
+        {
+          "id": "25",
+          "match": true
+        },
+        {
+          "id": "26",
+          "match": true
+        },
+        {
+          "id": "27",
+          "match": true
+        },
+        {
+          "id": "28",
+          "match": true
+        },
+        {
+          "id": "29",
+          "match": true
+        },
+        {
+          "id": "30",
+          "match": true
+        },
+        {
+          "id": "31",
+          "match": true
+        },
+        {
+          "id": "32",
+          "match": true
+        },
+        {
+          "id": "33",
+          "match": true
+        },
+        {
+          "id": "34",
+          "match": true
+        },
+        {
+          "id": "35",
+          "match": true
+        },
+        {
+          "id": "36",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R6",
+      "arm": "C",
+      "total": 36,
+      "passed": 27,
+      "scope": "Recomputed frozen normalized observations; INVALID_COMPARISON retained",
+      "source": "R6/evaluator/arm-C-evaluation.json",
+      "detail": [
+        {
+          "id": "01",
+          "match": true
+        },
+        {
+          "id": "02",
+          "match": true
+        },
+        {
+          "id": "03",
+          "match": true
+        },
+        {
+          "id": "04",
+          "match": true
+        },
+        {
+          "id": "05",
+          "match": true
+        },
+        {
+          "id": "06",
+          "match": true
+        },
+        {
+          "id": "07",
+          "match": true
+        },
+        {
+          "id": "08",
+          "match": false
+        },
+        {
+          "id": "09",
+          "match": false
+        },
+        {
+          "id": "10",
+          "match": false
+        },
+        {
+          "id": "11",
+          "match": true
+        },
+        {
+          "id": "12",
+          "match": true
+        },
+        {
+          "id": "13",
+          "match": true
+        },
+        {
+          "id": "14",
+          "match": true
+        },
+        {
+          "id": "15",
+          "match": true
+        },
+        {
+          "id": "16",
+          "match": true
+        },
+        {
+          "id": "17",
+          "match": true
+        },
+        {
+          "id": "18",
+          "match": true
+        },
+        {
+          "id": "19",
+          "match": true
+        },
+        {
+          "id": "20",
+          "match": true
+        },
+        {
+          "id": "21",
+          "match": false
+        },
+        {
+          "id": "22",
+          "match": false
+        },
+        {
+          "id": "23",
+          "match": true
+        },
+        {
+          "id": "24",
+          "match": true
+        },
+        {
+          "id": "25",
+          "match": true
+        },
+        {
+          "id": "26",
+          "match": true
+        },
+        {
+          "id": "27",
+          "match": true
+        },
+        {
+          "id": "28",
+          "match": true
+        },
+        {
+          "id": "29",
+          "match": true
+        },
+        {
+          "id": "30",
+          "match": false
+        },
+        {
+          "id": "31",
+          "match": false
+        },
+        {
+          "id": "32",
+          "match": false
+        },
+        {
+          "id": "33",
+          "match": false
+        },
+        {
+          "id": "34",
+          "match": true
+        },
+        {
+          "id": "35",
+          "match": true
+        },
+        {
+          "id": "36",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R7",
+      "arm": "A",
+      "total": 30,
+      "passed": 30,
+      "scope": "Raw score retained; recomputed recorded positive identity/hashes and negative stage witness",
+      "source": "R7/evaluator/results/A/actual.json",
+      "detail": {
+        "positiveMatches": 26,
+        "positiveTotal": 26,
+        "negativeStageRejections": 4,
+        "rawScore": 30,
+        "C29semanticCorrection": false,
+        "checks": [
+          {
+            "id": "C01_png_default",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C02_jpeg_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C03_webp_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C04_misleading_name",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C05_alpha_lossy",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C06_alpha_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C07_one_pixel",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C08_odd_dimensions",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C09_down_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C10_up_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C11_portrait_stretch",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C12_center_crop",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C13_triangle",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C14_catrom",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C15_mitchell",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C16_no_premultiply",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C17_no_linearRGB",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C18_alpha_no_flags",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C19_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C20_quality_hundred",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C21_fast_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C22_slow_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C23_near_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C24_alpha_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C25_sharp_yuv",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C26_no_filter_sns",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C27_bad_quality",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C28_bad_method",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C29_corrupt_input",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C30_bad_alpha_config",
+            "semanticMatch": true,
+            "positive": false
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R7",
+      "arm": "B",
+      "total": 30,
+      "passed": 30,
+      "scope": "Raw score retained; recomputed recorded positive identity/hashes and negative stage witness",
+      "source": "R7/evaluator/results/B/actual.json",
+      "detail": {
+        "positiveMatches": 26,
+        "positiveTotal": 26,
+        "negativeStageRejections": 4,
+        "rawScore": 30,
+        "C29semanticCorrection": false,
+        "checks": [
+          {
+            "id": "C01_png_default",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C02_jpeg_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C03_webp_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C04_misleading_name",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C05_alpha_lossy",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C06_alpha_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C07_one_pixel",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C08_odd_dimensions",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C09_down_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C10_up_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C11_portrait_stretch",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C12_center_crop",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C13_triangle",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C14_catrom",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C15_mitchell",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C16_no_premultiply",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C17_no_linearRGB",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C18_alpha_no_flags",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C19_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C20_quality_hundred",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C21_fast_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C22_slow_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C23_near_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C24_alpha_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C25_sharp_yuv",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C26_no_filter_sns",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C27_bad_quality",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C28_bad_method",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C29_corrupt_input",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C30_bad_alpha_config",
+            "semanticMatch": true,
+            "positive": false
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R7",
+      "arm": "C",
+      "total": 30,
+      "passed": 29,
+      "scope": "Raw score retained; recomputed recorded positive identity/hashes and negative stage witness",
+      "source": "R7/evaluator/results/C/actual.json",
+      "detail": {
+        "positiveMatches": 26,
+        "positiveTotal": 26,
+        "negativeStageRejections": 4,
+        "rawScore": 29,
+        "C29semanticCorrection": true,
+        "checks": [
+          {
+            "id": "C01_png_default",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C02_jpeg_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C03_webp_decode",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C04_misleading_name",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C05_alpha_lossy",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C06_alpha_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C07_one_pixel",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C08_odd_dimensions",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C09_down_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C10_up_lanczos",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C11_portrait_stretch",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C12_center_crop",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C13_triangle",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C14_catrom",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C15_mitchell",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C16_no_premultiply",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C17_no_linearRGB",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C18_alpha_no_flags",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C19_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C20_quality_hundred",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C21_fast_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C22_slow_method",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C23_near_lossless",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C24_alpha_quality_zero",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C25_sharp_yuv",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C26_no_filter_sns",
+            "semanticMatch": true,
+            "positive": true
+          },
+          {
+            "id": "C27_bad_quality",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C28_bad_method",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C29_corrupt_input",
+            "semanticMatch": true,
+            "positive": false
+          },
+          {
+            "id": "C30_bad_alpha_config",
+            "semanticMatch": true,
+            "positive": false
+          }
+        ]
+      }
+    }
+  ]
+}

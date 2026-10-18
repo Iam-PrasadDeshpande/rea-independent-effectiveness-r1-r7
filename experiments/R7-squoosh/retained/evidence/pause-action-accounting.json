@@ -1,0 +1,16 @@
+{
+  "rootTopLevelCallsObserved": 75.0,
+  "armBDispatchedIncludingInterrupted": 15,
+  "scope": "Snapshot through this accounting invocation; waits included; nested agent/tool calls not claimed as root calls",
+  "observedUtc": "2026-10-18T02:53:25.3849915Z",
+  "armBCompleted": 14,
+  "byTool": {
+    "followup_task": 1,
+    "exec": 65,
+    "wait": 3,
+    "send_message": 3,
+    "sleep": 2,
+    "spawn_agent": 1
+  },
+  "authorizationDetected": true
+}

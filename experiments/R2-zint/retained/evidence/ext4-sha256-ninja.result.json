@@ -1,0 +1,9 @@
+{
+  "elapsedSeconds": 0.2023279,
+  "arguments": [
+    "/usr/bin/sha256sum",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/ninja.zip"
+  ],
+  "utc": "2026-10-17T18:23:12.2449753Z",
+  "exit": 0
+}

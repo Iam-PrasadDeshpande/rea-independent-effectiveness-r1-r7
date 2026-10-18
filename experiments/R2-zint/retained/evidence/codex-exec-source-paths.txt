@@ -1,0 +1,7 @@
+codex-rs/exec/src/event_processor.rs
+codex-rs/exec/src/event_processor_with_human_output.rs
+codex-rs/exec/src/event_processor_with_human_output_tests.rs
+codex-rs/exec/src/event_processor_with_jsonl_output.rs
+codex-rs/exec/src/event_processor_with_jsonl_output_tests.rs
+codex-rs/exec/src/exec_events.rs
+codex-rs/exec/tests/event_processor_with_json_output.rs

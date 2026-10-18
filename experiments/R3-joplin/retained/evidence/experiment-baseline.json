@@ -1,0 +1,11 @@
+{
+  "OriginalASARBytes": 233695713,
+  "OriginalJavaScriptBytes": 99230874.0,
+  "MapsWithheld": 1693,
+  "TypeScriptWithheld": 838,
+  "PackagedFeature": "Actual main bundles retained after source-map comment removal",
+  "REARequestedSource": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc",
+  "REATestedVersion": "6.5.0",
+  "REATestedPublishedSource": "3b79af28e80785afce9f5998d8f03289402a1847",
+  "Reason": "Use official integrity/signature-verified published runtime; npm provenance and release tag identify this source. Preferred later source retained only as preflight reference."
+}

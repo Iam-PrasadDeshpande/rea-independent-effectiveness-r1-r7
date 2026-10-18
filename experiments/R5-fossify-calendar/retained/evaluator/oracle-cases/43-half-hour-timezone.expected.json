@@ -1,0 +1,25 @@
+{
+  "occurrences": [
+    {
+      "startTS": 1767587400,
+      "endTS": 1767591000,
+      "title": "Synthetic weekly"
+    },
+    {
+      "startTS": 1768192200,
+      "endTS": 1768195800,
+      "title": "Synthetic weekly"
+    },
+    {
+      "startTS": 1768797000,
+      "endTS": 1768800600,
+      "title": "Synthetic weekly"
+    },
+    {
+      "startTS": 1769401800,
+      "endTS": 1769405400,
+      "title": "Synthetic weekly"
+    }
+  ],
+  "nextReminders": []
+}

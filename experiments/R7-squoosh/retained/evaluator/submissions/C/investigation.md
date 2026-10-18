@@ -1,0 +1,1 @@
+Delivered /output/solution.js, /output/solution-worker.js and /output/report.md. Independent browser integration decodes input bytes, optionally resizes, and exports real WebP. Three public probes matched production bytes exactly; corrupt input and invalid quality rejected. Report includes Mermaid architecture, exact evidence references, codec reuse, bounds and untested behavior.

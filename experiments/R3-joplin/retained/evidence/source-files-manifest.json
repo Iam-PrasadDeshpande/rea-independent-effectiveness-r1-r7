@@ -1,0 +1,164 @@
+[
+  {
+    "Project": "joplin",
+    "Path": "LICENSE",
+    "Bytes": 998,
+    "SHA256": "F6B29267FE2C4251ED95CF9C846B47774A970C5960BE9EB8A409F21FFD98425E",
+    "ExpectedGitBlob": "2bb93544540be10fcd06928d0064daa29caab7dd",
+    "ActualGitBlob": "2bb93544540be10fcd06928d0064daa29caab7dd",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/app-desktop/package.json",
+    "Bytes": 6668,
+    "SHA256": "D2D24F7DE5B056D60B20438ADC9CE2A3E42944EB9918DCF7A40BA43A37D86983",
+    "ExpectedGitBlob": "deb387501ef1d7ce3c3275c992059d9733f2fa2b",
+    "ActualGitBlob": "deb387501ef1d7ce3c3275c992059d9733f2fa2b",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/models/NoteEmbedding.ts",
+    "Bytes": 11505,
+    "SHA256": "E7FC7CB7ED873F9AA8667F02E9F506478228E49E7C01051D9C8BA97D34D8C827",
+    "ExpectedGitBlob": "c5e41b535decd5ada67a638f401ebe772bbba594",
+    "ActualGitBlob": "c5e41b535decd5ada67a638f401ebe772bbba594",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/AiService.ts",
+    "Bytes": 7150,
+    "SHA256": "1210C64D160AE97CCE1AC6FA70E19668DFFA1B88489C691A9DF67DFA31C9F5B3",
+    "ExpectedGitBlob": "e30f06b784148b149c962a4cad670991a65d5663",
+    "ActualGitBlob": "e30f06b784148b149c962a4cad670991a65d5663",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/availability.ts",
+    "Bytes": 4575,
+    "SHA256": "75CAA8231932EAD740768641C9803521D364E07D1F020FCAFE48CB3DA178025C",
+    "ExpectedGitBlob": "e6dee3e1d7fb670ee7b980f13cd50f40a7d1d026",
+    "ActualGitBlob": "e6dee3e1d7fb670ee7b980f13cd50f40a7d1d026",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/EmbeddingIndexer.test.ts",
+    "Bytes": 18835,
+    "SHA256": "EFE7B3D03D73D8E6D0098D4E24593CDEBA20C43BEC907A919BD5CF7DAEE4EC3B",
+    "ExpectedGitBlob": "972fc0c73671093237172bf29942604b8e6490b9",
+    "ActualGitBlob": "972fc0c73671093237172bf29942604b8e6490b9",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/EmbeddingIndexer.ts",
+    "Bytes": 12500,
+    "SHA256": "402488017F5E13456BEE5BEFA2FBFE55ED6385A02C90537E50965F6EF3F7FB60",
+    "ExpectedGitBlob": "8227bd2d47cf68ace459de588b66a47909c62a05",
+    "ActualGitBlob": "8227bd2d47cf68ace459de588b66a47909c62a05",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/EmbeddingModelDownloader.ts",
+    "Bytes": 5605,
+    "SHA256": "3D5781A4575D61C686D830B42A005D58DBF2F1B0B434FB2900A554DB9C2BA6AC",
+    "ExpectedGitBlob": "2db13b10289eebb67615fb1f48ae9cd3f5e85e47",
+    "ActualGitBlob": "2db13b10289eebb67615fb1f48ae9cd3f5e85e47",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/LocalEmbeddingProvider.ts",
+    "Bytes": 10307,
+    "SHA256": "E18A7B20AE347F2416AB7A7F4CBB0F05589B25164475CFD92A5B335692D0CE0A",
+    "ExpectedGitBlob": "0580e56affda3fdc3d406040c595e5db383f54a9",
+    "ActualGitBlob": "0580e56affda3fdc3d406040c595e5db383f54a9",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/SearchService.test.ts",
+    "Bytes": 12563,
+    "SHA256": "073A6849FD17C2FE63544A658215929ECD87860B5BED4215A479B06F7972945B",
+    "ExpectedGitBlob": "749fdf0f3b341b2af00f5d7e418cc0d2b24290a0",
+    "ActualGitBlob": "749fdf0f3b341b2af00f5d7e418cc0d2b24290a0",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/SearchService.ts",
+    "Bytes": 9465,
+    "SHA256": "53A4B302AB7F71BA3BAA7D4F389B94251907BA1C8454C110C3972E51288AAFDD",
+    "ExpectedGitBlob": "5d620a67f7c4618f73e297f3fb82168f9a731aac",
+    "ActualGitBlob": "5d620a67f7c4618f73e297f3fb82168f9a731aac",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/ai/tools/global/semanticSearchNotes.ts",
+    "Bytes": 3129,
+    "SHA256": "BEBEA039E3A232AD270040F15CBBAAC2692C97C1AA2A31D0251ACE03460BD64A",
+    "ExpectedGitBlob": "6441ff98365d09cc450a3d5f3eeb8c5a950e7ac4",
+    "ActualGitBlob": "6441ff98365d09cc450a3d5f3eeb8c5a950e7ac4",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "packages/lib/services/search/SearchEngine.ts",
+    "Bytes": 33436,
+    "SHA256": "D5C1456C353E9AD3BF68B95BEDF26D73DE2C76DCEB8ED3B1C926F422B2129E9D",
+    "ExpectedGitBlob": "771616a4fa90cffad26314ae5aaa31cc3b19d437",
+    "ActualGitBlob": "771616a4fa90cffad26314ae5aaa31cc3b19d437",
+    "BlobMatch": true
+  },
+  {
+    "Project": "joplin",
+    "Path": "readme/apps/ai_semantic_search.md",
+    "Bytes": 4931,
+    "SHA256": "188ED26E490A37A23DAFE609DB0A4F5BCB7DD7B5F7B2EE41EF3B0DACD3735B72",
+    "ExpectedGitBlob": "320dae918362087893c9d617b1532eae711038c0",
+    "ActualGitBlob": "320dae918362087893c9d617b1532eae711038c0",
+    "BlobMatch": true
+  },
+  {
+    "Project": "rea",
+    "Path": "LICENSE",
+    "Bytes": 1064,
+    "SHA256": "798F9E4D18E49B30BF2F12696C8CED73DC4E1413DA375A333D01281543A1EA8B",
+    "ExpectedGitBlob": "2d476d24fa5a9ae2ab35e5fd121494049eb2ee5d",
+    "ActualGitBlob": "2d476d24fa5a9ae2ab35e5fd121494049eb2ee5d",
+    "BlobMatch": true
+  },
+  {
+    "Project": "rea",
+    "Path": "docs/javascript-application-workflows.md",
+    "Bytes": 28298,
+    "SHA256": "FCD8C589BD99A1F5401CE4740FCF2854FC34BEBC4477DCFA84DB79D40FCCF825",
+    "ExpectedGitBlob": "92310f4d2cdd8488ec1025954d217eaf0180834d",
+    "ActualGitBlob": "92310f4d2cdd8488ec1025954d217eaf0180834d",
+    "BlobMatch": true
+  },
+  {
+    "Project": "rea",
+    "Path": "src/application/javascript/JavaScriptApplicationService.ts",
+    "Bytes": 7874,
+    "SHA256": "3490668C028812E55E4149460B55B7E81F320F32D31596F22EE9E63651D96941",
+    "ExpectedGitBlob": "fa66a55218934a6b8de70e380e688f517a02dc9f",
+    "ActualGitBlob": "fa66a55218934a6b8de70e380e688f517a02dc9f",
+    "BlobMatch": true
+  },
+  {
+    "Project": "rea",
+    "Path": "src/artifacts/AsarArtifactReader.ts",
+    "Bytes": 23013,
+    "SHA256": "47223E9143DEF1DFF24008D30E5CEC3F29EF0DD273F77599ADFDA2F7213D0613",
+    "ExpectedGitBlob": "cb54d80b8688108a1df2529d08f5a9db78ded92d",
+    "ActualGitBlob": "cb54d80b8688108a1df2529d08f5a9db78ded92d",
+    "BlobMatch": true
+  }
+]

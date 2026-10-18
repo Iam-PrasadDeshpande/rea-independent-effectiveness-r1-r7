@@ -1,0 +1,24 @@
+{
+  "note": "Registry signature binds package metadata to integrity; it is not an owner script signature or proof of source equivalence",
+  "pinnedSource": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc",
+  "registrySignatures": [
+    {
+      "valid": true,
+      "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+    },
+    {
+      "valid": true,
+      "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+    }
+  ],
+  "claimedSource": [
+    {
+      "uri": "git+https://github.com/morluto/rea@refs/heads/main",
+      "digest": {
+        "gitCommit": "3b79af28e80785afce9f5998d8f03289402a1847"
+      }
+    }
+  ],
+  "integrity": "sha512-C6BG7LyrAdR74mSjertM6PrxJkcNZ2bfQNOJornPo9erDEp2tyPRVYPnV5Yodr+1RqewCQla68WulXlVnveD+A==",
+  "sigstoreAttestationVerification": "NOT_PERFORMED"
+}

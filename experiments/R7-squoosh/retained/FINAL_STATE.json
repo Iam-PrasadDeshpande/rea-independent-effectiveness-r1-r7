@@ -1,0 +1,221 @@
+{
+  "MISSION": "REA_CODEX_SQUOOSH_R7_R1",
+  "EXECUTION_AUTHORITY": "OWNER_AUTHORIZED_T3_R7_ONLY_250_COORDINATOR_ACTIONS",
+  "EXECUTION_COMPLETE": true,
+  "R5_STATUS": "EXCLUDED_BY_OWNER_NOT_RUN",
+  "R6_STATUS": "EXCLUDED_BY_OWNER_NOT_RUN",
+  "R7_STATUS": "PASS_WITH_GAPS",
+  "R7_REFERENCE": "VERIFIED_ORIGINAL_LOCAL_PRODUCTION_BUILD",
+  "R7_ARM_A": "30_OF_30_MECHANICAL",
+  "R7_ARM_B": "30_OF_30_MECHANICAL",
+  "R7_ARM_C": "29_OF_30_RAW_MECHANICAL_C29_CLASSIFIER_FALSE_NEGATIVE",
+  "R7_FUNCTIONAL_EQUIVALENCE": "ALL_ARMS_26_OF_26_EXACT_POSITIVE_WORKFLOWS;FOUR_REJECTION_BEHAVIORS_OBSERVED;C29_AUDIT_PRESERVED",
+  "R7_REA_INCREMENTAL_VALUE": "IDENTITY_BOUND_TYPED_WASM_EVIDENCE;NO_OBSERVED_FUNCTIONAL_OR_OVERALL_ARCHITECTURE_COMPLETENESS_GAIN",
+  "EVIDENCE_QUALITY": "PINNED_SOURCE_ORACLE_SUBMISSIONS_ACTUAL_RUNTIME_AND_INDEPENDENT_MODEL_ASSISTED_REVIEW_WITH_RECORDED_GAPS",
+  "SIGNING_STATUS": "EXECUTED_CUSTOM_SCRIPTS_VALID_APPROVED_AUTHENTICODE_SIGNER;HISTORICAL_UNSIGNED_PARTIAL_NEVER_EXECUTED",
+  "SECURITY_FINDINGS": "FIND_EXEC_ENFORCEMENT_GAP_UNUSED_BY_B_BLOCKED_BEFORE_A_C;NO_OBSERVED_SOURCE_ORACLE_PEER_OR_NETWORK_ESCAPE",
+  "SETUP_AND_RECOVERY_COST": "PARTIALLY_MEASURED_FAILED_ATTEMPTS_RETAINED_MONETARY_COST_UNKNOWN",
+  "CROSS_APPLICATION_FINDINGS": "NOT_ASSESSED_R7_ONLY",
+  "PUBLIC_CLAIMS_SUPPORTED": "BOUNDED_SHARED_CODEC_RECONSTRUCTION_EXACT_POSITIVE_OUTPUTS_ACTUAL_REA_EVIDENCE",
+  "PUBLIC_CLAIMS_NOT_SUPPORTED": "FULL_APPLICATION_OR_ALGORITHM_RECOVERY;SUPERIORITY;GENERAL_SAVINGS;CAUSAL_GAIN;PRODUCTION_READINESS",
+  "BLOCKERS": [],
+  "FINAL_DISPOSITION": "PASS_WITH_GAPS",
+  "NEXT_ACTION": "STOP_OWNER_REVIEW_NO_AUTOMATIC_FOLLOW_ON",
+  "completedUtc": "2026-10-18T05:24:58.7102509Z",
+  "arms": [
+    {
+      "architecture": {
+        "PARTIAL": 9,
+        "UNKNOWN": 5,
+        "FULL": 16
+      },
+      "sessionUsage": {
+        "input_tokens": 1052552,
+        "cached_input_tokens": 986368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11307,
+        "reasoning_output_tokens": 751
+      },
+      "dispatchedActions": 27,
+      "toolErrors": 0,
+      "stopReason": "completed",
+      "toolResponses": 27,
+      "cpuUserSeconds": 9.239999999999998,
+      "cliProcesses": 28,
+      "resourceScope": "GNU time of CLI process tree only; Windows MCP and browser subprocess resources excluded",
+      "activeSeconds": 401.2912894,
+      "dollarCost": null,
+      "cpuSystemSeconds": 14.08,
+      "comparison": {
+        "negativePassed": 4,
+        "positivePassed": 26,
+        "validExecution": true,
+        "passed": 30,
+        "status": "PASS_BOUNDED_ORACLE"
+      },
+      "maximumCliRssKiB": 142884,
+      "toolKinds": [
+        {
+          "count": 7,
+          "name": "browser"
+        },
+        {
+          "count": 3,
+          "name": "inspect"
+        },
+        {
+          "count": 7,
+          "name": "read_file"
+        },
+        {
+          "count": 7,
+          "name": "search_text"
+        },
+        {
+          "count": 3,
+          "name": "write_file"
+        }
+      ],
+      "usageMethod": "Final cumulative CLI session total, not sum of cumulative resumed turn totals",
+      "thread": "01a14d64-7c17-74a1-bffa-ed1e57e0aff8",
+      "arm": "A"
+    },
+    {
+      "architecture": {
+        "PARTIAL": 13,
+        "UNKNOWN": 1,
+        "FULL": 16
+      },
+      "sessionUsage": {
+        "input_tokens": 1065851,
+        "cached_input_tokens": 937216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11045,
+        "reasoning_output_tokens": 1040
+      },
+      "dispatchedActions": 25,
+      "toolErrors": 0,
+      "stopReason": "completed",
+      "toolResponses": 23,
+      "cpuUserSeconds": 9.35,
+      "cliProcesses": 26,
+      "resourceScope": "GNU time of CLI process tree only; Windows MCP and browser subprocess resources excluded",
+      "activeSeconds": 638.5846324,
+      "dollarCost": null,
+      "cpuSystemSeconds": 16.83,
+      "comparison": {
+        "negativePassed": 4,
+        "positivePassed": 26,
+        "validExecution": true,
+        "passed": 30,
+        "status": "PASS_BOUNDED_ORACLE"
+      },
+      "maximumCliRssKiB": 143932,
+      "toolKinds": [
+        {
+          "count": 1,
+          "name": "ast"
+        },
+        {
+          "count": 5,
+          "name": "browser"
+        },
+        {
+          "count": 3,
+          "name": "inspect"
+        },
+        {
+          "count": 4,
+          "name": "read_file"
+        },
+        {
+          "count": 8,
+          "name": "search_text"
+        },
+        {
+          "count": 1,
+          "name": "wabt"
+        },
+        {
+          "count": 1,
+          "name": "write_file"
+        }
+      ],
+      "usageMethod": "Final cumulative CLI session total, not sum of cumulative resumed turn totals",
+      "thread": "01a14ce7-6be2-7300-9b98-8397ba7b34c2",
+      "arm": "B"
+    },
+    {
+      "architecture": {
+        "PARTIAL": 11,
+        "UNKNOWN": 5,
+        "FULL": 14
+      },
+      "sessionUsage": {
+        "input_tokens": 1397722,
+        "cached_input_tokens": 1295872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9432,
+        "reasoning_output_tokens": 824
+      },
+      "dispatchedActions": 27,
+      "toolErrors": 0,
+      "stopReason": "completed",
+      "toolResponses": 27,
+      "cpuUserSeconds": 10.269999999999998,
+      "cliProcesses": 28,
+      "resourceScope": "GNU time of CLI process tree only; Windows MCP and browser subprocess resources excluded",
+      "activeSeconds": 397.8797053,
+      "dollarCost": null,
+      "cpuSystemSeconds": 15.470000000000002,
+      "comparison": {
+        "negativePassed": 3,
+        "positivePassed": 26,
+        "validExecution": true,
+        "passed": 29,
+        "status": "PARTIAL_OR_FAILED"
+      },
+      "maximumCliRssKiB": 145116,
+      "toolKinds": [
+        {
+          "count": 5,
+          "name": "browser"
+        },
+        {
+          "count": 3,
+          "name": "inspect"
+        },
+        {
+          "count": 3,
+          "name": "json_query"
+        },
+        {
+          "count": 1,
+          "name": "rea_js"
+        },
+        {
+          "count": 1,
+          "name": "rea_wasm"
+        },
+        {
+          "count": 6,
+          "name": "read_file"
+        },
+        {
+          "count": 5,
+          "name": "search_text"
+        },
+        {
+          "count": 3,
+          "name": "write_file"
+        }
+      ],
+      "usageMethod": "Final cumulative CLI session total, not sum of cumulative resumed turn totals",
+      "thread": "01a14d6a-d18b-72f0-a635-700c260dd13b",
+      "arm": "C"
+    }
+  ],
+  "TOTAL_ACTIONS_USED": 134.0,
+  "TOTAL_ACTIONS_REMAINING": 116.0,
+  "ACTION_ACCOUNTING": "Top-level coordinator calls; nested79 investigator dispatches separately retained; not every subprocess/evaluator-agent internal operation"
+}

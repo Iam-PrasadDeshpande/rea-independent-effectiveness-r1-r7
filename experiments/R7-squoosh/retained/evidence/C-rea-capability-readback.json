@@ -1,0 +1,56 @@
+[
+  {
+    "exports": 5,
+    "provider": {
+      "id": "wabt-artifact",
+      "name": "REA WABT artifact adapter",
+      "version": "wabt@1.0.42"
+    },
+    "recordPath": "/output/tool-010.stdout.txt",
+    "subject": {
+      "name": "squoosh_resize_bg-3d426466.wasm",
+      "digest": {
+        "sha256": "b63e9f90187a9f5cec9a7a9cfc15e68e9330979ac39a29258282c020780cd6ec"
+      },
+      "local_path": "/artifact/c/squoosh_resize_bg-3d426466.wasm",
+      "format": "file",
+      "architecture": null
+    },
+    "imports": 0,
+    "selectedPath": "/artifact/c/squoosh_resize_bg-3d426466.wasm",
+    "exit": 0,
+    "evidenceId": "ev_05c633baa3d72e5f79309ad6917281a3fa46b0e11b019b1c92f7b80d025d3603",
+    "tool": "rea_wasm",
+    "recordSha256": "13fc7bba9d69d1e51e02a12eac115191b2f245e6e2d25b5de690071abe05b0ae",
+    "characters": 500305,
+    "elapsedSeconds": 2.1483246,
+    "validation": "valid"
+  },
+  {
+    "exports": null,
+    "provider": {
+      "id": "rea-javascript-application",
+      "name": "REA JavaScript application analyzer",
+      "version": "1"
+    },
+    "recordPath": "/output/tool-011.stdout.txt",
+    "subject": {
+      "name": "artifact",
+      "digest": {
+        "sha256": "cdb9b7eca24c74b196ea831879e515bcd3ac51e0e8842aabddc30622e22f2478"
+      },
+      "local_path": "/artifact",
+      "format": "directory",
+      "architecture": null
+    },
+    "imports": null,
+    "selectedPath": "/artifact/c/webp_enc-75623855.js",
+    "exit": 0,
+    "evidenceId": "ev_2fb161e24d229a5f50f1330e838a72a5765cd2496b20e17f9cfd666911b3d17c",
+    "tool": "rea_js",
+    "recordSha256": "2c2a4b2c2b9c3318ecb86c8b9bc05989fb5e1c0116310993a8fe6127f6ada7d1",
+    "characters": 4236812,
+    "elapsedSeconds": 7.8527051,
+    "validation": null
+  }
+]

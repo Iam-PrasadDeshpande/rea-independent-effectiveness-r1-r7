@@ -1,0 +1,23 @@
+[
+  {
+    "INCORRECT": 0,
+    "ABSENT": 0,
+    "PARTIAL": 7,
+    "arm": "A",
+    "FULL": 33
+  },
+  {
+    "INCORRECT": 0,
+    "ABSENT": 0,
+    "PARTIAL": 3,
+    "arm": "B",
+    "FULL": 37
+  },
+  {
+    "INCORRECT": 0,
+    "ABSENT": 0,
+    "PARTIAL": 1,
+    "arm": "C",
+    "FULL": 39
+  }
+]

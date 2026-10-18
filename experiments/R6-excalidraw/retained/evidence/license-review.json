@@ -1,0 +1,40 @@
+{
+  "obligations": "Retain original MIT copyright/license and installed vendor notices. Apache/BSD/ISC/CC-BY/MPL notices remain in original pinned packages; any later redistribution needs a separate artifact-specific review.",
+  "unknownScope": "All three unknown metadata entries are first-party workspaces/examples under the original root MIT source license; no unknown external dependency reported by Yarn.",
+  "unknownEntries": [
+    [
+      "excalidraw-app",
+      "1.0.0",
+      "UNKNOWN",
+      "http://.",
+      "http://.",
+      "Unknown"
+    ],
+    [
+      "with-nextjs",
+      "0.1.0",
+      "UNKNOWN",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    [
+      "with-script-in-browser",
+      "1.0.0",
+      "UNKNOWN",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  ],
+  "runtimeVendorLicenses": {
+    "Playwright": "Apache-2.0; package notices retained",
+    "Chromium": "BSD and third-party notices in downloaded package",
+    "REA": "MIT; original LICENSE and THIRD_PARTY_NOTICES retained in read-only source/package",
+    "node": "vendor license bundle retained in system runtime"
+  },
+  "targetLicense": "MIT",
+  "inventoryPackages": 1318,
+  "executionScope": "Private local evaluation only; no redistribution or publishing",
+  "status": "LOCAL_EVALUATION_PROVENANCE_AND_NOTICES_RETAINED;NOT_REDISTRIBUTION_CLEARANCE"
+}

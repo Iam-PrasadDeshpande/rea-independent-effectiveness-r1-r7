@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-18T05:00:31.1070382Z",
+  "files": [
+    {
+      "path": "scripts/browser-evaluator-v2.js",
+      "sha256": "0137526d5dc4096dd334e3871f720f98d8c0c1efaa01651bc731d1784c992d27"
+    },
+    {
+      "path": "scripts/Invoke-R7Evaluator.ps1",
+      "sha256": "0fa890b2d96659badea7fd70bf696623c132586f8423a7f94beed61314efddad"
+    },
+    {
+      "path": "scripts/Validate-R7-v3.ps1",
+      "sha256": "d93b163ba93beed644177d3c555909002663f89f24bebf2c628309e785a942d0"
+    }
+  ],
+  "reason": "Independent pre-evaluation review found output-decode errors could masquerade as expected reconstruction rejection. Stage tag enforces existing frozen semantic requirement; no scenario or expected outputs changed. Only evaluator adapter changes; investigator harness unchanged."
+}

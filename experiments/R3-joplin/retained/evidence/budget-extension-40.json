@@ -1,0 +1,8 @@
+{
+  "Mission": "REA_CODEX_JOPLIN_SEMANTIC_SEARCH_R3",
+  "PreviousCeiling": 250,
+  "CumulativeCeiling": 290,
+  "AdditionalActions": 40,
+  "Authorization": "APPROVED_ON_OWNER_SUBMISSION",
+  "Scope": "EXISTING_R3_MISSION_ONLY"
+}

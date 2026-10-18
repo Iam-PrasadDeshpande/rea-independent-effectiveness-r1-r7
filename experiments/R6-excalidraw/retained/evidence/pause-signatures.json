@@ -1,0 +1,38 @@
+[
+  {
+    "path": "Invoke-R6.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "5507a83d3cf011996b154281477011a811a8d27c29c6c59d936fb8ca6024d686",
+    "status": "Valid"
+  },
+  {
+    "path": "Invoke-R6Oracle.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "c5bbfee7071dad23f876d165f150f5dd4cc5d0f0c771d942464c89574a7fde7c",
+    "status": "Valid"
+  },
+  {
+    "path": "Run-R6Browser.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "e3c08ed56c23a8f07e8b075ce2ff4c6d933bd07ba305a9894fa6d6aa8d4cae5c",
+    "status": "Valid"
+  },
+  {
+    "path": "Run-R6Investigator.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "481028830b29acdf5c8add9dc2a5d10de71c105a870103ae307de588f0df717f",
+    "status": "Valid"
+  },
+  {
+    "path": "tools\\BrowserHarness.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "29addd0dc5c9af918dff34f8825a0bfce428a13e00ec84ce88f4cacda07d4a6c",
+    "status": "Valid"
+  },
+  {
+    "path": "tools\\signature-probe.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "536fa78821ce0e572c8a73608daeff6042ccc1bab637a7b1e96e7ba7024b73bd",
+    "status": "Valid"
+  }
+]

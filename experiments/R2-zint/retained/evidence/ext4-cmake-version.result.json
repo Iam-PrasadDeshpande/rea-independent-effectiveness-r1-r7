@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-17T18:23:15.0580386Z",
+  "arguments": [
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/cmake/cmake-3.31.8-linux-x86_64/bin/cmake",
+    "--version"
+  ],
+  "exit": 0,
+  "elapsedSeconds": 0.2317755
+}

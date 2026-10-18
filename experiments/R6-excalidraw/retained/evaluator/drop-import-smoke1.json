@@ -1,0 +1,109 @@
+{
+  "startedUtc": "2026-10-18T03:48:08.1016487Z",
+  "instance": "drop-import-smoke1",
+  "arm": "E",
+  "cases": [
+    {
+      "name": "Empty valid scene import",
+      "id": "27",
+      "error": null,
+      "observations": [
+        {
+          "scene": []
+        }
+      ]
+    },
+    {
+      "name": "Malformed JSON import preserves scene",
+      "id": "28",
+      "error": null,
+      "observations": [
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        },
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrong type import preserves scene",
+      "id": "29",
+      "error": null,
+      "observations": [
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        },
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "endedUtc": "2026-10-18T03:48:33.4195943Z",
+  "label": "drop-import-smoke1"
+}

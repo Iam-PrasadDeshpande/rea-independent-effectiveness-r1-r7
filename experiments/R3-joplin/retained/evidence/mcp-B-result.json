@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":33,\"entries\":[\"\\\\gui\\\\MainLayoutPane.js\",\"\\\\gui\\\\MainScreen\",\"\\\\gui\\\\MainScreen\\\\handleCallbackUrl.js\",\"\\\\gui\\\\MainScreen\\\\handleCallbackUrl.test.js\",\"\\\\gui\\\\MainScreen.js\",\"\\\\gui\\\\note-viewer\\\\pluginAssets\\\\katex\\\\fonts\\\\KaTeX_Main-Bold.woff2\",\"\\\\gui\\\\note-viewer\\\\pluginAssets\\\\katex\\\\fonts\\\\KaTeX_Main-BoldItalic.woff2\",\"\\\\gui\\\\note-viewer\\\\pluginAssets\\\\katex\\\\fonts\\\\KaTeX_Main-Italic.woff2\",\"\\\\gui\\\\note-viewer\\\\pluginAssets\\\\katex\\\\fonts\\\\KaTeX_Main-Regular.woff2\",\"\\\\integration-tests\\\\main.spec.js\",\"\\\\integration-tests\\\\models\\\\MainScreen.js\",\"\\\\integration-tests\\\\util\\\\activateMainMenuItem.js\"]}"
+      }
+    ]
+  }
+}

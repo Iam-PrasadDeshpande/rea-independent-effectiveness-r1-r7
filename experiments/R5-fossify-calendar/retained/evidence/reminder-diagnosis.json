@@ -1,0 +1,64 @@
+[
+  {
+    "failuresBeyondOneSecondOffset": [
+      "32-unsorted-reminders-source-order"
+    ],
+    "reminderBearingPassed": 0,
+    "arm": "A",
+    "reminderBearingCases": 12,
+    "failedCases": [
+      "30-one-reminder",
+      "31-three-reminders-source-order",
+      "32-unsorted-reminders-source-order",
+      "33-reminder-exact-now-skipped",
+      "34-reminder-one-second-before",
+      "35-deleted-first-reminder-next-series",
+      "36-edited-reminder-independent-child",
+      "37-edited-child-reminders-off",
+      "39-boundary-spring",
+      "40-boundary-fall",
+      "41-boundary-leap",
+      "42-boundary-year"
+    ]
+  },
+  {
+    "failuresBeyondOneSecondOffset": [],
+    "reminderBearingPassed": 0,
+    "arm": "B",
+    "reminderBearingCases": 12,
+    "failedCases": [
+      "30-one-reminder",
+      "31-three-reminders-source-order",
+      "32-unsorted-reminders-source-order",
+      "33-reminder-exact-now-skipped",
+      "34-reminder-one-second-before",
+      "35-deleted-first-reminder-next-series",
+      "36-edited-reminder-independent-child",
+      "37-edited-child-reminders-off",
+      "39-boundary-spring",
+      "40-boundary-fall",
+      "41-boundary-leap",
+      "42-boundary-year"
+    ]
+  },
+  {
+    "failuresBeyondOneSecondOffset": [],
+    "reminderBearingPassed": 0,
+    "arm": "C",
+    "reminderBearingCases": 12,
+    "failedCases": [
+      "30-one-reminder",
+      "31-three-reminders-source-order",
+      "32-unsorted-reminders-source-order",
+      "33-reminder-exact-now-skipped",
+      "34-reminder-one-second-before",
+      "35-deleted-first-reminder-next-series",
+      "36-edited-reminder-independent-child",
+      "37-edited-child-reminders-off",
+      "39-boundary-spring",
+      "40-boundary-fall",
+      "41-boundary-leap",
+      "42-boundary-year"
+    ]
+  }
+]

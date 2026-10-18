@@ -1,0 +1,3 @@
+# REA invocation evidence — R6
+
+Use the [capability matrix](../../consolidated/CAPABILITY-COVERAGE.md) and [original report](retained/FINAL_REPORT.md). The exact retained call/output identities are indexed in [EVIDENCE-INDEX.json](EVIDENCE-INDEX.json). Opaque raw tool transcripts remain owner-local pending privacy/licensing review. Successful preflight calls and investigator calls must be distinguished; intended tool availability is not execution proof. Missing invocation categories are not synthesized.

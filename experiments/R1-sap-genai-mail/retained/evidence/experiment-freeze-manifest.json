@@ -1,0 +1,22 @@
+[
+  {
+    "Path": "evidence://R1/\\Run-BlindArm.ps1",
+    "Hash": "02F620E5B3B2F49A444AEFD1EF2ED37405E46823F5125274065BB05779942B87"
+  },
+  {
+    "Path": "evidence://R1/\\oracle\\predeclared-rubric.md",
+    "Hash": "183F0CCCA3354D5756358ED1FC899762DA4982D8A964391851626250FB71B8C8"
+  },
+  {
+    "Path": "evidence://R1/\\oracle\\reconstruction-tests.js",
+    "Hash": "7A37F287B3732CDD7689ED07C126E56FD9DE3946E777A5E53E7E989A6A716AE3"
+  },
+  {
+    "Path": "evidence://R1/\\investigator-prompt.txt",
+    "Hash": "50A4FDEA29CA75C15832501023D0C0440CA120AEB74E10EF1E425796209D3718"
+  },
+  {
+    "Path": "evidence://R1/\\EXPERIMENT_PROTOCOL.md",
+    "Hash": "DDBA0815BAEF5A73FDAF9A740DCFD716E437695B14898FE01997DC02E5C40067"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T17:48:19.1429483Z",
+  "exit": -1,
+  "arguments": [
+    "--fail",
+    "--location",
+    "--retry",
+    "2",
+    "--connect-timeout",
+    "20",
+    "--max-time",
+    "600",
+    "--output",
+    "evidence://R2/\\downloads\\ghidra.zip",
+    "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip"
+  ],
+  "executable": "C:\\Windows\\System32\\curl.exe"
+}

@@ -1,0 +1,28 @@
+{
+  "perSession": [
+    {
+      "toolInvocations": 62,
+      "session": "01a14cbb-8af0-7c20-b873-5dde4f3e03d4"
+    },
+    {
+      "toolInvocations": 36,
+      "session": "01a14cbf-836b-7400-bbfb-7636bb313791"
+    },
+    {
+      "toolInvocations": 37,
+      "session": "01a14cbf-aeb7-7cc3-937d-3434da532780"
+    },
+    {
+      "toolInvocations": 49,
+      "session": "01a14cc0-d851-7882-b33b-d556d24cbece"
+    }
+  ],
+  "uniqueTopLevelToolInvocations": 184,
+  "scriptedInvestigatorQueries": 107,
+  "pilotQueries": 25,
+  "definition": "Deduplicated root/evaluator tool invocations after approval plus every investigator-dispatched tool query, including pilots; model turns, compiled test cases and internal vendor RPCs reported separately, not double charged",
+  "snapshotUtc": "2026-10-18T02:28:21.6387173Z",
+  "authorizedCeiling": 300,
+  "actionsUsed": 291,
+  "budgetChange": "Owner explicitly raised250to300 in this chat"
+}

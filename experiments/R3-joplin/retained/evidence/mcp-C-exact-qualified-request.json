@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "max_heap_mb": 1024,
+    "input_path": "evidence://R3/\\blind-prep-v2\\input\\app.asar",
+    "source_paths": [
+      "gui/NoteEditor/utils/useSearchMarkers.js"
+    ],
+    "format": "asar",
+    "analysis_timeout_ms": 120000,
+    "detail": "summary",
+    "max_semantic_nodes": 3000,
+    "max_semantic_nodes_per_file": 3000
+  },
+  "name": "analyze_javascript_application"
+}

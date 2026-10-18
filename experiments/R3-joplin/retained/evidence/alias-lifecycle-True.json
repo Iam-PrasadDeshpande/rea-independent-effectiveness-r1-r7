@@ -1,0 +1,10 @@
+{
+  "RetargetTest": true,
+  "AliasRemoved": true,
+  "GuardChecks": 0,
+  "Failure": "ALIAS_RETARGET_REJECTED",
+  "Target": "evidence://R3/\\setup-output\\rea-qualified",
+  "Mapping": "R:\\: => evidence://R3/\\setup-output\\rea-qualified",
+  "UTC": "2026-10-18T02:04:05.1104067Z",
+  "ChildStarted": true
+}

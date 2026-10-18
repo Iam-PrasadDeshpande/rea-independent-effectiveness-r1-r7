@@ -1,0 +1,386 @@
+[
+  {
+    "id": "F01",
+    "exit": 0,
+    "canonicalHex": "D39EBB666CCCD9DBAEC42CDBD9B3B758E9CD8EB",
+    "stdout": "D3 9E BB 66 6C CC D9 DB AE C4 2C DB D9 B3 B7 58 E9 CD 8E B\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F02",
+    "exit": 0,
+    "canonicalHex": "D39EBB36648C5D893366EED992626863AC",
+    "stdout": "D3 9E BB 36 64 8C 5D 89 33 66 EE D9 92 62 68 63 AC\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F03",
+    "exit": 0,
+    "canonicalHex": "D39EBB33648C5D893366EED992621A63AC",
+    "stdout": "D3 9E BB 33 64 8C 5D 89 33 66 EE D9 92 62 1A 63 AC\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F04",
+    "exit": 0,
+    "canonicalHex": "D39EBB12726CD99B26263AC",
+    "stdout": "D3 9E BB 12 72 6C D9 9B 26 26 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F05",
+    "exit": 0,
+    "canonicalHex": "D39EBA6E726B39B1BD763AC",
+    "stdout": "D3 9E BA 6E 72 6B 39 B1 BD 76 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F06",
+    "exit": 0,
+    "canonicalHex": "D39EBAE6764B39B1A6463AC",
+    "stdout": "D3 9E BA E6 76 4B 39 B1 A6 46 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F07",
+    "exit": 0,
+    "canonicalHex": "D39EBA73764B39B1B2263AC",
+    "stdout": "D3 9E BA 73 76 4B 39 B1 B2 26 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F08",
+    "exit": 0,
+    "canonicalHex": "D39EBB2766C8DD8EB",
+    "stdout": "D3 9E BB 27 66 C8 DD 8E B\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F09",
+    "exit": 0,
+    "canonicalHex": "D39EBB63498D996722C764C758",
+    "stdout": "D3 9E BB 63 49 8D 99 67 22 C7 64 C7 58\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F10",
+    "exit": 0,
+    "canonicalHex": "D39EBB44674B39162F76E4A798EB",
+    "stdout": "D3 9E BB 44 67 4B 39 16 2F 76 E4 A7 98 EB\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F11",
+    "exit": 0,
+    "canonicalHex": "D39EBB36648C5D893366EED9926273764B39B1BA363AC",
+    "stdout": "D3 9E BB 36 64 8C 5D 89 33 66 EE D9 92 62 73 76 4B 39 B1 BA 36 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "F12",
+    "exit": 0,
+    "canonicalHex": "D39EBB36648C5D893366EED9926273764B39B1BA363AC",
+    "stdout": "D3 9E BB 36 64 8C 5D 89 33 66 EE D9 92 62 73 76 4B 39 B1 BA 36 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V01",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE8DD1DB714E6DB18EB",
+    "stdout": "D3 9E BB 22 5E E8 DD 1D B7 14 E6 DB 18 EB\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V02",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EEA31162235888D118B44628C456E2C746EBB171A3B776D1D8BB746E2EBD8EB",
+    "stdout": "D3 9E BB 22 5E EA 31 16 22 35 88 8D 11 8B 44 62 8C 45 6E 2C 74 6E BB 17 1A 3B 77 6D 1D 8B B7 46 E2 EB D8 EB\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V03",
+    "exit": 0,
+    "canonicalHex": "D39EBB725EEDD11A317622A311BA735DEEDD6731D6",
+    "stdout": "D3 9E BB 72 5E ED D1 1A 31 76 22 A3 11 BA 73 5D EE DD 67 31 D6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V04",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE8DD1DB714E6F5D9CA736E88D18BB115188DD39AEF76E9898EB",
+    "stdout": "D3 9E BB 22 5E E8 DD 1D B7 14 E6 F5 D9 CA 73 6E 88 D1 8B B1 15 18 8D D3 9A EF 76 E9 89 8E B\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V05",
+    "exit": 0,
+    "canonicalHex": "D39EBB36648C5D893366EED99263225EE8DD1DB714E6F518EB",
+    "stdout": "D3 9E BB 36 64 8C 5D 89 33 66 EE D9 92 63 22 5E E8 DD 1D B7 14 E6 F5 18 EB\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V06",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE8DD1DB714E6BBDEBA73764B39B1B2863AC",
+    "stdout": "D3 9E BB 22 5E E8 DD 1D B7 14 E6 BB DE BA 73 76 4B 39 B1 B2 86 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V07",
+    "exit": 0,
+    "canonicalHex": "D39EBB7259C8B1C5B0A6F6B391638B614DED4331D6",
+    "stdout": "D3 9E BB 72 59 C8 B1 C5 B0 A6 F6 B3 91 63 8B 61 4D ED 43 31 D6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V08",
+    "exit": 0,
+    "canonicalHex": "D39EBBA65EE9D94622C4469CD77BB7672C758",
+    "stdout": "D3 9E BB A6 5E E9 D9 46 22 C4 46 9C D7 7B B7 67 2C 75 8\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V09",
+    "exit": 0,
+    "canonicalHex": "D39EBBA65EE9CD11B776E8DC51DAEC468C5D373B7468C758",
+    "stdout": "D3 9E BB A6 5E E9 CD 11 B7 76 E8 DC 51 DA EC 46 8C 5D 37 3B 74 68 C7 58\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V10",
+    "exit": 0,
+    "canonicalHex": "D39EBB6C59CF518EB",
+    "stdout": "D3 9E BB 6C 59 CF 51 8E B\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V11",
+    "exit": 0,
+    "canonicalHex": "D39EBA3459C8B1C5B0A426C758",
+    "stdout": "D3 9E BA 34 59 C8 B1 C5 B0 A4 26 C7 58\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "V12",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EEA31EBA734EC8B13131D6",
+    "stdout": "D3 9E BB 22 5E EA 31 EB A7 34 EC 8B 13 13 1D 6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C01",
+    "exit": 0,
+    "canonicalHex": "D39EBB2259C8B1C5B0A4CEC758",
+    "stdout": "D3 9E BB 22 59 C8 B1 C5 B0 A4 CE C7 58\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C02",
+    "exit": 0,
+    "canonicalHex": "D39EBB2259C8B1C5AF776EEBD8EB",
+    "stdout": "D3 9E BB 22 59 C8 B1 C5 AF 77 6E EB D8 EB\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C03",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EEA31162EF59C8B1C5AF7446B117931D6",
+    "stdout": "D3 9E BB 22 5E EA 31 16 2E F5 9C 8B 1C 5A F7 44 6B 11 79 31 D6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C04",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE96121AEF59C8B1C5B0A6F6BDDE4B6F6CCC758",
+    "stdout": "D3 9E BB 22 5E E9 61 21 AE F5 9C 8B 1C 5B 0A 6F 6B DD E4 B6 F6 CC C7 58\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C05",
+    "exit": 0,
+    "canonicalHex": "D39EBB7259C8B17BA8C5DEE2D852F7458BBDBDBD763AC",
+    "stdout": "D3 9E BB 72 59 C8 B1 7B A8 C5 DE E2 D8 52 F7 45 8B BD BD BD 76 3A C\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C06",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EEA3139A2C67288D972F263AC",
+    "stdout": "D3 9E BB 22 5E EA 31 39 A2 C6 72 88 D9 72 F2 63 AC\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C07",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EEEC518B1D6",
+    "stdout": "D3 9E BB 22 5E EE C5 18 B1 D6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "C08",
+    "exit": 0,
+    "canonicalHex": "D39EBB226CCD99B33666CCD99B33666CCD99B931D6",
+    "stdout": "D3 9E BB 22 6C CD 99 B3 36 66 CC D9 9B 33 66 6C CD 99 B9 31 D6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "N01",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE8DD1DB714DC9CDEBB394E6DD137339794C758",
+    "stdout": "D3 9E BB 22 5E E8 DD 1D B7 14 DC 9C DE BB 39 4E 6D D1 37 33 97 94 C7 58\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "N02",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE8DD1DB714DC9CD11B1D6",
+    "stdout": "D3 9E BB 22 5E E8 DD 1D B7 14 DC 9C D1 1B 1D 6\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "N03",
+    "exit": 0,
+    "canonicalHex": "D39EBB225EE9614C2435CC859893B75DEC758",
+    "stdout": "D3 9E BB 22 5E E9 61 4C 24 35 CC 85 98 93 B7 5D EC 75 8\n",
+    "stderr": "",
+    "stderrPresent": false
+  },
+  {
+    "id": "N04",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 251: Control characters are not supported by GS1\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E01",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 778: No input data\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E02",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 252: Data does not start with an AI\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E03",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 259: Invalid data length for AI (03)\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E04",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 259: Invalid data length for AI (01)\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E05",
+    "exit": 0,
+    "canonicalHex": "D39EBB36648C5D893366EED992329E63AC",
+    "stdout": "D3 9E BB 36 64 8C 5D 89 33 66 EE D9 92 32 9E 63 AC\n",
+    "stderr": "Warning 261: AI (01) position 14: Bad checksum '4', expected '3'\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E06",
+    "exit": 0,
+    "canonicalHex": "D39EBA737649B98DB2E63AC",
+    "stdout": "D3 9E BA 73 76 49 B9 8D B2 E6 3A C\n",
+    "stderr": "Warning 261: AI (17) position 3: Invalid month '13'\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E07",
+    "exit": 0,
+    "canonicalHex": "D39EBA73764CCDB621363AC",
+    "stdout": "D3 9E BA 73 76 4C CD B6 21 36 3A C\n",
+    "stderr": "Warning 261: AI (17) position 5: Invalid day '30'\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E08",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 259: Invalid data length for AI (10)\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E09",
+    "exit": 0,
+    "canonicalHex": "D39EBB6C5EEA311622368EC758",
+    "stdout": "D3 9E BB 6C 5E EA 31 16 22 36 8E C7 58\n",
+    "stderr": "Warning 261: AI (30) position 1: Non-numeric character 'A'\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E10",
+    "exit": 0,
+    "canonicalHex": "D39EBB365EEA31162235888D118B44628C456E2C746EBB171BAC63AC",
+    "stdout": "D3 9E BB 36 5E EA 31 16 22 35 88 8D 11 8B 44 62 8C 45 6E 2C 74 6E BB 17 1B AC 63 AC\n",
+    "stderr": "Warning 261: AI (01) position 1: Non-numeric character 'A'\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E11",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 253: Malformed AI in input (brackets don't match)\n",
+    "stderrPresent": true
+  },
+  {
+    "id": "E12",
+    "exit": 6,
+    "canonicalHex": "",
+    "stdout": "",
+    "stderr": "Error 258: Empty data field in input\n",
+    "stderrPresent": true
+  }
+]

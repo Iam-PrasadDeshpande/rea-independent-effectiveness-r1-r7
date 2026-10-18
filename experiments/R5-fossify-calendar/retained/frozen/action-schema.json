@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "tool": {
+      "type": "string"
+    },
+    "java_source": {
+      "type": "string"
+    },
+    "arguments_json": {
+      "type": "string"
+    },
+    "report": {
+      "type": "string"
+    },
+    "done": {
+      "type": "boolean"
+    }
+  },
+  "type": "object",
+  "required": [
+    "done",
+    "tool",
+    "arguments_json",
+    "report",
+    "java_source"
+  ],
+  "additionalProperties": false
+}

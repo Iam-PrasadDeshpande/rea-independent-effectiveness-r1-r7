@@ -1,0 +1,592 @@
+{
+  "validExecution": true,
+  "negativeTotal": 4,
+  "utc": "2026-10-18T05:17:44.1224743Z",
+  "negativePassed": 3,
+  "fatal": null,
+  "arm": "C",
+  "positivePassed": 26,
+  "cases": 30,
+  "status": "PARTIAL_OR_FAILED",
+  "rows": [
+    {
+      "expectedEncoded": "0ad91ea234976200e60a733e7473711df57854c3883bc67e135ae7b4ec61aea0",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C01_png_default",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "0ad91ea234976200e60a733e7473711df57854c3883bc67e135ae7b4ec61aea0"
+    },
+    {
+      "expectedEncoded": "d111f6f281e487ef63517ff89f2c18af3166a0a431fa00fc89af55dc8d0fa3cf",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C02_jpeg_decode",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "d111f6f281e487ef63517ff89f2c18af3166a0a431fa00fc89af55dc8d0fa3cf"
+    },
+    {
+      "expectedEncoded": "9ae9aadf0f3dc3110183a336e57353c40695a6650504608f08496f6187bdb906",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C03_webp_decode",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "9ae9aadf0f3dc3110183a336e57353c40695a6650504608f08496f6187bdb906"
+    },
+    {
+      "expectedEncoded": "0ad91ea234976200e60a733e7473711df57854c3883bc67e135ae7b4ec61aea0",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C04_misleading_name",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "0ad91ea234976200e60a733e7473711df57854c3883bc67e135ae7b4ec61aea0"
+    },
+    {
+      "expectedEncoded": "3a08149ef0b0ccd24ff3d8e7794110bda9de6b27fdf505262938f15a216dcd9e",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C05_alpha_lossy",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "3a08149ef0b0ccd24ff3d8e7794110bda9de6b27fdf505262938f15a216dcd9e"
+    },
+    {
+      "expectedEncoded": "cf8a1a441eebcae7b3cbdcc5cfe3fb5765024856075c1f72fbd249d7e338cb3b",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C06_alpha_lossless",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "cf8a1a441eebcae7b3cbdcc5cfe3fb5765024856075c1f72fbd249d7e338cb3b"
+    },
+    {
+      "expectedEncoded": "33c8d7b094a5c16edca21b578d898571b3a4599511db9975922aa2bc6ba2df33",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C07_one_pixel",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "33c8d7b094a5c16edca21b578d898571b3a4599511db9975922aa2bc6ba2df33"
+    },
+    {
+      "expectedEncoded": "e783d2651c60b6f73b9261f459c344e2e5d3599e711fb9e64284f34fd5e5c537",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C08_odd_dimensions",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "e783d2651c60b6f73b9261f459c344e2e5d3599e711fb9e64284f34fd5e5c537"
+    },
+    {
+      "expectedEncoded": "e777365790249abb577110a1af7a9a5f138b6947dbb5553774ce33efa8b18aab",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C09_down_lanczos",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "e777365790249abb577110a1af7a9a5f138b6947dbb5553774ce33efa8b18aab"
+    },
+    {
+      "expectedEncoded": "70ae35a09f853228e0af80ee32b761ef190934e74db26a2d6e3b1461ad43064e",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C10_up_lanczos",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "70ae35a09f853228e0af80ee32b761ef190934e74db26a2d6e3b1461ad43064e"
+    },
+    {
+      "expectedEncoded": "01e65e0e0e7cdf4b15f1b9d1dfbefdbd8e00261f7ff6f888fd95cd404bf45fb4",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C11_portrait_stretch",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "01e65e0e0e7cdf4b15f1b9d1dfbefdbd8e00261f7ff6f888fd95cd404bf45fb4"
+    },
+    {
+      "expectedEncoded": "a60e6d61cf719a0be90af58904e8ab52132979e960c381e298f54b0aafe20fb2",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C12_center_crop",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "a60e6d61cf719a0be90af58904e8ab52132979e960c381e298f54b0aafe20fb2"
+    },
+    {
+      "expectedEncoded": "1f3e4be1e8e1088a88cb08e72c414ee8839bb6e83e7320a225f8aa7bd8186c17",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C13_triangle",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "1f3e4be1e8e1088a88cb08e72c414ee8839bb6e83e7320a225f8aa7bd8186c17"
+    },
+    {
+      "expectedEncoded": "b73c79022f677c8fa36cf84e8f3bbbb4e953e31ee3df4c8b117350db5cc8ce90",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C14_catrom",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "b73c79022f677c8fa36cf84e8f3bbbb4e953e31ee3df4c8b117350db5cc8ce90"
+    },
+    {
+      "expectedEncoded": "e219ab8d1099c10da4ac9360189860fb2ae152ca7760ff87e65bee7a3c0579dd",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C15_mitchell",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "e219ab8d1099c10da4ac9360189860fb2ae152ca7760ff87e65bee7a3c0579dd"
+    },
+    {
+      "expectedEncoded": "e4f7f844fa24b1b358e0a58c6b277612b7c2e66cf093e3adb3794902c107734f",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C16_no_premultiply",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "e4f7f844fa24b1b358e0a58c6b277612b7c2e66cf093e3adb3794902c107734f"
+    },
+    {
+      "expectedEncoded": "caa4a508d3df333f1207e2104ee623a4e0f2827146f781b67c84108505fc8d6b",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C17_no_linearRGB",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "caa4a508d3df333f1207e2104ee623a4e0f2827146f781b67c84108505fc8d6b"
+    },
+    {
+      "expectedEncoded": "48411a5d5ef24ae4a107a24d73613cafa6b1985d651778764c84504c4b9006e6",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C18_alpha_no_flags",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "48411a5d5ef24ae4a107a24d73613cafa6b1985d651778764c84504c4b9006e6"
+    },
+    {
+      "expectedEncoded": "83100ec814ca6bf4beb048ef340ce3d1164b4f8e2d4a47d0a1833df2eba7a06b",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C19_quality_zero",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "83100ec814ca6bf4beb048ef340ce3d1164b4f8e2d4a47d0a1833df2eba7a06b"
+    },
+    {
+      "expectedEncoded": "04d5b8ef5d8828146c0be4d085f007f23b5fc75b6715154ca3355cbdad6d278f",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C20_quality_hundred",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "04d5b8ef5d8828146c0be4d085f007f23b5fc75b6715154ca3355cbdad6d278f"
+    },
+    {
+      "expectedEncoded": "2e378205a713912212a86e029770c1a73c8250025d5d3a4fd79af31ccb6c36c7",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C21_fast_method",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "2e378205a713912212a86e029770c1a73c8250025d5d3a4fd79af31ccb6c36c7"
+    },
+    {
+      "expectedEncoded": "0ad91ea234976200e60a733e7473711df57854c3883bc67e135ae7b4ec61aea0",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C22_slow_method",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "0ad91ea234976200e60a733e7473711df57854c3883bc67e135ae7b4ec61aea0"
+    },
+    {
+      "expectedEncoded": "9d2cc99be6304ed523cd09f7ec6adff92fe2179ad84db0cbcf25fa19f23e6974",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C23_near_lossless",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "9d2cc99be6304ed523cd09f7ec6adff92fe2179ad84db0cbcf25fa19f23e6974"
+    },
+    {
+      "expectedEncoded": "d9b9c3603721fc53d5b2622f38e2604e88210122981cb8800ef6606cec1c8361",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C24_alpha_quality_zero",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "d9b9c3603721fc53d5b2622f38e2604e88210122981cb8800ef6606cec1c8361"
+    },
+    {
+      "expectedEncoded": "92548404f9c1fc338435e277be4c0db14df8ffb745046a3fb7e20de1486422d4",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C25_sharp_yuv",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "92548404f9c1fc338435e277be4c0db14df8ffb745046a3fb7e20de1486422d4"
+    },
+    {
+      "expectedEncoded": "9e81fb5391fc2716ea2f3b50ad78bb1e93a0fdbe98eed34774000bfd8ecead6f",
+      "actual": "OBSERVED",
+      "error": null,
+      "pass": true,
+      "id": "C26_no_filter_sns",
+      "checks": {
+        "success": true,
+        "sameInput": true,
+        "mime": true,
+        "filename": true,
+        "width": true,
+        "height": true,
+        "encodedBytes": true,
+        "decodedPixels": true,
+        "webpHeader": true
+      },
+      "expected": "OBSERVED",
+      "actualEncoded": "9e81fb5391fc2716ea2f3b50ad78bb1e93a0fdbe98eed34774000bfd8ecead6f"
+    },
+    {
+      "expectedEncoded": null,
+      "actual": "ERROR",
+      "error": "page.evaluate: Error: __R7_RECONSTRUCTION_REJECTION__ Error: Encoding error.\n    at worker.onmessage (http://127.0.0.1:32945/submission/solution.js:23:55)\n    at worker.onmessage (http://127.0.0.1:32945/submission/solution.js:23:55)\n    at eval (eval at evaluate (:311:30), <anonymous>:4:307)\n    at async <anonymous>:337:30\n    at main (/harness/browser-runner.js:64:35)",
+      "pass": true,
+      "id": "C27_bad_quality",
+      "checks": {
+        "rejected": true,
+        "reconstructRejected": true,
+        "notTimeoutOrCrash": true
+      },
+      "expected": "ERROR",
+      "actualEncoded": null
+    },
+    {
+      "expectedEncoded": null,
+      "actual": "ERROR",
+      "error": "page.evaluate: Error: __R7_RECONSTRUCTION_REJECTION__ Error: Encoding error.\n    at worker.onmessage (http://127.0.0.1:32945/submission/solution.js:23:55)\n    at worker.onmessage (http://127.0.0.1:32945/submission/solution.js:23:55)\n    at eval (eval at evaluate (:311:30), <anonymous>:4:307)\n    at async <anonymous>:337:30\n    at main (/harness/browser-runner.js:64:35)",
+      "pass": true,
+      "id": "C28_bad_method",
+      "checks": {
+        "rejected": true,
+        "reconstructRejected": true,
+        "notTimeoutOrCrash": true
+      },
+      "expected": "ERROR",
+      "actualEncoded": null
+    },
+    {
+      "expectedEncoded": null,
+      "actual": "ERROR",
+      "error": "page.evaluate: Error: __R7_RECONSTRUCTION_REJECTION__ Error: Decoding error\n    at im.onerror (http://127.0.0.1:32945/submission/solution.js:12:119)\n    at im.onerror (http://127.0.0.1:32945/submission/solution.js:12:119)\n    at eval (eval at evaluate (:311:30), <anonymous>:4:307)\n    at async <anonymous>:337:30\n    at main (/harness/browser-runner.js:64:35)",
+      "pass": false,
+      "id": "C29_corrupt_input",
+      "checks": {
+        "rejected": true,
+        "reconstructRejected": true,
+        "notTimeoutOrCrash": true,
+        "decodeRejection": false
+      },
+      "expected": "ERROR",
+      "actualEncoded": null
+    },
+    {
+      "expectedEncoded": null,
+      "actual": "ERROR",
+      "error": "page.evaluate: Error: __R7_RECONSTRUCTION_REJECTION__ Error: Encoding error.\n    at worker.onmessage (http://127.0.0.1:32945/submission/solution.js:23:55)\n    at worker.onmessage (http://127.0.0.1:32945/submission/solution.js:23:55)\n    at eval (eval at evaluate (:311:30), <anonymous>:4:307)\n    at async <anonymous>:337:30\n    at main (/harness/browser-runner.js:64:35)",
+      "pass": true,
+      "id": "C30_bad_alpha_config",
+      "checks": {
+        "rejected": true,
+        "reconstructRejected": true,
+        "notTimeoutOrCrash": true
+      },
+      "expected": "ERROR",
+      "actualEncoded": null
+    }
+  ],
+  "positiveTotal": 26,
+  "passed": 29
+}

@@ -1,0 +1,22 @@
+{
+  "validInvestigationsStarted": 0,
+  "utc": "2026-10-17T18:57:45.5835910Z",
+  "inputs": [
+    {
+      "sha256": "4b5b374706764151231c2ec8850c654e47a427881030b136197dc749acdeb77b",
+      "path": "Run-R2DataInvestigator.ps1"
+    },
+    {
+      "sha256": "3a68ffa0c123b3be11965b59da4a1a985762e996147c228d4cfa90296aa5a363",
+      "path": "frozen\\action-schema.json"
+    },
+    {
+      "sha256": "e89c42c4fc42bd93c59dac3decf05460b43d4b3d3343dc40bd20130a1d3db929",
+      "path": "HARNESS_AMENDMENT.md"
+    },
+    {
+      "sha256": "2cf24e72b6373b5432e8b92defcba055bd28b3e5fb7fd41ab33fe88b13c6c8c5",
+      "path": "evidence\\experiment-freeze-manifest.json"
+    }
+  ]
+}

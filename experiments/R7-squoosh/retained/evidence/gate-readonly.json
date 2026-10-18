@@ -1,0 +1,1 @@
+{"elapsedSeconds":0.3140568,"stdoutLog":"/output/gate-readonly.stdout.txt","exit":1,"stdout":"","stdoutCharacters":0,"operation":"Probe","stderr":"touch: cannot touch '/artifact/r7-denied-write': Read-only file system\n","utc":"2026-10-18T02:44:02.4450591Z","arguments":["readonly"],"stderrLog":"/output/gate-readonly.stderr.txt"}

@@ -1,0 +1,159 @@
+{
+  "Summary": {
+    "input_path": "evidence://R3/\\blind-prep-v2\\input\\app.asar",
+    "format": "asar",
+    "root_artifact_sha256": "c9baebd9f6fe445cc267ea15e23bf87a7e8f9bdae3d461d7ae1847a7479d87f3",
+    "source_selection": {
+      "requested_paths": [
+        "commands/copyToClipboard.js"
+      ],
+      "unselected_files": 2848
+    },
+    "statistics": {
+      "relevant_files": 2849,
+      "nested_asar_containers": 0,
+      "text_bytes_read": 490,
+      "invalid_utf8_files": 0,
+      "parsed_javascript_files": 1,
+      "visited_ast_nodes": 77,
+      "findings": 6,
+      "modules": 0,
+      "parse_failures": 0
+    },
+    "electron": {
+      "browser_windows": 0,
+      "explicit_web_preferences": 0,
+      "preload_entrypoints": 0,
+      "context_bridge_apis": 0,
+      "exposed_api_members": 0,
+      "ipc": {
+        "operations": 0,
+        "literal_channels": 0,
+        "dynamic_channel_operations": 0,
+        "renderer_transmissions": 0,
+        "renderer_listeners": 0,
+        "main_handlers": 0,
+        "paired_renderer_transmissions": 0,
+        "ambiguous_renderer_transmissions": 0,
+        "unpaired_literal_renderer_transmissions": 0
+      },
+      "sender_validation_observations": 0,
+      "utility_processes": 0,
+      "resolved_utility_entrypoints": 0,
+      "native_addon_bindings": 0,
+      "resolved_native_addon_bindings": 0
+    },
+    "coverage": {
+      "application": {
+        "status": "partial",
+        "truncated": false,
+        "omitted_count": null,
+        "limits": []
+      },
+      "semantic": {
+        "status": "partial",
+        "truncated": false,
+        "omitted_nodes": null,
+        "omitted_relations": null,
+        "limits": [],
+        "families": [
+          {
+            "family": "boundary",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "call-flow",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2532
+          },
+          {
+            "family": "child-process",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "closure",
+            "status": "partial",
+            "retained_relations": 1,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "configuration",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "data-flow",
+            "status": "partial",
+            "retained_relations": 16,
+            "omitted_relations": null,
+            "unknown_count": 2533
+          },
+          {
+            "family": "event",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "object-flow",
+            "status": "partial",
+            "retained_relations": 1,
+            "omitted_relations": null,
+            "unknown_count": 2535
+          },
+          {
+            "family": "promise-ownership",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "request",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "resource-lifecycle",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          },
+          {
+            "family": "timer",
+            "status": "partial",
+            "retained_relations": 0,
+            "omitted_relations": null,
+            "unknown_count": 2529
+          }
+        ]
+      },
+      "application_unknowns": 2848,
+      "semantic_unknowns": 30361
+    },
+    "limitation_count": 8
+  },
+  "Scope": "Actual investigator invocation; selected490byte command module, not semantic-search core",
+  "Arm": "C-recovery2",
+  "SubmissionSHA256": "5CA6DF418F0399A72BB69D86F25498C607CF5AD82C33B07BA857A43302A67D79",
+  "ParentEvidence": "ev_8bfe2b0c7e747ef4823eb6cf7ec095d6d1263c66ebf7392007be2bffcfb04ef5",
+  "StaticCandidateReview": "No imports, filesystem, network, process, dynamic evaluation, or target execution; pure supplied-dependency search reconstruction",
+  "Tool": "analyze_javascript_application",
+  "EvidenceID": "ev_87bdbe96bd5e735964dc05a958f0ca03c6c3a61d1fb545632a5d9dc8077b4179",
+  "Status": "completed"
+}

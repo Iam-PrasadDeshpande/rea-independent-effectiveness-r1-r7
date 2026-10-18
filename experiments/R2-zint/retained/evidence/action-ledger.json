@@ -1,0 +1,11 @@
+{
+  "actionsUsed": 226,
+  "investigatorDispatchedActions": 84,
+  "budget": 250,
+  "mission": "REA_CODEX_NATIVE_EFFECTIVENESS_R2",
+  "counting": "Root tool invocations (inherited counter retained), investigator dispatched actions, and two reported failed discovery attempts. Deterministic subprocesses inside signed orchestration are execution evidence, not additional model tool actions.",
+  "actionsRemaining": 24,
+  "failedDiscoveryAttemptsConservativelyCharged": 2,
+  "rootToolInvocationsIncludingInherited": 140,
+  "utc": "2026-10-17T19:22:50.4561704Z"
+}

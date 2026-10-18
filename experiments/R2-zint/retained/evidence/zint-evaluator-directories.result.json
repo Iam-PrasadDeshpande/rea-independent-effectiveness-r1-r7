@@ -1,0 +1,11 @@
+{
+  "elapsedSeconds": 0.1107507,
+  "exit": 0,
+  "utc": "2026-10-17T18:42:46.6459877Z",
+  "arguments": [
+    "/usr/bin/mkdir",
+    "-p",
+    "/home/RESEARCH_USER/rea-r2-20261017/evaluator",
+    "/home/RESEARCH_USER/rea-r2-20261017/evaluator/reference"
+  ]
+}

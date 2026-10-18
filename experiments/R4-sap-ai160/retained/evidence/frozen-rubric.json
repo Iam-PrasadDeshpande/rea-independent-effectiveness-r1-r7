@@ -1,0 +1,24 @@
+{
+  "schema": "R4Rubric/v1",
+  "frozenBeforeInvestigators": true,
+  "facts": {
+    "architecture": "React UI -> Express agent -> LangGraph -> tool helpers -> mock OData API",
+    "toolNames": ["get_purchase_order_items", "calculate_overdue", "format_response_purchase_orders", "create_note"],
+    "graph": "START->agent; tool_calls ? tools : END; tools->agent",
+    "state": "MessagesAnnotation",
+    "checkpoint": "MemorySaver in process, configurable.thread_id",
+    "retrievalFilters": ["plant", "delivery address city", "delivery address country"],
+    "supplierFilter": "not implemented by retrieval schema",
+    "overdue": "parsed SAP timestamp minus Date.now; negative means overdue",
+    "format": "schema-facing no-op; final JSON is model-produced",
+    "businessOrdering": "system prompt guidance; graph does not enforce fixed business order",
+    "nonOverdueExclusion": "system prompt guidance, not deterministic graph filter",
+    "noteWrite": "create_note performs POST A_PurchaseOrderItemNote",
+    "humanGate": "UI Send exists; no backend human approval enforcement",
+    "duplicates": "UI suppression; mock server appends without idempotency",
+    "retry": "model configured maxRetries:0; no application retry loop",
+    "cancellation": "UI dialog close; no network AbortController shown"
+  },
+  "scoring": "Each fact earns 1 only with correct bounded finding and an artifact citation; 0 otherwise. Ambiguity stays unscored until independent verification. Report unsupported assertions separately.",
+  "componentCases": ["past", "future", "equal", "zero epoch", "large epoch", "embedded timestamp", "leading zeros", "invalid text", "empty text", "negative epoch syntax", "timezone suffix syntax", "non-string input"]
+}

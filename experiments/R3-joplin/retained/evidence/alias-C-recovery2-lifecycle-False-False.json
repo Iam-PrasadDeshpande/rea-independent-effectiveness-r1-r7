@@ -1,0 +1,16 @@
+{
+  "CleanupFailures": [],
+  "ChildStarted": true,
+  "RetargetTest": false,
+  "GuardChecks": 328,
+  "PreservedForeignMappings": [],
+  "RetargetCodeTest": false,
+  "UTC": "2026-10-18T02:47:49.6132111Z",
+  "Target": "evidence://R3/\\arms\\C-recovery2\\work",
+  "Removed": [
+    "R:",
+    "S:"
+  ],
+  "JobDisposed": true,
+  "Failure": null
+}

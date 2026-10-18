@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-10-18T02:32:50.8984270Z",
+  "Aliases": [
+    {
+      "ExpectedTarget": "evidence://R3/\\setup-output\\rea-qualified-v2",
+      "Drive": "R:",
+      "Absent": true,
+      "PriorMapping": ""
+    },
+    {
+      "ExpectedTarget": "evidence://R3/\\tools\\rea-runtime-recovery",
+      "Drive": "S:",
+      "Absent": true,
+      "PriorMapping": ""
+    }
+  ],
+  "ProcessTerminationPrecondition": "Caller confirms owned process/job terminated before cleanup"
+}

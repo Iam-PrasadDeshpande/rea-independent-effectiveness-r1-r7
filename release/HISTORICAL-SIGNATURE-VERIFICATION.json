@@ -1,0 +1,1673 @@
+{
+  "count": 185,
+  "authenticode": [
+    {
+      "sourcePath": "evidence://R1/\\Run-PocTask.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ef5f6adf40fbbc3df94c8764a86bd9c2e8c67c5400b784cb6092cd455efce822",
+      "expectedSha256": "EF5F6ADF40FBBC3DF94C8764A86BD9C2E8C67C5400B784CB6092CD455EFCE822",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\Run-BlindArm.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "963902a0c17ff1d9716549841dbfcf77b84330ea06d3dfbc05968cdf1cac0527",
+      "expectedSha256": "963902A0C17FF1D9716549841DBFCF77B84330EA06D3DFBC05968CDF1CAC0527",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\Probe-Rea-Mcp.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "c5bdfdd49fda78dfeb33ddcadde1eac683a6db22f8064f27651fb6526c9a3947",
+      "expectedSha256": "C5BDFDD49FDA78DFEB33DDCADDE1EAC683A6DB22F8064F27651FB6526C9A3947",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\Validate-Reconstruction.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "bb8c56aa1959e1c365f7a050f1eeaf7d73891aed7a36496e5d5da7aaace3a7fe",
+      "expectedSha256": "BB8C56AA1959E1C365F7A050F1EEAF7D73891AED7A36496E5D5DA7AAACE3A7FE",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\tools\\Launch-Rea-Mcp.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "6fe472082fb3d12f8b400ad23821beee39e12f1139e130ffad3060087944b90b",
+      "expectedSha256": "6FE472082FB3D12F8B400AD23821BEEE39E12F1139E130FFAD3060087944B90B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\oracle\\fixture-tests.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ea311275cdc19a5d9fc355d08233df609b00f9de694b6b013500fc07a0f951c8",
+      "expectedSha256": "EA311275CDC19A5D9FC355D08233DF609B00F9DE694B6B013500FC07A0F951C8",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\oracle\\reconstruction-tests.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "7a37f287b3732cdd7689ed07c126e56fd9de3946e777a5e53e7e989a6a716ae3",
+      "expectedSha256": "7A37F287B3732CDD7689ED07C126E56FD9DE3946E777A5E53E7E989A6A716AE3",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\oracle\\submissions\\baseline\\submitted.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a31eba4fc847ee69da6cf2a81a7143cc9785ab9d9511579353b4ea2eec3b1ddb",
+      "expectedSha256": "A31EBA4FC847EE69DA6CF2A81A7143CC9785AB9D9511579353B4EA2EEC3B1DDB",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\oracle\\submissions\\rea-arm\\submitted.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "73ac3b5a17b040b885fc36e309f2647a97b869948f598a8b5a42063ec413aaa2",
+      "expectedSha256": "73AC3B5A17B040B885FC36E309F2647A97B869948F598A8B5A42063EC413AAA2",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R1/\\oracle\\invalid-rea-attempt1\\submitted.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "883654fd333cbd0340b7106537ad0461da48b269b1d0768f16805ada54dd414c",
+      "expectedSha256": "883654FD333CBD0340B7106537AD0461DA48B269B1D0768F16805ADA54DD414C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Acquire-R2ShortRanges.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4ac1fa408ee836613b9a588fa5ca2ab7bda76768e332640aaaeba63519ad79c0",
+      "expectedSha256": "4AC1FA408EE836613B9A588FA5CA2AB7BDA76768E332640AAAEBA63519AD79C0",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Build-R2DirectGhidra.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e0a6444be20a6180d167568b05cfd222fb16d4d891fcf3f409c4bc286418b8af",
+      "expectedSha256": "E0A6444BE20A6180D167568B05CFD222FB16D4D891FCF3F409C4BC286418B8AF",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Build-R2Zint.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "fa761f1bc11243f378d8bcd1c0702045f39d8f21a3235b453379dd6b17e0473f",
+      "expectedSha256": "FA761F1BC11243F378D8BCD1C0702045F39D8F21A3235B453379DD6B17E0473F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Close-R2Evidence.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2cea5aab1948f3962233c88d832dd3adf58aca1b2e24f6aa7b7d815def3227c6",
+      "expectedSha256": "2CEA5AAB1948F3962233C88D832DD3ADF58ACA1B2E24F6AA7B7D815DEF3227C6",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Complete-R2Runs.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "69c28f363dd9675516c882fd2b25916cf86bf2e18bb54203bf93b8cc732ad1a4",
+      "expectedSha256": "69C28F363DD9675516C882FD2B25916CF86BF2E18BB54203BF93B8CC732AD1A4",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\ControlledCliMcp.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9a5cf3c05894b7d2ba7befab69a6be33c71adf3f93b3c529d1e435639bb00da2",
+      "expectedSha256": "9A5CF3C05894B7D2BA7BEFAB69A6BE33C71ADF3F93B3C529D1E435639BB00DA2",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Freeze-R2Oracle.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "0fb596e8d86f018ebcc18b27d027e896ba6eb2d5247185fd7779d4c65b1b56ec",
+      "expectedSha256": "0FB596E8D86F018EBCC18B27D027E896BA6EB2D5247185FD7779D4C65B1B56EC",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Install-R2Ext4.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "165d6324992855486618a4b77c45a1b01641bf7876f9b5350a04e8d959baf9a0",
+      "expectedSha256": "165D6324992855486618A4B77C45A1B01641BF7876F9B5350A04E8D959BAF9A0",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Invoke-R2.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "6adbe749152eb096da610ae3ac22c898d27fb400fe73489078673879316122bd",
+      "expectedSha256": "6ADBE749152EB096DA610AE3AC22C898D27FB400FE73489078673879316122BD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Invoke-R2Native.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "df913f46542e6f219eb1fc2ac5b599f9789693f287f6e9734a223b86792b9905",
+      "expectedSha256": "DF913F46542E6F219EB1FC2AC5B599F9789693F287F6E9734A223B86792B9905",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Prepare-R2Reference.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "0cc464154366d3e1c490070fd3ab81060cfad5f99f4018d6057a2ba5a97cec8f",
+      "expectedSha256": "0CC464154366D3E1C490070FD3AB81060CFAD5F99F4018D6057A2BA5A97CEC8F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Probe-R2Harness.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "62751ad7b68c3e1a63655d486643f4d4db0d71b30cdf5754f1440f441fb8ffd0",
+      "expectedSha256": "62751AD7B68C3E1A63655D486643F4D4DB0D71B30CDF5754F1440F441FB8FFD0",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\ReaNativeMcpProxy.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "79030bb151f1f7f47fa4df708a1f1e25a26baef037324e3b0ae46f10ca2235c6",
+      "expectedSha256": "79030BB151F1F7F47FA4DF708A1F1E25A26BAEF037324E3B0AE46F10CA2235C6",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Recover-R2Acquisition.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a2768f6a3ad884f197fa9854f4f5a327a33213ddfb73267acab381ee79839f47",
+      "expectedSha256": "A2768F6A3AD884F197FA9854F4F5A327A33213DDFB73267ACAB381EE79839F47",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Run-R2DataInvestigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4b5b374706764151231c2ec8850c654e47a427881030b136197dc749acdeb77b",
+      "expectedSha256": "4B5B374706764151231C2EC8850C654E47A427881030B136197DC749ACDEB77B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Run-R2Investigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4a195a8f0e045f82ec63fd78f45a37915ed557ac765a6f6733863ef85a515978",
+      "expectedSha256": "4A195A8F0E045F82EC63FD78F45A37915ED557AC765A6F6733863EF85A515978",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Validate-R2Submissions.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4131c08681471215e47124816c492340ff7dec4161e2c1f830a420275f82918d",
+      "expectedSha256": "4131C08681471215E47124816C492340FF7DEC4161E2C1F830A420275F82918D",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R2/\\Verify-R2Ninja.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "875b28f027096362fee77d99b73cc9ce56a9d3a43ed913c51ea94fdf15c971df",
+      "expectedSha256": "875B28F027096362FEE77D99B73CC9CE56A9D3A43ED913C51EA94FDF15C971DF",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\alias-qualification-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "605f503f8a96e7a02bcf6e6b7e9fddf186309d28ca1bd192946a3924d77967c4",
+      "expectedSha256": "605F503F8A96E7A02BCF6E6B7E9FDDF186309D28CA1BD192946A3924D77967C4",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\alias-qualification.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "c535e15d0b943f68ffe788f7fc944ac00856b2c5b06f19f5a05bab283f3d44b1",
+      "expectedSha256": "C535E15D0B943F68FFE788F7FC944AC00856B2C5B06F19F5A05BAB283F3D44B1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "8eea621a4f62bcf49a261a00632e446bd452f90228a4f468e9df3438c11bc87a",
+      "expectedSha256": "8EEA621A4F62BCF49A261A00632E446BD452F90228A4F468E9DF3438C11BC87A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery1-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ad1eeec6a62ea964b237fd408dd78c44295ad1ccde3add6c95139ce57c0db88a",
+      "expectedSha256": "AD1EEEC6A62EA964B237FD408DD78C44295AD1CCDE3ADD6C95139CE57C0DB88A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery1.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2c9b560302986a95bfe1dd55bf82f19ef4a4e4dd20bb58b6522d710d9de6cdb6",
+      "expectedSha256": "2C9B560302986A95BFE1DD55BF82F19EF4A4E4DD20BB58B6522D710D9DE6CDB6",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery2.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery3-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9e606c7b77a583b6b659c447988b465659683b9f42aaa7cff1914d17447616a0",
+      "expectedSha256": "9E606C7B77A583B6B659C447988B465659683B9F42AAA7CFF1914D17447616A0",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery3.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery4-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b751884af257f8874e371f343814a7f76b55896a3998cdc83da6483debaada43",
+      "expectedSha256": "B751884AF257F8874E371F343814A7F76B55896A3998CDC83DA6483DEBAADA43",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery4.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery5-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ad1263e054346bac1c17069b1c32032c274a8c336d8197b0e566da25e802dc98",
+      "expectedSha256": "AD1263E054346BAC1C17069B1C32032C274A8C336D8197B0E566DA25E802DC98",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery5.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery6-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b96ad2a68c80d68df6d466ccd2da973c82a80f54ba3d8de2eef0cebd3fd80d79",
+      "expectedSha256": "B96AD2A68C80D68DF6D466CCD2DA973C82A80F54BA3D8DE2EEF0CEBD3FD80D79",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B-recovery6.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "5b86736d925798201c959d0ead8a8455ebb690e8ff3826f74c3f496b9fed013a",
+      "expectedSha256": "5B86736D925798201C959D0EAD8A8455EBB690E8FF3826F74C3F496B9FED013A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-B.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-C-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4c6fd55c80eca1d0c9ff1ec1ee0cf4c8a62db4a53c5bf4db22db87840f6e0cff",
+      "expectedSha256": "4C6FD55C80ECA1D0C9FF1EC1EE0CF4C8A62DB4A53C5BF4DB22DB87840F6E0CFF",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-C-recovery2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9e953fdd2eac6e61c9da570e67d9418dbfc22422b34cb274280fe1566d6aca9c",
+      "expectedSha256": "9E953FDD2EAC6E61C9DA570E67D9418DBFC22422B34CB274280FE1566D6ACA9C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-C-recovery2-inner-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d7e828402d095e8d5cb5de66012bd4a69d43a3ab9957a91b356cb57632b9033a",
+      "expectedSha256": "D7E828402D095E8D5CB5DE66012BD4A69D43A3AB9957A91B356CB57632B9033A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-C-recovery2-inner.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a59fca7df7a85bab01b614500c850796be740812d0b9d3dab18fb4080f5a4dd1",
+      "expectedSha256": "A59FCA7DF7A85BAB01B614500C850796BE740812D0B9D3DAB18FB4080F5A4DD1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\arm-C.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\B-policy-probe-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "39effba8d92f1fd0e40f536f16f67443a697595fe641a966069feabc3a59d79a",
+      "expectedSha256": "39EFFBA8D92F1FD0E40F536F16F67443A697595FE641A966069FEABC3A59D79A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\B-policy-probe.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\B-staged-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ec0f6d0e656ba665ccbd32d75c763d37843a130a81df31045d20fe5275599a1f",
+      "expectedSha256": "EC0F6D0E656BA665CCBD32D75C763D37843A130A81DF31045D20FE5275599A1F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Complete-R3BehaviorEvaluation.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "cf291f2aa6948167be77e1b68221a8fbd432ef37a0118fdee4ebee5e72c7c7b8",
+      "expectedSha256": "CF291F2AA6948167BE77E1B68221A8FBD432EF37A0118FDEE4EBEE5E72C7C7B8",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\conventional-probe-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e29547b97ddb20e714db3e185a2f4c602eec32a12aa0541bb1ccb36be5a8f438",
+      "expectedSha256": "E29547B97DDB20E714DB3E185A2F4C602EEC32A12AA0541BB1CCB36BE5A8F438",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\conventional-probe.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "945d445de667da1419e4d11ec145d8a66a69e0a13db592b183d146a7ca30b947",
+      "expectedSha256": "945D445DE667DA1419E4D11EC145D8A66A69E0A13DB592B183D146A7CA30B947",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\conventional-qualified-v2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e6a7bbacbd8e683d69c08c1dc386be483165648e8066969c7a96ea0a15e19b41",
+      "expectedSha256": "E6A7BBACBD8E683D69C08C1DC386BE483165648E8066969C7A96EA0A15E19B41",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\conventional-qualified-v2.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "5b86736d925798201c959d0ead8a8455ebb690e8ff3826f74c3f496b9fed013a",
+      "expectedSha256": "5B86736D925798201C959D0EAD8A8455EBB690E8FF3826F74C3F496B9FED013A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Download-R3Artifact.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "05b7b112a12a48b4d5563347c9c926a904cfbfeed2031c20a9101d0244dfd199",
+      "expectedSha256": "05B7B112A12A48B4D5563347C9C926A904CFBFEED2031C20A9101D0244DFD199",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\final-evaluation-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "318ac96e7ae8c3315c489215bf8badc8e1638fb361ad27688dc551adaab1d450",
+      "expectedSha256": "318AC96E7AE8C3315C489215BF8BADC8E1638FB361AD27688DC551ADAAB1D450",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\final-evaluation.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e04880ed4527714d6214e64ef61a6e239821a60255d6d06e0677c4073c47ab9c",
+      "expectedSha256": "E04880ED4527714D6214E64EF61A6E239821A60255D6D06E0677C4073C47AB9C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Finish-R3Arms.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "fba69e75e91122cc174a6c697d0b09e52b6b4862585943041e5f4a817209452b",
+      "expectedSha256": "FBA69E75E91122CC174A6C697D0B09E52B6B4862585943041E5F4A817209452B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\fixture.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "506cab073af639ebe5696b13e4aa05f071a92b88ba8800837ddb7cf43411a404",
+      "expectedSha256": "506CAB073AF639EBE5696B13E4AA05F071A92B88BA8800837DDB7CF43411A404",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Inspect-R3Asar.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ea5f45bf0a1061bbf96c53b2994445ddc6258736164c91106abe54ad4ee84968",
+      "expectedSha256": "EA5F45BF0A1061BBF96C53B2994445DDC6258736164C91106ABE54AD4EE84968",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Invoke-R3AliasCleanup.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b25dc45b6ec899510dbc0d1acdb35cf3bea63b40f33480b0d1dac8f194dfa82e",
+      "expectedSha256": "B25DC45B6EC899510DBC0D1ACDB35CF3BEA63B40F33480B0D1DAC8F194DFA82E",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\lifecycle-hold-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a6bb5632ec5d20f555a2037ea228b228cbc5749c15c6c2b8656cfcd41aa3d4f1",
+      "expectedSha256": "A6BB5632EC5D20F555A2037EA228B228CBC5749C15C6C2B8656CFCD41AA3D4F1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\lifecycle-hold.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f022ad187ec4d71f37af14041d38c08f94d77d2ce717d526fedafad57b7c207d",
+      "expectedSha256": "F022AD187EC4D71F37AF14041D38C08F94D77D2CE717D526FEDAFAD57B7C207D",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\lifecycle-normal-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "13adc11142c40b43e53f4089e5a8a034630d82e1c9d12d715499d131bbe4801b",
+      "expectedSha256": "13ADC11142C40B43E53F4089E5A8A034630D82E1C9D12D715499D131BBE4801B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\lifecycle-normal.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "bd623d2935624a619b4e8b51402eb66e61841f216fc807aabc14be1318fb1e2d",
+      "expectedSha256": "BD623D2935624A619B4E8B51402EB66E61841F216FC807AABC14BE1318FB1E2D",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\matched-final-evaluation-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ec7cac160a659d3800ed0492f04593bf55f128c8e1b92b3c5acc8377749dcc6e",
+      "expectedSha256": "EC7CAC160A659D3800ED0492F04593BF55F128C8E1B92B3C5ACC8377749DCC6E",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\matched-final-evaluation.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "edc5d68ec547d274f518bd5430c84c2a88f983a9d4acf622b1c6bf686f6c4012",
+      "expectedSha256": "EDC5D68EC547D274F518BD5430C84C2A88F983A9D4ACF622B1C6BF686F6C4012",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\New-R3CatalogLaunch.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "1c16d6620295a0f4fbf88a6415acb9c06edc862683fcf41535fce87b49342b6e",
+      "expectedSha256": "1C16D6620295A0F4FBF88A6415ACB9C06EDC862683FCF41535FCE87B49342B6E",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\npm-install-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "86fee8059f7968e57744b5dddf14657366eab2b0dea7938bcbe67a2afd7c26c9",
+      "expectedSha256": "86FEE8059F7968E57744B5DDDF14657366EAB2B0DEA7938BCBE67A2AFD7C26C9",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\npm-install.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "91172eff26b4c0db026901a75b62026d8b06dbf2a10237607a22bd494158b975",
+      "expectedSha256": "91172EFF26B4C0DB026901A75B62026D8B06DBF2A10237607A22BD494158B975",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\npm.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9e7ebde976ff2148a12ee3656d39e078449b0006467e67377175f616fa4af6fc",
+      "expectedSha256": "9E7EBDE976FF2148A12EE3656D39E078449B0006467E67377175F616FA4AF6FC",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\oracle-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "46eee708707dbfb3baed3a184fc987fe54d46c15bd71e9171c3d855e3461b493",
+      "expectedSha256": "46EEE708707DBFB3BAED3A184FC987FE54D46C15BD71E9171C3D855E3461B493",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\oracle.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "eb3566de78f0ec73f2ed4e1c86218874f22c2849666545f0bf32630ed9baf391",
+      "expectedSha256": "EB3566DE78F0EC73F2ED4E1C86218874F22C2849666545F0BF32630ED9BAF391",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-help-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "455715d5752c59431487025a314dcf384aba5fed176fe32d141232a6a5a0e85f",
+      "expectedSha256": "455715D5752C59431487025A314DCF384ABA5FED176FE32D141232A6A5A0E85F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-help.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "87bb79e729fd595f8503c42b47956256ef29c0c040bd8091778002ee3ab536b7",
+      "expectedSha256": "87BB79E729FD595F8503C42B47956256EF29C0C040BD8091778002EE3AB536B7",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "6bc9bc570a52eb3af9083cb3622a412a4d92f8f92cacc53ccc465e0fd6cbf3d0",
+      "expectedSha256": "6BC9BC570A52EB3AF9083CB3622A412A4D92F8F92CACC53CCC465E0FD6CBF3D0",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "29075e337f98a4cc1787ca90a8865d590d9f893340d4ecb32d73fa49186b40a2",
+      "expectedSha256": "29075E337F98A4CC1787CA90A8865D590D9F893340D4ECB32D73FA49186B40A2",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v2.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "945d445de667da1419e4d11ec145d8a66a69e0a13db592b183d146a7ca30b947",
+      "expectedSha256": "945D445DE667DA1419E4D11EC145D8A66A69E0A13DB592B183D146A7CA30B947",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v3-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "05a7bd10d1fa6908f53e5d773014ade9462e5bde6ed23c2314d4d37a5c7d4afb",
+      "expectedSha256": "05A7BD10D1FA6908F53E5D773014ADE9462E5BDE6ED23C2314D4D37A5C7D4AFB",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v3.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2c24f2a27e91a45bcc9f5cb5ef87915ad9753af684f84c2eb526011d8cbd13c2",
+      "expectedSha256": "2C24F2A27E91A45BCC9F5CB5EF87915AD9753AF684F84C2EB526011D8CBD13C2",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v4-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f772d8122c4d660924a3d9c586afba439dfa4033258f4464446d8bced9ce5c00",
+      "expectedSha256": "F772D8122C4D660924A3D9C586AFBA439DFA4033258F4464446D8BCED9CE5C00",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v4.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v5-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9bd1d09babc29b63b4e373c548ebc024574a7e4edc12ea0c116dbb85bce35f6c",
+      "expectedSha256": "9BD1D09BABC29B63B4E373C548EBC024574A7E4EDC12EA0C116DBB85BCE35F6C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v5.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v6-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "89b40220c748e8e9f5a805e69cc3123e0724f138a703f2123bdd37c9f6962fa6",
+      "expectedSha256": "89B40220C748E8E9F5A805E69CC3123E0724F138A703F2123BDD37C9F6962FA6",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe-v6.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2a1fec5e3211623aa0a422096f1cb632d3ed86d861acf63581ab3922d306f345",
+      "expectedSha256": "2A1FEC5E3211623AA0A422096F1CB632D3ED86D861ACF63581AB3922D306F345",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-probe.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "945d445de667da1419e4d11ec145d8a66a69e0a13db592b183d146a7ca30b947",
+      "expectedSha256": "945D445DE667DA1419E4D11EC145D8A66A69E0A13DB592B183D146A7CA30B947",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "380381018f06a6d498f9dbf60671edf3fb88fe44bf42ece7b05a3553a4d50691",
+      "expectedSha256": "380381018F06A6D498F9DBF60671EDF3FB88FE44BF42ECE7B05A3553A4D50691",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-inner-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "90cd5a23d329da709833af5339d3081afb1338f65ee00374c0fba4bcdc6fa069",
+      "expectedSha256": "90CD5A23D329DA709833AF5339D3081AFB1338F65EE00374C0FBA4BCDC6FA069",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-inner.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a59fca7df7a85bab01b614500c850796be740812d0b9d3dab18fb4080f5a4dd1",
+      "expectedSha256": "A59FCA7DF7A85BAB01B614500C850796BE740812D0B9D3DAB18FB4080F5A4DD1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-v2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "c3fa2071f6e47a0e4141e8b8cc9e9de95f104c225a6709801994568ebbdab2a3",
+      "expectedSha256": "C3FA2071F6E47A0E4141E8B8CC9E9DE95F104C225A6709801994568EBBDAB2A3",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-v2-inner-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f5c510e4c2211fe48f985128a63002660c9ae7fc907ea0367ce5f865272ce067",
+      "expectedSha256": "F5C510E4C2211FE48F985128A63002660C9AE7FC907EA0367CE5F865272CE067",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-v2-inner.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a59fca7df7a85bab01b614500c850796be740812d0b9d3dab18fb4080f5a4dd1",
+      "expectedSha256": "A59FCA7DF7A85BAB01B614500C850796BE740812D0B9D3DAB18FB4080F5A4DD1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-v3-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "c7851ddadc1c6f5f7bc9e9cc9e3d774eb71e13179d67e3fbacbc4cac9046f017",
+      "expectedSha256": "C7851DDADC1C6F5F7BC9E9CC9E3D774EB71E13179D67E3FBACBC4CAC9046F017",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\rea-qualified-v4-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ca53defa5aaf4af89814c830ba0b0e6abec20eede4a4fd06f9bb8382b33110ff",
+      "expectedSha256": "CA53DEFA5AAF4AF89814C830BA0B0E6ABEC20EEDE4A4FD06F9BB8382B33110FF",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\recovery-evaluation-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "3cb0439175192c0b59c5abe43901a3553bb9ad236be18404d1129e5d3c20693c",
+      "expectedSha256": "3CB0439175192C0B59C5ABE43901A3553BB9AD236BE18404D1129E5D3C20693C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\recovery-evaluation.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9c7dff68fd08ba1ae30503f59d3bc18b87d28609fa307ad39562edee16ca7969",
+      "expectedSha256": "9C7DFF68FD08BA1AE30503F59D3BC18B87D28609FA307AD39562EDEE16CA7969",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Run-R3Investigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "801e8e443475ebfc1210fa7af88b8bc8f07f86f5e19fb84b453b94f35926eff5",
+      "expectedSha256": "801E8E443475EBFC1210FA7AF88B8BC8F07F86F5E19FB84B453B94F35926EFF5",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Run-R3QualifiedInvestigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "fe6f2ae3774d672fc2b30cffd792a38b63843b6fb99725f86028ad6b71067377",
+      "expectedSha256": "FE6F2AE3774D672FC2B30CFFD792A38B63843B6FB99725F86028AD6B71067377",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Run-R3RecoveryInvestigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "cc0b05df8d5d74f06bb27a062aa4acc0e30028f01117b60503f4728faba624fd",
+      "expectedSha256": "CC0B05DF8D5D74F06BB27A062AA4ACC0E30028F01117B60503F4728FABA624FD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\sanitize-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "0bc4d994489817f89ec96a9fec4bb33f655047aa4618002ad0d727b24b075982",
+      "expectedSha256": "0BC4D994489817F89EC96A9FEC4BB33F655047AA4618002AD0D727B24B075982",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\sanitize-v2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "43304a44dde5f1f0e5f59f92db7f7027fd2db9f95257ea76e38fbe09e7e91b97",
+      "expectedSha256": "43304A44DDE5F1F0E5F59F92DB7F7027FD2DB9F95257EA76E38FBE09E7E91B97",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\sanitize-v2.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "945d445de667da1419e4d11ec145d8a66a69e0a13db592b183d146a7ca30b947",
+      "expectedSha256": "945D445DE667DA1419E4D11EC145D8A66A69E0A13DB592B183D146A7CA30B947",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\sanitize.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "66531b56c05266fcfaa79723f7a06af02c7cf4f25bc86b469ae9243c9f9a2a81",
+      "expectedSha256": "66531B56C05266FCFAA79723F7A06AF02C7CF4F25BC86B469AE9243C9F9A2A81",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\security-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "5c2875b696fdea5190e3c0496cb1d6ff3e26ce7d6bc17e953558ad6721181e23",
+      "expectedSha256": "5C2875B696FDEA5190E3C0496CB1D6FF3E26CE7D6BC17E953558AD6721181E23",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\security-v2-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "cd1cc0ab960a56775551fe7d1a98f497fac660bb82d65cc8663625af37fc63dd",
+      "expectedSha256": "CD1CC0AB960A56775551FE7D1A98F497FAC660BB82D65CC8663625AF37FC63DD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\security-v2.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "228fc5d3031d884725600bcdc08357b08d84cb25cf80fc1ecc8e8de0bd00344c",
+      "expectedSha256": "228FC5D3031D884725600BCDC08357B08D84CB25CF80FC1ECC8E8DE0BD00344C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\security.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ca6c7aa845c3d9daeced804ee1ad88d204a31a752af13192a827736608801aa1",
+      "expectedSha256": "CA6C7AA845C3D9DAECED804EE1AD88D204A31A752AF13192A827736608801AA1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\snapshot-debug-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ee72268a121c0bb00b9df949f2a8bef7bd97b58b962cbae172a4060bc69461ca",
+      "expectedSha256": "EE72268A121C0BB00B9DF949F2A8BEF7BD97B58B962CBAE172A4060BC69461CA",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\snapshot-debug.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d33d6b399216d3be637700175e3330ecf5cd1e010f06ed38343de7847cf8c0d9",
+      "expectedSha256": "D33D6B399216D3BE637700175E3330ECF5CD1E010F06ED38343DE7847CF8C0D9",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\tamper-gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "fbee0234884535044641d26aeaa6dbb11afaf9160ab88305a5c18a300b08269d",
+      "expectedSha256": "FBEE0234884535044641D26AEAA6DBB11AFAF9160AB88305A5C18A300B08269D",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\tamper.cat",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "bcf37e5f5bf81e30f2d80b65965138e665207b5f89facb949c3a7446f3a4dea3",
+      "expectedSha256": "BCF37E5F5BF81E30F2D80B65965138E665207B5F89FACB949C3A7446F3A4DEA3",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Test-R3CatalogNegatives.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "957ad70ce192f811e443f94cb4c811a7989df8b66f22707e379cafed735ac28b",
+      "expectedSha256": "957AD70CE192F811E443F94CB4C811A7989DF8B66F22707E379CAFED735AC28B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Test-R3CodexMcpPolicy-Explicit.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "03bbeff790e23cb7c1f5dc0358572066e3f408e4c88d0f0c2db277b771383512",
+      "expectedSha256": "03BBEFF790E23CB7C1F5DC0358572066E3F408E4C88D0F0C2DB277B771383512",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Test-R3CodexMcpPolicy.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "8b4aa36dcdfbc040d9af77718cc4b8c19d5a2e67f31104340c0edbbade4e6ad2",
+      "expectedSha256": "8B4AA36DCDFBC040D9AF77718CC4B8C19D5A2E67F31104340C0EDBBADE4E6AD2",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Test-R3Mcp-ConventionalPaths.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "3970cea6cea79e7e329acabe7824148423cfd9795741cd85e6b0ce26150e8d73",
+      "expectedSha256": "3970CEA6CEA79E7E329ACABE7824148423CFD9795741CD85E6B0CE26150E8D73",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Test-R3Mcp-Coordinated.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "94d24708927756cc507e17dd6fcedf5103fff364cbb55df427bbf12eddf15845",
+      "expectedSha256": "94D24708927756CC507E17DD6FCEDF5103FFF364CBB55DF427BBF12EDDF15845",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R3/\\setup\\Test-R3Mcp.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b8682da40e367342501e318abfbbed6f138dc08caf124d146dc61a4180294fce",
+      "expectedSha256": "B8682DA40E367342501E318ABFBBED6F138DC08CAF124D146DC61A4180294FCE",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R4/\\tools\\Collect-R4Investigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "420a5374caee3f1c7e574fcdc54b0e48ed391eaad282c76088adb19f2be5eb4e",
+      "expectedSha256": "420A5374CAEE3F1C7E574FCDC54B0E48ED391EAAD282C76088ADB19F2BE5EB4E",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R4/\\tools\\Finalize-R4.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "1ad180fead9ee703dcc6fff6d2adb8ee84b6b9f4b6c7f5d88bd741605da6aad6",
+      "expectedSha256": "1AD180FEAD9EE703DCC6FFF6D2ADB8EE84B6B9F4B6C7F5D88BD741605DA6AAD6",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R4/\\tools\\Inspect-R4Blind.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4c253d67cf1578798e933c567f9a2f759461c92ae93f3843f0a3161eb8b29368",
+      "expectedSha256": "4C253D67CF1578798E933C567F9A2F759461C92AE93F3843F0A3161EB8B29368",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R4/\\tools\\Refresh-R4Signatures.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "58b4f2823f7628140918a9006f1b7cde01dcfbc6e20038cf183f2245d2982824",
+      "expectedSha256": "58B4F2823F7628140918A9006F1B7CDE01DCFBC6E20038CF183F2245D2982824",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R4/\\tools\\Run-R4Verified.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e1f358747893f493934e8e904fd3a2a64889fe612adfb1e8bc88aa981a4058fc",
+      "expectedSha256": "E1F358747893F493934E8E904FD3A2A64889FE612ADFB1E8BC88AA981A4058FC",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Close-R5.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f6274e925294001d32b0bd7a4f4c6e3e9762f8494a213e2c194dc7608c7a4587",
+      "expectedSha256": "F6274E925294001D32B0BD7A4F4C6E3E9762F8494A213E2C194DC7608C7A4587",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Emulator-Control.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d6a6914eb5a8b95ed02bfbe112b6553d7e52af9c81487f522a3a70d2987cac7b",
+      "expectedSha256": "D6A6914EB5A8B95ED02BFBE112B6553D7E52AF9C81487F522A3A70D2987CAC7B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Emulator-Install.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ac43976ada981aa3bd4c780adb9159532eb502a0dd38b0499b8c4e73d5f03c68",
+      "expectedSha256": "AC43976ADA981AA3BD4C780ADB9159532EB502A0DD38B0499B8C4E73D5F03C68",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Emulator-UI.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d0b852fe27781759228b1c94618c616afe25427ebd59be6a59b12ada55eee923",
+      "expectedSha256": "D0B852FE27781759228B1C94618C616AFE25427EBD59BE6A59B12ADA55EEE923",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Provision-R5.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d6e051fdbfcd252d83f3e2b18515b087bd3487c48610c53a6a7efa39da83b8a9",
+      "expectedSha256": "D6E051FDBFCD252D83F3E2B18515B087BD3487C48610C53A6A7EFA39DA83B8A9",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Recover-R5Arm.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a4b73a91b36d188e402b8115411bbd04cf4ef1976986b80625929109b53533ad",
+      "expectedSha256": "A4B73A91B36D188E402B8115411BBD04CF4EF1976986B80625929109B53533AD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\ReferenceFreeze.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "9025fde1b12d3317da425c35bece8a1503ccf490df7b9134e0aeee45460c47a4",
+      "expectedSha256": "9025FDE1B12D3317DA425C35BECE8A1503CCF490DF7B9134E0AEEE45460C47A4",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\ReferenceOracle.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b186006a994097e4571a6211532211038c32c15e1da0e65be84e6af87f0a67e7",
+      "expectedSha256": "B186006A994097E4571A6211532211038C32C15E1DA0E65BE84E6AF87F0A67E7",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Reset-R5Pilot.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "feaa88fcd4e982d396e073084b3730e279a6075b85077ac7a610ba5b21cd3ead",
+      "expectedSha256": "FEAA88FCD4E982D396E073084B3730E279A6075B85077AC7A610BA5B21CD3EAD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Run-R5Arm.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "cab79d7acb63fdf51770b54731299a51187b51ff78e14ca5b19e63d3a0d8636f",
+      "expectedSha256": "CAB79D7ACB63FDF51770B54731299A51187B51FF78E14CA5B19E63D3A0D8636F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Test-R5CLI.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "ce737505b216784304825f2eb3dbc6d31a7b22755635a6c3d9d7c4711e79db4f",
+      "expectedSha256": "CE737505B216784304825F2EB3DBC6D31A7B22755635A6C3D9D7C4711E79DB4F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\ToolchainDirect.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d019c33584ecc30d54519824f57aed34240530a1abe5755af533b1a9d70e6b36",
+      "expectedSha256": "D019C33584ECC30D54519824F57AED34240530A1ABE5755AF533B1A9D70E6B36",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R5/\\scripts\\Validate-R5.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b0cdc82a6bc02dfddb91e45562f81d4eaa4ed8f13392cb246f9fa23ca5892b1f",
+      "expectedSha256": "B0CDC82A6BC02DFDDB91E45562F81D4EAA4ED8F13392CB246F9FA23CA5892B1F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Compare-R6.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a96ce29321a62be12e94374b35806a6586e40317858a9fc964472e1e622612b5",
+      "expectedSha256": "A96CE29321A62BE12E94374B35806A6586E40317858A9FC964472E1E622612B5",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Complete-R6.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "dc1aa81e2d7f2eed634be5b388b4b162851c04abf0b7cce3117d59aea11feb4e",
+      "expectedSha256": "DC1AA81E2D7F2EED634BE5B388B4B162851C04ABF0B7CCE3117D59AEA11FEB4E",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Freeze-R6.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d616c38d636911b185fb73ac91d413242bc7582dfa30e8c8e046c07ddaa67b2a",
+      "expectedSha256": "D616C38D636911B185FB73AC91D413242BC7582DFA30E8C8E046C07DDAA67B2A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Invoke-R6.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "638a7a0cc39ccf6ad78e09af29774ca08226109c0520b6fd243b069e8b8182ec",
+      "expectedSha256": "638A7A0CC39CCF6AD78E09AF29774CA08226109C0520B6FD243B069E8B8182EC",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Invoke-R6Oracle.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f5f64ed7fbb83f3059f68aef19ed48c3abb0e5253e63ea648eb2aa09dedabb16",
+      "expectedSha256": "F5F64ED7FBB83F3059F68AEF19ED48C3ABB0E5253E63EA648EB2AA09DEDABB16",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Recover-R6Investigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "342b4163c8ecc3136fc6323573b76d6ec4f88aeda517b57147c6c016ccc5bb2b",
+      "expectedSha256": "342B4163C8ECC3136FC6323573B76D6EC4F88AEDA517B57147C6C016CCC5BB2B",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\RecoverComplete-R6.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "00b895581faea30ee29002e64313c7937301e01db42ff23c5bbfc66df746700f",
+      "expectedSha256": "00B895581FAEA30EE29002E64313C7937301E01DB42FF23C5BBFC66DF746700F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Run-R6Browser.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e3c08ed56c23a8f07e8b075ce2ff4c6d933bd07ba305a9894fa6d6aa8d4cae5c",
+      "expectedSha256": "E3C08ED56C23A8F07E8B075CE2FF4C6D933BD07BA305A9894FA6D6AA8D4CAE5C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Run-R6Gate.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e216c144852da0c345aece827e8e2d4c7c4dd8c6a3c3567cf2172216b93245f8",
+      "expectedSha256": "E216C144852DA0C345AECE827E8E2D4C7C4DD8C6A3C3567CF2172216B93245F8",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Run-R6Investigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "0076845ed068510012737a47be054c79d21ae67ffc7210ad0dcd07a06efcc1ec",
+      "expectedSha256": "0076845ED068510012737A47BE054C79D21AE67FFC7210AD0DCD07A06EFCC1EC",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\Test-R6Transport.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "569849d24d54cff40aecca3351476872e7da1c1e9e6639ea1f2faf1ab5e222dd",
+      "expectedSha256": "569849D24D54CFF40AECCA3351476872E7DA1C1E9E6639EA1F2FAF1AB5E222DD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\tools\\BrowserHarness.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "7dd118cb64e0fa8b6fac6bd7b16b7211a6af51cf424cfd50bdb52ebab15fb021",
+      "expectedSha256": "7DD118CB64E0FA8B6FAC6BD7B16B7211A6AF51CF424CFD50BDB52EBAB15FB021",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\arms\\A\\submission\\solution.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "fe8bbbf74b6a0a6d9005f032ce957b911ae7ef327c28f889f0fd49fbcbd58648",
+      "expectedSha256": "FE8BBBF74B6A0A6D9005F032CE957B911AE7EF327C28F889F0FD49FBCBD58648",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\arms\\B\\submission\\solution.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "2e12f9686f2d4a786497f612a4979433ef2860df31291d2f7f2bf33c4f095bab",
+      "expectedSha256": "2E12F9686F2D4A786497F612A4979433EF2860DF31291D2F7F2BF33C4F095BAB",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R6/\\arms\\C\\submission\\solution.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "6c50328771eaf078819650dce7694580d6764e677b83865e27ee98dc95908dda",
+      "expectedSha256": "6C50328771EAF078819650DCE7694580D6764E677B83865E27EE98DC95908DDA",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\browser-evaluator-v2.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "0137526d5dc4096dd334e3871f720f98d8c0c1efaa01651bc731d1784c992d27",
+      "expectedSha256": "0137526D5DC4096DD334E3871F720F98D8C0C1EFAA01651BC731D1784C992D27",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\browser-evaluator-v3.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "7b0e8b6e5f51e641c1bed5eae7e55f248008a8784327141ed1575e8b87c8d358",
+      "expectedSha256": "7B0E8B6E5F51E641C1BED5EAE7E55F248008A8784327141ED1575E8B87C8D358",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\browser-runner.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "c16fd5942ebc8813d724272402de6a4bb7bfcbc3041dd7091e2da2a6f5400855",
+      "expectedSha256": "C16FD5942EBC8813D724272402DE6A4BB7BFCBC3041DD7091E2DA2A6F5400855",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Close-R7Evidence.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "7334064794773aca8bd0f1696d84d893cf74f37c15398964a385bae40c823380",
+      "expectedSha256": "7334064794773ACA8BD0F1696D84D893CF74F37C15398964A385BAE40C823380",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Controlled-R7Mcp-v2.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "3bf08dce3dc9edb82ccc3df7b95c6e12a2ff02aa7e4fe543f50c10bcba793138",
+      "expectedSha256": "3BF08DCE3DC9EDB82CCC3DF7B95C6E12A2FF02AA7E4FE543F50C10BCBA793138",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Controlled-R7Mcp-v3.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "02b9c27c3cc307014bd44c60124e0ea640415eb1f7e909ed522c585a4b7bdfbf",
+      "expectedSha256": "02B9C27C3CC307014BD44C60124E0EA640415EB1F7E909ED522C585A4B7BDFBF",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Controlled-R7Mcp.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "4102cdaf16372afd080eba98a425a493d27aa591f279210ca7d32d2b33f27cbd",
+      "expectedSha256": "4102CDAF16372AFD080EBA98A425A493D27AA591F279210CA7D32D2B33F27CBD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Freeze-R7.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "bd0828456a55de7773bc631cbc8849bbeff5c124871326f1bfb103e7d86860b3",
+      "expectedSha256": "BD0828456A55DE7773BC631CBC8849BBEFF5C124871326F1BFB103E7D86860B3",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Invoke-R7Evaluator-v3.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "65e4e97652cc1d1cd5a6d6561d7f9f2c668bd4c6e468eba0c47890cf27a99b2a",
+      "expectedSha256": "65E4E97652CC1D1CD5A6D6561D7F9F2C668BD4C6E468EBA0C47890CF27A99B2A",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Invoke-R7Evaluator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "0fa890b2d96659badea7fd70bf696623c132586f8423a7f94beed61314efddad",
+      "expectedSha256": "0FA890B2D96659BADEA7FD70BF696623C132586F8423A7F94BEED61314EFDDAD",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Invoke-R7Sandbox.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "844c75e175fe98f70b3d69b923af53c90d2046751555c5ebc0b7e073ed6d6391",
+      "expectedSha256": "844C75E175FE98F70B3D69B923AF53C90D2046751555C5EBC0B7E073ED6D6391",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Prepare-R7.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "563731eb3b1112c46d48f0131b4624aeda8a1f232ac2666622b22b4819e38eb1",
+      "expectedSha256": "563731EB3B1112C46D48F0131B4624AEDA8A1F232AC2666622B22B4819E38EB1",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Resume-R7B-v2.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e5e377ad4000037f7f23ba385d5ffeac4102c34898a9a11812814f7fb75202c8",
+      "expectedSha256": "E5E377AD4000037F7F23BA385D5FFEAC4102C34898A9A11812814F7FB75202C8",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Resume-R7B.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f8346cb01a59bad991eb371be0da42f0e2f55ea753660c6e37257539c54a9043",
+      "expectedSha256": "F8346CB01A59BAD991EB371BE0DA42F0E2F55EA753660C6E37257539C54A9043",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Run-R7Data-v2.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "a3d72d6341fa25eeddac08acf0852e29b84b3976ea1d8f9900bf1e315799a118",
+      "expectedSha256": "A3D72D6341FA25EEDDAC08ACF0852E29B84B3976EA1D8F9900BF1E315799A118",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Run-R7Data-v3.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "089d7b0b807c32980c596704bd1333afb9fd80ad2fb9d6e7eff45bb20d7e217c",
+      "expectedSha256": "089D7B0B807C32980C596704BD1333AFB9FD80AD2FB9D6E7EFF45BB20D7E217C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Run-R7DataInvestigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "daae0ea8a7ab3153fa1c56842e138884d29a451773a5f09007afd57a8541052f",
+      "expectedSha256": "DAAE0EA8A7AB3153FA1C56842E138884D29A451773A5F09007AFD57A8541052F",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Run-R7Investigator.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "f3ed40ab88a38fd66281c1482801872ac9d9393ae821efee6036960a616f436e",
+      "expectedSha256": "F3ED40AB88A38FD66281C1482801872AC9D9393AE821EFEE6036960A616F436E",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Sign-R7Submission.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "dace9347454bbf8a5a6c248a26492c107a290e6be240db26a24c960c7b6bd596",
+      "expectedSha256": "DACE9347454BBF8A5A6C248A26492C107A290E6BE240DB26A24C960C7B6BD596",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\signature-probe.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "52ff38a657c93915d9307fe987d3fda3b0d8a6d56ee3237569cd31678a6d4f12",
+      "expectedSha256": "52FF38A657C93915D9307FE987D3FDA3B0D8A6D56EE3237569CD31678A6D4F12",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Validate-R7-v2.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "75903ca442a0fdf91dfd059454b719e48b58430ab8157e52ab715e3733929aea",
+      "expectedSha256": "75903CA442A0FDF91DFD059454B719E48B58430AB8157E52AB715E3733929AEA",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Validate-R7-v3.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "d93b163ba93beed644177d3c555909002663f89f24bebf2c628309e785a942d0",
+      "expectedSha256": "D93B163BA93BEED644177D3C555909002663F89F24BEBF2C628309E785A942D0",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Validate-R7-v4.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "8c0874d440cca7f0aa124ddc11bf44eaf23b2fc5286ffccdac7f3a5ea5a4e27c",
+      "expectedSha256": "8C0874D440CCA7F0AA124DDC11BF44EAF23B2FC5286FFCCDAC7F3A5EA5A4E27C",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\scripts\\Validate-R7.ps1",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "b113d304747f89e3734918fe882f26cd9b8803c00b56038a3920f35cca253766",
+      "expectedSha256": "B113D304747F89E3734918FE882F26CD9B8803C00B56038A3920F35CCA253766",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\A\\solution-worker.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "be9d882dccf25916f9cda741de6648cd14dcc81d299ac78bc76f44852f6ce6cb",
+      "expectedSha256": "BE9D882DCCF25916F9CDA741DE6648CD14DCC81D299AC78BC76F44852F6CE6CB",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\A\\solution.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "5ab4dcdf9e9f8011bdcf8527923fd671acf659ea111ab3a074f89cb645b642e4",
+      "expectedSha256": "5AB4DCDF9E9F8011BDCF8527923FD671ACF659EA111AB3A074F89CB645B642E4",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\B\\signing-recovery-probe.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "8f933b567470d848c19c5ad17b5c9af8413bbb20c08a727c7ad592fcfc81e5fe",
+      "expectedSha256": "8F933B567470D848C19C5AD17B5C9AF8413BBB20C08A727C7AD592FCFC81E5FE",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\B\\solution-worker.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "5e5c0daa5972c5d12734918773638f867c083ac326341ac6d41049cc16ab4539",
+      "expectedSha256": "5E5C0DAA5972C5D12734918773638F867C083AC326341AC6D41049CC16AB4539",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\B\\solution.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "015e23df479d05e61f86e147cd31ec5fbea776d8c08803b51964d27acfe91840",
+      "expectedSha256": "015E23DF479D05E61F86E147CD31EC5FBEA776D8C08803B51964D27ACFE91840",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\C\\solution-worker.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "e2134ee27ac3a7628ce551e24a4ab00ffa8ee82dbf4ccb6abd11f83c6241c858",
+      "expectedSha256": "E2134EE27AC3A7628CE551E24A4AB00FFA8EE82DBF4CCB6ABD11F83C6241C858",
+      "digestMatch": true
+    },
+    {
+      "sourcePath": "evidence://R7/\\evaluator\\submissions\\C\\solution.js",
+      "status": "Valid",
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "expectedSigner": true,
+      "currentSha256": "456be8242d4bd87127a81a0dcd7fca077ba58595078b734f2e367c1b59ce4d11",
+      "expectedSha256": "456BE8242D4BD87127A81A0DCD7FCA077BA58595078B734F2E367C1B59CE4D11",
+      "digestMatch": true
+    }
+  ],
+  "utc": "2026-10-18T06:11:44.1541760Z",
+  "externalTrust": "NOT_CERTIFIED",
+  "detachedR4": "CRYPTOGRAPHIC_AND_LOCAL_CHAIN_VALID"
+}

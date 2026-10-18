@@ -1,0 +1,55 @@
+{
+  "records": 12,
+  "bundleSha256": "a8d19aadeedfc8c3df4e30853b64110157a788c8286801fbc82735d913914639",
+  "artifactHashPresent": true,
+  "reportEvidence": [
+    {
+      "present": true,
+      "evidenceId": "ev_b967d87def087842d85c27385afc89cec88132974d4d28c846545971060575af"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_18267c352d4fa310d9d66af1017370f60f0a7b150ebc596787dc2a160e00a53c"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_05f8f5c54399315e7b7e4cf090be175a2f36e2417dc8f7135fd1f3b349968f6e"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_0a09085661c7d36a671c8e73b2e348d97bf2063b9b735b053811c4378eea169d"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_f0ea300189484d034be7147fe027539b1fa581619c9afbb58869b98e9a3c53da"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_c12ea220bcdb8f4061902e617af73de4b4d650ee27f67d3de710365754c69d84"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_03a717d0b760d86aeb787967fda62a35139fbb91f741cdf7758badd5522da620"
+    },
+    {
+      "present": true,
+      "evidenceId": "ev_5f2a9badf4112719c8d859f20029f3f24f990ff72e2f7df4629402a473cb9c9f"
+    }
+  ],
+  "artifacts": [
+    {
+      "architecture": "x86_64",
+      "digest": {
+        "sha256": "08af4075a1fd8b2fff65967435512582afbb52f2daf4a7971f025a888eff7ad4"
+      },
+      "format": "elf"
+    }
+  ],
+  "provider": [
+    {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    }
+  ]
+}

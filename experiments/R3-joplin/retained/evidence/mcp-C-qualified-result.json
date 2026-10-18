@@ -1,0 +1,19 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"error\":{\"code\":\"execution_failure\",\"category\":\"execution_failure\",\"message\":\"Analysis could not complete. Run `rea doctor` and review the reported details; repeating the unchanged request is not expected to succeed.\",\"retryable\":false,\"remediation\":{\"action\":\"Analysis could not complete. Run `rea doctor` and review the reported details; repeating the unchanged request is not expected to succeed.\"},\"details\":{\"provider_id\":\"javascript-static-analysis\",\"operation\":\"analyze_javascript_application\",\"diagnostics\":{\"source_path\":\"worker startup\",\"phase\":\"startup\",\"exit_code\":1,\"signal\":null},\"captured_output\":{\"stdout\":\"\",\"stderr\":\"node:fs:2745\\r\\n    const out = binding.lstat(base, false, undefined, true /* throwIfNoEntry */);\\r\\n                        ^\\r\\n\\r\\nError: EPERM: operation not permitted, lstat 'C:\\\\'\\r\\n    at Object.realpathSync (node:fs:2745:25)\\r\\n    at toRealPath (node:internal/modules/helpers:63:13)\\r\\n    at Module._findPath (node:internal/modules/cjs/loader:803:22)\\r\\n    at resolveMainPath (node:internal/modules/run_main:35:21)\\r\\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:146:20)\\r\\n    at node:internal/main/run_main_module:33:47 {\\r\\n  errno: -4048,\\r\\n  code: 'EPERM',\\r\\n  syscall: 'lstat',\\r\\n  path: 'C:\\\\\\\\'\\r\\n}\\r\\n\\r\\nNode.js v24.18.0\\r\\n\",\"truncated\":false,\"stderr_bytes\":647,\"exit_code\":1,\"signal\":null},\"partial_observation\":{\"kind\":\"retained-evidence\",\"evidence_id\":\"ev_0bbea7ddd4ddee286e50ec8b1991977afbb8a80fae9bb2e6584e870c6ae89883\"}}}}"
+      }
+    ],
+    "isError": true
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

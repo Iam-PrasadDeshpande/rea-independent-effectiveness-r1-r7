@@ -1,0 +1,277 @@
+{
+  "SelfExcluded": true,
+  "Scope": "Selected final evidence and active code/catalogs; runtime complete-package coverage is signed catalog validation, not a claim this list contains every R3 file",
+  "Files": [
+    {
+      "Path": "arms/A/measurement/result.json",
+      "Bytes": 541,
+      "SHA256": "9D810FA3AA83BD815325DF56CC806585A8EEE23DB05DC39F9E98395088C5BA20"
+    },
+    {
+      "Path": "arms/A/work/component.mjs",
+      "Bytes": 2233,
+      "SHA256": "F713B427B81D6AA39557892A683321D30D6C4740F37A2C9E647462CF74491DDD"
+    },
+    {
+      "Path": "arms/A/work/evidence.json",
+      "Bytes": 4768,
+      "SHA256": "3B50A4959570DC5AF0B339BFABEF7866C38E243D2F16D85ECDEF4DFED9B232BE"
+    },
+    {
+      "Path": "arms/A/work/report.md",
+      "Bytes": 12917,
+      "SHA256": "071F459FC3B68851E3EA07B92D990F07DE7869CBB92990A0E0CE7C73E158A6DD"
+    },
+    {
+      "Path": "arms/B-recovery6/measurement/events.jsonl",
+      "Bytes": 87680,
+      "SHA256": "D253CEF9FCA7354C168B8FA7F6486AB700232760981C93A3EE758A09528D4F4F"
+    },
+    {
+      "Path": "arms/B-recovery6/measurement/result.json",
+      "Bytes": 541,
+      "SHA256": "8C54F3F6C1930CBACFCB36B8E3F4D6DAB1022AA0852E674D3A940958C5F3A71A"
+    },
+    {
+      "Path": "arms/B-recovery6/work/component.mjs",
+      "Bytes": 2088,
+      "SHA256": "3DEDC70B10C7367730AE988E604D806DC623F1F498DD19A81A6F144976DDF811"
+    },
+    {
+      "Path": "arms/B-recovery6/work/evidence.json",
+      "Bytes": 4622,
+      "SHA256": "15F71CF6D4A64283A02B019091F5191893239D5063C6FD925BE63E945C5D0DC3"
+    },
+    {
+      "Path": "arms/B-recovery6/work/report.md",
+      "Bytes": 10039,
+      "SHA256": "8832C259036FFF3D4E41C856BFF54762AF77ED5C4B05EC64322E57E212AE5E56"
+    },
+    {
+      "Path": "arms/C-recovery2/measurement/events.jsonl",
+      "Bytes": 296763,
+      "SHA256": "4AAD539AB7C164C71FF0DD2FC6012C0863A379DF054DE7313E3DFD9412D43A73"
+    },
+    {
+      "Path": "arms/C-recovery2/measurement/result.json",
+      "Bytes": 541,
+      "SHA256": "C261EDC11A689ABA3C52F7903AC7B070F54744F6133C85EBC1CC43190C8B8AC9"
+    },
+    {
+      "Path": "arms/C-recovery2/work/component.mjs",
+      "Bytes": 2267,
+      "SHA256": "5CA6DF418F0399A72BB69D86F25498C607CF5AD82C33B07BA857A43302A67D79"
+    },
+    {
+      "Path": "arms/C-recovery2/work/evidence.json",
+      "Bytes": 7032,
+      "SHA256": "1526FDB908B8D4412852E4F379002355393431B1ED9FD77DBB75F4135C3EE24B"
+    },
+    {
+      "Path": "arms/C-recovery2/work/report.md",
+      "Bytes": 15507,
+      "SHA256": "F237EF8C5618BB01ADC7CC0B8E22BABCBE6352DB3C9CDB4211D5932CEE5B5972"
+    },
+    {
+      "Path": "evaluation-matched-final-code/B.mjs",
+      "Bytes": 2088,
+      "SHA256": "3DEDC70B10C7367730AE988E604D806DC623F1F498DD19A81A6F144976DDF811"
+    },
+    {
+      "Path": "evaluation-matched-final-code/C.mjs",
+      "Bytes": 2267,
+      "SHA256": "5CA6DF418F0399A72BB69D86F25498C607CF5AD82C33B07BA857A43302A67D79"
+    },
+    {
+      "Path": "evaluation-matched-final-code/cases.json",
+      "Bytes": 33261,
+      "SHA256": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770"
+    },
+    {
+      "Path": "evaluation-matched-final-code/evaluate.mjs",
+      "Bytes": 2599,
+      "SHA256": "C1CE70C9E3A6BD9ADF1E761A706CB8B9A454D7BEE8C42C9FC8F29A941EEDF678"
+    },
+    {
+      "Path": "evaluation-matched-final-code/expected.json",
+      "Bytes": 26835,
+      "SHA256": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B"
+    },
+    {
+      "Path": "evaluation-output/expected.json",
+      "Bytes": 26835,
+      "SHA256": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B"
+    },
+    {
+      "Path": "evaluation-output/final/behavior-results.json",
+      "Bytes": 150968,
+      "SHA256": "B7ABFE0A63DD6F7FB9861A9A71B486D67E127E968298AE41B5F7E89F11D9EFAA"
+    },
+    {
+      "Path": "evaluation-output/matched-final/behavior-results.json",
+      "Bytes": 127555,
+      "SHA256": "DE2D3BC4B26646DFCE3B1428257FFFC9692A7634B7A00B642697859ABF7BEB1C"
+    },
+    {
+      "Path": "evaluator/deterministic-cases.json",
+      "Bytes": 33261,
+      "SHA256": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770"
+    },
+    {
+      "Path": "evidence/C2_ACTUAL_REA_INVOCATION.json",
+      "Bytes": 5121,
+      "SHA256": "7CA772B8C6071C21EEF850993E5355DE4363D2BC46F6544F70A01A0B53D24D80"
+    },
+    {
+      "Path": "evidence/CONTENTION_C2_END.json",
+      "Bytes": 146,
+      "SHA256": "D3C5D5176743E1E4FB80CD55B7F900805B6B616162CBD43CC73205DCD2FF6CC0"
+    },
+    {
+      "Path": "evidence/CONTENTION_C2_START.json",
+      "Bytes": 424,
+      "SHA256": "AE96F90D7FBFE353CCB8DF8F22FFEB73ADC481157E21055F765CAF3D5728FFF9"
+    },
+    {
+      "Path": "evidence/CONVENTIONAL_REPAIR_QUALIFICATION.json",
+      "Bytes": 1504,
+      "SHA256": "F8940B0382A1AFE97A031BCC917E381BE1DF83A76E73AFD3CDB354B9D33F3E57"
+    },
+    {
+      "Path": "evidence/CURRENT_CLOSURE.json",
+      "Bytes": 6072,
+      "SHA256": "2D332A340D3F4B631EDBF40F508E94EEDB58BDA1D44533D02A162D5998D829C1"
+    },
+    {
+      "Path": "evidence/FINAL_EVALUATION_INPUTS.json",
+      "Bytes": 1217,
+      "SHA256": "7064EA98314738FCD7979F4AA9ECBDA5FCFAFC77962C5B1DCD214A476DB4C2F2"
+    },
+    {
+      "Path": "evidence/FINAL_PINNED_INPUT_VERIFICATION.json",
+      "Bytes": 2051,
+      "SHA256": "99989735610D887D8981C35EBBBE1272932204A706A8A6FDDD686E18728484B1"
+    },
+    {
+      "Path": "evidence/FINAL_R3_DISPOSITION.json",
+      "Bytes": 6072,
+      "SHA256": "2D332A340D3F4B631EDBF40F508E94EEDB58BDA1D44533D02A162D5998D829C1"
+    },
+    {
+      "Path": "evidence/FINAL_TOKEN_LATENCY.json",
+      "Bytes": 5393,
+      "SHA256": "A91964B63122D7F3E546FD43A4AF02EC769C9EAF020791C99D6F7C304A2FF2D4"
+    },
+    {
+      "Path": "evidence/INDEPENDENT_FINAL_VERIFICATION.json",
+      "Bytes": 721,
+      "SHA256": "A9C2795A79FE88348612CE4659BE36ACF267E2ACD19F0DDCB31F7A92EFEA6FC0"
+    },
+    {
+      "Path": "evidence/INVESTIGATOR_COUNTING_CLARIFICATION.json",
+      "Bytes": 317,
+      "SHA256": "08017D0428C9DB4A971C21E7DA7BA1E88F10B249DA88795E2967E3FE22425794"
+    },
+    {
+      "Path": "evidence/provider-actions-e2e-final.json",
+      "Bytes": 29350,
+      "SHA256": "F7E12A0A8B28FB08498FB8CFDA6D17CF5D0C76BF4342297E0E854FD8F5A2E70B"
+    },
+    {
+      "Path": "evidence/RESUMED_SECURITY_REVIEW.json",
+      "Bytes": 329,
+      "SHA256": "C7C0AAAD020860977D4441591ACAF0ED823D4580F534F27E4A66464BD22BF283"
+    },
+    {
+      "Path": "protocol/freeze.json",
+      "Bytes": 1047,
+      "SHA256": "1B68A248C3936CC135297A744CAC85E82780C156F8361708D4BD16C81DEF0217"
+    },
+    {
+      "Path": "protocol/FROZEN_RUBRIC.md",
+      "Bytes": 4264,
+      "SHA256": "AF00E6F979A7E86144F6EEEAD54CDD363C9CF089AC55FFC5449922A0CCE976EA"
+    },
+    {
+      "Path": "protocol/NEUTRAL_OBJECTIVE.md",
+      "Bytes": 2429,
+      "SHA256": "6C95DC96525237C1367052B5354725A7B9AFD22892AFA6253C6FF4A295A4F835"
+    },
+    {
+      "Path": "reports/ARCHITECTURE_FINAL_ADJUDICATION.json",
+      "Bytes": 104233,
+      "SHA256": "4540126C80A4E0BD1FD88DCB3B810287ED3B1CCB0D02A3FE5405FCD2DB8207B0"
+    },
+    {
+      "Path": "reports/ARCHITECTURE_FINAL_ADJUDICATION.md",
+      "Bytes": 56366,
+      "SHA256": "D543753D850A10A4EC8968F545C2E8492B216C4A14F561FCEBF34B33931BA3E9"
+    },
+    {
+      "Path": "reports/FINAL_REPORT.md",
+      "Bytes": 13468,
+      "SHA256": "1387C9283EAF9BE658682940374F9AC4C24F7E68AC2A488057C5B35D969A205B"
+    },
+    {
+      "Path": "setup/arm-B-recovery6-gate.ps1",
+      "Bytes": 9695,
+      "SHA256": "B96AD2A68C80D68DF6D466CCD2DA973C82A80F54BA3D8DE2EEF0CEBD3FD80D79"
+    },
+    {
+      "Path": "setup/arm-B-recovery6.cat",
+      "Bytes": 3371945,
+      "SHA256": "5B86736D925798201C959D0EAD8A8455EBB690E8FF3826F74C3F496B9FED013A"
+    },
+    {
+      "Path": "setup/arm-C-recovery2-gate.ps1",
+      "Bytes": 8700,
+      "SHA256": "9E953FDD2EAC6E61C9DA570E67D9418DBFC22422B34CB274280FE1566D6ACA9C"
+    },
+    {
+      "Path": "setup/arm-C-recovery2-inner-gate.ps1",
+      "Bytes": 9618,
+      "SHA256": "D7E828402D095E8D5CB5DE66012BD4A69D43A3AB9957A91B356CB57632B9033A"
+    },
+    {
+      "Path": "setup/arm-C-recovery2-inner.cat",
+      "Bytes": 3371945,
+      "SHA256": "A59FCA7DF7A85BAB01B614500C850796BE740812D0B9D3DAB18FB4080F5A4DD1"
+    },
+    {
+      "Path": "setup/Complete-R3BehaviorEvaluation.ps1",
+      "Bytes": 5230,
+      "SHA256": "CF291F2AA6948167BE77E1B68221A8FBD432EF37A0118FDEE4EBEE5E72C7C7B8"
+    },
+    {
+      "Path": "setup/conventional-qualified-v2.cat",
+      "Bytes": 3371945,
+      "SHA256": "5B86736D925798201C959D0EAD8A8455EBB690E8FF3826F74C3F496B9FED013A"
+    },
+    {
+      "Path": "setup/matched-final-evaluation-gate.ps1",
+      "Bytes": 9527,
+      "SHA256": "EC7CAC160A659D3800ED0492F04593BF55F128C8E1B92B3C5ACC8377749DCC6E"
+    },
+    {
+      "Path": "setup/matched-final-evaluation.cat",
+      "Bytes": 3395,
+      "SHA256": "EDC5D68EC547D274F518BD5430C84C2A88F983A9D4ACF622B1C6BF686F6C4012"
+    },
+    {
+      "Path": "setup/R3ProcessJob.dll",
+      "Bytes": 10016,
+      "SHA256": "C1739FC2A57DCA09B03010A293D7A872CA74CF96F2C67457924117597123F0CB"
+    },
+    {
+      "Path": "setup/Run-R3QualifiedInvestigator.ps1",
+      "Bytes": 10967,
+      "SHA256": "FE6F2AE3774D672FC2B30CFFD792A38B63843B6FB99725F86028AD6B71067377"
+    },
+    {
+      "Path": "tools/conventional-recovery/r3-conventional.mjs",
+      "Bytes": 4554,
+      "SHA256": "4B9E00EA34D06E23362362E9E6A9B7E1F0D813F15CAA3C70C2ACCE07BC4E2D80"
+    }
+  ],
+  "UTC": "2026-10-18T03:25:22.6390320Z"
+}

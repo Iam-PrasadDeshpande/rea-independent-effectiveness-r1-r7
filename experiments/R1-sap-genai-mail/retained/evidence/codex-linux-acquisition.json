@@ -1,0 +1,246 @@
+[
+  {
+    "id": "@openai/codex@0.160.0-linux-x64",
+    "name": "@openai/codex",
+    "version": "0.160.0-linux-x64",
+    "size": 163273896,
+    "unpackedSize": 446689074,
+    "shasum": "5ce87a8827d140710385b78b1b689204bb586e21",
+    "integrity": "sha512-KI/73OqGrHmR18s7ya7E1NqV6rT0y3lxr0s8S1qR2m6zU6QRF/HlR529jALLh5vjdUnsRT4Ahoxt0axb4kY99g==",
+    "filename": "openai-codex-0.160.0-linux-x64.tgz",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 3334,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 511,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/bin/codex",
+        "size": 289101384,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/bin/codex-code-mode-host",
+        "size": 74072976,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-package.json",
+        "size": 205,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-path/rg",
+        "size": 5408904,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/bwrap",
+        "size": 529776,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/bin/codex-voice-host",
+        "size": 64531056,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstapp.so",
+        "size": 6488,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstaudioconvert.so",
+        "size": 40928,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstaudioresample.so",
+        "size": 35120,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstcoreelements.so",
+        "size": 473176,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstopus.so",
+        "size": 71992,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstrtp.so",
+        "size": 739744,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/gstreamer-1.0/libgstrtpmanager.so",
+        "size": 558104,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libffi.so.8",
+        "size": 63112,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgio-2.0.so.0",
+        "size": 2307904,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libglib-2.0.so.0",
+        "size": 1480224,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgmodule-2.0.so.0",
+        "size": 15656,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgobject-2.0.so.0",
+        "size": 449600,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstallocators-1.0.so.0",
+        "size": 30128,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstapp-1.0.so.0",
+        "size": 105200,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstaudio-1.0.so.0",
+        "size": 597832,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstbase-1.0.so.0",
+        "size": 564592,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstnet-1.0.so.0",
+        "size": 73856,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstpbutils-1.0.so.0",
+        "size": 316576,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstreamer-1.0.so.0",
+        "size": 1548568,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstrtp-1.0.so.0",
+        "size": 209200,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgsttag-1.0.so.0",
+        "size": 268280,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libgstvideo-1.0.so.0",
+        "size": 975136,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libintl.so.8",
+        "size": 6288,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libopus.so.0",
+        "size": 565744,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libpcre2-8.so.0",
+        "size": 442424,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/lib/libz.so.1",
+        "size": 109296,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/LGPL-2.1.txt",
+        "size": 26431,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/libffi.txt",
+        "size": 1132,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/Opus.txt",
+        "size": 1945,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/PCRE2.md",
+        "size": 4011,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/proxy-libintl.txt",
+        "size": 25292,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/sljit.txt",
+        "size": 1444,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/licenses/zlib.txt",
+        "size": 1002,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/manifest.json",
+        "size": 4768,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/NOTICE.md",
+        "size": 2403,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/runtime.json",
+        "size": 13941,
+        "mode": 493
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/voice/sources.json",
+        "size": 4911,
+        "mode": 420
+      },
+      {
+        "path": "vendor/x86_64-unknown-linux-musl/codex-resources/zsh/bin/zsh",
+        "size": 898480,
+        "mode": 493
+      }
+    ],
+    "entryCount": 46,
+    "bundled": []
+  }
+]

@@ -1,0 +1,329 @@
+{
+  "note": "Observed component timings; non-additive because tasks may overlap and repeated records can represent warm probes. Investigator timings separately retained.",
+  "components": [
+    {
+      "elapsedSeconds": 23.5060888,
+      "exit": 0,
+      "utc": null,
+      "record": "arm-A.result.json"
+    },
+    {
+      "elapsedSeconds": 5.9672571,
+      "exit": 0,
+      "utc": "2026-10-17T18:31:33.9608785Z",
+      "record": "direct-ghidra-function.result.json"
+    },
+    {
+      "elapsedSeconds": 0.2317755,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:15.0580386Z",
+      "record": "ext4-cmake-version.result.json"
+    },
+    {
+      "elapsedSeconds": 1.1441298,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:09.5270372Z",
+      "record": "ext4-copy-cmake.result.json"
+    },
+    {
+      "elapsedSeconds": 15.4820779,
+      "exit": 0,
+      "utc": "2026-10-17T18:19:50.4073201Z",
+      "record": "ext4-copy-ghidra.result.json"
+    },
+    {
+      "elapsedSeconds": 24.1023611,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:02.7248726Z",
+      "record": "ext4-copy-jdk.result.json"
+    },
+    {
+      "elapsedSeconds": 0.2025221,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:12.0233103Z",
+      "record": "ext4-copy-ninja.result.json"
+    },
+    {
+      "elapsedSeconds": 17.6786993,
+      "exit": 0,
+      "utc": "2026-10-17T18:36:03.2132324Z",
+      "record": "ext4-copy-rea-production.result.json"
+    },
+    {
+      "elapsedSeconds": 0.3905367,
+      "exit": 0,
+      "utc": "2026-10-17T18:33:34.9120044Z",
+      "record": "ext4-directories.result.json"
+    },
+    {
+      "elapsedSeconds": 1.6654163,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:11.7825457Z",
+      "record": "ext4-extract-cmake.result.json"
+    },
+    {
+      "elapsedSeconds": 12.3606147,
+      "exit": 0,
+      "utc": "2026-10-17T18:20:05.6951484Z",
+      "record": "ext4-extract-ghidra.result.json"
+    },
+    {
+      "elapsedSeconds": 3.5412157,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:07.9889556Z",
+      "record": "ext4-extract-jdk.result.json"
+    },
+    {
+      "elapsedSeconds": 0.2054632,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:12.6771655Z",
+      "record": "ext4-extract-ninja.result.json"
+    },
+    {
+      "elapsedSeconds": 0.7555994,
+      "exit": 0,
+      "utc": "2026-10-17T18:36:04.9665426Z",
+      "record": "ext4-extract-rea-production.result.json"
+    },
+    {
+      "elapsedSeconds": 0.2352181,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:14.3600389Z",
+      "record": "ext4-java-version.result.json"
+    },
+    {
+      "elapsedSeconds": 0.4169864,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:14.8035149Z",
+      "record": "ext4-javac-version.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1879553,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:10.0959806Z",
+      "record": "ext4-mkdir-cmake.result.json"
+    },
+    {
+      "elapsedSeconds": 0.257243,
+      "exit": 0,
+      "utc": "2026-10-17T18:19:53.2837898Z",
+      "record": "ext4-mkdir-ghidra.result.json"
+    },
+    {
+      "elapsedSeconds": 0.3250778,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:04.22036Z",
+      "record": "ext4-mkdir-jdk.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1953154,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:12.4562543Z",
+      "record": "ext4-mkdir-ninja.result.json"
+    },
+    {
+      "elapsedSeconds": 0.3171047,
+      "exit": 0,
+      "utc": "2026-10-17T18:36:04.1484148Z",
+      "record": "ext4-mkdir-rea-production.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1813122,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:15.2804126Z",
+      "record": "ext4-ninja-version.result.json"
+    },
+    {
+      "elapsedSeconds": 0.344786,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:09.8928703Z",
+      "record": "ext4-sha256-cmake.result.json"
+    },
+    {
+      "elapsedSeconds": 2.5144496,
+      "exit": 0,
+      "utc": "2026-10-17T18:19:52.9557139Z",
+      "record": "ext4-sha256-ghidra.result.json"
+    },
+    {
+      "elapsedSeconds": 1.0966386,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:03.8453698Z",
+      "record": "ext4-sha256-jdk.result.json"
+    },
+    {
+      "elapsedSeconds": 0.2023279,
+      "exit": 0,
+      "utc": "2026-10-17T18:23:12.2449753Z",
+      "record": "ext4-sha256-ninja.result.json"
+    },
+    {
+      "elapsedSeconds": 0.5233817,
+      "exit": 0,
+      "utc": "2026-10-17T18:36:03.7932483Z",
+      "record": "ext4-sha256-rea-production.result.json"
+    },
+    {
+      "elapsedSeconds": 16.8502873,
+      "exit": 0,
+      "utc": "2026-10-17T18:21:58.584353Z",
+      "record": "ghidra-headless-native.result.json"
+    },
+    {
+      "elapsedSeconds": 4.5149874,
+      "exit": 1,
+      "utc": "2026-10-17T17:56:48.490981Z",
+      "record": "native-isolation-artifact-write-denied.result.json"
+    },
+    {
+      "elapsedSeconds": 0.254943,
+      "exit": 7,
+      "utc": "2026-10-17T17:56:49.2438585Z",
+      "record": "native-isolation-network-denied.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1637013,
+      "exit": 1,
+      "utc": "2026-10-17T17:56:48.788912Z",
+      "record": "native-isolation-outside-read-denied.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1228305,
+      "exit": 0,
+      "utc": "2026-10-17T17:56:48.947094Z",
+      "record": "native-isolation-scratch-write.result.json"
+    },
+    {
+      "elapsedSeconds": 137.2621606,
+      "exit": 0,
+      "utc": "2026-10-17T18:24:17.1223072Z",
+      "record": "rea-native-doctor.result.json"
+    },
+    {
+      "elapsedSeconds": 60.0432132,
+      "exit": 0,
+      "utc": "2026-10-17T17:53:36.1097405Z",
+      "record": "rea-pinned-build.result.json"
+    },
+    {
+      "elapsedSeconds": 143.8446102,
+      "exit": -1,
+      "utc": "2026-10-17T18:05:01.7851655Z",
+      "record": "recovery-ghidra.zip.result.json"
+    },
+    {
+      "elapsedSeconds": 140.7736364,
+      "exit": 0,
+      "utc": "2026-10-17T18:19:47.725402Z",
+      "record": "short-cmake.tar.gz.result.json"
+    },
+    {
+      "elapsedSeconds": 169.6503724,
+      "exit": 0,
+      "utc": "2026-10-17T18:08:36.9551295Z",
+      "record": "short-ghidra.zip.attempt1.result.json"
+    },
+    {
+      "elapsedSeconds": 13.7666422,
+      "exit": 0,
+      "utc": "2026-10-17T18:10:55.3372456Z",
+      "record": "short-ghidra.zip.result.json"
+    },
+    {
+      "elapsedSeconds": 312.1508836,
+      "exit": 0,
+      "utc": "2026-10-17T18:16:11.6669016Z",
+      "record": "short-jdk.tar.gz.attempt1.result.json"
+    },
+    {
+      "elapsedSeconds": 7.3452417,
+      "exit": 0,
+      "utc": "2026-10-17T18:17:25.5644284Z",
+      "record": "short-jdk.tar.gz.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1574269,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:15.6695886Z",
+      "record": "zint-compiler-version.result.json"
+    },
+    {
+      "elapsedSeconds": 1.0809431,
+      "exit": 0,
+      "utc": "2026-10-17T18:38:46.099091Z",
+      "record": "zint-configure.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1107507,
+      "exit": 0,
+      "utc": "2026-10-17T18:42:46.6459877Z",
+      "record": "zint-evaluator-directories.result.json"
+    },
+    {
+      "elapsedSeconds": 0.0934099,
+      "exit": 0,
+      "utc": "2026-10-17T18:38:45.003986Z",
+      "record": "zint-isolated-build-home.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1630306,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:15.8567587Z",
+      "record": "zint-native-version.result.json"
+    },
+    {
+      "elapsedSeconds": 1.1997288,
+      "exit": 0,
+      "utc": "2026-10-17T18:42:48.0125Z",
+      "record": "zint-offline-regression.result.json"
+    },
+    {
+      "elapsedSeconds": 0.6263229,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:14.2454683Z",
+      "record": "zint-reference-hashes.result.json"
+    },
+    {
+      "elapsedSeconds": 25.0507237,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:11.188205Z",
+      "record": "zint-release-build.result.json"
+    },
+    {
+      "elapsedSeconds": 0.8868296,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:12.2739232Z",
+      "record": "zint-retain-unstripped.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1509321,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:15.4823696Z",
+      "record": "zint-runtime-dependencies.result.json"
+    },
+    {
+      "elapsedSeconds": 3.8025735,
+      "exit": 0,
+      "utc": "2026-10-17T18:36:16.7904139Z",
+      "record": "zint-source-clone.result.json"
+    },
+    {
+      "elapsedSeconds": 0.1123175,
+      "exit": 0,
+      "utc": "2026-10-17T18:42:46.7994976Z",
+      "record": "zint-source-commit.result.json"
+    },
+    {
+      "elapsedSeconds": 0.9827574,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:13.3864202Z",
+      "record": "zint-strip-investigator-artifact.result.json"
+    },
+    {
+      "elapsedSeconds": 0.8337965,
+      "exit": 0,
+      "utc": "2026-10-17T18:39:15.2840099Z",
+      "record": "zint-stripped-sections.result.json"
+    }
+  ]
+}

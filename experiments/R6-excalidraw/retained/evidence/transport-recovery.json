@@ -1,0 +1,9 @@
+{
+  "recoveryScriptSha256": "342B4163C8ECC3136FC6323573B76D6EC4F88AEDA517B57147C6C016CCC5BB2B",
+  "originalCResult": "arm-C-attempt1.result.json",
+  "interruptedEvaluation": "A first evaluation retained partial; full frozen replay restarts after C",
+  "reason": "REA response4055592 chars exceeded provider1048576 char input limit",
+  "recovery": "same thread, consumed3 actions, original wall-clock start and ceilings, error feedback only, fresh contained browser",
+  "sourceControllerUnchanged": true,
+  "utc": "2026-10-18T04:34:42.0534256Z"
+}

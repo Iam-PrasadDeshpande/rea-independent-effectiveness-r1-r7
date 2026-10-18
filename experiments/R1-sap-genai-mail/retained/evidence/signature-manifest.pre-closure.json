@@ -1,0 +1,26 @@
+[
+  {
+    "path": "Run-PocTask.ps1",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "ef5f6adf40fbbc3df94c8764a86bd9c2e8c67c5400b784cb6092cd455efce822"
+  },
+  {
+    "path": "Run-BlindArm.ps1",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "b88b048ea6a014225bcc3c74e01cdc850668d876bdd5c05ee04f6d30853237df"
+  },
+  {
+    "path": "Probe-Rea-Mcp.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "c5bdfdd49fda78dfeb33ddcadde1eac683a6db22f8064f27651fb6526c9a3947"
+  },
+  {
+    "path": "oracle\\fixture-tests.js",
+    "status": "Valid",
+    "signer_thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "sha256": "ea311275cdc19a5d9fc355d08233df609b00f9de694b6b013500fc07a0f951c8"
+  }
+]

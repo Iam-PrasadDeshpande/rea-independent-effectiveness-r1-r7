@@ -1,0 +1,13 @@
+{
+  "Disposition": "OWNER_PAUSED; partial attempt excluded from comparison",
+  "UTC": "2026-10-18T02:51:26.7644043Z",
+  "Aliases": null,
+  "Stopped": [
+    {
+      "ProcessId": 3240,
+      "Reason": "OWNER_REQUESTED_FREEZE",
+      "CommandScope": "R3/arms/B-recovery4",
+      "CreationDate": "2026-10-18T08:20:49.721903+05:30"
+    }
+  ]
+}

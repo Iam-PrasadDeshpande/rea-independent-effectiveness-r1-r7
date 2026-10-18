@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "S01",
+    "purpose": "Missing provider throws",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "providerAvailable": false
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S02",
+    "purpose": "Empty text returns empty without embedding",
+    "request": {
+      "query": {
+        "text": ""
+      }
+    },
+    "environment": {},
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S03",
+    "purpose": "Whitespace text returns empty",
+    "request": {
+      "query": {
+        "text": " \t "
+      }
+    },
+    "environment": {},
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S04",
+    "purpose": "Text uses query embedding when present",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S05",
+    "purpose": "Text falls back to symmetric embedding",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hasQueryEmbedder": false,
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S06",
+    "purpose": "Input text passed without trimming",
+    "request": {
+      "query": {
+        "text": "  synthetic query  "
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S07",
+    "purpose": "No query vectors returns empty",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": []
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S08",
+    "purpose": "Note ID reuses indexed vectors",
+    "request": {
+      "query": {
+        "noteId": "source-note"
+      }
+    },
+    "environment": {
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ],
+      "storedVectors": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S09",
+    "purpose": "Unindexed note returns empty",
+    "request": {
+      "query": {
+        "noteId": "missing"
+      }
+    },
+    "environment": {
+      "storedVectors": []
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S10",
+    "purpose": "Default relevance is normal k10",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.5,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S11",
+    "purpose": "Strict relevance uses k5",
+    "request": {
+      "query": {
+        "text": "q"
+      },
+      "relevance": "strict"
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.5,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S12",
+    "purpose": "Loose relevance uses k20",
+    "request": {
+      "query": {
+        "text": "q"
+      },
+      "relevance": "loose"
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.6,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S13",
+    "purpose": "Normal threshold excludes score .82",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.6,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S14",
+    "purpose": "Strict threshold excludes score .855",
+    "request": {
+      "query": {
+        "text": "q"
+      },
+      "relevance": "strict"
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.5385164807134504,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S15",
+    "purpose": "Loose threshold excludes score .73",
+    "request": {
+      "query": {
+        "text": "q"
+      },
+      "relevance": "loose"
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.7348469228349535,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S16",
+    "purpose": "Distance zero converts to one",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S17",
+    "purpose": "Opposite edge clamps low and is filtered",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 2,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S18",
+    "purpose": "Sort descending by score",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.5,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          },
+          {
+            "distance": 0.1,
+            "noteId": "b",
+            "chunkIndex": 0,
+            "chunkText": "synthetic b 0"
+          },
+          {
+            "distance": 0.3,
+            "noteId": "c",
+            "chunkIndex": 0,
+            "chunkText": "synthetic c 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S19",
+    "purpose": "Duplicate note/chunk keeps best across vectors",
+    "request": {
+      "query": {
+        "noteId": "source"
+      }
+    },
+    "environment": {
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.5,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ],
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ],
+      "storedVectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S20",
+    "purpose": "Duplicate note/chunk retains existing better score",
+    "request": {
+      "query": {
+        "noteId": "source"
+      }
+    },
+    "environment": {
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ],
+        [
+          {
+            "distance": 0.5,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ],
+      "storedVectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S21",
+    "purpose": "Different chunks of same note remain separate",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          },
+          {
+            "distance": 0.2,
+            "noteId": "a",
+            "chunkIndex": 1,
+            "chunkText": "synthetic a 1"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S22",
+    "purpose": "Absent scope passes undefined note filter",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S23",
+    "purpose": "All scope passes undefined note filter",
+    "request": {
+      "scope": {
+        "type": "all"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S24",
+    "purpose": "Note scope resolves singleton ID",
+    "request": {
+      "scope": {
+        "type": "note",
+        "noteId": "a"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S25",
+    "purpose": "Folder resolves IDs",
+    "request": {
+      "scope": {
+        "type": "folder",
+        "folderId": "folder"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "folderIds": [
+        "a",
+        "b"
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S26",
+    "purpose": "Tag resolves IDs",
+    "request": {
+      "scope": {
+        "tagId": "tag",
+        "type": "tag"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "tagIds": [
+        "a"
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S27",
+    "purpose": "Empty folder skips similarity lookup",
+    "request": {
+      "scope": {
+        "type": "folder",
+        "folderId": "empty"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "folderIds": []
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S28",
+    "purpose": "Empty tag skips similarity lookup",
+    "request": {
+      "scope": {
+        "tagId": "empty",
+        "type": "tag"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "tagIds": []
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S29",
+    "purpose": "Query embedding error propagates",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "throwAt": "embedQuery"
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S30",
+    "purpose": "Symmetric embedding error propagates",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hasQueryEmbedder": false,
+      "throwAt": "embed"
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S31",
+    "purpose": "Database retrieval error propagates",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "throwAt": "similaritySearch"
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S32",
+    "purpose": "Folder resolution error propagates",
+    "request": {
+      "scope": {
+        "type": "folder",
+        "folderId": "f"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "throwAt": "folder"
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S33",
+    "purpose": "Tag resolution error propagates",
+    "request": {
+      "scope": {
+        "tagId": "t",
+        "type": "tag"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "throwAt": "tag"
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S34",
+    "purpose": "Normal result set truncates to ten",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.0,
+            "noteId": "n0",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n0 0"
+          },
+          {
+            "distance": 0.01,
+            "noteId": "n1",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n1 0"
+          },
+          {
+            "distance": 0.02,
+            "noteId": "n2",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n2 0"
+          },
+          {
+            "distance": 0.03,
+            "noteId": "n3",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n3 0"
+          },
+          {
+            "distance": 0.04,
+            "noteId": "n4",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n4 0"
+          },
+          {
+            "distance": 0.05,
+            "noteId": "n5",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n5 0"
+          },
+          {
+            "distance": 0.06,
+            "noteId": "n6",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n6 0"
+          },
+          {
+            "distance": 0.07,
+            "noteId": "n7",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n7 0"
+          },
+          {
+            "distance": 0.08,
+            "noteId": "n8",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n8 0"
+          },
+          {
+            "distance": 0.09,
+            "noteId": "n9",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n9 0"
+          },
+          {
+            "distance": 0.1,
+            "noteId": "n10",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n10 0"
+          },
+          {
+            "distance": 0.11,
+            "noteId": "n11",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n11 0"
+          },
+          {
+            "distance": 0.12,
+            "noteId": "n12",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n12 0"
+          },
+          {
+            "distance": 0.13,
+            "noteId": "n13",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n13 0"
+          },
+          {
+            "distance": 0.14,
+            "noteId": "n14",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n14 0"
+          },
+          {
+            "distance": 0.15,
+            "noteId": "n15",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n15 0"
+          },
+          {
+            "distance": 0.16,
+            "noteId": "n16",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n16 0"
+          },
+          {
+            "distance": 0.17,
+            "noteId": "n17",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n17 0"
+          },
+          {
+            "distance": 0.18,
+            "noteId": "n18",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n18 0"
+          },
+          {
+            "distance": 0.19,
+            "noteId": "n19",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n19 0"
+          },
+          {
+            "distance": 0.2,
+            "noteId": "n20",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n20 0"
+          },
+          {
+            "distance": 0.21,
+            "noteId": "n21",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n21 0"
+          },
+          {
+            "distance": 0.22,
+            "noteId": "n22",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n22 0"
+          },
+          {
+            "distance": 0.23,
+            "noteId": "n23",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n23 0"
+          },
+          {
+            "distance": 0.24,
+            "noteId": "n24",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n24 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S35",
+    "purpose": "Strict result set truncates to five",
+    "request": {
+      "query": {
+        "text": "q"
+      },
+      "relevance": "strict"
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.0,
+            "noteId": "n0",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n0 0"
+          },
+          {
+            "distance": 0.01,
+            "noteId": "n1",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n1 0"
+          },
+          {
+            "distance": 0.02,
+            "noteId": "n2",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n2 0"
+          },
+          {
+            "distance": 0.03,
+            "noteId": "n3",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n3 0"
+          },
+          {
+            "distance": 0.04,
+            "noteId": "n4",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n4 0"
+          },
+          {
+            "distance": 0.05,
+            "noteId": "n5",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n5 0"
+          },
+          {
+            "distance": 0.06,
+            "noteId": "n6",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n6 0"
+          },
+          {
+            "distance": 0.07,
+            "noteId": "n7",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n7 0"
+          },
+          {
+            "distance": 0.08,
+            "noteId": "n8",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n8 0"
+          },
+          {
+            "distance": 0.09,
+            "noteId": "n9",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n9 0"
+          },
+          {
+            "distance": 0.1,
+            "noteId": "n10",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n10 0"
+          },
+          {
+            "distance": 0.11,
+            "noteId": "n11",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n11 0"
+          },
+          {
+            "distance": 0.12,
+            "noteId": "n12",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n12 0"
+          },
+          {
+            "distance": 0.13,
+            "noteId": "n13",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n13 0"
+          },
+          {
+            "distance": 0.14,
+            "noteId": "n14",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n14 0"
+          },
+          {
+            "distance": 0.15,
+            "noteId": "n15",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n15 0"
+          },
+          {
+            "distance": 0.16,
+            "noteId": "n16",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n16 0"
+          },
+          {
+            "distance": 0.17,
+            "noteId": "n17",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n17 0"
+          },
+          {
+            "distance": 0.18,
+            "noteId": "n18",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n18 0"
+          },
+          {
+            "distance": 0.19,
+            "noteId": "n19",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n19 0"
+          },
+          {
+            "distance": 0.2,
+            "noteId": "n20",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n20 0"
+          },
+          {
+            "distance": 0.21,
+            "noteId": "n21",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n21 0"
+          },
+          {
+            "distance": 0.22,
+            "noteId": "n22",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n22 0"
+          },
+          {
+            "distance": 0.23,
+            "noteId": "n23",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n23 0"
+          },
+          {
+            "distance": 0.24,
+            "noteId": "n24",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n24 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S36",
+    "purpose": "Loose result set truncates to twenty",
+    "request": {
+      "query": {
+        "text": "q"
+      },
+      "relevance": "loose"
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.0,
+            "noteId": "n0",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n0 0"
+          },
+          {
+            "distance": 0.01,
+            "noteId": "n1",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n1 0"
+          },
+          {
+            "distance": 0.02,
+            "noteId": "n2",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n2 0"
+          },
+          {
+            "distance": 0.03,
+            "noteId": "n3",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n3 0"
+          },
+          {
+            "distance": 0.04,
+            "noteId": "n4",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n4 0"
+          },
+          {
+            "distance": 0.05,
+            "noteId": "n5",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n5 0"
+          },
+          {
+            "distance": 0.06,
+            "noteId": "n6",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n6 0"
+          },
+          {
+            "distance": 0.07,
+            "noteId": "n7",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n7 0"
+          },
+          {
+            "distance": 0.08,
+            "noteId": "n8",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n8 0"
+          },
+          {
+            "distance": 0.09,
+            "noteId": "n9",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n9 0"
+          },
+          {
+            "distance": 0.1,
+            "noteId": "n10",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n10 0"
+          },
+          {
+            "distance": 0.11,
+            "noteId": "n11",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n11 0"
+          },
+          {
+            "distance": 0.12,
+            "noteId": "n12",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n12 0"
+          },
+          {
+            "distance": 0.13,
+            "noteId": "n13",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n13 0"
+          },
+          {
+            "distance": 0.14,
+            "noteId": "n14",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n14 0"
+          },
+          {
+            "distance": 0.15,
+            "noteId": "n15",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n15 0"
+          },
+          {
+            "distance": 0.16,
+            "noteId": "n16",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n16 0"
+          },
+          {
+            "distance": 0.17,
+            "noteId": "n17",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n17 0"
+          },
+          {
+            "distance": 0.18,
+            "noteId": "n18",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n18 0"
+          },
+          {
+            "distance": 0.19,
+            "noteId": "n19",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n19 0"
+          },
+          {
+            "distance": 0.2,
+            "noteId": "n20",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n20 0"
+          },
+          {
+            "distance": 0.21,
+            "noteId": "n21",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n21 0"
+          },
+          {
+            "distance": 0.22,
+            "noteId": "n22",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n22 0"
+          },
+          {
+            "distance": 0.23,
+            "noteId": "n23",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n23 0"
+          },
+          {
+            "distance": 0.24,
+            "noteId": "n24",
+            "chunkIndex": 0,
+            "chunkText": "synthetic n24 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S37",
+    "purpose": "Equal scores preserve insertion order",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "z",
+            "chunkIndex": 0,
+            "chunkText": "synthetic z 0"
+          },
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S38",
+    "purpose": "No retrieval hits returns empty",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "hitsPerVector": []
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S39",
+    "purpose": "Multiple text-query vectors are merged",
+    "request": {
+      "query": {
+        "text": "synthetic query"
+      }
+    },
+    "environment": {
+      "hitsPerVector": [
+        [
+          {
+            "distance": 0.1,
+            "noteId": "a",
+            "chunkIndex": 0,
+            "chunkText": "synthetic a 0"
+          }
+        ],
+        [
+          {
+            "distance": 0.2,
+            "noteId": "b",
+            "chunkIndex": 0,
+            "chunkText": "synthetic b 0"
+          }
+        ]
+      ],
+      "queryVectors": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  },
+  {
+    "id": "S40",
+    "purpose": "Query vectors resolve before empty scope",
+    "request": {
+      "scope": {
+        "tagId": "empty",
+        "type": "tag"
+      },
+      "query": {
+        "text": "q"
+      }
+    },
+    "environment": {
+      "queryVectors": [
+        [
+          1,
+          0
+        ]
+      ],
+      "tagIds": []
+    },
+    "source": "packages/lib/services/ai/SearchService.ts: search/resolveQueryVectors/resolveScope"
+  }
+]

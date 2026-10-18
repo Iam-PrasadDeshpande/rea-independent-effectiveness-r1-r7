@@ -1,0 +1,20 @@
+{
+  "playwright": "1.62.1",
+  "reaVersion": "6.5.0",
+  "wabt": "1.0.42",
+  "acorn": "8.12.1",
+  "lockfileSha256": "089a94a8ed482275f8379b2094e6da4cda42f98aa9ee8315275b48c5199d8548",
+  "sourceRepository": "https://github.com/GoogleChromeLabs/squoosh",
+  "sourceCommit": "e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3",
+  "reaSourceCommit": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc",
+  "reaWabtProviderSha256": "e091bf8233327d6a43e5ddcd531a9acb4eae5604bd51e17af1f753be13bc14a5",
+  "signerThumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "nodeAnalysis": "22.22.1",
+  "sourcePackageVersion": "2.0.0",
+  "chrome": "151.0.7922.34",
+  "reaRuntimeKind": "prior pinned locally built vendor package mounted read-only",
+  "reference": "fresh local production browser build from unchanged lockfile and checked-in WASM",
+  "nodeBuild": "20.16.0",
+  "chromeArchiveSha256": "3cfc2bd00d1bafcf8a68dc74c9c92bb7150ddc8d26ade948a776316e1cec4f14",
+  "reaInstalledPath": "/home/RESEARCH_USER/rea-r2-20261017/tools/rea-reference"
+}

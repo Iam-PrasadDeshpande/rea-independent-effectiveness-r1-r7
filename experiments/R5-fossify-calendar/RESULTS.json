@@ -1,0 +1,981 @@
+{
+  "originalDisposition": "BOUNDED_EXPERIMENT_COMPLETE",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "BOUNDED_CLOSURE_SUPPORTED_WITH_RETAINED_LIMITATIONS",
+  "sourceReportSha256": "738f03e95510a2d3a60e0f1abe1f03d8d1d082a3f76dab46cd7ad565d4136d23",
+  "poc": "R5",
+  "recordedResults": [
+    {
+      "experiment": "R5",
+      "arm": "A",
+      "total": 44,
+      "passed": 32,
+      "scope": "Recomputed retained whole JSON output, occurrence/reminder lanes",
+      "source": "R5/evidence/behavioral-validation.json",
+      "detail": {
+        "occurrencesPassed": 44,
+        "reminderBearing": 12,
+        "reminderBearingPassed": 0,
+        "checks": [
+          {
+            "id": "01-weekly-basic",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "02-weekly-count-one",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "03-weekly-count-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "04-count-applies-before-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "05-until-inclusive",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "06-until-one-second-before",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "07-query-start-at-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "08-query-after-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "09-query-end-at-event-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "10-query-end-before-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "11-multiweek-two",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "12-multiweek-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "13-monday-wednesday-friday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "14-biweekly-sunday-monday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "15-count-multiweekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "16-series-start-not-selected-weekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "17-empty-weekdays",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "18-edit-first-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "19-delete-first",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "20-edit-middle-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "21-delete-middle",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "22-edit-last-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "23-delete-last",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "24-edit-moves-to-next-day",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "25-edit-moves-outside-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "26-delete-duplicate-deduplicates",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "27-count-does-not-replenish-excluded",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "28-edit-roundtrip-delete",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "29-delete-series-including-child",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "30-one-reminder",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "31-three-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "32-unsorted-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "33-reminder-exact-now-skipped",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "34-reminder-one-second-before",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "35-deleted-first-reminder-next-series",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "36-edited-reminder-independent-child",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "37-edited-child-reminders-off",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "38-expired-count-no-reminders",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "39-boundary-spring",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "40-boundary-fall",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "41-boundary-leap",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "42-boundary-year",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "43-half-hour-timezone",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "44-cross-midnight-duration",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R5",
+      "arm": "B",
+      "total": 44,
+      "passed": 32,
+      "scope": "Recomputed retained whole JSON output, occurrence/reminder lanes",
+      "source": "R5/evidence/behavioral-validation.json",
+      "detail": {
+        "occurrencesPassed": 44,
+        "reminderBearing": 12,
+        "reminderBearingPassed": 0,
+        "checks": [
+          {
+            "id": "01-weekly-basic",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "02-weekly-count-one",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "03-weekly-count-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "04-count-applies-before-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "05-until-inclusive",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "06-until-one-second-before",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "07-query-start-at-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "08-query-after-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "09-query-end-at-event-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "10-query-end-before-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "11-multiweek-two",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "12-multiweek-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "13-monday-wednesday-friday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "14-biweekly-sunday-monday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "15-count-multiweekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "16-series-start-not-selected-weekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "17-empty-weekdays",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "18-edit-first-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "19-delete-first",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "20-edit-middle-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "21-delete-middle",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "22-edit-last-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "23-delete-last",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "24-edit-moves-to-next-day",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "25-edit-moves-outside-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "26-delete-duplicate-deduplicates",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "27-count-does-not-replenish-excluded",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "28-edit-roundtrip-delete",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "29-delete-series-including-child",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "30-one-reminder",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "31-three-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "32-unsorted-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "33-reminder-exact-now-skipped",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "34-reminder-one-second-before",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "35-deleted-first-reminder-next-series",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "36-edited-reminder-independent-child",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "37-edited-child-reminders-off",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "38-expired-count-no-reminders",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "39-boundary-spring",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "40-boundary-fall",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "41-boundary-leap",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "42-boundary-year",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "43-half-hour-timezone",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "44-cross-midnight-duration",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          }
+        ]
+      }
+    },
+    {
+      "experiment": "R5",
+      "arm": "C",
+      "total": 44,
+      "passed": 32,
+      "scope": "Recomputed retained whole JSON output, occurrence/reminder lanes",
+      "source": "R5/evidence/behavioral-validation.json",
+      "detail": {
+        "occurrencesPassed": 44,
+        "reminderBearing": 12,
+        "reminderBearingPassed": 0,
+        "checks": [
+          {
+            "id": "01-weekly-basic",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "02-weekly-count-one",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "03-weekly-count-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "04-count-applies-before-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "05-until-inclusive",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "06-until-one-second-before",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "07-query-start-at-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "08-query-after-event-end",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "09-query-end-at-event-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "10-query-end-before-start",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "11-multiweek-two",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "12-multiweek-three",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "13-monday-wednesday-friday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "14-biweekly-sunday-monday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "15-count-multiweekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "16-series-start-not-selected-weekday",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "17-empty-weekdays",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "18-edit-first-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "19-delete-first",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "20-edit-middle-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "21-delete-middle",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "22-edit-last-title",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "23-delete-last",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "24-edit-moves-to-next-day",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "25-edit-moves-outside-window",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "26-delete-duplicate-deduplicates",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "27-count-does-not-replenish-excluded",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "28-edit-roundtrip-delete",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "29-delete-series-including-child",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "30-one-reminder",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "31-three-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "32-unsorted-reminders-source-order",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "33-reminder-exact-now-skipped",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "34-reminder-one-second-before",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "35-deleted-first-reminder-next-series",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "36-edited-reminder-independent-child",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "37-edited-child-reminders-off",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "38-expired-count-no-reminders",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "39-boundary-spring",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "40-boundary-fall",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "41-boundary-leap",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "42-boundary-year",
+            "match": false,
+            "occurrences": true,
+            "reminderBearing": true,
+            "reminders": false
+          },
+          {
+            "id": "43-half-hour-timezone",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          },
+          {
+            "id": "44-cross-midnight-duration",
+            "match": true,
+            "occurrences": true,
+            "reminderBearing": false,
+            "reminders": true
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Fossify Calendar",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "1a85738b3ec989334eb284724caafec6c5a50214"
+}

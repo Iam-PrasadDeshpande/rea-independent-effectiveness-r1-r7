@@ -1,0 +1,10 @@
+{
+  "remainingActions": 30,
+  "sha256": "f8346cb01a59bad991eb371be0da42f0e2f55ea753660c6e37257539c54a9043",
+  "driver": "scripts/Resume-R7B.ps1",
+  "resumeThread": "01a14ce7-6be2-7300-9b98-8397ba7b34c2",
+  "remainingActiveSeconds": 874.040116,
+  "previousBodySha256": "2af943857655dbc378f91b5da860708542e794a8dee4d918a0bf5e5f5b5290ba",
+  "pendingActionCompleted": "15 write_file; exact body preserved; existing signer Valid",
+  "utc": "2026-10-18T04:55:04.3184184Z"
+}

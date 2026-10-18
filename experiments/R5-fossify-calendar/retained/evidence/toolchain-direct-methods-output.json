@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "result": {
+    "content": [
+      {
+        "text": "{\"class_name\":\"org.fossify.calendar.models.Event\",\"total_matching\":6,\"offset\":0,\"limit\":100,\"count\":6,\"items\":[{\"name\":\"getRepeatInterval\",\"full_name\":\"org.fossify.calendar.models.Event.getRepeatInterval\",\"signature\":\"getRepeatInterval(): int\",\"is_constructor\":false,\"def_pos\":0},{\"name\":\"getRepeatLimit\",\"full_name\":\"org.fossify.calendar.models.Event.getRepeatLimit\",\"signature\":\"getRepeatLimit(): long\",\"is_constructor\":false,\"def_pos\":0},{\"name\":\"getRepeatRule\",\"full_name\":\"org.fossify.calendar.models.Event.getRepeatRule\",\"signature\":\"getRepeatRule(): int\",\"is_constructor\":false,\"def_pos\":0},{\"name\":\"setRepeatInterval\",\"full_name\":\"org.fossify.calendar.models.Event.setRepeatInterval\",\"signature\":\"setRepeatInterval(int): void\",\"is_constructor\":false,\"def_pos\":0},{\"name\":\"setRepeatLimit\",\"full_name\":\"org.fossify.calendar.models.Event.setRepeatLimit\",\"signature\":\"setRepeatLimit(long): void\",\"is_constructor\":false,\"def_pos\":0},{\"name\":\"setRepeatRule\",\"full_name\":\"org.fossify.calendar.models.Event.setRepeatRule\",\"signature\":\"setRepeatRule(int): void\",\"is_constructor\":false,\"def_pos\":0}]}",
+        "type": "text"
+      }
+    ]
+  },
+  "jsonrpc": "2.0"
+}

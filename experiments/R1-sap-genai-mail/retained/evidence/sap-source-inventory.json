@@ -1,0 +1,1002 @@
+[
+  {
+    "path": ".cdsrc.json",
+    "bytes": 4,
+    "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+  },
+  {
+    "path": ".editorconfig",
+    "bytes": 492,
+    "sha256": "c493c1dcf08ddbe6d09f1e2c909b22b7901cb9b14e19229bcab283308ed0c03b"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 694,
+    "sha256": "af3b4c99c2a7744995e83d2c965d31c24a7c9a2a1747d44767972edb09d13b40"
+  },
+  {
+    "path": ".prettierignore",
+    "bytes": 19,
+    "sha256": "cfeee85cee6b75efcbedfead8797007886ac08fb5666ff6748976f651d34c382"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "bytes": 5620,
+    "sha256": "80df6314e369396d23c84390697a1621a659e4513fa6aa1bde66ec4560fc280c"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 730,
+    "sha256": "035a199ed1f3f55f68109e0a6ae3a57d68efe8d3c232b3b84b6d1057856ec7f3"
+  },
+  {
+    "path": "DC_TOC.md",
+    "bytes": 2109,
+    "sha256": "b89a8c491b6c4a215ca19032628b598b0769959afe6025fa61b53dc21fd9c8fd"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 11537,
+    "sha256": "0e8b00dd2d8843927cc9decf8515d8fc1c762e033f61faa1459ae0b282ad4443"
+  },
+  {
+    "path": "LICENSES/Apache-2.0.txt",
+    "bytes": 11558,
+    "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7669,
+    "sha256": "7afada9940fe46c350f4b518782a7f8df58cb296a8791d00e2bd70cb62089224"
+  },
+  {
+    "path": "REUSE.toml",
+    "bytes": 1929,
+    "sha256": "97c30357ede86a096702136984112207853c9975999cd993b0511fe3486ab98f"
+  },
+  {
+    "path": "app/html5-deployer/package.json",
+    "bytes": 286,
+    "sha256": "f9a024e04a71a59c24c4e646f991cd6fc2227c510b8ba3c8ed3f6a39fc18b04a"
+  },
+  {
+    "path": "app/ui/LICENSE",
+    "bytes": 11557,
+    "sha256": "17cff82236e2391de44f5861f9cfce56bd28121f0f97a48b23baabd10d497bbc"
+  },
+  {
+    "path": "app/ui/README.md",
+    "bytes": 4119,
+    "sha256": "699156900dad07b777a31492a20a0b37fda78ab2be0187fb27fdebca0393d5f3"
+  },
+  {
+    "path": "app/ui/package.json",
+    "bytes": 1130,
+    "sha256": "757f6aa5ab3844c1c657160533f42c85716ffedd062139ce403f7a5ae51d9ca9"
+  },
+  {
+    "path": "app/ui/tsconfig.json",
+    "bytes": 438,
+    "sha256": "5b06c1c95b860b118468a3fc5e32d688d792a419bef837fda193feedcf36ab88"
+  },
+  {
+    "path": "app/ui/ui5-dist.yaml",
+    "bytes": 287,
+    "sha256": "c1d423c19235108935ee2325c4d577e7274c50aaa9cf06f5cb4c4952ba842b9b"
+  },
+  {
+    "path": "app/ui/ui5.yaml",
+    "bytes": 1002,
+    "sha256": "4c9a7c96fafe2c9b26cfd606ede9e67ad9b13f3e00149a6b57730569254d93df"
+  },
+  {
+    "path": "app/ui/webapp/Component.ts",
+    "bytes": 1895,
+    "sha256": "5403a06f8aacd6b4b03f906f1fb57919962f29c3d2e5104ab7b49d2d46f8cdd4"
+  },
+  {
+    "path": "app/ui/webapp/controller/App.controller.ts",
+    "bytes": 2768,
+    "sha256": "6971192b0d90a3fa85b043808ef1e749fcc9640b292461754edcfe71237e6cb2"
+  },
+  {
+    "path": "app/ui/webapp/controller/BaseController.ts",
+    "bytes": 4231,
+    "sha256": "614669b0ebd554dc78de100b094bb11e57050c86fa97d8b737f44ac30cb53555"
+  },
+  {
+    "path": "app/ui/webapp/controller/ConfirmationDialog.ts",
+    "bytes": 1579,
+    "sha256": "3118cbfb3c3f93fd5e7017966a5184525e673d313a5d24f8279f2144ec957295"
+  },
+  {
+    "path": "app/ui/webapp/controller/EmailDetails.controller.ts",
+    "bytes": 11602,
+    "sha256": "bd508691fac06c5d6dc8cc7bd7cabae4d9c724c8fd4647cd495582ea867a67fd"
+  },
+  {
+    "path": "app/ui/webapp/controller/Main.controller.ts",
+    "bytes": 15392,
+    "sha256": "ce3c40c274cfaadf652349a2f26a8397342ba3a8cfd80f3055b9ae951772055c"
+  },
+  {
+    "path": "app/ui/webapp/i18n/i18n.properties",
+    "bytes": 67,
+    "sha256": "9945e923a06cdd18838c0dd9af2074f0cdfcb4de1bab76077dc3949fba185637"
+  },
+  {
+    "path": "app/ui/webapp/i18n/i18n_de.properties",
+    "bytes": 363,
+    "sha256": "c170260b4aaff15bb6df6658ec7646f9fa9769c7907c86366bace8266a052647"
+  },
+  {
+    "path": "app/ui/webapp/i18n/i18n_en.properties",
+    "bytes": 3302,
+    "sha256": "53341e198e993f4284396bf996af5546184b9d131d5464aa506ce2081bf065cd"
+  },
+  {
+    "path": "app/ui/webapp/images/favicon.ico",
+    "bytes": 173183,
+    "sha256": "185512dbee84ba77d7fcb8c4a395ff5dc5f565742f022ef69f730f1cd47b71cc"
+  },
+  {
+    "path": "app/ui/webapp/images/sap-logo.svg",
+    "bytes": 1560,
+    "sha256": "4146d5df8fc04673049281dfd85569324a49e4ba68968acfbe125a126c93800a"
+  },
+  {
+    "path": "app/ui/webapp/index.html",
+    "bytes": 992,
+    "sha256": "fd857924383799846a5bb62a6d347d71a88894030355287356c4b92a25cc448d"
+  },
+  {
+    "path": "app/ui/webapp/manifest.json",
+    "bytes": 2104,
+    "sha256": "73cd325f159c64f8e2007473fc8f0403fc9509287e946d51312fadc98e2f7b71"
+  },
+  {
+    "path": "app/ui/webapp/model/entities.ts",
+    "bytes": 837,
+    "sha256": "1e991412fa884ffa9d23010744a22ce9c9f7290485322b894570b9cdfc104620"
+  },
+  {
+    "path": "app/ui/webapp/model/filters.json",
+    "bytes": 957,
+    "sha256": "c58754b0ea63ea7fd2cf4ac04f57c334d3fb777dd2de28410af6d204019b6749"
+  },
+  {
+    "path": "app/ui/webapp/model/formatter.ts",
+    "bytes": 2316,
+    "sha256": "f249a12739f209af507aafdf7452c96bc557443729514471110a042f226cb55e"
+  },
+  {
+    "path": "app/ui/webapp/model/models.ts",
+    "bytes": 315,
+    "sha256": "3500a574c7d04d3ecb307885fbc685d57ca1a8bf537008c1a82af67ae05fa76e"
+  },
+  {
+    "path": "app/ui/webapp/test/integration/HelloJourney.ts",
+    "bytes": 699,
+    "sha256": "e974784f8592b58b892699bb1197f2a866134cf579571d5cd064d08e02e76431"
+  },
+  {
+    "path": "app/ui/webapp/test/integration/opa.test.ts",
+    "bytes": 281,
+    "sha256": "8dd3483f381221dda5de4dbadadf5fe9d711771e959a81c27e761d1c2c111d01"
+  },
+  {
+    "path": "app/ui/webapp/test/integration/opaTests.qunit.html",
+    "bytes": 1021,
+    "sha256": "f9bfe3de154450c45d71d1e549184234e79d5516b8908bdd043467af71259d8a"
+  },
+  {
+    "path": "app/ui/webapp/test/integration/opaTests.qunit.ts",
+    "bytes": 205,
+    "sha256": "0c4b0d74aa3b9edf08db92bf7fae3894849dc8a32ae9410ffde4f9de1e074ecf"
+  },
+  {
+    "path": "app/ui/webapp/test/integration/pages/MainPage.ts",
+    "bytes": 1516,
+    "sha256": "d15862078b4b7fcd1ebe7ed697d160016e87c5c514955793a7232e97a406c310"
+  },
+  {
+    "path": "app/ui/webapp/test/testsuite.qunit.html",
+    "bytes": 480,
+    "sha256": "5b7ceb067deeb352b67f6b7960cda826d97691c6b5b10e1aaeb39c788a606634"
+  },
+  {
+    "path": "app/ui/webapp/test/testsuite.qunit.ts",
+    "bytes": 342,
+    "sha256": "2fc723f0edddd0f080bf9ec681e8b01be2bca16c47aeb6698acfcd5ec716de8f"
+  },
+  {
+    "path": "app/ui/webapp/test/unit/controller/Main.qunit.ts",
+    "bytes": 356,
+    "sha256": "9d69068523f698fd46067f21fc3be57bf60edce41053bb8769090ec9cee62e91"
+  },
+  {
+    "path": "app/ui/webapp/test/unit/unit.test.ts",
+    "bytes": 275,
+    "sha256": "443c5877c2a34cc8c4d43a22d96974ad04aa967d66622916a82eb1ab77d4076b"
+  },
+  {
+    "path": "app/ui/webapp/test/unit/unitTests.qunit.html",
+    "bytes": 1114,
+    "sha256": "037e404518f0c0543a23bc6ff20c4df41e5d76c4a57e14ba3ed3522ef54ce026"
+  },
+  {
+    "path": "app/ui/webapp/test/unit/unitTests.qunit.ts",
+    "bytes": 206,
+    "sha256": "0b539f0fbd23236d453f956b0cc9e483373108aacbafce2f5e350af9d0e0b7b5"
+  },
+  {
+    "path": "app/ui/webapp/test/wdio.conf.ts",
+    "bytes": 499,
+    "sha256": "b3a8a57e8fcb69fafad7119ce88ab5bac471b7d5c924d3817824acf3ea62a7ac"
+  },
+  {
+    "path": "app/ui/webapp/view/AddMailDialog.fragment.xml",
+    "bytes": 1420,
+    "sha256": "385d56f1f02d5f5044540fcc7a801f0c35ea51d44ca574ddc05af7f8a36ca28f"
+  },
+  {
+    "path": "app/ui/webapp/view/App.view.xml",
+    "bytes": 705,
+    "sha256": "07ad55de6c9ffee0852c5ad0a32f84b821978e76fecd2316784d750c608493a2"
+  },
+  {
+    "path": "app/ui/webapp/view/ConfirmationDialog.fragment.xml",
+    "bytes": 620,
+    "sha256": "264b4b68cc43eeec7c408a40c316172530b6282bac2b190bad7ea5ec212a3aa0"
+  },
+  {
+    "path": "app/ui/webapp/view/EmailDetails.view.xml",
+    "bytes": 11730,
+    "sha256": "d4908a97ef03967c5849b291e08f1f28d87e15f72fbe59c0a047d9e69a4d3418"
+  },
+  {
+    "path": "app/ui/webapp/view/EmailListItem.fragment.xml",
+    "bytes": 2118,
+    "sha256": "2f0ed277b3dd2c6c450a2b19725dfbcd1191cfe86b2db5dcaab4118168026e51"
+  },
+  {
+    "path": "app/ui/webapp/view/MailAnsweredDialog.fragment.xml",
+    "bytes": 1105,
+    "sha256": "6b6321f2bd09d9353ed2f1175e46b9036f80b3c7c69e5bc6e64a9b6d4db5819f"
+  },
+  {
+    "path": "app/ui/webapp/view/Main.view.xml",
+    "bytes": 12680,
+    "sha256": "ecbc18835a3151f152795b3bc6b4f746c570a6368df3a5298379453158338cbf"
+  },
+  {
+    "path": "app/ui/webapp/view/SimilarEmailListItem.fragment.xml",
+    "bytes": 2347,
+    "sha256": "171db61a32c4e80f23c4da6acb7ab538a0ba208047634944289604dbf25a0a59"
+  },
+  {
+    "path": "app/ui/xs-app.json",
+    "bytes": 418,
+    "sha256": "3ba9ef47a98ea0e10dc4a2e9d593339d2af472cb9e0d656f13461341a57c98ee"
+  },
+  {
+    "path": "db/data-model.cds",
+    "bytes": 1835,
+    "sha256": "7efe89b4bed3b9b7d5cba50a9112c6cc7663c9e6ae4849fbf59e8ac9f317f22f"
+  },
+  {
+    "path": "db/package.json",
+    "bytes": 295,
+    "sha256": "cc033d006e98675b3985cb92870aa746ec8808d8b37b9b455f94e2cd4e1097df"
+  },
+  {
+    "path": "db/src/.hdiconfig",
+    "bytes": 3887,
+    "sha256": "888dcbd78c4a6d760ac8419f4905c68c16b4bcf9d13abe4c0956d4b93cf925db"
+  },
+  {
+    "path": "db/undeploy.json",
+    "bytes": 113,
+    "sha256": "287dba33365025fb98862c33653d00d8639ffa2b7bbe7d65112cdc004e637b69"
+  },
+  {
+    "path": "docs/architecture/reference-architecture-generative-ai.svg",
+    "bytes": 221465,
+    "sha256": "9f3144c7e88e4eeb0999aefdf9518f56e05d49058338e1eaf6c83b2732ca30e0"
+  },
+  {
+    "path": "docs/images/App_Impressions00.png",
+    "bytes": 239231,
+    "sha256": "fe8e610c53eeef437893cdc3fb9f7d8ed49b69363c29542d5aad919f239f916b"
+  },
+  {
+    "path": "docs/images/App_Impressions01.png",
+    "bytes": 389387,
+    "sha256": "4568f84f377a0cfdc4325d644d7da186c4cc17154b55d1bca1d2ae13efa85113"
+  },
+  {
+    "path": "docs/images/App_Impressions02.png",
+    "bytes": 308314,
+    "sha256": "f2392a1ec12d3906c989ff1f9aa74d2b8c379150b088551573b2f0fe130b47fc"
+  },
+  {
+    "path": "docs/images/App_Impressions03.png",
+    "bytes": 302083,
+    "sha256": "74edefa9c33aee3355fda6d0b184747a3a718a09c8d451d39a00a9ad920ae576"
+  },
+  {
+    "path": "docs/images/App_Impressions04.png",
+    "bytes": 353113,
+    "sha256": "7f67981a7705747f24103e9c591f5adc2a2bf8e804d8fa97337db20c4a9cb152"
+  },
+  {
+    "path": "docs/images/App_Impressions05.png",
+    "bytes": 296379,
+    "sha256": "44e3afab3eba4d7c19210ff49bc6284f532fab2b113b61f3c9d404a02edeb3bb"
+  },
+  {
+    "path": "docs/images/App_Impressions06.png",
+    "bytes": 289957,
+    "sha256": "a5ada57e2b641be093fe28b42566e12ae4e7ad95d00389aa8bbc3b95b0934e6a"
+  },
+  {
+    "path": "docs/images/App_Impressions07.png",
+    "bytes": 304037,
+    "sha256": "281e8b70a9f6e82c50fb160180a41bcd9663c1f035e8c709c1ac140337b12fd4"
+  },
+  {
+    "path": "docs/images/App_Impressions09.png",
+    "bytes": 331381,
+    "sha256": "9ae0918675adbc5472df5b3a516bdd2bb04f8506c5064ad59103f184b3d36e9e"
+  },
+  {
+    "path": "docs/images/App_Impressions12.png",
+    "bytes": 492292,
+    "sha256": "b29dab4c14f648df2a74c6666569db4a130ac3028e8ff1fe8c89ada9f3b58e96"
+  },
+  {
+    "path": "docs/tutorial/1-intro/1-Scenario.md",
+    "bytes": 9170,
+    "sha256": "9cc4aaa67309d36e11e35ee870b5f76dec55f0b7e49ada727d961c8d04b4b15a"
+  },
+  {
+    "path": "docs/tutorial/1-intro/README.md",
+    "bytes": 143,
+    "sha256": "d11a4ce2d3d6a41d7eae27c9da574f93a7b671e727bd1ea035fef13ed24636e0"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_AddMail01.png",
+    "bytes": 395664,
+    "sha256": "f34748696f81f97a9d42ed33d816b4d23b183d30ef926453a1abbab8ced92744"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_AddMail02.png",
+    "bytes": 193442,
+    "sha256": "e0d65d42546180c6cc61c2dcfc3843f5563eba685f3460a475ed8dd29e26ff80"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_AddMail03.png",
+    "bytes": 226095,
+    "sha256": "4f3c6b4ebb167f3ed11117864ab78184a99e3786c0bf0217ed1a9784de055269"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_AddMail04.png",
+    "bytes": 290188,
+    "sha256": "e228d80dc3d649c88f108e1e6347738b90a47530cdb14dd2d80dfa4835060df4"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_AddMail05.png",
+    "bytes": 218287,
+    "sha256": "d917536fc82d81f59dd4d68553c760247b09d6bbf24b3fa5c32a9ebed9daedf1"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_AddMail07.png",
+    "bytes": 331381,
+    "sha256": "9ae0918675adbc5472df5b3a516bdd2bb04f8506c5064ad59103f184b3d36e9e"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_Answer01.png",
+    "bytes": 460347,
+    "sha256": "be037d98faf807417236fd1613d772adf39aab002143d458e017f2510813ad89"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_Answer02.png",
+    "bytes": 338749,
+    "sha256": "72a0b32938b208e35451e8a994d781beb68e403f25e1b260b8deb1cbc68c6517"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_Answer04.png",
+    "bytes": 304573,
+    "sha256": "3b7125ba1463729e39863e00c6884a8a03ac1d911429bea7c8f6973d8f804bb3"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App01.png",
+    "bytes": 397573,
+    "sha256": "79e8a585963e53773c8e7d94e972e03dcd10190da1c9c38d77218101e5078993"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App02.png",
+    "bytes": 310712,
+    "sha256": "423ee89bf29b43e72aaa2da3b93569a2805e6aac5fce5c590e478b54111ded1a"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App03.png",
+    "bytes": 304644,
+    "sha256": "19563bce1009dd7a1ce33cf565f9c0b26eceedf73d074a5b5d2ef82b4aaf66e8"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App04.png",
+    "bytes": 355018,
+    "sha256": "abdb54477f48e724af071f536e0c3e7ca0e669671b71135641ad932c0a412312"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App05.png",
+    "bytes": 328544,
+    "sha256": "922973733cd4bf62c195a55bc0889386e2ff75256eed78ad40a9dc2749537761"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App06.png",
+    "bytes": 298832,
+    "sha256": "2d12fcd3ae74bacdaade0c75452c400d41f3fda8a639cfbf63d34f5971123675"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App07.png",
+    "bytes": 294144,
+    "sha256": "910618dd56653bbd288e140c38f95e3a9e50899badb4bf6c17b1ee5c4a2eb7b9"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App08.png",
+    "bytes": 291945,
+    "sha256": "990f7ea440cd6d228bc8609fb31e91e19b11d99597f6fe1ccf302b6d112cfb65"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_App09.png",
+    "bytes": 306163,
+    "sha256": "cfed54fdf46f30fcd111f4f481e5afc18069ca428ec2e865b5d0e01077aec8ae"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_InAppAdd.png",
+    "bytes": 492292,
+    "sha256": "b29dab4c14f648df2a74c6666569db4a130ac3028e8ff1fe8c89ada9f3b58e96"
+  },
+  {
+    "path": "docs/tutorial/1-intro/images/FL_PushAPI.png",
+    "bytes": 366032,
+    "sha256": "cb2ea2e962b27e44b701d407e59ab2c5103c55a44710dd52a095281215e97b5d"
+  },
+  {
+    "path": "docs/tutorial/2-setup/0-QuickAccountSetup.md",
+    "bytes": 4367,
+    "sha256": "e73d9d90322c571311c7993a19e47447aef7682598678e6873ef205a0d5fd454"
+  },
+  {
+    "path": "docs/tutorial/2-setup/1-SubaccountSetup.md",
+    "bytes": 715,
+    "sha256": "1fc1e7c76e54609192d31936b7e56cc7ec919a4f2878b2171ebf8987c036fd5a"
+  },
+  {
+    "path": "docs/tutorial/2-setup/2-AssignEntitlements.md",
+    "bytes": 2275,
+    "sha256": "30dccd438c36e9ceaeb883ca07dd29f1960fe1a794784959c20ecded6435219f"
+  },
+  {
+    "path": "docs/tutorial/2-setup/3-SAPHANACloud.md",
+    "bytes": 3054,
+    "sha256": "44f4f42aeed65d8e72b9008bdec76f2366502d3740555f288ab4bfcd865c8c68"
+  },
+  {
+    "path": "docs/tutorial/2-setup/README.md",
+    "bytes": 309,
+    "sha256": "c88a2cc9e1e4e2699a374c04e6285200ead8da4e557d7d415ac4ef7f844e486e"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/BTP_Runtime01.png",
+    "bytes": 189901,
+    "sha256": "6896aec7a28533f8d965875925cd6bf662b86eeab1cf1bd42e070915f5b9712e"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/BTP_Runtime02.png",
+    "bytes": 242967,
+    "sha256": "96de0003fc2035fbc7b154b6877baf6f3c33499458d8e37b348d697a791c3d2f"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/BTP_Runtime03.png",
+    "bytes": 310495,
+    "sha256": "c8fe3341e0a32492e60647665e2eb17825e0240943020107140c7e2838d61384"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance01.png",
+    "bytes": 255213,
+    "sha256": "df98458255081ee6478caf191ef53b7afe840394a0bbb8a6c2f3258054b0858e"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance02.png",
+    "bytes": 284023,
+    "sha256": "2cd143bdf26e9cb79eeb36313aac9273a564e6daf718910fde02be950508cee4"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance03.png",
+    "bytes": 205234,
+    "sha256": "6ca59fa867d47ea74ab07f95b572f988b78fe942ac269fce05dd78fff1ce1974"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance04.png",
+    "bytes": 84177,
+    "sha256": "bb15e6c7283752b904c3847136f2e7a1bcc61adf2718bbad917337a73ff791b0"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance05.png",
+    "bytes": 117318,
+    "sha256": "eda775a79d92ef6d0c4d1cc6a93dd1389360624f4c01c38197eb0760d7ca05c9"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance06.png",
+    "bytes": 168907,
+    "sha256": "ff839484685d3dd0dfbc3331e7042b7becd5c7ea14b4e490d72d090beb298394"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance07.png",
+    "bytes": 151109,
+    "sha256": "0b41d232b130cadca523e8662a70f2b55ebe76723c284ae4145c1a8bb2da5b01"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance08.png",
+    "bytes": 125034,
+    "sha256": "b9ab14846c5e060291ae59e7556e8415ca76a33219adf08f05994c33ebe50760"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance09.png",
+    "bytes": 261887,
+    "sha256": "bbcfeefd87d7c0ca9b8070b5fed730b8bf1ae97838ff6df3f0387cbfee6926a3"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance10.png",
+    "bytes": 186814,
+    "sha256": "824aba0974788a62f8a4daad328c8ec4ca3a9a5ad8f08ee89295f645dc1ec83b"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_CreateInstance11.png",
+    "bytes": 99721,
+    "sha256": "715d6a0abc6fe11c57ed27ccaccfeb1cbd1b09844d068786ae488084f8373e4e"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_MapInstance01.png",
+    "bytes": 103907,
+    "sha256": "ba7f04f09143323ae54d9bcb1fe6498ddcf0bd0f29bf894c179885f515f8f84d"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_MapInstance02.png",
+    "bytes": 230789,
+    "sha256": "24dafc021a27f4248c1eb01d7e13a999aa08a3a927f0672fad9abbe18816bf3d"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_MapInstance03.png",
+    "bytes": 127364,
+    "sha256": "cdbe489d88eb9448cbce90c56f7e2061e547b2a3bed91982220fb5bd83c00125"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_MapInstance04.png",
+    "bytes": 138110,
+    "sha256": "1921e28dda5c816d3569699b6ace1800eae4c371ee2f7ebb66365fc2d7c78b9c"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_MapInstance05.png",
+    "bytes": 217873,
+    "sha256": "fbf155c4192a7bed8ac8102c4fdfa394b935cd5133c4d114b01433769c63b659"
+  },
+  {
+    "path": "docs/tutorial/2-setup/images/HC_MapInstance06.png",
+    "bytes": 137308,
+    "sha256": "9c7f4c2ec0007085ddc6c1a641f7045e893d436ef1b7e4fda4162b8145c94b32"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/1-BuildTheComponents.md",
+    "bytes": 902,
+    "sha256": "87ecd9f0b764322cc17e681233e747dc84dcb2ced16718b05c741b283c196a08"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/2-DeployTheApplication.md",
+    "bytes": 1411,
+    "sha256": "34d8a3e62d751fc105c69832f97965b278a5fa7eb7589ca5fdb25a9fdceb5baf"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/3-UndeployApplication.md",
+    "bytes": 1837,
+    "sha256": "056a0c3ec2a5279a925f861bb4022c41b34ecce8308361ea67a0ee454688c4f9"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/README.md",
+    "bytes": 307,
+    "sha256": "2c5fa66e6fac19366c33582765eb7a50e6227216205888366b14deb2d4a65ea1"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/CS_AdminUser.png",
+    "bytes": 40151,
+    "sha256": "a0715c0e99929854921e4112a945b21c4b46b883f8b93df999070a415db216be"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/CS_BrokerUser.png",
+    "bytes": 39243,
+    "sha256": "fb1c8a19d501a4fab83482d8d0fa2c90972c31d7b8a3786155de7d38718d6018"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/CS_InitialValue.png",
+    "bytes": 26936,
+    "sha256": "4e48fabc4087c545410e164c19accd853370bd44e56becfabc6b8f930573a435"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/CS_Namespace.png",
+    "bytes": 108629,
+    "sha256": "8ba48b5dfc64657022db41dfcf04863cef1246137365fdc44e8c2481900cf35b"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/CS_Service.png",
+    "bytes": 211801,
+    "sha256": "2f1125488ee617a37d2a025a4183995c4ff29f79f44ec6fa54d61b7f4d73ff5f"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/DEP_CfSuccess.png",
+    "bytes": 171182,
+    "sha256": "a25ab90d938ca01725eaee3765d730a78a000f411fc7bcc2d92c59142b865f1f"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/DEP_KymaSuccess.png",
+    "bytes": 224445,
+    "sha256": "4bad7ef463f93b073ddf97912b901936a2f57112d32504e2a68cf2acf949f0dc"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PDEP_KymaIPgSql.png",
+    "bytes": 201641,
+    "sha256": "b5bb1877699a33d3de8ee12b86faa4839c11137577c3710769563e9002dcc210"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PDEP_KymaIPs.png",
+    "bytes": 69825,
+    "sha256": "ba0511f256b56bd3c155cb5c5c8419aa6dc04bb24d984445780897a8911bbbf7"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_CfRegion.png",
+    "bytes": 93877,
+    "sha256": "682c3af101a5fdef95c47169c1e51b4af794bcd1a7377d77f06ba5c7dedabb62"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_CfServiceKey.png",
+    "bytes": 189750,
+    "sha256": "ea8046c12b41d3c8f089f5bb6324990bb8590973e2f38170543c30640c14a35a"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_CfToken.png",
+    "bytes": 39568,
+    "sha256": "e28fd81a1ecfa10dcf488afea93210c5717cad34eb382b1d3641c9ada1a4d071"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_Dbname.png",
+    "bytes": 27297,
+    "sha256": "8488f0af18169434978ad1fb2d6f780faf997de3183c1e3ff46e6599da265604"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_Instance.png",
+    "bytes": 24196,
+    "sha256": "3ec00b5cad6f045211fce3a12bbdc5a721d48edfaed8916f6bf5b9f072a8c344"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_KymaBinding.png",
+    "bytes": 83322,
+    "sha256": "5af46da5e64c8033ddb75944d7631275b433aea74e091450e9f0b3921852207a"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_KymaCert.png",
+    "bytes": 151198,
+    "sha256": "d723cb2899e4fd80e650b2c145703688da6a9f6ba7fb6e39c316a3a5350e50fe"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_KymaCertKey.png",
+    "bytes": 117294,
+    "sha256": "9a5e14e66e167acea4e8a3620e5000cc6092d5aeccad8dcfc9c93dfd91f7c3fb"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/PGExt_KymaDetails.png",
+    "bytes": 117315,
+    "sha256": "dc6a22c4d68fbae945629e6f24e46ddad0a1c91ae44ed85afad2e694878a0809"
+  },
+  {
+    "path": "docs/tutorial/3-deploy/images/SB_PlainText.png",
+    "bytes": 205555,
+    "sha256": "dff21c916c427d252ad43d4ecfea6e1ceed2d446252ca2ff323a9d64d90c6b91"
+  },
+  {
+    "path": "docs/tutorial/4-test/1-PushSampleMails.md",
+    "bytes": 3381,
+    "sha256": "74ba4cbcb2ffa3e8b3fb31ef7b1aaaf55eb09279dbba1ec2171a5ad50c4ca79e"
+  },
+  {
+    "path": "docs/tutorial/4-test/2-TestApplication.md",
+    "bytes": 1178,
+    "sha256": "eb862ac362228b9356869f5b7c645c17f1b27077b4b60170ab9b18522ab0a8db"
+  },
+  {
+    "path": "docs/tutorial/4-test/README.md",
+    "bytes": 224,
+    "sha256": "83e42fc66ebff5bfa034c57a14a3f18a2fdd971b5d586a61403da2b8d3edfb61"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_BindingDetails.png",
+    "bytes": 138044,
+    "sha256": "58cd7125b4c1f925531faabf00a622a75797edc9967ef48ee3abdec1fd5c8ce7"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_BindingName.png",
+    "bytes": 38901,
+    "sha256": "f7ce1577ffff57fcaa737eaf0ad6572555674bb998401614e311b1c84db3c2a4"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_CreateInstance.png",
+    "bytes": 146310,
+    "sha256": "8e0a9a40de8a5c6dacafa590d01e5beeeed262f36c9fd6dd4cf7e2872a447447"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_DefaultBinding.png",
+    "bytes": 80877,
+    "sha256": "a805552899a9d0da5cdf019630a91e11482d26a2d6cc2f6018315580f4ab02ac"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_RuntimeName.png",
+    "bytes": 70024,
+    "sha256": "c0988c122ebef245aebdbd12828e1d80d26231b192b00393a0bef114e6f95cee"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_SelectPlan.png",
+    "bytes": 67957,
+    "sha256": "aa9842a73a2d8296ebf03af6d6c0ebeb052156476209560f1a343105ab911142"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/API_ServiceBinding.png",
+    "bytes": 240203,
+    "sha256": "24b7c3b3e79f107e3531944da2e381919521bdc79e3deeed6c1cc0747237618e"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/AZR_AppReg.png",
+    "bytes": 74995,
+    "sha256": "cba24546038af36e7f99532311e53242d7053d613c7548277b4f86b729ccaa61"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_AssignRC.png",
+    "bytes": 397053,
+    "sha256": "bde6a01d337359078036665bbfdc53730d0ab9c56370d0a0dee0fff9aba4f863"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_CreateSubs.png",
+    "bytes": 68524,
+    "sha256": "ee4b3db4ee5b4a77cdbba37bd42d3200a08824cf2f14346157af4856df9e108a"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_Instance.png",
+    "bytes": 51090,
+    "sha256": "2e5eb43c207dcc2d2d377d9cce2b6beb978651d88b0c0c6d236c90dfbd24a711"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_OpenSubs.png",
+    "bytes": 157498,
+    "sha256": "e7d7e42b8a9f8eb262ebb9ac6185c422daef1e57a7f7dac140a047f45dbf5eb7"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_OpenUrl.png",
+    "bytes": 134983,
+    "sha256": "9a57d66124267cb02e28b8eb9dd2991948f007148774db08b553024dd17b6fd0"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_SelectPlan.png",
+    "bytes": 66429,
+    "sha256": "9a4831fe1db7a79b24bdf210a417726b5e92b2a11a218e4eb37c18d62788552b"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_SubsProcessing.png",
+    "bytes": 154223,
+    "sha256": "92770fc81c7beafa6de2789a72e609ffa414a455aac015f2adfca69a8e7113fe"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/PGExt_SubsSubscribed.png",
+    "bytes": 157043,
+    "sha256": "c26e56cbc6c975f9745026d693c7810331f0ceb5a968f7d7597c9ac781c53e8c"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/RC_AssignAdmin.png",
+    "bytes": 397053,
+    "sha256": "bde6a01d337359078036665bbfdc53730d0ab9c56370d0a0dee0fff9aba4f863"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_CFDetails03.png",
+    "bytes": 239047,
+    "sha256": "b6beeb44b89eb80e9bfb7d5f9a6d990aa586438848aa05ec75c9e59e59862e98"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_CFDetails04.png",
+    "bytes": 170642,
+    "sha256": "c196139f665191e944982e32a8e3001146bfa31f6de2bc9c8bb77d311d963176"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_CFDetails05.png",
+    "bytes": 158784,
+    "sha256": "d69587f5683d5371ba0828db279488316dee3318af9db747e1cc481b473c9a5c"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_CFDetails06.png",
+    "bytes": 211375,
+    "sha256": "8ac65bcafce65d736463f4a04b057668739652ac4684e1d861ebdaaae3d0cc4d"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_KymaDetails01.png",
+    "bytes": 236933,
+    "sha256": "7ef81f944fbfadb6f578381540c1bf211a62f915af54666247d233c684cd5865"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_KymaDetails02.png",
+    "bytes": 117850,
+    "sha256": "1eeec593a254bdb3070852bfc284e548020a753ae37aece5b3e773c068752901"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_KymaDetails03.png",
+    "bytes": 194317,
+    "sha256": "050a5bbc6177f278f76f29aaaa62cb41bcbbd20fb74f244c11a628b8c28d2fed"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/ST_KymaDetails04.png",
+    "bytes": 156951,
+    "sha256": "c3c841d84539f116238d590b5d5008f7a43bb602548276ee470c3cf4135d509b"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/TEST_AppResult.png",
+    "bytes": 336406,
+    "sha256": "ce11c26c5ed2552005decd8cac3a34ce9a03bb4ea4aeb1ba4ceb401630d1a414"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/TEST_PrivateFile.png",
+    "bytes": 15660,
+    "sha256": "43f1da382d38bea79fb4351bb9a03c5ab85c0dbc501fb6956fa36e95c28a4a57"
+  },
+  {
+    "path": "docs/tutorial/4-test/images/TEST_STRCs.png",
+    "bytes": 122063,
+    "sha256": "1488aafcc9985f62948470269051096a94178237eadd5e58bedf4c37a151291f"
+  },
+  {
+    "path": "docs/tutorial/5-extend/2-HybridDev.md",
+    "bytes": 2148,
+    "sha256": "ae6663884f3f8a16b6d4b43e0db14fe9bc8808ce79b6df4448e8b19b2fe0e90d"
+  },
+  {
+    "path": "docs/tutorial/5-extend/README.md",
+    "bytes": 170,
+    "sha256": "68d051550d9dc919e5c82239dbbad2daf0beab538238f8fa04d84ad6a80b0f7e"
+  },
+  {
+    "path": "eslint.config.js",
+    "bytes": 164,
+    "sha256": "8e5cd9d2aa0b19106cad67b1d8f1d8318a00eafffa54a31c28c9c3360417df0f"
+  },
+  {
+    "path": "mta.yaml",
+    "bytes": 8815,
+    "sha256": "86dd758615737858a89ce9c998a85c432a8fabc1ed1efa6a2f1dcbc6740ae240"
+  },
+  {
+    "path": "package.json",
+    "bytes": 2269,
+    "sha256": "7e0c38bcdbbf22534bc819f53e8d02035fd16b1765f0f202182f23e6d12776e4"
+  },
+  {
+    "path": "router/.dockerignore",
+    "bytes": 61,
+    "sha256": "f97b8d247987329fcee550350ed9c98a25fca970c0fb558262e4f86749e18e9f"
+  },
+  {
+    "path": "router/Dockerfile",
+    "bytes": 177,
+    "sha256": "2ce9eb09b7bc8a25caf858d27b3fc4f9972be5f81b7d79d7fc21825fddb93350"
+  },
+  {
+    "path": "router/dev/default-env.json",
+    "bytes": 263,
+    "sha256": "1c3dad53187ffde5c70d75a91dc8b53dec9ad5b88897adbc4cacdc3b4593a3ab"
+  },
+  {
+    "path": "router/dev/default-services.sample.json",
+    "bytes": 76,
+    "sha256": "5a75ccc3b763438cc1e51b3ea0d9253bc2dd6b03b92e450db95a9f07b8681a23"
+  },
+  {
+    "path": "router/dev/xs-app.json",
+    "bytes": 415,
+    "sha256": "59ea229c93d75699066f35de4f7046112b008b4cad96240038c7be65bcaf2715"
+  },
+  {
+    "path": "router/index.js",
+    "bytes": 138,
+    "sha256": "338f3d085530339ed0bad48dd852947887e652d01fca7b620a7e53b355c52cc0"
+  },
+  {
+    "path": "router/package.json",
+    "bytes": 320,
+    "sha256": "b59551f7a2796fa702fcae9b1e70707cf2f6153fcf5817aa2f8ab7ec82b9bb26"
+  },
+  {
+    "path": "router/xs-app.json",
+    "bytes": 400,
+    "sha256": "04647d692660f5c4acaccbcfcc2113ba4a06f3e14d8f898403885548061b8c5a"
+  },
+  {
+    "path": "srv/constants.ts",
+    "bytes": 2567,
+    "sha256": "28bd238444cd8891b7301fecc5b3e6714e93b2d5f46b8b86d79e1b977c2e11a8"
+  },
+  {
+    "path": "srv/mail-insights-service.cds",
+    "bytes": 1569,
+    "sha256": "60315bfbd57ea3e824168bd1eb8b1b2b13f5d836c61205a9b030bf7b8366572c"
+  },
+  {
+    "path": "srv/mail-insights-service.ts",
+    "bytes": 24998,
+    "sha256": "28f8f16988b026abfaae8cffa8dc097b883b5649c18271950778cbd47acdc077"
+  },
+  {
+    "path": "srv/schemas.ts",
+    "bytes": 7303,
+    "sha256": "5d42cbd47f96ed0e3d893a8166b62e52241b26c145213dfc6ee03570bb06c2e2"
+  },
+  {
+    "path": "srv/types.ts",
+    "bytes": 1450,
+    "sha256": "c79402da667584f491e85b0583b5e302d9ff5b08c3f4bcf214652da41029730d"
+  },
+  {
+    "path": "srv/utils/ai-core.ts",
+    "bytes": 5881,
+    "sha256": "a51359809a04f07ddf32a4d4a53fcfeb5d48d9dce08c63415b6a22a277ab0976"
+  },
+  {
+    "path": "terraform/README.md",
+    "bytes": 622,
+    "sha256": "bd360e6c9d0def4336a92806f7503de41f10f24c2971494a34c43bc1446bb7a8"
+  },
+  {
+    "path": "terraform/main.tf",
+    "bytes": 13796,
+    "sha256": "72d495d7ccb6a3885fa6e8e2c1caf1ae55c27e97893278e3f3ef32d3b1fd47dc"
+  },
+  {
+    "path": "terraform/outputs.tf",
+    "bytes": 749,
+    "sha256": "592fbce063d6befe798ee49786880da413bed31acd1da35cdd683102be326c0b"
+  },
+  {
+    "path": "terraform/provider.tf",
+    "bytes": 737,
+    "sha256": "09d7815b4d68be41cc053f2afbf172009a17662dff8a87f10177d2e1f34d7221"
+  },
+  {
+    "path": "terraform/variables.tf",
+    "bytes": 3083,
+    "sha256": "a8dae09a5e0c34219982c7c1cf71348907dad5e6d5fedcc295015241d9a12b2d"
+  },
+  {
+    "path": "test/requests-btp.http",
+    "bytes": 10468,
+    "sha256": "5c3b9004f8d86e47fc8e47bfb7282bdb8a38a8cc2f560ba8b90bf2bcead6faca"
+  },
+  {
+    "path": "test/requests-hybrid.http",
+    "bytes": 10757,
+    "sha256": "8b75540bfe5e9ae2c8d9a2eb4c924a205f0291ab0ffd0cff7976a47ff2bd44d5"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 455,
+    "sha256": "34d21c04fb348800474e16b4ca5c59737a8514356021ab6b5949c3494e1682c3"
+  },
+  {
+    "path": "xs-security.json",
+    "bytes": 1534,
+    "sha256": "fab5410bbe9dc0a5ed6f1a859fcea13890fbc8ae080ba3545d47170c99266f65"
+  }
+]

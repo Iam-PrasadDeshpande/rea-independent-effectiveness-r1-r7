@@ -1,0 +1,397 @@
+{
+  "schema": "R4Oracle/v1",
+  "frozenAt": "2026-10-17T18:14:03.848Z",
+  "fixedDateNow": 1759190400000,
+  "reference": "SAP completed exercises 1-2",
+  "tests": [
+    {
+      "id": "O01",
+      "area": "overdue",
+      "name": "past timestamp is negative",
+      "status": "PASS",
+      "elapsedMs": 10.774499999999989
+    },
+    {
+      "id": "O02",
+      "area": "overdue",
+      "name": "future timestamp is positive",
+      "status": "PASS",
+      "elapsedMs": 0.8913000000000011
+    },
+    {
+      "id": "O03",
+      "area": "overdue",
+      "name": "equal timestamp is zero",
+      "status": "PASS",
+      "elapsedMs": 0.6329000000000633
+    },
+    {
+      "id": "O04",
+      "area": "overdue",
+      "name": "invalid timestamp rejects",
+      "status": "PASS",
+      "elapsedMs": 1.733600000000024
+    },
+    {
+      "id": "O05",
+      "area": "overdue",
+      "name": "empty timestamp fails schema",
+      "status": "PASS",
+      "elapsedMs": 1.5501999999999043
+    },
+    {
+      "id": "O06",
+      "area": "overdue",
+      "name": "negative-epoch syntax is unsupported",
+      "status": "PASS",
+      "elapsedMs": 1.187400000000025
+    },
+    {
+      "id": "O07",
+      "area": "overdue",
+      "name": "embedded timestamp is accepted by unanchored regex",
+      "status": "PASS",
+      "elapsedMs": 0.501700000000028
+    },
+    {
+      "id": "O08",
+      "area": "retrieval",
+      "name": "unfiltered mock retrieval yields items",
+      "status": "PASS",
+      "elapsedMs": 53.137500000000045
+    },
+    {
+      "id": "O09",
+      "area": "retrieval",
+      "name": "plant filter is respected",
+      "status": "PASS",
+      "elapsedMs": 11.054099999999835
+    },
+    {
+      "id": "O10",
+      "area": "retrieval",
+      "name": "city filter is respected",
+      "status": "PASS",
+      "elapsedMs": 10.513299999999845
+    },
+    {
+      "id": "O11",
+      "area": "retrieval",
+      "name": "country filter is respected",
+      "status": "PASS",
+      "elapsedMs": 9.979799999999841
+    },
+    {
+      "id": "O12",
+      "area": "retrieval",
+      "name": "combined plant/city/country filters",
+      "status": "PASS",
+      "elapsedMs": 6.954099999999926
+    },
+    {
+      "id": "O13",
+      "area": "retrieval",
+      "name": "unknown plant yields empty list",
+      "status": "PASS",
+      "elapsedMs": 4.923300000000154
+    },
+    {
+      "id": "O14",
+      "area": "retrieval",
+      "name": "short plant fails schema",
+      "status": "PASS",
+      "elapsedMs": 0.5009999999999764
+    },
+    {
+      "id": "O15",
+      "area": "retrieval",
+      "name": "schedule lines and notes are requested",
+      "status": "PASS",
+      "elapsedMs": 6.867899999999963
+    },
+    {
+      "id": "O16",
+      "area": "retrieval",
+      "name": "supplier input has no supplier filtering implementation",
+      "status": "PASS",
+      "elapsedMs": 6.950799999999845
+    },
+    {
+      "id": "O17",
+      "area": "error",
+      "name": "retrieval HTTP failure propagates",
+      "status": "PASS",
+      "elapsedMs": 1.3531000000000404
+    },
+    {
+      "id": "O18",
+      "area": "error",
+      "name": "retrieval transport failure propagates",
+      "status": "PASS",
+      "elapsedMs": 1.0033000000000811
+    },
+    {
+      "id": "O19",
+      "area": "format",
+      "name": "format schema accepts empty result array",
+      "status": "PASS",
+      "elapsedMs": 1.1920000000000073
+    },
+    {
+      "id": "O20",
+      "area": "format",
+      "name": "format schema rejects incomplete PO objects",
+      "status": "PASS",
+      "elapsedMs": 3.057800000000043
+    },
+    {
+      "id": "O21",
+      "area": "format",
+      "name": "format implementation returns undefined",
+      "status": "PASS",
+      "elapsedMs": 0.8354999999999109
+    },
+    {
+      "id": "O22",
+      "area": "write",
+      "name": "valid note creates mock note",
+      "status": "PASS",
+      "elapsedMs": 36.65259999999989
+    },
+    {
+      "id": "O23",
+      "area": "write",
+      "name": "missing PO item is rejected by mock API",
+      "status": "PASS",
+      "elapsedMs": 8.639599999999973
+    },
+    {
+      "id": "O24",
+      "area": "write",
+      "name": "blank note text fails tool schema",
+      "status": "PASS",
+      "elapsedMs": 0.5269000000000688
+    },
+    {
+      "id": "O25",
+      "area": "write",
+      "name": "language length is checked",
+      "status": "PASS",
+      "elapsedMs": 0.5619999999998981
+    },
+    {
+      "id": "O26",
+      "area": "write",
+      "name": "duplicate writes append duplicate notes",
+      "status": "PASS",
+      "elapsedMs": 18.601599999999962
+    },
+    {
+      "id": "O27",
+      "area": "write",
+      "name": "no approval field is needed for tool write",
+      "status": "PASS",
+      "elapsedMs": 7.954199999999901
+    },
+    {
+      "id": "O28",
+      "area": "graph",
+      "name": "four documented tools are bound",
+      "status": "PASS",
+      "elapsedMs": 1.478800000000092
+    },
+    {
+      "id": "O29",
+      "area": "graph",
+      "name": "no tool calls terminates after one model response",
+      "status": "PASS",
+      "elapsedMs": 38.929800000000114
+    },
+    {
+      "id": "O30",
+      "area": "graph",
+      "name": "retrieval tool result is passed back to model",
+      "status": "PASS",
+      "elapsedMs": 25.664999999999964
+    },
+    {
+      "id": "O31",
+      "area": "graph",
+      "name": "retrieval calculation formatting sequence reaches final",
+      "status": "PASS",
+      "elapsedMs": 45.991199999999935
+    },
+    {
+      "id": "O32",
+      "area": "state",
+      "name": "same thread retains earlier conversation",
+      "status": "PASS",
+      "elapsedMs": 33.98190000000022
+    },
+    {
+      "id": "O33",
+      "area": "state",
+      "name": "distinct thread starts with two messages",
+      "status": "PASS",
+      "elapsedMs": 4.897799999999734
+    },
+    {
+      "id": "O34",
+      "area": "error",
+      "name": "model exception propagates without local retry",
+      "status": "PASS",
+      "elapsedMs": 4.263800000000174
+    },
+    {
+      "id": "O35",
+      "area": "error",
+      "name": "non-JSON model content is returned unvalidated by agent",
+      "status": "PASS",
+      "elapsedMs": 5.309099999999944
+    },
+    {
+      "id": "O36",
+      "area": "write",
+      "name": "note flow can write on first model tool call",
+      "status": "PASS",
+      "elapsedMs": 17.54110000000037
+    },
+    {
+      "id": "O37",
+      "area": "graph",
+      "name": "repeated read calls return through tools repeatedly",
+      "status": "PASS",
+      "elapsedMs": 33.2171000000003
+    },
+    {
+      "id": "O38",
+      "area": "error",
+      "name": "invalid tool arguments become tool error content",
+      "status": "PASS",
+      "elapsedMs": 10.606199999999717
+    }
+  ],
+  "totals": {
+    "passed": 38,
+    "failed": 0
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=Plant+eq+%27DE01%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=DeliveryAddressCityName+eq+%27Munich%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=DeliveryAddressCountry+eq+%27DE%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=Plant+eq+%27DE01%27+and+DeliveryAddressCityName+eq+%27Munich%27+and+DeliveryAddressCountry+eq+%27DE%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=Plant+eq+%27ZZZZ%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItemNote",
+      "search": "",
+      "body": "{\"PurchaseOrder\":\"4500000001\",\"PurchaseOrderItem\":\"10\",\"PlainLongText\":\"R4 evaluator-only mock note\",\"Language\":\"EN\"}"
+    },
+    {
+      "method": "POST",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItemNote",
+      "search": "",
+      "body": "{\"PurchaseOrder\":\"MISSING\",\"PurchaseOrderItem\":\"10\",\"PlainLongText\":\"R4 evaluator-only mock note\",\"Language\":\"EN\"}"
+    },
+    {
+      "method": "POST",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItemNote",
+      "search": "",
+      "body": "{\"PurchaseOrder\":\"4500000001\",\"PurchaseOrderItem\":\"10\",\"PlainLongText\":\"R4 evaluator-only mock note\",\"Language\":\"EN\"}"
+    },
+    {
+      "method": "POST",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItemNote",
+      "search": "",
+      "body": "{\"PurchaseOrder\":\"4500000001\",\"PurchaseOrderItem\":\"10\",\"PlainLongText\":\"R4 evaluator-only mock note\",\"Language\":\"EN\"}"
+    },
+    {
+      "method": "POST",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItemNote",
+      "search": "",
+      "body": "{\"PurchaseOrder\":\"4500000001\",\"PurchaseOrderItem\":\"10\",\"PlainLongText\":\"R4 evaluator-only mock note\",\"Language\":\"EN\"}"
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=Plant+eq+%27DE01%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24filter=Plant+eq+%27DE01%27&%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItemNote",
+      "search": "",
+      "body": "{\"PurchaseOrder\":\"4500000001\",\"PurchaseOrderItem\":\"10\",\"PlainLongText\":\"R4 evaluator-only mock note\",\"Language\":\"EN\"}"
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "pathname": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrderItem",
+      "search": "?%24expand=to_ScheduleLine%2Cto_PurchaseOrderItemNote",
+      "body": null
+    }
+  ],
+  "limitations": [
+    "Deterministic fixtures validate execution of supplied tool-call sequences, not real LLM decision quality.",
+    "Non-overdue exclusion and business tool ordering are system-prompt instructions, not deterministic graph enforcement.",
+    "Supplier filtering absent in tool schema.",
+    "No backend human approval or idempotency guarantee.",
+    "UI Cancel closes the dialog; network cancellation and retry are not implemented.",
+    "Orchestration configured maxRetries:0; cloud behavior not exercised.",
+    "Loopback-only fetch guard is evaluator instrumentation, not host or investigator isolation."
+  ]
+}

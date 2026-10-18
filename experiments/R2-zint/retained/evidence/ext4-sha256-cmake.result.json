@@ -1,0 +1,9 @@
+{
+  "elapsedSeconds": 0.344786,
+  "arguments": [
+    "/usr/bin/sha256sum",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/cmake.tar.gz"
+  ],
+  "utc": "2026-10-17T18:23:09.8928703Z",
+  "exit": 0
+}

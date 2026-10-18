@@ -1,0 +1,183 @@
+{
+  "dispatchedToolCalls": 27,
+  "hostLoadBefore": "0.16 0.20 0.23 1/458 4470",
+  "thread": "01a14d64-7c17-74a1-bffa-ed1e57e0aff8",
+  "arm": "A",
+  "actions": [
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "inspect",
+      "number": 1
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 2
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 3
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 4
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 5
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 6
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 7
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 8
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 9
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 10
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 11
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 12
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 13
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "write_file",
+      "number": 14
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "write_file",
+      "number": 15
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 16
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "inspect",
+      "number": 17
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 18
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 19
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 20
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 21
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "read_file",
+      "number": 22
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "inspect",
+      "number": 23
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 24
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "browser",
+      "number": 25
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "search_text",
+      "number": 26
+    },
+    {
+      "server": "cli",
+      "isError": false,
+      "tool": "write_file",
+      "number": 27
+    }
+  ],
+  "stopReason": "completed",
+  "hostLoadAfter": "0.30 0.54 0.41 1/456 9937",
+  "endedUtc": "2026-10-18T05:09:53.0596997Z",
+  "usage": {
+    "cached_input_tokens": 11047680,
+    "input_tokens": 12168441,
+    "output_tokens": 103286
+  },
+  "elapsedSeconds": 401.2912894,
+  "startedUtc": "2026-10-18T05:03:11.6339875Z",
+  "dollarCost": null,
+  "transport": "signed-Windows-data-dispatch-no-JS-execution",
+  "turns": 28
+}

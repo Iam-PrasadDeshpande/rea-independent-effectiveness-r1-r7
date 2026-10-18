@@ -1,0 +1,7 @@
+{
+  "Artifact": "R3ProcessJob.dll",
+  "Status": "Valid",
+  "Signer": "CN=AI-SAP Local Code Signing",
+  "SHA256": "D90965B8F96B4104452CEBDBF9FC0BF83249149BA1CBEE10DB57E4D02EE36CB2",
+  "Loaded": false
+}

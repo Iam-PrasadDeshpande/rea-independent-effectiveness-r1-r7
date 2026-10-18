@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":3,"params":{"arguments":{"path":"/artifact","provider_id":"ghidra"},"name":"open_binary"},"method":"tools/call"}

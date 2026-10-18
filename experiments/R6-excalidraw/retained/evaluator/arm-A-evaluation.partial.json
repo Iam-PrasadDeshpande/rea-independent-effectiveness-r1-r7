@@ -1,0 +1,44 @@
+{
+  "startedUtc": "2026-10-18T04:32:06.6761716Z",
+  "updatedUtc": "2026-10-18T04:34:23.4069364Z",
+  "complete": false,
+  "instance": "arm-A-evaluation",
+  "cases": [
+    {
+      "observations": [
+        {
+          "scene": []
+        }
+      ],
+      "name": "Fresh scene",
+      "error": null,
+      "id": "01"
+    },
+    {
+      "observations": [],
+      "name": "Rectangle forward",
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "id": "02"
+    },
+    {
+      "observations": [],
+      "name": "Rectangle reverse",
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-rectangle\"]').first()\n",
+      "id": "03"
+    },
+    {
+      "observations": [],
+      "name": "Diamond",
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-diamond\"]').first()\n",
+      "id": "04"
+    },
+    {
+      "observations": [],
+      "name": "Ellipse",
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"toolbar-ellipse\"]').first()\n",
+      "id": "05"
+    }
+  ],
+  "arm": "A",
+  "label": "arm-A-evaluation"
+}

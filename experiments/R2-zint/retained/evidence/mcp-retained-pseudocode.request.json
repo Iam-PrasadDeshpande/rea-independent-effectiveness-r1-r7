@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":6,"params":{"arguments":{"view":{"limit":512,"kind":"native","offset":0,"facet":"pseudocode"},"source":{"evidence_id":"ev_6a55d74a41ad02e6531a6c0adfa280db86ecb457c238b2adc367b5d2758bd8b2","kind":"retained-evidence"}},"name":"inspect_analysis_view"},"method":"tools/call"}

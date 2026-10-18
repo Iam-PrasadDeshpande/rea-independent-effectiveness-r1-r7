@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "privateKeyExported": false,
+      "localChainTrusted": true,
+      "contentSha256": "bd91a3421e3623aee6f03b0329f916d5e887b2d65bec3c09d091e84a320846e3",
+      "externalPublisherCertification": false,
+      "signature": "release/VERIFIED-ARTIFACT-INDEX.p7s",
+      "content": "release/VERIFIED-ARTIFACT-INDEX.json",
+      "cryptographicValid": true,
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "signatureSha256": "f97082e620c84393920bc88cad5e2d7bc57757c92f2215c2a2cda0741ceea633"
+    },
+    {
+      "privateKeyExported": false,
+      "localChainTrusted": true,
+      "contentSha256": "3d49f3b98ea4e8701bc3d3a63dcc0f760656351a8461f401d362a3823e0f3e7d",
+      "externalPublisherCertification": false,
+      "signature": "release/R1-PROVENANCE-EXCEPTION.p7s",
+      "content": "release/R1-PROVENANCE-EXCEPTION.md",
+      "cryptographicValid": true,
+      "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "signatureSha256": "68e772cdc920d55dee38ed92c7f2a873aa698deedc593bb481f98e3278edc797"
+    }
+  ],
+  "utc": "2026-10-18T06:21:26.7879480Z",
+  "ownerExceptionAcceptance": "PENDING",
+  "timestampService": "NONE;NOT_EXTERNALLY_TIMESTAMPED",
+  "method": "Established R4 detached CMS pattern; SHA-256; existing approved local signer",
+  "artifactEntries": 824,
+  "status": "CURRENT_CANDIDATE_SIGNATURE_VERIFIED",
+  "historicalRepair": false
+}

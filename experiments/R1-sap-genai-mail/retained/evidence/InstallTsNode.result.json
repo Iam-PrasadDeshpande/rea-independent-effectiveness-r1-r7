@@ -1,0 +1,10 @@
+{
+    "task":  "InstallTsNode",
+    "command":  "npm.cmd install --no-save --ignore-scripts --legacy-peer-deps --no-audit --no-fund ts-node@10.9.2",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:26:50.1055983Z",
+    "ended_utc":  "2026-10-17T16:26:53.1097156Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

@@ -1,0 +1,9 @@
+{
+  "CoordinatorAliasCleanup": "VERIFIED_R_AND_S_ABSENT",
+  "SecondQualification": "TIMEOUT_300_SECONDS_BEFORE_MCP_INITIALIZATION",
+  "NativeSelfTest": "SUCCEEDED_UNDER_DIRECTORY_ALIAS",
+  "FreshCInvestigatorLaunched": false,
+  "FirstFullAnalysis": "FAILED_WORKER_STARTUP_EPERM_C_ROOT",
+  "SuccessfulApplicationAnalysis": false,
+  "AutomaticCleanupUnderForcedTermination": "NOT_PROVEN"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "R4ComponentOracle/v1",
+  "frozenBeforeInvestigators": true,
+  "nowMs": 1759190400000,
+  "cases": [
+    {"id":"C01","input":"/Date(1759190399999)/","expected":-1},
+    {"id":"C02","input":"/Date(1759190400001)/","expected":1},
+    {"id":"C03","input":"/Date(1759190400000)/","expected":0},
+    {"id":"C04","input":"/Date(0)/","expected":-1759190400000},
+    {"id":"C05","input":"/Date(9000000000000000)/","expected":8998240809600000},
+    {"id":"C06","input":"prefix/Date(1)/suffix","expected":-1759190399999},
+    {"id":"C07","input":"/Date(0001759190400001)/","expected":1},
+    {"id":"C08","input":"yesterday","expectedError":true},
+    {"id":"C09","input":"","expectedError":true},
+    {"id":"C10","input":"/Date(-1)/","expectedError":true},
+    {"id":"C11","input":"/Date(1759190400000+0000)/","expectedError":true},
+    {"id":"C12","input":null,"expectedError":true}
+  ],
+  "limits":"Tests cover the recovered calculation function, not the Zod wrapper. Error occurrence is checked; exact error text is not scored."
+}

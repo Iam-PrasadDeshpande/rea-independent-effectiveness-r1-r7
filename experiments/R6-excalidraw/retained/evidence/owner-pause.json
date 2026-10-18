@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-18T02:51:51.7555639Z",
+  "status": "OWNER_PAUSED",
+  "interruptedOracle": "final-reference1",
+  "reason": "User requested logical stop and freeze; no investigators started",
+  "lastReportedCompletedCase": "11"
+}

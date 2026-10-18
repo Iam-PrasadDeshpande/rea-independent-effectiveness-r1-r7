@@ -1,0 +1,185 @@
+{
+  "mission": "REA_CODEX_ANDROID_CALENDAR_R5",
+  "assessment": "Independent source-grounded architecture assessment of final APK-only investigator artifacts",
+  "hiddenBehavioralResultsRead": false,
+  "frozenOracleChanged": false,
+  "rubric": "R5/evaluator/reference-architecture.md",
+  "gradeMeaning": "supported=criterion recovered and retained evidence supports it; partial=material subpart absent or inferred; missing=criterion not established; contradicted=material explicit claim conflicts with reference",
+  "grades": [
+    {
+      "item": 1,
+      "criterion": "Ownership: editor/helper/Room DAO",
+      "A": "partial",
+      "B": "supported",
+      "C": "partial",
+      "evidenceAndReason": "A report names Event, v90, xq0 and Room (q4,5,7,23), but not editor dispatch. B q24 EventActivity.o0 plus q7,8,11 connects editor, helper and database. C report/q3,6,16-18 identifies model/helper/database but omits editor ownership."
+    },
+    {
+      "item": 2,
+      "criterion": "Recurrence representation",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q4,7,14-16,20; B q4,5,8,10; C q3,8,26 establish interval, weekday mask, signed limit and exception fields. All reports distinguish these fields."
+    },
+    {
+      "item": 3,
+      "criterion": "Local daily stepping and duration",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q16-17 and expand; B q4 and expand; C q4-5 and expand use local daily stepping and elapsed duration. All qualify Java-time/Joda substitution."
+    },
+    {
+      "item": 4,
+      "criterion": "Monday multiweek anchor",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q16-17 and TemporalAdjusters.previousOrSame(MONDAY); B q9 and monday calculation; C q9-10 and expand recover Monday anchor."
+    },
+    {
+      "item": 5,
+      "criterion": "Count/until and exception count consumption",
+      "A": "supported",
+      "B": "supported",
+      "C": "partial",
+      "evidenceAndReason": "A q8,14-16,26-27 and used++ before exclusion; B q8,11,14 and seen++ before exclusion. C q8 explains count/until and implementation increments first, but report admits final exception-filter predicate was not separately inspected."
+    },
+    {
+      "item": 6,
+      "criterion": "Inclusive overlap boundaries",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q14-16,26 and expand; B q8,11 and expand; C q8 and expand recover start<=to/end>=from and inclusive until."
+    },
+    {
+      "item": 7,
+      "criterion": "Detached nonrepeating child for edit-one",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q17 br0; B q17 default branch; C q23 br0.a show parent exception, parentId and cleared child recurrence. Each reconstruction separates replacement from base series."
+    },
+    {
+      "item": 8,
+      "criterion": "Original exclusion date versus moved child",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q17,21 and main editOne; B q17 and main editOne; C q23 and solve editOne persist exception from original occurrenceTS before using changed child start/end."
+    },
+    {
+      "item": 9,
+      "criterion": "Delete-one and recursive series children",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "A q17,24,26-27; B q16,18; C q24,27 v90.h recover date exception and recursive parent_id deletion. All deleteSeries clear replacements."
+    },
+    {
+      "item": 10,
+      "criterion": "Targeted persistence and converter/errors",
+      "A": "partial",
+      "B": "partial",
+      "C": "partial",
+      "evidenceAndReason": "A q23 binding/converter evidence lacks malformed converter/error path analysis. B q11 reads converted columns and admits converter not fully inspected. C q16-18,23-24 shows reads/targeted exception persistence but not malformed conversion or error handling. Gson roundTrip is not Room process persistence."
+    },
+    {
+      "item": 11,
+      "criterion": "Complete reminder request pipeline",
+      "A": "partial",
+      "B": "partial",
+      "C": "partial",
+      "evidenceAndReason": "All recover strict-future, one-plan and one-year horizon, but ALL Java plans emit at*1000 without scheduleEventIn +1000ms. A q18-19,27 reverses storage slots but misses editor ascending normalization. B q26-27 verifies editor sort and q12,20 reversal. C q15 recovers reversal but reports ordering construction as inference; plan uses descending TreeSet."
+    },
+    {
+      "item": 12,
+      "criterion": "Pending-intent event identity and receiver readback",
+      "A": "partial",
+      "B": "missing",
+      "C": "partial",
+      "evidenceAndReason": "A q17-18 includes pending intent/alarm calls but report omits event-ID identity and receiver database readback. B report/query set does not establish receiver readback or event-ID pending identity. C q12 inspects onReceive asynchronous/wake-lock delegate, but report does not recover handler readback, suppression and subsequent rescheduling."
+    },
+    {
+      "item": 13,
+      "criterion": "Local/CalDAV/notification authority boundaries",
+      "A": "partial",
+      "B": "partial",
+      "C": "partial",
+      "evidenceAndReason": "All delimit unsupported CalDAV/runtime notification behavior. A q24,26; B q16-18,24; C q24,27 contain optional provider interactions, but none completes local versus provider plus notification-permission gate analysis."
+    },
+    {
+      "item": 14,
+      "criterion": "Unsupported claims and equivalence limits",
+      "A": "supported",
+      "B": "supported",
+      "C": "supported",
+      "evidenceAndReason": "All final reports explicitly distinguish static APK investigation and synthetic Java execution from APK runtime/notification delivery and Room persistence. No source reproducibility claim is made; source was withheld. C q1 report explicitly says its tool did not verify signature."
+    }
+  ],
+  "arms": [
+    {
+      "arm": "A",
+      "status": "completed",
+      "queries": 27,
+      "elapsedSeconds": 570.4357272,
+      "usage": {
+        "output_tokens": 47691,
+        "cached_input_tokens": 25435392,
+        "input_tokens": 28309896
+      },
+      "report": "R5/arms/A/output/investigation.md",
+      "reportSha256": "048B9F51CE5AB60C346E2177C3DFFD7E5AEC0A7D361A98CDB54C3A6A891BFC0C",
+      "implementation": "R5/arms/A/output/Solution.java",
+      "implementationSha256": "D57625D78818B95ABB1F595E014B523895A9AC0145581728659C7C6EAA3A3248",
+      "evidenceDirectory": "R5/arms/A/output"
+    },
+    {
+      "arm": "B",
+      "status": "completed",
+      "queries": 28,
+      "elapsedSeconds": 424.0660705,
+      "usage": {
+        "cached_input_tokens": 12895360,
+        "output_tokens": 45805,
+        "input_tokens": 14109490
+      },
+      "report": "R5/arms/B/output/investigation.md",
+      "reportSha256": "5F3713E7CE524E6CC671D9EA4B2715317A50DCF25343C7F9A1E3C825DD2A8F8B",
+      "implementation": "R5/arms/B/output/Solution.java",
+      "implementationSha256": "77107B801A8A7E921E1734A4485DA2346C32EEF208E6B10C117379684F18701C",
+      "evidenceDirectory": "R5/arms/B/output"
+    },
+    {
+      "arm": "C",
+      "status": "completed",
+      "queries": 27,
+      "elapsedSeconds": 652.6447607,
+      "usage": {
+        "output_tokens": 36843,
+        "cached_input_tokens": 25070848,
+        "input_tokens": 28322990
+      },
+      "report": "R5/arms/C/output/investigation.md",
+      "reportSha256": "95B7B31989D027D711F618EAAFC75EDC3B23ADEEBEBF077CDDF59696B43A7098",
+      "implementation": "R5/arms/C/output/Solution.java",
+      "implementationSha256": "F23A09756B0501684DB998308034A9442ABB0AE2618C718EEF79D6937CB84FA2",
+      "evidenceDirectory": "R5/arms/C/output"
+    }
+  ],
+  "unsupportedOrIncorrect": [
+    "All three implementations omit final +1000ms alarm adjustment. This is a visible static implementation discrepancy, not a hidden-test conclusion.",
+    "A preserves caller reminder order, although user editor normalizes ascending before storing. Its storage reversal observation is correct but incomplete for user-level input.",
+    "A and C original-timestamp child maps infer repeated edit/delete child identity semantics. Their reports qualify these; the inspected source primitives alone do not prove those UI semantics.",
+    "All intersect count and until despite reference storing one signed limit; each reports this as an adapter choice.",
+    "C descending TreeSet reminder order is inferred rather than recovered from complete editor sorting; it also deduplicates offsets.",
+    "No Android notification delivery, APK UI equivalence, Room migration/restart equivalence, full timezone transition coverage or binary source/APK reproducibility is established by the investigator tests."
+  ],
+  "comparison": "B and C both recover central recurring-series and detached-exception architecture. C adds explicit static onReceive evidence but lacks handler readback; B has stronger demonstrated editor reminder-order evidence. C does not demonstrate incremental architecture superiority over direct JADX in this run. A also recovers the main relationships from DEX.",
+  "disposition": "BOUNDED_APK_DERIVED_ARCHITECTURE_WITH_GAPS; complete Android recurring-calendar feature equivalence is NOT established by architecture inspection",
+  "recovery": "C original session continued after controller per-turn timeout; identical retained query response reused without oracle or source feedback. Classify recovery as controller overhead, not REA capability failure.",
+  "costInterpretation": "Observed elapsed/token counters are concurrent shared-host, cumulative provider counters; no speed or token-efficiency causal claim. Root owns token accounting normalization and hidden behavioral validation.",
+  "reviewerActions": "Initial rubric read plus bounded waits, then 7 final-artifact inspection/write calls across follow-ups; no investigator messages or hidden-result reads."
+}

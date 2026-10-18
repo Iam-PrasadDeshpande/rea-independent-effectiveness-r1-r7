@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><title>Reverse Engineer Anything? Seven Real-World Experiments</title><desc>Seven distinct software systems feed retained evidence into an AI agent analysis process. Original logo-free research artwork by Prasad Deshpande.</desc><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1424"/><stop offset="1" stop-color="#162c3b"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<path d='M960 0 L960 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1040 0 L1040 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1120 0 L1120 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1200 0 L1200 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1280 0 L1280 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1360 0 L1360 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1440 0 L1440 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1520 0 L1520 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1600 0 L1600 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1680 0 L1680 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1760 0 L1760 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M1840 0 L1840 1080' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 30 L1920 30' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 110 L1920 110' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 190 L1920 190' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 270 L1920 270' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 350 L1920 350' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 430 L1920 430' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 510 L1920 510' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 590 L1920 590' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 670 L1920 670' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 750 L1920 750' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 830 L1920 830' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 910 L1920 910' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 990 L1920 990' fill='none' stroke='#1b3041' stroke-width='1'/>
+<path d='M960 1070 L1920 1070' fill='none' stroke='#1b3041' stroke-width='1'/>
+<rect x='112' y='110' width='54' height='5' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<text x='112' y='163' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='700' fill='#83b0bc'>INDEPENDENT ENGINEERING RESEARCH</text>
+<text x='108' y='330' font-family='Segoe UI,Arial,sans-serif' font-size='78' font-weight='700' fill='#f1f6fa'>Reverse Engineer</text>
+<text x='108' y='446' font-family='Segoe UI,Arial,sans-serif' font-size='100' font-weight='700' fill='#f1f6fa'>Anything?</text>
+<rect x='112' y='489' width='102' height='5' fill='#dfa66e' stroke='none' stroke-width='1'/>
+<text x='110' y='572' font-family='Segoe UI,Arial,sans-serif' font-size='37' font-weight='700' fill='#73e2db'>Seven Real-World Experiments</text>
+<text x='112' y='626' font-family='Segoe UI,Arial,sans-serif' font-size='25' font-weight='400' fill='#b5c7d5'>An Independent AI Engineering Assessment</text>
+<text x='113' y='709' font-family='Segoe UI,Arial,sans-serif' font-size='20' font-weight='400' fill='#8ca6bb'>CAPABILITY   /   BEHAVIOR   /   EVIDENCE</text>
+<path d='M112 838 L830 838' fill='none' stroke='#32495b' stroke-width='1'/>
+<text x='110' y='900' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='700' fill='#edf3f8'>Prasad Deshpande</text>
+<text x='112' y='937' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='400' fill='#94adbf'>Enterprise AI Architect</text>
+<text x='112' y='1006' font-family='Segoe UI,Arial,sans-serif' font-size='18' font-weight='400' fill='#6e8b9e'>R1—R7  ·  2026</text>
+<path d='M1183 264 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1319.95' cy='412.5' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<path d='M1601 242 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1508.05' cy='402.6' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<path d='M1763 417 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1580.95' cy='481.35' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<path d='M1755 672 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1577.35' cy='596.1' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<path d='M1568 866 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1493.2' cy='683.4' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<path d='M1193 837 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1324.45' cy='670.35' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<path d='M1118 542 L1432 534' fill='none' stroke='#316572' stroke-width='2'/>
+<circle cx='1290.7' cy='537.6' r='4' fill='#56d3ce' stroke='none' stroke-width='1'/>
+<circle cx='1432' cy='534' r='156' fill='none' stroke='#223f50' stroke-width='1'/>
+<circle cx='1432' cy='534' r='139' fill='none' stroke='#316472' stroke-width='2'/>
+<circle cx='1432' cy='534' r='115' fill='#112c3b' stroke='#5adad1' stroke-width='3'/>
+<circle cx='1396' cy='482' r='5' fill='#dfa66e' stroke='none' stroke-width='1'/>
+<path d='M1414 482 L1476 482' fill='none' stroke='#5adad1' stroke-width='2'/>
+<text x='1348' y='542' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#f1f7f9'>AI AGENT</text>
+<text x='1375' y='578' font-family='Segoe UI,Arial,sans-serif' font-size='21' font-weight='400' fill='#8cbac7'>ANALYSIS</text>
+<rect x='1080' y='212' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1095' y='240' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>01</text>
+<path d='M1126 235 L1267 235' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1095' y='273' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>SAP AI email</text>
+<text x='1095' y='300' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>Workflow</text>
+<rect x='1498' y='190' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1513' y='218' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>02</text>
+<path d='M1544 213 L1685 213' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1513' y='251' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>Barcode</text>
+<text x='1513' y='278' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>Native binary</text>
+<rect x='1660' y='365' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1675' y='393' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>03</text>
+<path d='M1706 388 L1847 388' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1675' y='426' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>Desktop search</text>
+<text x='1675' y='453' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>Electron</text>
+<rect x='1652' y='620' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1667' y='648' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>04</text>
+<path d='M1698 643 L1839 643' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1667' y='681' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>SAP AI agent</text>
+<text x='1667' y='708' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>Orchestration</text>
+<rect x='1465' y='814' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1480' y='842' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>05</text>
+<path d='M1511 837 L1652 837' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1480' y='875' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>Calendar</text>
+<text x='1480' y='902' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>Android</text>
+<rect x='1090' y='785' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1105' y='813' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>06</text>
+<path d='M1136 808 L1277 808' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1105' y='846' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>Drawing</text>
+<text x='1105' y='873' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>Browser runtime</text>
+<rect x='1015' y='490' width='206' height='105' fill='#112332' stroke='#345563' stroke-width='1'/>
+<text x='1030' y='518' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='700' fill='#65d8d0'>07</text>
+<path d='M1061 513 L1202 513' fill='none' stroke='#294756' stroke-width='1'/>
+<text x='1030' y='551' font-family='Segoe UI,Arial,sans-serif' font-size='22' font-weight='700' fill='#e8f0f5'>Image codecs</text>
+<text x='1030' y='578' font-family='Segoe UI,Arial,sans-serif' font-size='16' font-weight='400' fill='#9cb4c3'>JS / WebAssembly</text>
+<text x='1100' y='1003' font-family='Segoe UI,Arial,sans-serif' font-size='18' font-weight='400' fill='#8aa7b9'>SEVEN SYSTEMS. INSPECTABLE EVIDENCE.</text>
+</svg>

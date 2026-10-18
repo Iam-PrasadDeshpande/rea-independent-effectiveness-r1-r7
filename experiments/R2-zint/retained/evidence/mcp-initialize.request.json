@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"params":{"clientInfo":{"version":"1","name":"r2-signed-native-capability-gate"},"capabilities":{},"protocolVersion":"2024-11-05"},"method":"initialize"}

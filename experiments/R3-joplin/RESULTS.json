@@ -1,0 +1,522 @@
+{
+  "originalDisposition": "EXPERIMENT_COMPLETE_WITH_LIMITATIONS",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "BOUNDED_CLOSURE_SUPPORTED_WITH_RETAINED_LIMITATIONS",
+  "sourceReportSha256": "1387c9283eaf9be658682940374f9ac4c24f7e68ac2a488057c5b35d969a205b",
+  "poc": "R3",
+  "recordedResults": [
+    {
+      "experiment": "R3",
+      "arm": "A",
+      "total": 40,
+      "passed": 40,
+      "scope": "Recomputed JSON results/errors and dependency traces versus unchanged gold",
+      "source": "R3/evaluation-output/{final,matched-final}/behavior-results.json",
+      "detail": [
+        {
+          "id": "S01",
+          "match": true
+        },
+        {
+          "id": "S02",
+          "match": true
+        },
+        {
+          "id": "S03",
+          "match": true
+        },
+        {
+          "id": "S04",
+          "match": true
+        },
+        {
+          "id": "S05",
+          "match": true
+        },
+        {
+          "id": "S06",
+          "match": true
+        },
+        {
+          "id": "S07",
+          "match": true
+        },
+        {
+          "id": "S08",
+          "match": true
+        },
+        {
+          "id": "S09",
+          "match": true
+        },
+        {
+          "id": "S10",
+          "match": true
+        },
+        {
+          "id": "S11",
+          "match": true
+        },
+        {
+          "id": "S12",
+          "match": true
+        },
+        {
+          "id": "S13",
+          "match": true
+        },
+        {
+          "id": "S14",
+          "match": true
+        },
+        {
+          "id": "S15",
+          "match": true
+        },
+        {
+          "id": "S16",
+          "match": true
+        },
+        {
+          "id": "S17",
+          "match": true
+        },
+        {
+          "id": "S18",
+          "match": true
+        },
+        {
+          "id": "S19",
+          "match": true
+        },
+        {
+          "id": "S20",
+          "match": true
+        },
+        {
+          "id": "S21",
+          "match": true
+        },
+        {
+          "id": "S22",
+          "match": true
+        },
+        {
+          "id": "S23",
+          "match": true
+        },
+        {
+          "id": "S24",
+          "match": true
+        },
+        {
+          "id": "S25",
+          "match": true
+        },
+        {
+          "id": "S26",
+          "match": true
+        },
+        {
+          "id": "S27",
+          "match": true
+        },
+        {
+          "id": "S28",
+          "match": true
+        },
+        {
+          "id": "S29",
+          "match": true
+        },
+        {
+          "id": "S30",
+          "match": true
+        },
+        {
+          "id": "S31",
+          "match": true
+        },
+        {
+          "id": "S32",
+          "match": true
+        },
+        {
+          "id": "S33",
+          "match": true
+        },
+        {
+          "id": "S34",
+          "match": true
+        },
+        {
+          "id": "S35",
+          "match": true
+        },
+        {
+          "id": "S36",
+          "match": true
+        },
+        {
+          "id": "S37",
+          "match": true
+        },
+        {
+          "id": "S38",
+          "match": true
+        },
+        {
+          "id": "S39",
+          "match": true
+        },
+        {
+          "id": "S40",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R3",
+      "arm": "B",
+      "total": 40,
+      "passed": 40,
+      "scope": "Recomputed JSON results/errors and dependency traces versus unchanged gold",
+      "source": "R3/evaluation-output/{final,matched-final}/behavior-results.json",
+      "detail": [
+        {
+          "id": "S01",
+          "match": true
+        },
+        {
+          "id": "S02",
+          "match": true
+        },
+        {
+          "id": "S03",
+          "match": true
+        },
+        {
+          "id": "S04",
+          "match": true
+        },
+        {
+          "id": "S05",
+          "match": true
+        },
+        {
+          "id": "S06",
+          "match": true
+        },
+        {
+          "id": "S07",
+          "match": true
+        },
+        {
+          "id": "S08",
+          "match": true
+        },
+        {
+          "id": "S09",
+          "match": true
+        },
+        {
+          "id": "S10",
+          "match": true
+        },
+        {
+          "id": "S11",
+          "match": true
+        },
+        {
+          "id": "S12",
+          "match": true
+        },
+        {
+          "id": "S13",
+          "match": true
+        },
+        {
+          "id": "S14",
+          "match": true
+        },
+        {
+          "id": "S15",
+          "match": true
+        },
+        {
+          "id": "S16",
+          "match": true
+        },
+        {
+          "id": "S17",
+          "match": true
+        },
+        {
+          "id": "S18",
+          "match": true
+        },
+        {
+          "id": "S19",
+          "match": true
+        },
+        {
+          "id": "S20",
+          "match": true
+        },
+        {
+          "id": "S21",
+          "match": true
+        },
+        {
+          "id": "S22",
+          "match": true
+        },
+        {
+          "id": "S23",
+          "match": true
+        },
+        {
+          "id": "S24",
+          "match": true
+        },
+        {
+          "id": "S25",
+          "match": true
+        },
+        {
+          "id": "S26",
+          "match": true
+        },
+        {
+          "id": "S27",
+          "match": true
+        },
+        {
+          "id": "S28",
+          "match": true
+        },
+        {
+          "id": "S29",
+          "match": true
+        },
+        {
+          "id": "S30",
+          "match": true
+        },
+        {
+          "id": "S31",
+          "match": true
+        },
+        {
+          "id": "S32",
+          "match": true
+        },
+        {
+          "id": "S33",
+          "match": true
+        },
+        {
+          "id": "S34",
+          "match": true
+        },
+        {
+          "id": "S35",
+          "match": true
+        },
+        {
+          "id": "S36",
+          "match": true
+        },
+        {
+          "id": "S37",
+          "match": true
+        },
+        {
+          "id": "S38",
+          "match": true
+        },
+        {
+          "id": "S39",
+          "match": true
+        },
+        {
+          "id": "S40",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R3",
+      "arm": "C",
+      "total": 40,
+      "passed": 40,
+      "scope": "Recomputed JSON results/errors and dependency traces versus unchanged gold",
+      "source": "R3/evaluation-output/{final,matched-final}/behavior-results.json",
+      "detail": [
+        {
+          "id": "S01",
+          "match": true
+        },
+        {
+          "id": "S02",
+          "match": true
+        },
+        {
+          "id": "S03",
+          "match": true
+        },
+        {
+          "id": "S04",
+          "match": true
+        },
+        {
+          "id": "S05",
+          "match": true
+        },
+        {
+          "id": "S06",
+          "match": true
+        },
+        {
+          "id": "S07",
+          "match": true
+        },
+        {
+          "id": "S08",
+          "match": true
+        },
+        {
+          "id": "S09",
+          "match": true
+        },
+        {
+          "id": "S10",
+          "match": true
+        },
+        {
+          "id": "S11",
+          "match": true
+        },
+        {
+          "id": "S12",
+          "match": true
+        },
+        {
+          "id": "S13",
+          "match": true
+        },
+        {
+          "id": "S14",
+          "match": true
+        },
+        {
+          "id": "S15",
+          "match": true
+        },
+        {
+          "id": "S16",
+          "match": true
+        },
+        {
+          "id": "S17",
+          "match": true
+        },
+        {
+          "id": "S18",
+          "match": true
+        },
+        {
+          "id": "S19",
+          "match": true
+        },
+        {
+          "id": "S20",
+          "match": true
+        },
+        {
+          "id": "S21",
+          "match": true
+        },
+        {
+          "id": "S22",
+          "match": true
+        },
+        {
+          "id": "S23",
+          "match": true
+        },
+        {
+          "id": "S24",
+          "match": true
+        },
+        {
+          "id": "S25",
+          "match": true
+        },
+        {
+          "id": "S26",
+          "match": true
+        },
+        {
+          "id": "S27",
+          "match": true
+        },
+        {
+          "id": "S28",
+          "match": true
+        },
+        {
+          "id": "S29",
+          "match": true
+        },
+        {
+          "id": "S30",
+          "match": true
+        },
+        {
+          "id": "S31",
+          "match": true
+        },
+        {
+          "id": "S32",
+          "match": true
+        },
+        {
+          "id": "S33",
+          "match": true
+        },
+        {
+          "id": "S34",
+          "match": true
+        },
+        {
+          "id": "S35",
+          "match": true
+        },
+        {
+          "id": "S36",
+          "match": true
+        },
+        {
+          "id": "S37",
+          "match": true
+        },
+        {
+          "id": "S38",
+          "match": true
+        },
+        {
+          "id": "S39",
+          "match": true
+        },
+        {
+          "id": "S40",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "name": "Joplin Semantic Search",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "e41516e669efb693b009bedb21f3eb1fcbea4fc9"
+}

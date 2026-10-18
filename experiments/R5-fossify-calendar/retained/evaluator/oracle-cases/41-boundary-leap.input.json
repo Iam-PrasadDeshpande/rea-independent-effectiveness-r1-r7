@@ -1,0 +1,22 @@
+{
+  "zone": "UTC",
+  "now": 1834617600,
+  "from": 1834617600,
+  "to": 1836086400,
+  "event": {
+    "id": 1,
+    "title": "Synthetic weekly",
+    "startTS": 1834826400,
+    "endTS": 1834830000,
+    "weeklyInterval": 1,
+    "weekdays": [
+      2
+    ],
+    "count": null,
+    "untilTS": null,
+    "remindersMinutes": [
+      10
+    ]
+  },
+  "operations": []
+}

@@ -1,0 +1,10 @@
+{
+    "task":  "BuildFull",
+    "command":  "npm.cmd run build",
+    "cwd":  "evidence://R1/\\sap-reference",
+    "started_utc":  "2026-10-17T16:56:48.7790938Z",
+    "ended_utc":  "2026-10-17T16:56:54.1681746Z",
+    "exit_code":  1,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

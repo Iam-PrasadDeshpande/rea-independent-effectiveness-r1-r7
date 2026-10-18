@@ -1,0 +1,474 @@
+{
+  "originalDisposition": "INVALID_COMPARISON_AS_REPORTED (historical file: INVALID_COMPARISON)",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "INVALID_COMPARISON_CONFIRMED",
+  "sourceReportSha256": "638576aa7a35eafb46bd24c7507ff0a55c23cfae38b5fc739dce027746385b6c",
+  "poc": "R6",
+  "recordedResults": [
+    {
+      "experiment": "R6",
+      "arm": "A",
+      "total": 36,
+      "passed": 3,
+      "scope": "Recomputed frozen normalized observations; INVALID_COMPARISON retained",
+      "source": "R6/evaluator/arm-A-evaluation.json",
+      "detail": [
+        {
+          "id": "01",
+          "match": true
+        },
+        {
+          "id": "02",
+          "match": false
+        },
+        {
+          "id": "03",
+          "match": false
+        },
+        {
+          "id": "04",
+          "match": false
+        },
+        {
+          "id": "05",
+          "match": false
+        },
+        {
+          "id": "06",
+          "match": false
+        },
+        {
+          "id": "07",
+          "match": false
+        },
+        {
+          "id": "08",
+          "match": false
+        },
+        {
+          "id": "09",
+          "match": false
+        },
+        {
+          "id": "10",
+          "match": false
+        },
+        {
+          "id": "11",
+          "match": false
+        },
+        {
+          "id": "12",
+          "match": false
+        },
+        {
+          "id": "13",
+          "match": false
+        },
+        {
+          "id": "14",
+          "match": false
+        },
+        {
+          "id": "15",
+          "match": false
+        },
+        {
+          "id": "16",
+          "match": false
+        },
+        {
+          "id": "17",
+          "match": false
+        },
+        {
+          "id": "18",
+          "match": false
+        },
+        {
+          "id": "19",
+          "match": false
+        },
+        {
+          "id": "20",
+          "match": false
+        },
+        {
+          "id": "21",
+          "match": false
+        },
+        {
+          "id": "22",
+          "match": false
+        },
+        {
+          "id": "23",
+          "match": false
+        },
+        {
+          "id": "24",
+          "match": false
+        },
+        {
+          "id": "25",
+          "match": false
+        },
+        {
+          "id": "26",
+          "match": false
+        },
+        {
+          "id": "27",
+          "match": false
+        },
+        {
+          "id": "28",
+          "match": false
+        },
+        {
+          "id": "29",
+          "match": false
+        },
+        {
+          "id": "30",
+          "match": false
+        },
+        {
+          "id": "31",
+          "match": false
+        },
+        {
+          "id": "32",
+          "match": false
+        },
+        {
+          "id": "33",
+          "match": false
+        },
+        {
+          "id": "34",
+          "match": true
+        },
+        {
+          "id": "35",
+          "match": true
+        },
+        {
+          "id": "36",
+          "match": false
+        }
+      ]
+    },
+    {
+      "experiment": "R6",
+      "arm": "B",
+      "total": 36,
+      "passed": 30,
+      "scope": "Recomputed frozen normalized observations; INVALID_COMPARISON retained",
+      "source": "R6/evaluator/arm-B-evaluation.json",
+      "detail": [
+        {
+          "id": "01",
+          "match": true
+        },
+        {
+          "id": "02",
+          "match": true
+        },
+        {
+          "id": "03",
+          "match": true
+        },
+        {
+          "id": "04",
+          "match": true
+        },
+        {
+          "id": "05",
+          "match": true
+        },
+        {
+          "id": "06",
+          "match": false
+        },
+        {
+          "id": "07",
+          "match": true
+        },
+        {
+          "id": "08",
+          "match": false
+        },
+        {
+          "id": "09",
+          "match": false
+        },
+        {
+          "id": "10",
+          "match": false
+        },
+        {
+          "id": "11",
+          "match": true
+        },
+        {
+          "id": "12",
+          "match": true
+        },
+        {
+          "id": "13",
+          "match": true
+        },
+        {
+          "id": "14",
+          "match": true
+        },
+        {
+          "id": "15",
+          "match": true
+        },
+        {
+          "id": "16",
+          "match": true
+        },
+        {
+          "id": "17",
+          "match": true
+        },
+        {
+          "id": "18",
+          "match": true
+        },
+        {
+          "id": "19",
+          "match": true
+        },
+        {
+          "id": "20",
+          "match": true
+        },
+        {
+          "id": "21",
+          "match": false
+        },
+        {
+          "id": "22",
+          "match": false
+        },
+        {
+          "id": "23",
+          "match": true
+        },
+        {
+          "id": "24",
+          "match": true
+        },
+        {
+          "id": "25",
+          "match": true
+        },
+        {
+          "id": "26",
+          "match": true
+        },
+        {
+          "id": "27",
+          "match": true
+        },
+        {
+          "id": "28",
+          "match": true
+        },
+        {
+          "id": "29",
+          "match": true
+        },
+        {
+          "id": "30",
+          "match": true
+        },
+        {
+          "id": "31",
+          "match": true
+        },
+        {
+          "id": "32",
+          "match": true
+        },
+        {
+          "id": "33",
+          "match": true
+        },
+        {
+          "id": "34",
+          "match": true
+        },
+        {
+          "id": "35",
+          "match": true
+        },
+        {
+          "id": "36",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R6",
+      "arm": "C",
+      "total": 36,
+      "passed": 27,
+      "scope": "Recomputed frozen normalized observations; INVALID_COMPARISON retained",
+      "source": "R6/evaluator/arm-C-evaluation.json",
+      "detail": [
+        {
+          "id": "01",
+          "match": true
+        },
+        {
+          "id": "02",
+          "match": true
+        },
+        {
+          "id": "03",
+          "match": true
+        },
+        {
+          "id": "04",
+          "match": true
+        },
+        {
+          "id": "05",
+          "match": true
+        },
+        {
+          "id": "06",
+          "match": true
+        },
+        {
+          "id": "07",
+          "match": true
+        },
+        {
+          "id": "08",
+          "match": false
+        },
+        {
+          "id": "09",
+          "match": false
+        },
+        {
+          "id": "10",
+          "match": false
+        },
+        {
+          "id": "11",
+          "match": true
+        },
+        {
+          "id": "12",
+          "match": true
+        },
+        {
+          "id": "13",
+          "match": true
+        },
+        {
+          "id": "14",
+          "match": true
+        },
+        {
+          "id": "15",
+          "match": true
+        },
+        {
+          "id": "16",
+          "match": true
+        },
+        {
+          "id": "17",
+          "match": true
+        },
+        {
+          "id": "18",
+          "match": true
+        },
+        {
+          "id": "19",
+          "match": true
+        },
+        {
+          "id": "20",
+          "match": true
+        },
+        {
+          "id": "21",
+          "match": false
+        },
+        {
+          "id": "22",
+          "match": false
+        },
+        {
+          "id": "23",
+          "match": true
+        },
+        {
+          "id": "24",
+          "match": true
+        },
+        {
+          "id": "25",
+          "match": true
+        },
+        {
+          "id": "26",
+          "match": true
+        },
+        {
+          "id": "27",
+          "match": true
+        },
+        {
+          "id": "28",
+          "match": true
+        },
+        {
+          "id": "29",
+          "match": true
+        },
+        {
+          "id": "30",
+          "match": false
+        },
+        {
+          "id": "31",
+          "match": false
+        },
+        {
+          "id": "32",
+          "match": false
+        },
+        {
+          "id": "33",
+          "match": false
+        },
+        {
+          "id": "34",
+          "match": true
+        },
+        {
+          "id": "35",
+          "match": true
+        },
+        {
+          "id": "36",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "name": "Excalidraw",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "a2ec2889babf7d2295469c6d90ebe77fae57df84"
+}

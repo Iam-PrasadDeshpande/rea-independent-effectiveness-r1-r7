@@ -1,0 +1,20 @@
+{
+  "targetNotZint": true,
+  "provider": "ghidra",
+  "initialization": "PASS",
+  "functionAnalysis": "PASS",
+  "target": "/usr/bin/true",
+  "retainedInspection": "PASS",
+  "procedure": {
+    "address": "0x102db0",
+    "value": "entry",
+    "procedure": {
+      "external": false,
+      "thunk": false,
+      "thunk_target": null
+    }
+  },
+  "openBinary": "PASS",
+  "parentEvidenceId": "ev_6a55d74a41ad02e6531a6c0adfa280db86ecb457c238b2adc367b5d2758bd8b2",
+  "utc": "2026-10-17T18:37:40.2238388Z"
+}

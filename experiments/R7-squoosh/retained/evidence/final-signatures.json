@@ -1,0 +1,157 @@
+[
+  {
+    "path": "scripts/browser-evaluator-v2.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/browser-evaluator-v3.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/browser-runner.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Close-R7Evidence.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Controlled-R7Mcp-v2.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Controlled-R7Mcp-v3.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Controlled-R7Mcp.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Freeze-R7.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Invoke-R7Evaluator-v3.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Invoke-R7Evaluator.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Invoke-R7Sandbox.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Prepare-R7.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Resume-R7B-v2.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Resume-R7B.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Run-R7Data-v2.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Run-R7Data-v3.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Run-R7DataInvestigator.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Run-R7Investigator.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Sign-R7Submission.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/signature-probe.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Validate-R7-v2.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Validate-R7-v3.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Validate-R7-v4.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "scripts/Validate-R7.ps1",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\A\\solution-worker.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\A\\solution.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\B\\signing-recovery-probe.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\B\\solution-worker.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\B\\solution.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\C\\solution-worker.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  },
+  {
+    "path": "evaluator\\submissions\\C\\solution.js",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+    "status": "Valid"
+  }
+]

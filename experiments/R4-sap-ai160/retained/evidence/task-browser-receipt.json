@@ -1,0 +1,14 @@
+{
+  "task": "browser",
+  "started": "2026-10-17T18:32:21.4748560+00:00",
+  "ended": "2026-10-17T18:32:45.6715633+00:00",
+  "elapsedMs": 24199.8552,
+  "cpuMs": 1046.875,
+  "peakWorkingSetBytes": null,
+  "exitCode": 0,
+  "signature": "Valid",
+  "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "manifestSha256": "123571634369E21C0B2897382ADD8E0EB68F5232EA57DE030DEC31173DD41023",
+  "environment": "explicit allowlist; no ambient credentials",
+  "sandbox": "not established by this launcher"
+}

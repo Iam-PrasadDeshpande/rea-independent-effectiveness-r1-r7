@@ -1,0 +1,19 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"error\":{\"code\":\"capability_unavailable\",\"category\":\"unsupported_provider\",\"message\":\"This analysis is unavailable for the current target. Choose another analysis or target.\",\"retryable\":false,\"remediation\":{\"action\":\"This analysis is unavailable for the current target. Choose another analysis or target.\"},\"details\":{\"provider_id\":\"javascript-static-analysis\",\"operation\":\"analyze_javascript_application\",\"reason\":\"REA Windows native controls are unavailable: Cannot load native addon because loading addons is disabled.\",\"partial_observation\":{\"kind\":\"retained-evidence\",\"evidence_id\":\"ev_42cff6b67d2950e2a9792d94624ce4bdd5c4dc195d0edd9b5e4548ea628e5aa9\"}}}}"
+      }
+    ],
+    "isError": true
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

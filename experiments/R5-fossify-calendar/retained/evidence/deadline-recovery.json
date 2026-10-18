@@ -1,0 +1,7 @@
+{
+  "sourceFeedback": "none",
+  "sha256": "A4B73A91B36D188E402B8115411BBD04CF4EF1976986B80625929109B53533AD",
+  "tokenLimitations": "Aborted turn may have unreported tokens; do not claim complete billing",
+  "utc": "2026-10-18T02:21:37.8296087Z",
+  "repair": "Extend per-turn transport deadline to remaining original1800second wall ceiling; preserve same session, query cap, oracle and prompt"
+}

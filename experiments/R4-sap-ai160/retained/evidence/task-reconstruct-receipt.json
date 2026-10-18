@@ -1,0 +1,14 @@
+{
+  "task": "reconstruct",
+  "started": "2026-10-17T18:49:18.7386995+00:00",
+  "ended": "2026-10-17T18:49:24.9306457+00:00",
+  "elapsedMs": 6193.5928,
+  "cpuMs": 328.125,
+  "peakWorkingSetBytes": null,
+  "exitCode": 0,
+  "signature": "Valid",
+  "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "manifestSha256": "081B0E09348A237A5A9F60051C74DBFA01065E33DBAC20CE0CC2152F4476947B",
+  "environment": "explicit allowlist; no ambient credentials",
+  "sandbox": "not established by this launcher"
+}

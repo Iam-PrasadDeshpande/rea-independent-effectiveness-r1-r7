@@ -1,0 +1,12 @@
+{
+  "elapsedSeconds": 3.5412157,
+  "arguments": [
+    "/usr/bin/tar",
+    "-xf",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/jdk.tar.gz",
+    "-C",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/jdk"
+  ],
+  "utc": "2026-10-17T18:23:07.9889556Z",
+  "exit": 0
+}

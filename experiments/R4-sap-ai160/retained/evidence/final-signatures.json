@@ -1,0 +1,27 @@
+[
+  {
+    "script": "Run-R4Verified",
+    "status": "Valid",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "script": "Inspect-R4Blind",
+    "status": "Valid",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "script": "Refresh-R4Signatures",
+    "status": "Valid",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "script": "Collect-R4Investigator",
+    "status": "Valid",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  },
+  {
+    "script": "Finalize-R4",
+    "status": "Valid",
+    "thumbprint": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844"
+  }
+]

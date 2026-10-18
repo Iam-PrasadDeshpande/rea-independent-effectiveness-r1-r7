@@ -1,0 +1,6 @@
+{
+  "restart": "All three arms fresh with same corrected signed transport",
+  "disposition": "Discard pilot for primary comparison, retain all observations and costs",
+  "utc": "2026-10-18T02:12:11.5779578Z",
+  "reason": "Invalid UTF8 stdin in Windows ProcessStartInfo to WSL CLI"
+}

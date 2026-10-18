@@ -1,0 +1,16 @@
+{
+  "mission": "REA_CODEX_SAP_GENAI_MAIL_INSIGHTS_POC_R1",
+  "status": "COMPLETED_BOUNDED_POC",
+  "sap_commit": "5ec5febdea5354004534bc3e5140dd62df7488be",
+  "rea_commit": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc",
+  "reference_checks_passed": 19,
+  "baseline_rubric_recovered": 30,
+  "rea_rubric_recovered": 29,
+  "rea_rubric_partial": 1,
+  "baseline_differential_passed": 8,
+  "rea_differential_passed": 8,
+  "custom_executable_signatures_valid": 10,
+  "comparative_disposition": "NO_RECOVERY_ADVANTAGE_OBSERVED_IN_ONE_PAIR",
+  "production_or_sap_runtime_verified": false,
+  "next_gate_started": false
+}

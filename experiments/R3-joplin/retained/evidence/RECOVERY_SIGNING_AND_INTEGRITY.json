@@ -1,0 +1,78 @@
+{
+  "Freeze": [
+    {
+      "Path": "protocol\\FROZEN_RUBRIC.md",
+      "Matches": true
+    },
+    {
+      "Path": "protocol\\NEUTRAL_OBJECTIVE.md",
+      "Matches": true
+    },
+    {
+      "Path": "evaluator\\deterministic-cases.json",
+      "Matches": true
+    },
+    {
+      "Path": "evaluation-output\\expected.json",
+      "Matches": true
+    },
+    {
+      "Path": "blind-prep-v2\\input\\app.asar",
+      "Matches": true
+    }
+  ],
+  "OriginalAComponentPreserved": true,
+  "ScriptSignatures": [
+    {
+      "File": "Run-R3RecoveryInvestigator.ps1",
+      "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "Status": "Valid"
+    },
+    {
+      "File": "rea-qualified-gate.ps1",
+      "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "Status": "Valid"
+    },
+    {
+      "File": "rea-qualified-inner-gate.ps1",
+      "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "Status": "Valid"
+    },
+    {
+      "File": "rea-qualified-v2-gate.ps1",
+      "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "Status": "Valid"
+    },
+    {
+      "File": "rea-qualified-v2-inner-gate.ps1",
+      "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "Status": "Valid"
+    },
+    {
+      "File": "recovery-evaluation-gate.ps1",
+      "Signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+      "Status": "Valid"
+    }
+  ],
+  "PortableShell": {
+    "SHA256": "ba727d1890f7dbcba05286bc0e61fc9f168de9ba2a1003c4934bce8e38bbfd1b",
+    "Signature": "Valid",
+    "DigestMatched": true,
+    "Version": "7.7.0-preview.5"
+  },
+  "EvaluatorCatalog": "Valid",
+  "BSubmittedComponentSHA256": "6F1318BA14F107B27A136AB47CB1337C6EBB87859C7CE1C9A40F1C46E3624436",
+  "BEvaluatedComponentSHA256": "6F1318BA14F107B27A136AB47CB1337C6EBB87859C7CE1C9A40F1C46E3624436",
+  "Aliases": [
+    {
+      "Drive": "R:",
+      "PriorMapping": "R:\\: => evidence://R3/\\setup-output\\rea-qualified-v2",
+      "Removed": true
+    },
+    {
+      "Drive": "S:",
+      "PriorMapping": "S:\\: => evidence://R3/\\tools\\rea-runtime-recovery",
+      "Removed": true
+    }
+  ]
+}

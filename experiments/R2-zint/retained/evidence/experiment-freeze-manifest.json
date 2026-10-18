@@ -1,0 +1,72 @@
+{
+  "binarySha256": "08af4075a1fd8b2fff65967435512582afbb52f2daf4a7971f025a888eff7ad4",
+  "inputs": [
+    {
+      "path": "EXPERIMENT_PROTOCOL.md",
+      "sha256": "72cba45333c0e30308c723634b6ae0ee5f1df15ed391ec7a433367e6e1c9ac48"
+    },
+    {
+      "path": "evaluator\\RUBRIC.md",
+      "sha256": "997616035d8eec4b49814dcc4ac617734b34b5ee45b4c49e7bef61bc63a04385"
+    },
+    {
+      "path": "evaluator\\oracle\\hidden-cases.json",
+      "sha256": "1ec5da6fe1540477b6c406e5120e63e070bfbc216e20e684fa71cca9a7dfcaff"
+    },
+    {
+      "path": "evaluator\\oracle\\expected-results.json",
+      "sha256": "de2b1969b30e36e3ef41acc6e5ef8bba2d2b2a2610987de16cf184c9f870a568"
+    },
+    {
+      "path": "frozen\\public-examples.json",
+      "sha256": "4a1cef8f2bdee576cbd09edd3bce516109e1426538b440e8c41c89c217843729"
+    },
+    {
+      "path": "ControlledCliMcp.ps1",
+      "sha256": "9a5cf3c05894b7d2ba7befab69a6be33c71adf3f93b3c529d1e435639bb00da2"
+    },
+    {
+      "path": "Freeze-R2Oracle.ps1",
+      "sha256": "0fb596e8d86f018ebcc18b27d027e896ba6eb2d5247185fd7779d4c65b1b56ec"
+    },
+    {
+      "path": "ReaNativeMcpProxy.ps1",
+      "sha256": "79030bb151f1f7f47fa4df708a1f1e25a26baef037324e3b0ae46f10ca2235c6"
+    },
+    {
+      "path": "Run-R2Investigator.ps1",
+      "sha256": "4a195a8f0e045f82ec63fd78f45a37915ed557ac765a6f6733863ef85a515978"
+    },
+    {
+      "path": "frozen\\investigator-prompt.txt",
+      "sha256": "3c3a57b917a1a1172546d4b1427cbbc7334b2591e7d63fe09b10f003fa0731ab"
+    },
+    {
+      "path": "tools\\direct-ghidra\\R2DirectGhidra.java",
+      "sha256": "dc7d6461787a3678f4c406d2bcee25d495e0e21f52b1fa7e6cc4e8dd08e3b6ef"
+    },
+    {
+      "path": "evidence\\direct-ghidra-build.json",
+      "sha256": "19422607db18d9ade1929ef342b2f455f883ec796cc1afafd8d693ec092c4768"
+    },
+    {
+      "path": "evidence\\harness-Cli.result.json",
+      "sha256": "f46152edc6fa06f5506d51036b983ff4d8f161232969acc6ca410daa6fc87744"
+    },
+    {
+      "path": "evidence\\harness-Direct.result.json",
+      "sha256": "0333cb819744e4c716314aaa354898d32a233110b024821c60842a959194ce90"
+    },
+    {
+      "path": "evidence\\harness-Rea.result.json",
+      "sha256": "4718f3be94a1f006e5f2ce0f506b8082caeb73d7ccb4496dfa30d127ccaa1fe6"
+    }
+  ],
+  "investigationsStarted": 0,
+  "reaCommit": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc",
+  "rubricItems": 40,
+  "mission": "REA_CODEX_NATIVE_EFFECTIVENESS_R2",
+  "targetCommit": "55541e139e62b9209b71cd9b0ba9010cec28b1d9",
+  "utc": "2026-10-17T18:55:00.3908190Z",
+  "oracleCases": 48
+}

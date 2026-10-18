@@ -1,0 +1,1 @@
+{"type":"object","properties":{"done":{"type":"boolean"},"server":{"type":"string"},"tool":{"type":"string"},"arguments_json":{"type":"string"},"report":{"type":"string"}},"required":["done","server","tool","arguments_json","report"],"additionalProperties":false}

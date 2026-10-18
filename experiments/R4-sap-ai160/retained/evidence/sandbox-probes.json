@@ -1,0 +1,22 @@
+[
+  {
+    "check": "artifact-readable",
+    "exitCode": 0,
+    "expectedExit": 0
+  },
+  {
+    "check": "oracle-hidden-from-sandbox",
+    "exitCode": 1,
+    "expectedExit": 1
+  },
+  {
+    "check": "artifact-write-denied",
+    "exitCode": 1,
+    "expectedExit": 1
+  },
+  {
+    "check": "external-network-denied",
+    "exitCode": 7,
+    "expectedNonzero": true
+  }
+]

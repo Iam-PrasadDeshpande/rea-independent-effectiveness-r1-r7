@@ -1,0 +1,8 @@
+{
+  "UTC": "2026-10-18T03:06:51.1716126Z",
+  "Issue": "Windows ASAR inventory returns leading backslash; read handler stripped only forward slash",
+  "RepairedAdapterSHA256": "4B9E00EA34D06E23362362E9E6A9B7E1F0D813F15CAA3C70C2ACCE07BC4E2D80",
+  "Repair": "Canonicalize inventory and entry argument separators; still reject traversal segments; only frozen ASAR data extraction",
+  "OriginalAdapterSHA256": "E370350E34C9D9355D7D997FC494DD2E4FB794FE4F32E3F7A6F61A4242AE9F9E",
+  "Isolation": "Original immutable package preserved; fresh complete copied package catalog signed"
+}

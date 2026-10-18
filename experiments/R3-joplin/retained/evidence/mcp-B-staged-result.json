@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"total\":223,\"entries\":[\"\\\\node_modules\\\\@electron\\\\remote\\\\package.json\",\"\\\\node_modules\\\\@gar\\\\promisify\\\\package.json\"]}"
+      }
+    ]
+  }
+}

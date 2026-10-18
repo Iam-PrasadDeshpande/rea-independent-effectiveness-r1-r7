@@ -1,0 +1,9 @@
+{
+  "arguments": [
+    "/usr/bin/sha256sum",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/ghidra.zip"
+  ],
+  "elapsedSeconds": 2.5144496,
+  "exit": 0,
+  "utc": "2026-10-17T18:19:52.9557139Z"
+}

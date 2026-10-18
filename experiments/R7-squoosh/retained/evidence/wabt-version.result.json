@@ -1,0 +1,9 @@
+{
+  "elapsedSeconds": 0.1596739,
+  "exit": 0,
+  "arguments": [
+    "/home/RESEARCH_USER/rea-r7-20261018/tools/wabt-1.0.42/bin/wasm2wat",
+    "--version"
+  ],
+  "utc": "2026-10-18T02:34:16.2657027Z"
+}

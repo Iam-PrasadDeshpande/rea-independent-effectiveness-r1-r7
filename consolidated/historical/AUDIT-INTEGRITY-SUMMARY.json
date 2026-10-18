@@ -1,0 +1,58 @@
+[
+  {
+    "experiment": "R1",
+    "root": "evidence://R1/",
+    "manifest": "evidence://R1/\\evidence\\closure-hashes.json",
+    "manifestSha256": "8b0b9d5bafdd7d0eb7f7bf6e92b95c0a39c36a443b1f4362d655cbb0e2886ef2",
+    "checked": 4,
+    "failures": []
+  },
+  {
+    "manifestSha256": "29CF125C2E08FB4A91CA2DB7E7A1CE37737F828E64C4257268E54B0536273FC4",
+    "experiment": "R2",
+    "failures": [],
+    "checked": 774,
+    "manifest": "evidence://R2/\\evidence\\evidence-manifest.json",
+    "root": "evidence://R2/"
+  },
+  {
+    "experiment": "R3",
+    "root": "evidence://R3/",
+    "manifest": "evidence://R3/\\evidence\\FINAL_EVIDENCE_MANIFEST.json",
+    "manifestSha256": "c2b4d049a065ee29db3c36a51a757286e0dc0b47adef2f00d243a4d4f3039275",
+    "checked": 54,
+    "failures": []
+  },
+  {
+    "manifestSha256": "2DCA6521EEB20FF406D2E9A2C4980BDD6B9E85879AC24655FB306CA298F2E7C2",
+    "experiment": "R4",
+    "failures": [],
+    "checked": 92,
+    "manifest": "evidence://R4/\\evidence\\final-evidence-manifest.json",
+    "root": "evidence://R4/"
+  },
+  {
+    "manifestSha256": "3340A530E21C18AFD2F1D08E51B1CA0A91C8D3F4BEAC43B0E176A66BFF440B35",
+    "experiment": "R5",
+    "failures": [],
+    "checked": 844,
+    "manifest": "evidence://R5/\\evidence\\closure-integrity.json",
+    "root": "evidence://R5/"
+  },
+  {
+    "manifestSha256": "17997E85AEF44A7469655617C75595B1C392BC00660774779EE186A022089E2D",
+    "experiment": "R6",
+    "failures": [],
+    "checked": 8994,
+    "manifest": "evidence://R6/\\evidence\\final-evidence-manifest.json",
+    "root": "evidence://R6/"
+  },
+  {
+    "manifestSha256": "E3994A0FB9FAC1B3861185935D2D14ED81632EF238F7FCBC81D549DF754793C0",
+    "experiment": "R7",
+    "failures": [],
+    "checked": 1474,
+    "manifest": "evidence://R7/\\evidence\\final-evidence-manifest.json",
+    "root": "evidence://R7/"
+  }
+]

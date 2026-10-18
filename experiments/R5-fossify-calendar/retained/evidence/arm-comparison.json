@@ -1,0 +1,95 @@
+[
+  {
+    "driverSumDisposition": "INVALID_DOUBLE_COUNTED_CUMULATIVE_COUNTERS; retained for audit only",
+    "session": "01a14cc9-1b5e-7251-b472-8b5126be2171",
+    "uncachedInputTokens": 192007,
+    "elapsedSeconds": 570.4357272,
+    "stopReason": "completed",
+    "outputTokens": 8541,
+    "forbiddenBuiltInToolEvents": 0,
+    "inputTokens": 2806791,
+    "behavior": {
+      "occurrencesPassed": 44,
+      "total": 44,
+      "sourceSha256": "D57625D78818B95ABB1F595E014B523895A9AC0145581728659C7C6EAA3A3248",
+      "passed": 32,
+      "remindersPassed": 32,
+      "userCasesTotal": 43,
+      "status": "EXECUTED",
+      "userCasesPassed": 31,
+      "arm": "A"
+    },
+    "queries": 27,
+    "model": "gpt-6.1-sol",
+    "driverSumUsage": {
+      "output_tokens": 47691,
+      "cached_input_tokens": 25435392,
+      "input_tokens": 28309896
+    },
+    "tokenSource": "Final cumulative session token_count, not sum of cumulative CLI counters",
+    "cachedInputTokens": 2614784,
+    "arm": "A"
+  },
+  {
+    "driverSumDisposition": "INVALID_DOUBLE_COUNTED_CUMULATIVE_COUNTERS; retained for audit only",
+    "session": "01a14cc8-9177-77e1-8a46-1395c9fd891e",
+    "uncachedInputTokens": 70004,
+    "elapsedSeconds": 424.0660705,
+    "stopReason": "completed",
+    "outputTokens": 8787,
+    "forbiddenBuiltInToolEvents": 0,
+    "inputTokens": 1205108,
+    "behavior": {
+      "occurrencesPassed": 44,
+      "total": 44,
+      "sourceSha256": "77107B801A8A7E921E1734A4485DA2346C32EEF208E6B10C117379684F18701C",
+      "passed": 32,
+      "remindersPassed": 32,
+      "userCasesTotal": 43,
+      "status": "EXECUTED",
+      "userCasesPassed": 31,
+      "arm": "B"
+    },
+    "queries": 28,
+    "model": "gpt-6.1-sol",
+    "driverSumUsage": {
+      "cached_input_tokens": 12895360,
+      "output_tokens": 45805,
+      "input_tokens": 14109490
+    },
+    "tokenSource": "Final cumulative session token_count, not sum of cumulative CLI counters",
+    "cachedInputTokens": 1135104,
+    "arm": "B"
+  },
+  {
+    "driverSumDisposition": "INVALID_DOUBLE_COUNTED_CUMULATIVE_COUNTERS; retained for audit only",
+    "session": "01a14cc8-9177-7821-9835-ff7e2a83e904",
+    "uncachedInputTokens": 203356,
+    "elapsedSeconds": 652.6447607,
+    "stopReason": "completed",
+    "outputTokens": 5914,
+    "forbiddenBuiltInToolEvents": 0,
+    "inputTokens": 2747100,
+    "behavior": {
+      "occurrencesPassed": 44,
+      "total": 44,
+      "sourceSha256": "F23A09756B0501684DB998308034A9442ABB0AE2618C718EEF79D6937CB84FA2",
+      "passed": 32,
+      "remindersPassed": 32,
+      "userCasesTotal": 43,
+      "status": "EXECUTED",
+      "userCasesPassed": 31,
+      "arm": "C"
+    },
+    "queries": 27,
+    "model": "gpt-6.1-sol",
+    "driverSumUsage": {
+      "output_tokens": 36843,
+      "cached_input_tokens": 25070848,
+      "input_tokens": 28322990
+    },
+    "tokenSource": "Final cumulative session token_count, not sum of cumulative CLI counters",
+    "cachedInputTokens": 2543744,
+    "arm": "C"
+  }
+]

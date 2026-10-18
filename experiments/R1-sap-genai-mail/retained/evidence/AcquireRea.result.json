@@ -1,0 +1,10 @@
+{
+    "task":  "AcquireRea",
+    "command":  "npm.cmd pack rea-agents@6.5.0 --ignore-scripts --pack-destination ../evidence --json",
+    "cwd":  "evidence://R1/\\rea-reference",
+    "started_utc":  "2026-10-17T16:20:51.8380377Z",
+    "ended_utc":  "2026-10-17T16:20:53.8700092Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

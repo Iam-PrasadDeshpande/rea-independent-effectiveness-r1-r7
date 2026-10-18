@@ -1,0 +1,12 @@
+{
+  "elapsedSeconds": 0.1123175,
+  "exit": 0,
+  "utc": "2026-10-17T18:42:46.7994976Z",
+  "arguments": [
+    "/usr/bin/git",
+    "-C",
+    "/home/RESEARCH_USER/rea-r2-20261017/evaluator/zint-source",
+    "rev-parse",
+    "HEAD"
+  ]
+}

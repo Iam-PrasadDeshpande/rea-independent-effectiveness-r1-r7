@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "bytes": 9401,
+      "sha256": "304faf2f28acf4b11f78888100534658730e016ece37e2b9194368d07c2e6b08",
+      "name": "architecture.md"
+    },
+    {
+      "bytes": 2922,
+      "sha256": "fab34e89ef80eb3fd0df4a591282cbae67f997df4e798677b209e9568fc139a4",
+      "name": "index.html"
+    },
+    {
+      "bytes": 365,
+      "sha256": "4c07618ff42e8363c772056eaf0242e334581de24dd16489be0a666187d555b5",
+      "name": "investigation.md"
+    },
+    {
+      "bytes": 26213,
+      "sha256": "fe8bbbf74b6a0a6d9005f032ce957b911ae7ef327c28f889f0fd49fbcbd58648",
+      "name": "solution.js"
+    }
+  ],
+  "owner": "independent investigator",
+  "utc": "2026-10-18T04:16:53.0144947Z",
+  "arm": "A",
+  "postSubmissionPatchesAllowed": false
+}

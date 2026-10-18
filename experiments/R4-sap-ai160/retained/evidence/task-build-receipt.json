@@ -1,0 +1,12 @@
+{
+  "task": "build",
+  "started": "2026-10-17T18:17:08.4032253+00:00",
+  "ended": "2026-10-17T18:17:23.7731682+00:00",
+  "elapsedMs": 15375.4043,
+  "exitCode": 0,
+  "signature": "Valid",
+  "signer": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "manifestSha256": "89A86D52440E879AA75DA697D4111B956C6BE1D98F572C216FAF3976ED038333",
+  "environment": "explicit allowlist; no ambient credentials",
+  "sandbox": "not established by this launcher"
+}

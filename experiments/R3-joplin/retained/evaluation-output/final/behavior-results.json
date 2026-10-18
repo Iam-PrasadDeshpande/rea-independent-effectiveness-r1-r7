@@ -1,0 +1,5860 @@
+{
+  "boundary": "SearchService.search",
+  "comparison": "exact JSON values and dependency traces; key order ignored",
+  "reports": [
+    {
+      "arm": "A",
+      "passed": 40,
+      "total": 40,
+      "outcomes": [
+        {
+          "id": "S01",
+          "pass": true,
+          "actual": {
+            "error": "No embedding provider is active. Enable AI features in Settings → AI.",
+            "trace": []
+          },
+          "expected": {
+            "error": "No embedding provider is active. Enable AI features in Settings → AI.",
+            "trace": []
+          }
+        },
+        {
+          "id": "S02",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": []
+          }
+        },
+        {
+          "id": "S03",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": []
+          }
+        },
+        {
+          "id": "S04",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S05",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S06",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "  synthetic query  "
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "  synthetic query  "
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S07",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S08",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source-note"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source-note"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S09",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "missing"
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "missing"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S10",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S11",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S12",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.8200000000000001
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.8200000000000001
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S13",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S14",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S15",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S16",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 1
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 1
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S17",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S18",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "c",
+                "chunkIndex": 0,
+                "chunkText": "synthetic c 0",
+                "score": 0.955
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "c",
+                "chunkIndex": 0,
+                "chunkText": "synthetic c 0",
+                "score": 0.955
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S19",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S20",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S21",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 1,
+                "chunkText": "synthetic a 1",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 1,
+                "chunkText": "synthetic a 1",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S22",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S23",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S24",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S25",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "folder",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a",
+                      "b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "folder",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a",
+                      "b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S26",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "tag"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "tag"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S27",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "empty",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "empty",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S28",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S29",
+          "pass": true,
+          "actual": {
+            "error": "synthetic:embedQuery",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "error": "synthetic:embedQuery",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S30",
+          "pass": true,
+          "actual": {
+            "error": "synthetic:embed",
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "error": "synthetic:embed",
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S31",
+          "pass": true,
+          "actual": {
+            "error": "synthetic:similaritySearch",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "error": "synthetic:similaritySearch",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S32",
+          "pass": true,
+          "actual": {
+            "error": "synthetic:folder",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "f",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "error": "synthetic:folder",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "f",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S33",
+          "pass": true,
+          "actual": {
+            "error": "synthetic:tag",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "t"
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "error": "synthetic:tag",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "t"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S34",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S35",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S36",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              },
+              {
+                "noteId": "n10",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n10 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "n11",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n11 0",
+                "score": 0.99395
+              },
+              {
+                "noteId": "n12",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n12 0",
+                "score": 0.9928
+              },
+              {
+                "noteId": "n13",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n13 0",
+                "score": 0.99155
+              },
+              {
+                "noteId": "n14",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n14 0",
+                "score": 0.9902
+              },
+              {
+                "noteId": "n15",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n15 0",
+                "score": 0.98875
+              },
+              {
+                "noteId": "n16",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n16 0",
+                "score": 0.9872
+              },
+              {
+                "noteId": "n17",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n17 0",
+                "score": 0.98555
+              },
+              {
+                "noteId": "n18",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n18 0",
+                "score": 0.9838
+              },
+              {
+                "noteId": "n19",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n19 0",
+                "score": 0.98195
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              },
+              {
+                "noteId": "n10",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n10 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "n11",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n11 0",
+                "score": 0.99395
+              },
+              {
+                "noteId": "n12",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n12 0",
+                "score": 0.9928
+              },
+              {
+                "noteId": "n13",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n13 0",
+                "score": 0.99155
+              },
+              {
+                "noteId": "n14",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n14 0",
+                "score": 0.9902
+              },
+              {
+                "noteId": "n15",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n15 0",
+                "score": 0.98875
+              },
+              {
+                "noteId": "n16",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n16 0",
+                "score": 0.9872
+              },
+              {
+                "noteId": "n17",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n17 0",
+                "score": 0.98555
+              },
+              {
+                "noteId": "n18",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n18 0",
+                "score": 0.9838
+              },
+              {
+                "noteId": "n19",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n19 0",
+                "score": 0.98195
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S37",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "z",
+                "chunkIndex": 0,
+                "chunkText": "synthetic z 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "z",
+                "chunkIndex": 0,
+                "chunkText": "synthetic z 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S38",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S39",
+          "pass": true,
+          "actual": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S40",
+          "pass": true,
+          "actual": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "arm": "C",
+      "passed": 0,
+      "total": 40,
+      "outcomes": [
+        {
+          "id": "S01",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "error": "No embedding provider is active. Enable AI features in Settings → AI.",
+            "trace": []
+          }
+        },
+        {
+          "id": "S02",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": []
+          }
+        },
+        {
+          "id": "S03",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": []
+          }
+        },
+        {
+          "id": "S04",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S05",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S06",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "  synthetic query  "
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S07",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S08",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source-note"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S09",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "missing"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S10",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S11",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S12",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.8200000000000001
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S13",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S14",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S15",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S16",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 1
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S17",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S18",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "c",
+                "chunkIndex": 0,
+                "chunkText": "synthetic c 0",
+                "score": 0.955
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S19",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S20",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S21",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 1,
+                "chunkText": "synthetic a 1",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S22",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S23",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S24",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S25",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "folder",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a",
+                      "b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S26",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "tag"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S27",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "empty",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S28",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S29",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:embedQuery",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S30",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:embed",
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S31",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:similaritySearch",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S32",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:folder",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "f",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S33",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:tag",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "t"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S34",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S35",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S36",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              },
+              {
+                "noteId": "n10",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n10 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "n11",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n11 0",
+                "score": 0.99395
+              },
+              {
+                "noteId": "n12",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n12 0",
+                "score": 0.9928
+              },
+              {
+                "noteId": "n13",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n13 0",
+                "score": 0.99155
+              },
+              {
+                "noteId": "n14",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n14 0",
+                "score": 0.9902
+              },
+              {
+                "noteId": "n15",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n15 0",
+                "score": 0.98875
+              },
+              {
+                "noteId": "n16",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n16 0",
+                "score": 0.9872
+              },
+              {
+                "noteId": "n17",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n17 0",
+                "score": 0.98555
+              },
+              {
+                "noteId": "n18",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n18 0",
+                "score": 0.9838
+              },
+              {
+                "noteId": "n19",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n19 0",
+                "score": 0.98195
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S37",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "z",
+                "chunkIndex": 0,
+                "chunkText": "synthetic z 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S38",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S39",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S40",
+          "pass": false,
+          "actual": {
+            "error": "Reconstruction unavailable: mandatory REA static analysis was not accessible; shared retrieval behavior remains unverified.",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "arm": "B",
+      "loadError": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+      "passed": 0,
+      "total": 40,
+      "outcomes": [
+        {
+          "id": "S01",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "error": "No embedding provider is active. Enable AI features in Settings → AI.",
+            "trace": []
+          }
+        },
+        {
+          "id": "S02",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": []
+          }
+        },
+        {
+          "id": "S03",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": []
+          }
+        },
+        {
+          "id": "S04",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S05",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S06",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "  synthetic query  "
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S07",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S08",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source-note"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S09",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "missing"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S10",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S11",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S12",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.8200000000000001
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S13",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S14",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S15",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S16",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 1
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S17",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S18",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "c",
+                "chunkIndex": 0,
+                "chunkText": "synthetic c 0",
+                "score": 0.955
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.875
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S19",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S20",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "vectorsByNoteId",
+                "args": [
+                  "source"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S21",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 1,
+                "chunkText": "synthetic a 1",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S22",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S23",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S24",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S25",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "folder",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a",
+                      "b"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S26",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "tag"
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10,
+                    "noteIds": [
+                      "a"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S27",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "empty",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S28",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S29",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:embedQuery",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S30",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:embed",
+            "trace": [
+              {
+                "name": "embed",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S31",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:similaritySearch",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S32",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:folder",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "folder",
+                "args": [
+                  "f",
+                  {
+                    "fields": [
+                      "id"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S33",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "error": "synthetic:tag",
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "t"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S34",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S35",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S36",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "n0",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n0 0",
+                "score": 1
+              },
+              {
+                "noteId": "n1",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n1 0",
+                "score": 0.99995
+              },
+              {
+                "noteId": "n2",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n2 0",
+                "score": 0.9998
+              },
+              {
+                "noteId": "n3",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n3 0",
+                "score": 0.99955
+              },
+              {
+                "noteId": "n4",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n4 0",
+                "score": 0.9992
+              },
+              {
+                "noteId": "n5",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n5 0",
+                "score": 0.99875
+              },
+              {
+                "noteId": "n6",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n6 0",
+                "score": 0.9982
+              },
+              {
+                "noteId": "n7",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n7 0",
+                "score": 0.99755
+              },
+              {
+                "noteId": "n8",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n8 0",
+                "score": 0.9968
+              },
+              {
+                "noteId": "n9",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n9 0",
+                "score": 0.99595
+              },
+              {
+                "noteId": "n10",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n10 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "n11",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n11 0",
+                "score": 0.99395
+              },
+              {
+                "noteId": "n12",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n12 0",
+                "score": 0.9928
+              },
+              {
+                "noteId": "n13",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n13 0",
+                "score": 0.99155
+              },
+              {
+                "noteId": "n14",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n14 0",
+                "score": 0.9902
+              },
+              {
+                "noteId": "n15",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n15 0",
+                "score": 0.98875
+              },
+              {
+                "noteId": "n16",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n16 0",
+                "score": 0.9872
+              },
+              {
+                "noteId": "n17",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n17 0",
+                "score": 0.98555
+              },
+              {
+                "noteId": "n18",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n18 0",
+                "score": 0.9838
+              },
+              {
+                "noteId": "n19",
+                "chunkIndex": 0,
+                "chunkText": "synthetic n19 0",
+                "score": 0.98195
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S37",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "z",
+                "chunkIndex": 0,
+                "chunkText": "synthetic z 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S38",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S39",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [
+              {
+                "noteId": "a",
+                "chunkIndex": 0,
+                "chunkText": "synthetic a 0",
+                "score": 0.995
+              },
+              {
+                "noteId": "b",
+                "chunkIndex": 0,
+                "chunkText": "synthetic b 0",
+                "score": 0.98
+              }
+            ],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "synthetic query"
+                  ]
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    1,
+                    0
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              },
+              {
+                "name": "similaritySearch",
+                "args": [
+                  [
+                    0,
+                    1
+                  ],
+                  {
+                    "k": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "S40",
+          "pass": false,
+          "actual": {
+            "error": "Cannot find module 'evidence://R3/\\evaluation-code\\B.mjs' imported from evidence://R3/\\evaluation-code\\evaluate.mjs",
+            "trace": []
+          },
+          "expected": {
+            "results": [],
+            "trace": [
+              {
+                "name": "embedQuery",
+                "args": [
+                  [
+                    "q"
+                  ]
+                ]
+              },
+              {
+                "name": "tag",
+                "args": [
+                  "empty"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

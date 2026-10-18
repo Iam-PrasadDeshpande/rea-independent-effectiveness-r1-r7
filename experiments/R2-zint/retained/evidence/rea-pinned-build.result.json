@@ -1,0 +1,13 @@
+{
+  "exit": 0,
+  "arguments": [
+    "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+    "--prefix",
+    "evidence://R2/\\tools\\rea-reference",
+    "run",
+    "build:cached"
+  ],
+  "elapsedSeconds": 60.0432132,
+  "utc": "2026-10-17T17:53:36.1097405Z",
+  "exe": "C:\\Program Files\\nodejs\\node.exe"
+}

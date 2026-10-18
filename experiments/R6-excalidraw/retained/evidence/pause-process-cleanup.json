@@ -1,0 +1,17 @@
+[
+  {
+    "result": "SUCCESS: The process with PID 5496 (child process of PID 33168) has been terminated.\nSUCCESS: The process with PID 33168 (child process of PID 32100) has been terminated.\nSUCCESS: The process with PID 32100 (child process of PID 17088) has been terminated.\nSUCCESS: The process with PID 17088 (child process of PID 42540) has been terminated.\nSUCCESS: The process with PID 42540 (child process of PID 30336) has been terminated.",
+    "command": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy AllSigned -File R6/Run-R6Browser.ps1 -Arm E",
+    "pid": 42540
+  },
+  {
+    "result": "SUCCESS: The process with PID 19760 (child process of PID 17620) has been terminated.\nSUCCESS: The process with PID 17620 (child process of PID 12496) has been terminated.\nSUCCESS: The process with PID 12496 (child process of PID 34760) has been terminated.\nSUCCESS: The process with PID 34760 (child process of PID 29524) has been terminated.\nSUCCESS: The process with PID 29524 (child process of PID 11848) has been terminated.",
+    "command": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy AllSigned -File R6/Run-R6Browser.ps1 -Arm E -Instance preflight2",
+    "pid": 29524
+  },
+  {
+    "result": "SUCCESS: The process with PID 41748 (child process of PID 28596) has been terminated.\nSUCCESS: The process with PID 28596 (child process of PID 36584) has been terminated.\nSUCCESS: The process with PID 36584 (child process of PID 10436) has been terminated.\nSUCCESS: The process with PID 10436 (child process of PID 40788) has been terminated.\nSUCCESS: The process with PID 40788 (child process of PID 31208) has been terminated.",
+    "command": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy AllSigned -File R6/Run-R6Browser.ps1 -Arm E -Instance final-reference1",
+    "pid": 40788
+  }
+]

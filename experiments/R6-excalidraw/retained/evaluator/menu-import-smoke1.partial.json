@@ -1,0 +1,68 @@
+{
+  "complete": false,
+  "label": "menu-import-smoke1",
+  "updatedUtc": "2026-10-18T03:44:28.0070226Z",
+  "instance": "menu-import-smoke1",
+  "arm": "E",
+  "cases": [
+    {
+      "error": "page.waitForEvent: Timeout 30000ms exceeded while waiting for event \"filechooser\"\n=========================== logs ===========================\nwaiting for event \"filechooser\"\n============================================================",
+      "observations": [],
+      "name": "Empty valid scene import",
+      "id": "27"
+    },
+    {
+      "error": "page.waitForEvent: Timeout 30000ms exceeded while waiting for event \"filechooser\"\n=========================== logs ===========================\nwaiting for event \"filechooser\"\n============================================================",
+      "observations": [
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        }
+      ],
+      "name": "Malformed JSON import preserves scene",
+      "id": "28"
+    },
+    {
+      "error": "page.waitForEvent: Timeout 30000ms exceeded while waiting for event \"filechooser\"\n=========================== logs ===========================\nwaiting for event \"filechooser\"\n============================================================",
+      "observations": [
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        }
+      ],
+      "name": "Wrong type import preserves scene",
+      "id": "29"
+    }
+  ],
+  "startedUtc": "2026-10-18T03:42:39.0218183Z"
+}

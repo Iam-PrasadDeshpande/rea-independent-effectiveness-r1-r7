@@ -1,0 +1,28 @@
+{
+  "UTC": "2026-10-17T19:00:03.6258597Z",
+  "Stage": "PRE_INVESTIGATOR",
+  "Count": 40,
+  "Files": [
+    {
+      "Path": "protocol\\FROZEN_RUBRIC.md",
+      "SHA256": "AF00E6F979A7E86144F6EEEAD54CDD363C9CF089AC55FFC5449922A0CCE976EA"
+    },
+    {
+      "Path": "protocol\\NEUTRAL_OBJECTIVE.md",
+      "SHA256": "6C95DC96525237C1367052B5354725A7B9AFD22892AFA6253C6FF4A295A4F835"
+    },
+    {
+      "Path": "evaluator\\deterministic-cases.json",
+      "SHA256": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770"
+    },
+    {
+      "Path": "evaluation-output\\expected.json",
+      "SHA256": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B"
+    },
+    {
+      "Path": "blind-prep-v2\\input\\app.asar",
+      "SHA256": "C9BAEBD9F6FE445CC267EA15E23BF87A7E8F9BDAE3D461D7AE1847A7479D87F3"
+    }
+  ],
+  "Amendment": "Before any investigator reasoning: account-supported gpt-6.1-sol medium; equal 8-action caps to reserve total mission budget. Original unsupported-model startup retained."
+}

@@ -1,0 +1,618 @@
+{
+  "originalDisposition": "QUALIFIED_BOUNDED_POC",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "BOUNDED_CLOSURE_SUPPORTED_WITH_RETAINED_LIMITATIONS",
+  "sourceReportSha256": "925f3bb2ae0f768df31cdabb4e5e671b6253dca8ff884f2edf31a04e0fa24036",
+  "poc": "R2",
+  "recordedResults": [
+    {
+      "experiment": "R2",
+      "arm": "A",
+      "total": 48,
+      "passed": 48,
+      "scope": "Recomputed recorded exit and stdout versus frozen oracle",
+      "source": "R2/evidence/validation-A-cases.json",
+      "detail": [
+        {
+          "id": "F01",
+          "match": true
+        },
+        {
+          "id": "F02",
+          "match": true
+        },
+        {
+          "id": "F03",
+          "match": true
+        },
+        {
+          "id": "F04",
+          "match": true
+        },
+        {
+          "id": "F05",
+          "match": true
+        },
+        {
+          "id": "F06",
+          "match": true
+        },
+        {
+          "id": "F07",
+          "match": true
+        },
+        {
+          "id": "F08",
+          "match": true
+        },
+        {
+          "id": "F09",
+          "match": true
+        },
+        {
+          "id": "F10",
+          "match": true
+        },
+        {
+          "id": "F11",
+          "match": true
+        },
+        {
+          "id": "F12",
+          "match": true
+        },
+        {
+          "id": "V01",
+          "match": true
+        },
+        {
+          "id": "V02",
+          "match": true
+        },
+        {
+          "id": "V03",
+          "match": true
+        },
+        {
+          "id": "V04",
+          "match": true
+        },
+        {
+          "id": "V05",
+          "match": true
+        },
+        {
+          "id": "V06",
+          "match": true
+        },
+        {
+          "id": "V07",
+          "match": true
+        },
+        {
+          "id": "V08",
+          "match": true
+        },
+        {
+          "id": "V09",
+          "match": true
+        },
+        {
+          "id": "V10",
+          "match": true
+        },
+        {
+          "id": "V11",
+          "match": true
+        },
+        {
+          "id": "V12",
+          "match": true
+        },
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "N01",
+          "match": true
+        },
+        {
+          "id": "N02",
+          "match": true
+        },
+        {
+          "id": "N03",
+          "match": true
+        },
+        {
+          "id": "N04",
+          "match": true
+        },
+        {
+          "id": "E01",
+          "match": true
+        },
+        {
+          "id": "E02",
+          "match": true
+        },
+        {
+          "id": "E03",
+          "match": true
+        },
+        {
+          "id": "E04",
+          "match": true
+        },
+        {
+          "id": "E05",
+          "match": true
+        },
+        {
+          "id": "E06",
+          "match": true
+        },
+        {
+          "id": "E07",
+          "match": true
+        },
+        {
+          "id": "E08",
+          "match": true
+        },
+        {
+          "id": "E09",
+          "match": true
+        },
+        {
+          "id": "E10",
+          "match": true
+        },
+        {
+          "id": "E11",
+          "match": true
+        },
+        {
+          "id": "E12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R2",
+      "arm": "B",
+      "total": 48,
+      "passed": 48,
+      "scope": "Recomputed recorded exit and stdout versus frozen oracle",
+      "source": "R2/evidence/validation-B-cases.json",
+      "detail": [
+        {
+          "id": "F01",
+          "match": true
+        },
+        {
+          "id": "F02",
+          "match": true
+        },
+        {
+          "id": "F03",
+          "match": true
+        },
+        {
+          "id": "F04",
+          "match": true
+        },
+        {
+          "id": "F05",
+          "match": true
+        },
+        {
+          "id": "F06",
+          "match": true
+        },
+        {
+          "id": "F07",
+          "match": true
+        },
+        {
+          "id": "F08",
+          "match": true
+        },
+        {
+          "id": "F09",
+          "match": true
+        },
+        {
+          "id": "F10",
+          "match": true
+        },
+        {
+          "id": "F11",
+          "match": true
+        },
+        {
+          "id": "F12",
+          "match": true
+        },
+        {
+          "id": "V01",
+          "match": true
+        },
+        {
+          "id": "V02",
+          "match": true
+        },
+        {
+          "id": "V03",
+          "match": true
+        },
+        {
+          "id": "V04",
+          "match": true
+        },
+        {
+          "id": "V05",
+          "match": true
+        },
+        {
+          "id": "V06",
+          "match": true
+        },
+        {
+          "id": "V07",
+          "match": true
+        },
+        {
+          "id": "V08",
+          "match": true
+        },
+        {
+          "id": "V09",
+          "match": true
+        },
+        {
+          "id": "V10",
+          "match": true
+        },
+        {
+          "id": "V11",
+          "match": true
+        },
+        {
+          "id": "V12",
+          "match": true
+        },
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "N01",
+          "match": true
+        },
+        {
+          "id": "N02",
+          "match": true
+        },
+        {
+          "id": "N03",
+          "match": true
+        },
+        {
+          "id": "N04",
+          "match": true
+        },
+        {
+          "id": "E01",
+          "match": true
+        },
+        {
+          "id": "E02",
+          "match": true
+        },
+        {
+          "id": "E03",
+          "match": true
+        },
+        {
+          "id": "E04",
+          "match": true
+        },
+        {
+          "id": "E05",
+          "match": true
+        },
+        {
+          "id": "E06",
+          "match": true
+        },
+        {
+          "id": "E07",
+          "match": true
+        },
+        {
+          "id": "E08",
+          "match": true
+        },
+        {
+          "id": "E09",
+          "match": true
+        },
+        {
+          "id": "E10",
+          "match": true
+        },
+        {
+          "id": "E11",
+          "match": true
+        },
+        {
+          "id": "E12",
+          "match": true
+        }
+      ]
+    },
+    {
+      "experiment": "R2",
+      "arm": "C",
+      "total": 48,
+      "passed": 48,
+      "scope": "Recomputed recorded exit and stdout versus frozen oracle",
+      "source": "R2/evidence/validation-C-cases.json",
+      "detail": [
+        {
+          "id": "F01",
+          "match": true
+        },
+        {
+          "id": "F02",
+          "match": true
+        },
+        {
+          "id": "F03",
+          "match": true
+        },
+        {
+          "id": "F04",
+          "match": true
+        },
+        {
+          "id": "F05",
+          "match": true
+        },
+        {
+          "id": "F06",
+          "match": true
+        },
+        {
+          "id": "F07",
+          "match": true
+        },
+        {
+          "id": "F08",
+          "match": true
+        },
+        {
+          "id": "F09",
+          "match": true
+        },
+        {
+          "id": "F10",
+          "match": true
+        },
+        {
+          "id": "F11",
+          "match": true
+        },
+        {
+          "id": "F12",
+          "match": true
+        },
+        {
+          "id": "V01",
+          "match": true
+        },
+        {
+          "id": "V02",
+          "match": true
+        },
+        {
+          "id": "V03",
+          "match": true
+        },
+        {
+          "id": "V04",
+          "match": true
+        },
+        {
+          "id": "V05",
+          "match": true
+        },
+        {
+          "id": "V06",
+          "match": true
+        },
+        {
+          "id": "V07",
+          "match": true
+        },
+        {
+          "id": "V08",
+          "match": true
+        },
+        {
+          "id": "V09",
+          "match": true
+        },
+        {
+          "id": "V10",
+          "match": true
+        },
+        {
+          "id": "V11",
+          "match": true
+        },
+        {
+          "id": "V12",
+          "match": true
+        },
+        {
+          "id": "C01",
+          "match": true
+        },
+        {
+          "id": "C02",
+          "match": true
+        },
+        {
+          "id": "C03",
+          "match": true
+        },
+        {
+          "id": "C04",
+          "match": true
+        },
+        {
+          "id": "C05",
+          "match": true
+        },
+        {
+          "id": "C06",
+          "match": true
+        },
+        {
+          "id": "C07",
+          "match": true
+        },
+        {
+          "id": "C08",
+          "match": true
+        },
+        {
+          "id": "N01",
+          "match": true
+        },
+        {
+          "id": "N02",
+          "match": true
+        },
+        {
+          "id": "N03",
+          "match": true
+        },
+        {
+          "id": "N04",
+          "match": true
+        },
+        {
+          "id": "E01",
+          "match": true
+        },
+        {
+          "id": "E02",
+          "match": true
+        },
+        {
+          "id": "E03",
+          "match": true
+        },
+        {
+          "id": "E04",
+          "match": true
+        },
+        {
+          "id": "E05",
+          "match": true
+        },
+        {
+          "id": "E06",
+          "match": true
+        },
+        {
+          "id": "E07",
+          "match": true
+        },
+        {
+          "id": "E08",
+          "match": true
+        },
+        {
+          "id": "E09",
+          "match": true
+        },
+        {
+          "id": "E10",
+          "match": true
+        },
+        {
+          "id": "E11",
+          "match": true
+        },
+        {
+          "id": "E12",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "name": "Zint GS1-128",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "55541e139e62b9209b71cd9b0ba9010cec28b1d9"
+}

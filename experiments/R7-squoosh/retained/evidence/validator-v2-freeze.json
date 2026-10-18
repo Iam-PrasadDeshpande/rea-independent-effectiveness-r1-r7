@@ -1,0 +1,7 @@
+{
+  "sha256": "75903ca442a0fdf91dfd059454b719e48b58430ab8157e52ab715e3733929aea",
+  "utc": "2026-10-18T04:58:40.1522650Z",
+  "scoringChanged": false,
+  "reason": "Archive insertion corrected before first evaluation; original validator and earlier freeze records retained",
+  "path": "scripts/Validate-R7-v2.ps1"
+}

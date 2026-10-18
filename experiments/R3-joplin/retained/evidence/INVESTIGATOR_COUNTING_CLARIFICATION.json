@@ -1,0 +1,7 @@
+{
+  "CriteriaChanged": false,
+  "Clarification": "Nested provider requests count individually, including batched wrappers; reserve final write",
+  "AppliedTo": "Fresh B6 and C2; no prior findings or oracle feedback",
+  "UTC": "2026-10-18T03:10:11.9288925Z",
+  "OriginalModelAndEightItemLimitPreserved": true
+}

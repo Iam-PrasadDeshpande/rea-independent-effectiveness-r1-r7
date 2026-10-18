@@ -1,0 +1,9 @@
+{
+  "url": "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-linux.zip",
+  "verification": "OFFICIAL_RELEASE_ASSET_SHA256_MATCH",
+  "version": "1.13.1",
+  "execution": "PASS",
+  "utc": "2026-10-17T18:00:51.1612918Z",
+  "vendorSignature": "NOT_PROVIDED_IN_GITHUB_ASSET_METADATA",
+  "sha256": "0830252db77884957a1a4b87b05a1e2d9b5f658b8367f82999a941884cbe0238"
+}

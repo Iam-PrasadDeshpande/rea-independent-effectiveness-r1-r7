@@ -1,0 +1,19 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"error\":{\"code\":\"provider_timeout\",\"category\":\"timeout\",\"message\":\"Analysis took too long. Try a smaller request, then run `rea doctor` if it continues.\",\"retryable\":true,\"remediation\":{\"action\":\"Analysis took too long. Try a smaller request, then run `rea doctor` if it continues.\"},\"details\":{\"operation\":\"analyze_javascript_application\",\"timeout_ms\":120000,\"captured_output\":{\"stdout\":\"\",\"stderr\":\"\",\"truncated\":false,\"stderr_bytes\":0,\"exit_code\":null,\"signal\":null},\"partial_observation\":{\"kind\":\"retained-evidence\",\"evidence_id\":\"ev_0a102f1ff1402c59e598955ad951000d909c6cd58719eda743a6cef10c920e47\"}}}}"
+      }
+    ],
+    "isError": true
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

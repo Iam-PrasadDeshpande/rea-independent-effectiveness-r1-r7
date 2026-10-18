@@ -1,0 +1,84 @@
+{
+  "State": "RESUMED_EXISTING_R3_ONLY",
+  "UTC": "2026-10-18T03:04:32.8017373Z",
+  "AliasesAbsent": true,
+  "CheckpointManifest": [
+    {
+      "Path": "reports/OWNER_FREEZE_CHECKPOINT.md",
+      "Match": true
+    },
+    {
+      "Path": "evidence/OWNER_FREEZE_CHECKPOINT.json",
+      "Match": true
+    },
+    {
+      "Path": "evidence/CURRENT_CLOSURE.json",
+      "Match": true
+    },
+    {
+      "Path": "reports/ARCHITECTURE_FINAL_ADJUDICATION.json",
+      "Match": true
+    },
+    {
+      "Path": "reports/ARCHITECTURE_FINAL_ADJUDICATION.md",
+      "Match": true
+    },
+    {
+      "Path": "setup/Run-R3QualifiedInvestigator.ps1",
+      "Match": true
+    },
+    {
+      "Path": "setup/arm-C-recovery2-gate.ps1",
+      "Match": true
+    },
+    {
+      "Path": "setup/arm-C-recovery2-inner-gate.ps1",
+      "Match": true
+    },
+    {
+      "Path": "setup/rea-qualified-v4-gate.ps1",
+      "Match": true
+    },
+    {
+      "Path": "evidence/mcp-C-exact-qualified-v2-result.json",
+      "Match": true
+    },
+    {
+      "Path": "evidence/OWNER_PAUSE_TERMINATION.json",
+      "Match": true
+    },
+    {
+      "Path": "arms/B-recovery4/measurement/result.json",
+      "Match": true
+    },
+    {
+      "Path": "arms/B-recovery4/measurement/events.jsonl",
+      "Match": true
+    }
+  ],
+  "FrozenChecks": [
+    {
+      "Path": "protocol\\FROZEN_RUBRIC.md",
+      "Match": true
+    },
+    {
+      "Path": "protocol\\NEUTRAL_OBJECTIVE.md",
+      "Match": true
+    },
+    {
+      "Path": "evaluator\\deterministic-cases.json",
+      "Match": true
+    },
+    {
+      "Path": "evaluation-output\\expected.json",
+      "Match": true
+    },
+    {
+      "Path": "blind-prep-v2\\input\\app.asar",
+      "Match": true
+    }
+  ],
+  "OwnerInstruction": "resume",
+  "LiveInvestigators": 0,
+  "PriorActions": 403
+}

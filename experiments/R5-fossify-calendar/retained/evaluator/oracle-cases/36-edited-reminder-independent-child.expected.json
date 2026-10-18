@@ -1,0 +1,34 @@
+{
+  "occurrences": [
+    {
+      "startTS": 1767607200,
+      "endTS": 1767610800,
+      "title": "Synthetic weekly"
+    },
+    {
+      "startTS": 1768212000,
+      "endTS": 1768215600,
+      "title": "Synthetic child reminder"
+    },
+    {
+      "startTS": 1768816800,
+      "endTS": 1768820400,
+      "title": "Synthetic weekly"
+    },
+    {
+      "startTS": 1769421600,
+      "endTS": 1769425200,
+      "title": "Synthetic weekly"
+    }
+  ],
+  "nextReminders": [
+    {
+      "occurrenceTS": 1767607200,
+      "notifyAtMillis": 1767606601000
+    },
+    {
+      "occurrenceTS": 1768212000,
+      "notifyAtMillis": 1768210201000
+    }
+  ]
+}

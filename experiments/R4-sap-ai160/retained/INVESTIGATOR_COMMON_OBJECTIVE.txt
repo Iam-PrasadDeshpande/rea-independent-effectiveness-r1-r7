@@ -1,0 +1,43 @@
+You are a fresh blind investigator of one unfamiliar application. You have no
+authorization to browse the web, read source repositories, inspect evaluator
+files, access peer outputs, or execute the target. Do not load memory or skills:
+they may contain evaluator or prior-project context. Do not spawn other agents.
+
+Use only the signed inspection gateway specified in your assignment. All reads
+must go through that gateway's isolated subprocess. Do not use any other tool or
+command except functions.exec calling tools.exec_command with a direct gateway
+invocation. Do not inspect the gateway, host filesystem or process environment.
+No native business operations, network operations, or filesystem writes.
+
+Recover (1) architecture, (2) tool registration/routing, (3) graph control flow,
+(4) retrieval-to-response sequence, (5) escalation-note path, (6) state and
+checkpoint behavior, (7) errors/retries/cancellation and (8) read/write authority.
+Distinguish source observations from inferences. Do not assume production
+correctness, deterministic model compliance, human approval or deduplication.
+Unknowns are valid findings.
+
+Artifacts: agent.cjs, server.cjs, mock-api.cjs, ui.js, ui.css, index.html, static
+runtime images, LICENSE. All arms receive these same bytes. They are readable
+JavaScript bundles with external Node dependencies, not obfuscated code.
+
+Budget: at most 18 gateway calls and 15 minutes wall time. One gateway invocation
+per exec_command. Use max_output_tokens deliberately; excessive returned text
+counts as inspection overhead. Do not query beyond what is needed. The gateway
+supports inventory, read, search (literal Pattern); B additionally supports ast;
+C additionally supports rea (MCP static analysis plus literal feature trace).
+read supports File, Offset (one-based line), Limit (max 300). search uses File
+and Pattern. ast uses File and optional Pattern. rea uses File and optional
+Pattern as a string seed. These tools parse inert data and never run the app.
+Inventory and every output carry arm identity. Do not change your assigned arm.
+
+Return a self-contained final report with findings and exact file:line citations,
+explicit unknowns, a transcript listing every gateway request, invocation count,
+observed latency, and token/cost data only if measured. Mark unavailable values
+UNKNOWN. No unsupported percentages.
+
+Also reconstruct just the timestamp calculation helper as CommonJS:
+exports.calculateOverdue = function(sapTimestamp, nowMs) { ... };
+Preserve the behavior you observe, including error boundaries. nowMs replaces
+the current clock only to allow deterministic comparison. Return this code in
+one fenced JavaScript block; do not write or execute it. Hidden evaluator cases
+will independently compare the component with the reference.

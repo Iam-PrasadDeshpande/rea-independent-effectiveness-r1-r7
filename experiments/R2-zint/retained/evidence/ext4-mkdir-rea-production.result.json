@@ -1,0 +1,10 @@
+{
+  "elapsedSeconds": 0.3171047,
+  "utc": "2026-10-17T18:36:04.1484148Z",
+  "arguments": [
+    "/usr/bin/mkdir",
+    "-p",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/rea-reference"
+  ],
+  "exit": 0
+}

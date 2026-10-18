@@ -1,0 +1,277 @@
+[
+  {
+    "path": "db\\package.json",
+    "bytes": 295,
+    "sha256": "cc033d006e98675b3985cb92870aa746ec8808d8b37b9b455f94e2cd4e1097df"
+  },
+  {
+    "path": "db\\undeploy.json",
+    "bytes": 113,
+    "sha256": "287dba33365025fb98862c33653d00d8639ffa2b7bbe7d65112cdc004e637b69"
+  },
+  {
+    "path": "db\\src\\.hdiconfig",
+    "bytes": 3887,
+    "sha256": "888dcbd78c4a6d760ac8419f4905c68c16b4bcf9d13abe4c0956d4b93cf925db"
+  },
+  {
+    "path": "db\\src\\gen\\.hdiconfig",
+    "bytes": 559,
+    "sha256": "3c1a158daeabbd38852e7e49fd82a3a548511d76f8bbc4a84d600b12aa6b922c"
+  },
+  {
+    "path": "db\\src\\gen\\.hdinamespace",
+    "bytes": 41,
+    "sha256": "a0d169650b78e64634ac19cdbf7b06eb9ca6ef0617c054c0a13366761609dafb"
+  },
+  {
+    "path": "db\\src\\gen\\ai.db.Mails.hdbtable",
+    "bytes": 627,
+    "sha256": "918f5634a5bfa6a2961db7b9fe583c3e7bd87ef8666aef091c063db663787854"
+  },
+  {
+    "path": "db\\src\\gen\\ai.db.Translations.hdbtable",
+    "bytes": 239,
+    "sha256": "04631a186492751ecf3792f507a3da86da6044464daa470c16b6ee5e1061f1c3"
+  },
+  {
+    "path": "db\\src\\gen\\MailInsightsService.Mails.hdbview",
+    "bytes": 536,
+    "sha256": "2df6d7db6fd20d9dceba0e3e21a723485f07b81376dd3f3faf4f81e2bb3b5686"
+  },
+  {
+    "path": "db\\src\\gen\\MailInsightsService.Translations.hdbview",
+    "bytes": 303,
+    "sha256": "d2ce4faee0f4007ed217e58f824a9d5140862d36759a0a3b840f2fed5da16566"
+  },
+  {
+    "path": "srv\\.cdsrc.json",
+    "bytes": 4,
+    "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+  },
+  {
+    "path": "srv\\package-lock.json",
+    "bytes": 297310,
+    "sha256": "929dc7049a5dc69e4a07001da01d8e7528f26cb34165ff3562cc2802857e8cec"
+  },
+  {
+    "path": "srv\\package.json",
+    "bytes": 2269,
+    "sha256": "7e0c38bcdbbf22534bc819f53e8d02035fd16b1765f0f202182f23e6d12776e4"
+  },
+  {
+    "path": "srv\\@cds-models\\index.js",
+    "bytes": 179,
+    "sha256": "487ca5a860df03524af79209a67131b52770bd4b5bcdf8df559617818a6a77eb"
+  },
+  {
+    "path": "srv\\@cds-models\\index.js.map",
+    "bytes": 1206,
+    "sha256": "aa80e5f8c78be329e45116d0c559a293438a5f8c8cd7f79245d41c786dadafa4"
+  },
+  {
+    "path": "srv\\@cds-models\\ai\\db\\index.js",
+    "bytes": 667,
+    "sha256": "d909d7ccbc79eb5ab641f41a5db7529ebccd6aec94d69080a8a5a03684ab744b"
+  },
+  {
+    "path": "srv\\@cds-models\\ai\\db\\index.js.map",
+    "bytes": 2421,
+    "sha256": "669510364ad42bd6c10241bfd601ea031555a7c3afbc8e74a90f7000f573ca1e"
+  },
+  {
+    "path": "srv\\@cds-models\\MailInsightsService\\index.js",
+    "bytes": 838,
+    "sha256": "cabd5b88bf30126139e0aae25842d3740a50ea9616a6d3dd9e498fe4d1c4c099"
+  },
+  {
+    "path": "srv\\@cds-models\\MailInsightsService\\index.js.map",
+    "bytes": 1164,
+    "sha256": "36af3e9ef76cc5ed896a85f936c9e39a7af0ba9bef193b893c0cc53b760bf430"
+  },
+  {
+    "path": "srv\\@cds-models\\sap\\common\\index.js",
+    "bytes": 1229,
+    "sha256": "f92868054026ce5c7cd05a558ccacba535a56502412a8f921e087bdfefd8e84a"
+  },
+  {
+    "path": "srv\\@cds-models\\sap\\common\\index.js.map",
+    "bytes": 5375,
+    "sha256": "5795cb62d7856220eb6cab1d854b6a309b9731c661cb3517335cebff718e629b"
+  },
+  {
+    "path": "srv\\@cds-models\\_\\index.js",
+    "bytes": 180,
+    "sha256": "fae5c76241f9fe2429bf46e2635bbdceb3f8c02dc2230e27afa482144dd47ac7"
+  },
+  {
+    "path": "srv\\@cds-models\\_\\index.js.map",
+    "bytes": 290,
+    "sha256": "060b82ce976a8e95a200ba2832fd12eb9b3e6f24956fa8f1b17e2ccaaa554c09"
+  },
+  {
+    "path": "srv\\srv\\constants.js",
+    "bytes": 2550,
+    "sha256": "36f2884388f0f0825bb90ee2ae9b04a20220e0d644872ef41364183103c8cc7b"
+  },
+  {
+    "path": "srv\\srv\\constants.js.map",
+    "bytes": 418,
+    "sha256": "9e5a832f71d79090050ff9bffb5d9c6556b4ce5fc02d459379246b3e9d57f65a"
+  },
+  {
+    "path": "srv\\srv\\csn.json",
+    "bytes": 28250,
+    "sha256": "a3c51d25e07d51551ce832a7f915e134fe02ac804de3b0b4f9491149ec092cd6"
+  },
+  {
+    "path": "srv\\srv\\mail-insights-service.js",
+    "bytes": 26661,
+    "sha256": "cd20667253636f4c673d4349c262c41a1406a1f41835ce47955d66c4378de63e"
+  },
+  {
+    "path": "srv\\srv\\mail-insights-service.js.map",
+    "bytes": 17895,
+    "sha256": "4862e1390a527bc39f9b9273bd898d97e75f9c20a85a6386c70b04e5a344e78e"
+  },
+  {
+    "path": "srv\\srv\\schemas.js",
+    "bytes": 7421,
+    "sha256": "66075455ab9e0a2ce7f163f43a8ef67455aa175cc92fc66010310caf9867b6e3"
+  },
+  {
+    "path": "srv\\srv\\schemas.js.map",
+    "bytes": 2842,
+    "sha256": "7dc2297fec23da8be31ab855d82d28135c6d16cd12b2229a6a4a88bbc444490b"
+  },
+  {
+    "path": "srv\\srv\\types.js",
+    "bytes": 44,
+    "sha256": "01ae2a5b120382f9a648ced7ee8507493a134f216d100fc61600c6c9738235d2"
+  },
+  {
+    "path": "srv\\srv\\types.js.map",
+    "bytes": 108,
+    "sha256": "1edd5d45c8bf83f5c9fd168a981f2935781537f8126ac4ffb30dea3b6052b44e"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\index.js",
+    "bytes": 1772,
+    "sha256": "8396050c12457ddda65ee8eb601d75392edd9e534832aed4ad21035af4958cae"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\index.js.map",
+    "bytes": 1209,
+    "sha256": "7541b32e68c623a4f03392c6f0e4489b45f0b6e7a549aef1bbee06f9f2406111"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\ai\\db\\index.js",
+    "bytes": 2190,
+    "sha256": "33cd89d7309b73aea990a83c9284be1e69e80ae0d0fc9be1ca5203284fbede81"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\ai\\db\\index.js.map",
+    "bytes": 2424,
+    "sha256": "ce4cdfc9c5b7e8e0754b839d145e35e71d37873997ae093a0a056339e0df520f"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\MailInsightsService\\index.js",
+    "bytes": 1031,
+    "sha256": "094d6939030c7dc13e418f8b27cba73b0286436834a5ea3975472fffa8ae8d63"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\MailInsightsService\\index.js.map",
+    "bytes": 1167,
+    "sha256": "65fa4922a88e9bfe132225ff9ed8dced6dced7e20c14002601804b267aaea57e"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\sap\\common\\index.js",
+    "bytes": 6387,
+    "sha256": "16a99e7c60a97e27e3ee2590d4b32a6dbfbb9c228c0234b596e7caade48949ee"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\sap\\common\\index.js.map",
+    "bytes": 5378,
+    "sha256": "bbf4eb5514d693f8a00345742e2b125dd5d4c4aeb6dfb4ff8c7ea8d7301646a2"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\_\\index.js",
+    "bytes": 284,
+    "sha256": "d195338a530e2be428a4f107691294bdaf84ab03309db4424db092814de30ea1"
+  },
+  {
+    "path": "srv\\srv\\@cds-models\\_\\index.js.map",
+    "bytes": 293,
+    "sha256": "0ab5a9f541610a0b91aed5ef295a5ecab3854ed32e3071f5b8a23ba69975ff3a"
+  },
+  {
+    "path": "srv\\srv\\odata\\v4\\MailInsightsService.xml",
+    "bytes": 9746,
+    "sha256": "79ad2f486854bfef511fd1e847045f8874665ca052d32afc5cb157950196e649"
+  },
+  {
+    "path": "srv\\srv\\srv\\constants.js",
+    "bytes": 2550,
+    "sha256": "36f2884388f0f0825bb90ee2ae9b04a20220e0d644872ef41364183103c8cc7b"
+  },
+  {
+    "path": "srv\\srv\\srv\\constants.js.map",
+    "bytes": 421,
+    "sha256": "9d43472d39731f23e9896d289654a12d18891490f550ff77b49271ceb29f2b8c"
+  },
+  {
+    "path": "srv\\srv\\srv\\mail-insights-service.js",
+    "bytes": 26661,
+    "sha256": "cd20667253636f4c673d4349c262c41a1406a1f41835ce47955d66c4378de63e"
+  },
+  {
+    "path": "srv\\srv\\srv\\mail-insights-service.js.map",
+    "bytes": 17898,
+    "sha256": "728e5cbb72b56d1cd0ce478bcf4bf6a78264adeba0b32e53376d0f98ce366454"
+  },
+  {
+    "path": "srv\\srv\\srv\\schemas.js",
+    "bytes": 7421,
+    "sha256": "66075455ab9e0a2ce7f163f43a8ef67455aa175cc92fc66010310caf9867b6e3"
+  },
+  {
+    "path": "srv\\srv\\srv\\schemas.js.map",
+    "bytes": 2845,
+    "sha256": "b3bc478fe4fec1a97df90629dc39f4bb83bf8debfe0627712d6d26687f91185e"
+  },
+  {
+    "path": "srv\\srv\\srv\\types.js",
+    "bytes": 44,
+    "sha256": "01ae2a5b120382f9a648ced7ee8507493a134f216d100fc61600c6c9738235d2"
+  },
+  {
+    "path": "srv\\srv\\srv\\types.js.map",
+    "bytes": 111,
+    "sha256": "a65581ffac5a6dc5d9e321296aca62353c6f1a52820565bce05d4356951a8ddd"
+  },
+  {
+    "path": "srv\\srv\\srv\\utils\\ai-core.js",
+    "bytes": 5671,
+    "sha256": "58350c67e5129ae1db3b7216fe1afc2cb3036f15ea4df1a8d36bf56b9d83992e"
+  },
+  {
+    "path": "srv\\srv\\srv\\utils\\ai-core.js.map",
+    "bytes": 3942,
+    "sha256": "c041cd7f325e680d6edae0fda2ea0e4207e80aa1cf2ce63d3dba0e6a0939149b"
+  },
+  {
+    "path": "srv\\srv\\utils\\ai-core.js",
+    "bytes": 5671,
+    "sha256": "58350c67e5129ae1db3b7216fe1afc2cb3036f15ea4df1a8d36bf56b9d83992e"
+  },
+  {
+    "path": "srv\\srv\\utils\\ai-core.js.map",
+    "bytes": 3939,
+    "sha256": "b12d3e1924e0add4f30496630de8d0d5628bec280fbc13bd362b007975a0054f"
+  },
+  {
+    "path": "srv\\srv\\_i18n\\i18n.json",
+    "bytes": 54556,
+    "sha256": "b2d4e375bfac8ac6bd8913cd8e947e0831464a142cf33c666da824122ace3bd1"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "recovery": "Stopped only the verified owned browser-check process and Chrome processes with the R4 profile argument",
+  "browserNodeMatched": false,
+  "chromeProcessCount": 8,
+  "reason": "Browser check exceeded bounded completion time without emitting progress"
+}

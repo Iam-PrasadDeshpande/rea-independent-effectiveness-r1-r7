@@ -1,0 +1,82 @@
+{
+  "dollarCost": null,
+  "excludedSetupAttempt": {
+    "inputTokens": 30827,
+    "outputTokens": 513,
+    "status": "INVALID_SETUP",
+    "thread": "01a14b37-bb3d-7a80-b217-617389718d41",
+    "reason": "Code Mode host intentionally disabled; no target observations",
+    "elapsedSeconds": 23.5060888,
+    "cachedInputTokens": 20096
+  },
+  "coordinatorTokens": null,
+  "note": "No account-wide usage percentage is treated as experiment token consumption.",
+  "metrics": [
+    {
+      "dollarCost": null,
+      "uncachedInputTokens": 135462,
+      "toolCalls": 28,
+      "elapsedSeconds": 442.7825641,
+      "hostLoadBefore": "0.63 0.72 0.36 1/442 445",
+      "arm": "A",
+      "counterSemantics": "cumulative session total from final turn.completed; do not sum resumed totals",
+      "hostLoadAfter": "0.25 0.57 0.44 1/340 4706",
+      "rawNaiveSumRetained": {
+        "output_tokens": 70037,
+        "input_tokens": 31927235,
+        "cached_input_tokens": 29190528
+      },
+      "inputTokens": 2662566,
+      "cachedInputTokens": 2527104,
+      "turns": 29,
+      "stopReason": "completed",
+      "toolFailures": 0,
+      "outputTokens": 10212,
+      "thread": "01a14b3a-3dc3-72f3-a33a-a44fde88ff64"
+    },
+    {
+      "dollarCost": null,
+      "uncachedInputTokens": 147426,
+      "toolCalls": 28,
+      "elapsedSeconds": 396.3145419,
+      "hostLoadBefore": "0.23 0.56 0.44 1/341 4714",
+      "arm": "B",
+      "counterSemantics": "cumulative session total from final turn.completed; do not sum resumed totals",
+      "hostLoadAfter": "0.15 0.64 0.58 1/331 9358",
+      "rawNaiveSumRetained": {
+        "cached_input_tokens": 29373056,
+        "output_tokens": 54469,
+        "input_tokens": 32309225
+      },
+      "inputTokens": 2868578,
+      "cachedInputTokens": 2721152,
+      "turns": 29,
+      "stopReason": "completed",
+      "toolFailures": 0,
+      "outputTokens": 6481,
+      "thread": "01a14b41-0ba0-7ab2-a347-d50fcf570bd3"
+    },
+    {
+      "dollarCost": null,
+      "uncachedInputTokens": 290504,
+      "toolCalls": 28,
+      "elapsedSeconds": 344.4090513,
+      "hostLoadBefore": "0.15 0.64 0.58 1/331 9361",
+      "arm": "C",
+      "counterSemantics": "cumulative session total from final turn.completed; do not sum resumed totals",
+      "hostLoadAfter": "0.19 0.53 0.58 1/334 13568",
+      "rawNaiveSumRetained": {
+        "output_tokens": 64788,
+        "cached_input_tokens": 73172864,
+        "input_tokens": 79758068
+      },
+      "inputTokens": 6511688,
+      "cachedInputTokens": 6221184,
+      "turns": 29,
+      "stopReason": "completed",
+      "toolFailures": 0,
+      "outputTokens": 7090,
+      "thread": "01a14b47-36de-7783-a221-3b1615d947da"
+    }
+  ]
+}

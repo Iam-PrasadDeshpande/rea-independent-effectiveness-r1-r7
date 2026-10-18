@@ -1,0 +1,23 @@
+{
+  "accountingUnit": "Top-level coordinator invocations since R7 T3 authorization, including waits and pause/resume; nested investigator actions shown separately. This is not every subprocess or evaluator-agent internal call.",
+  "investigatorDispatchedActions": 79,
+  "observableRootPlusInvestigatorActions": 213.0,
+  "observedUtc": "2026-10-18T05:27:56.6949974Z",
+  "coordinatorTopLevelCalls": 134.0,
+  "coordinatorRemainingAtSnapshot": 116.0,
+  "byTool": {
+    "send_message": 4,
+    "sleep": 2,
+    "wait": 6,
+    "followup_task": 5,
+    "exec": 116,
+    "spawn_agent": 1
+  },
+  "coordinatorBudget": 250,
+  "snapshotExcludes": "No later tool action planned; includes final close/open invocation",
+  "investigatorByArm": {
+    "A": 27,
+    "C": 27,
+    "B": 25
+  }
+}

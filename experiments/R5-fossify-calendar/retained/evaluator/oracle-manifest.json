@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "01-weekly-basic",
+    "inputSha256": "52ED610C2419B7B982A6205E2A03199FCF952E2839D260678861CD4880A2B379",
+    "expectedSha256": "8ADBE4550363EC5CF3F203548BFCC22A56A603DB334AD1594018081EFA6B3D9F",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "02-weekly-count-one",
+    "inputSha256": "1139FF8D8F2BB2B20AACDCDCCD02C9BE95BDD5BDEAA1BA1D46328ADD03054CB8",
+    "expectedSha256": "5511A386580CA43B3CF1D96DDE432519BDFB295E34B36F9C55AA79A3BFF5CB87",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "03-weekly-count-three",
+    "inputSha256": "E837FBFCA52917ED3C0C605266366ACDDB03657277A4E6B6FF70BCA6F95344BF",
+    "expectedSha256": "50C5D1D40F381BACD5FA625C0245828950C2C0FA7331C38A545650CAF7F65FB9",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "04-count-applies-before-window",
+    "inputSha256": "F95AE7365EEEAA7EE198979B9A73026F77D2880D43720E3FCD3FBBE464D6B159",
+    "expectedSha256": "5DEAC80100788154DC8B1F508FD3E574303E05380DE335D5DF516D86216EA2C7",
+    "expected": {
+      "occurrences": [],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "05-until-inclusive",
+    "inputSha256": "3D0D91A68DDC6D1D68C8604720334AA8156EC2CB33639F942CEC228DF71CE13C",
+    "expectedSha256": "50C5D1D40F381BACD5FA625C0245828950C2C0FA7331C38A545650CAF7F65FB9",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "06-until-one-second-before",
+    "inputSha256": "8AEC457B5C8FE0B030EDD47F733CC3F54E0E8E9DB82C1B22BA1BCDA3E0785C6A",
+    "expectedSha256": "4A6877ABA38F35F26CC9FCFD87738A8DB0CC1395EAA1DE0C9E7C9A4311144FF8",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "07-query-start-at-event-end",
+    "inputSha256": "EACEF47EC35605055EF0461E34BBD3CB782A27C7DBC6583E6929F25A53C7F208",
+    "expectedSha256": "5511A386580CA43B3CF1D96DDE432519BDFB295E34B36F9C55AA79A3BFF5CB87",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "08-query-after-event-end",
+    "inputSha256": "C6C93FBDFC4189DF49B01D0BA3566175276E4001CFEE62D5300842BABA478DFC",
+    "expectedSha256": "5DEAC80100788154DC8B1F508FD3E574303E05380DE335D5DF516D86216EA2C7",
+    "expected": {
+      "occurrences": [],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "09-query-end-at-event-start",
+    "inputSha256": "00AA17D1721D186274EFC2723B789E6DFBAC9132C4E8DC6F85627AD9407AF5CF",
+    "expectedSha256": "5511A386580CA43B3CF1D96DDE432519BDFB295E34B36F9C55AA79A3BFF5CB87",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "10-query-end-before-start",
+    "inputSha256": "722989212F1618B5B795044CC6B6C42B51961DD513F615A36E676A6EA5F9085A",
+    "expectedSha256": "5DEAC80100788154DC8B1F508FD3E574303E05380DE335D5DF516D86216EA2C7",
+    "expected": {
+      "occurrences": [],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "11-multiweek-two",
+    "inputSha256": "6495463A19249625E9F1D0788D0CEA27EF7C6D7F5ABCED113C9E84ECA9C78C18",
+    "expectedSha256": "9D19C9B64E9A9638F14A5AD02636840A085D85FB76DDEA53763E5A690401303F",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "12-multiweek-three",
+    "inputSha256": "7451EBAF1871A66A64613820D8CC49F72A1D43D9EA293850600BA5B8F6080B32",
+    "expectedSha256": "77BB910AA45AA3675F0E2631BB350B6DD0EB106B5AF37341C22570E873CE699A",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "13-monday-wednesday-friday",
+    "inputSha256": "07B7A274DC7846A05C122B745F71A0EEF979E75219F557518ADD2C307727E384",
+    "expectedSha256": "C9A7FAD09E462F8F509003AD2D38A15CBAB17D81732358724EC033A942E74AC6",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1767780000,
+          "endTS": 1767783600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1767952800,
+          "endTS": 1767956400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768384800,
+          "endTS": 1768388400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768557600,
+          "endTS": 1768561200,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768989600,
+          "endTS": 1768993200,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769162400,
+          "endTS": 1769166000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769594400,
+          "endTS": 1769598000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769767200,
+          "endTS": 1769770800,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "14-biweekly-sunday-monday",
+    "inputSha256": "795445FB6A5430F97EEB7F63579A4A6C368D3D279D01756FD2DC3C83651A9DB3",
+    "expectedSha256": "1245A9935074946C77B85E74CED1D9984841442961671B5EF59EA6E49B0B8056",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767520800,
+          "endTS": 1767524400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768730400,
+          "endTS": 1768734000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769940000,
+          "endTS": 1769943600,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "15-count-multiweekday",
+    "inputSha256": "32213500E70716E48A7FCE924142091302DF69D2B9680FFCAC495A52A2F7EAA7",
+    "expectedSha256": "2B15800E7BF59D77DB8F185F0FAC16D0315C2F78E7ED25D451C4510039FF22BB",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1767780000,
+          "endTS": 1767783600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1767952800,
+          "endTS": 1767956400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "16-series-start-not-selected-weekday",
+    "inputSha256": "A265534D0CF56212695F26A509A5628FA4CDAC25CA53A6AFCBB65F93258D467E",
+    "expectedSha256": "ACB8E55A0CB766AC5BC36DAE953B349963FE3CBC50215A2C7A01C28835E2BB9E",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767780000,
+          "endTS": 1767783600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768384800,
+          "endTS": 1768388400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768989600,
+          "endTS": 1768993200,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769594400,
+          "endTS": 1769598000,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "17-empty-weekdays",
+    "inputSha256": "1B44B325985D7B8F6258B47880133C4EF69990DEF9CDC5802D6F736CD3FF1FFA",
+    "expectedSha256": "5DEAC80100788154DC8B1F508FD3E574303E05380DE335D5DF516D86216EA2C7",
+    "expected": {
+      "occurrences": [],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "18-edit-first-title",
+    "inputSha256": "D4A5425836816CA9E0B30AB6EE3ACAE168BF4996D22CAA735E6179CF5CAED9F0",
+    "expectedSha256": "E9A1D94E815FBB3F9133B64331E34D0993A162C5B2F89C773E17625078B3846B",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic changed"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "19-delete-first",
+    "inputSha256": "0682FC495527B853A599159E53E21914061F77223330E98C45C768011D912E6A",
+    "expectedSha256": "ED55A270D99EC9C5EA5E7AFE459DEAF53C36198C69D341CC79491661F9AA59E2",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "20-edit-middle-title",
+    "inputSha256": "035E7EDD1A0378A3CAA734EA7FF1C71FF728270150ACDDC3D70E09FB54438E5B",
+    "expectedSha256": "352EC3D68FC719FE8BF3BD7D06644D5A09452AC272E2E39A844592F877F7E71E",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic changed"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "21-delete-middle",
+    "inputSha256": "3B915CB4F70A03F2E0D4849FF8D12CA9E8FD582BB240C11F2F20CB7EC765B2A5",
+    "expectedSha256": "5E180D526BC8A6FA4C5D7A25694D27E94E78310370FB05E9AF6E49E4991A1088",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "22-edit-last-title",
+    "inputSha256": "C872CE4350A12A4007B9BBC61ACF8BDC4D6FEACC6C5945AFF3EB46664BC96F77",
+    "expectedSha256": "713C08069FDC6BDD83D886A48A8DF6080CA5764ED63CAEA8A6A66EF57551C38A",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic changed"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "23-delete-last",
+    "inputSha256": "765EF88D8D3467B13844F0EFBC59F0E93CE6043DB069B77056EFE44FE5CDDEB3",
+    "expectedSha256": "50C5D1D40F381BACD5FA625C0245828950C2C0FA7331C38A545650CAF7F65FB9",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "24-edit-moves-to-next-day",
+    "inputSha256": "93AD891A100CEFE7FBE23BF30B7A3A099FB2D812EDAEE7FAA53F52EB77DC47E3",
+    "expectedSha256": "8A5975E455E1956738E86D47DE158A0FD3F924DC1745BBD1D5EAC0170F0D5EC0",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768316400,
+          "endTS": 1768321800,
+          "title": "Synthetic moved"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "25-edit-moves-outside-window",
+    "inputSha256": "05C5B28801C00CE8D3B2D8743133E4D120A785EC62A07036174C8E32A5BA77E2",
+    "expectedSha256": "5E180D526BC8A6FA4C5D7A25694D27E94E78310370FB05E9AF6E49E4991A1088",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "26-delete-duplicate-deduplicates",
+    "inputSha256": "8865BC751EFBA02003008313DE3581C769718B382241640A3A6B78ED1327D05F",
+    "expectedSha256": "5E180D526BC8A6FA4C5D7A25694D27E94E78310370FB05E9AF6E49E4991A1088",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "27-count-does-not-replenish-excluded",
+    "inputSha256": "BDBDAE380464B85AF4C90725CAB763A567D8909CE4C193D6DD7385C2F840F9F9",
+    "expectedSha256": "9D19C9B64E9A9638F14A5AD02636840A085D85FB76DDEA53763E5A690401303F",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "28-edit-roundtrip-delete",
+    "inputSha256": "7E0473217DB67A5BDA8AF02F3067036E05F6C4703B01A29F22BCED48DF1A54C5",
+    "expectedSha256": "620EF368F6BD892CCE8B1DCF4398828F379E47A244B9C3F6CA2A7234D9A20CF7",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic saved"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "29-delete-series-including-child",
+    "inputSha256": "7F6457EBDA02EA08913575169E24D6CC9C7BF65933FA1A28BE61FA20747599F0",
+    "expectedSha256": "5DEAC80100788154DC8B1F508FD3E574303E05380DE335D5DF516D86216EA2C7",
+    "expected": {
+      "occurrences": [],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "30-one-reminder",
+    "inputSha256": "09362668169494B786DDBCD6869DBF129D115A37195B80B120022BD9634492C7",
+    "expectedSha256": "6F6B2E75C0A9D82932DDA096A46D0540FBC420962FA7AC54DE1A1C6D6A60827D",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1767607200,
+          "notifyAtMillis": 1767606601000
+        }
+      ]
+    }
+  },
+  {
+    "id": "31-three-reminders-source-order",
+    "inputSha256": "6A7E2C845ACD98D4904716EE50AB10DE1A68FAB0AC49E0F26F18AB6DFF699100",
+    "expectedSha256": "9CFC90BF559E543E62D793D09AE4033416F7C8433C3B24240AF1753AAEBFE789",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1767607200,
+          "notifyAtMillis": 1767603601000
+        }
+      ]
+    }
+  },
+  {
+    "id": "32-unsorted-reminders-source-order",
+    "inputSha256": "5FFAB4D40CC8EA33865E6E448B9C323CA2B893CA9661BAF140B1D13FCF33A0DF",
+    "expectedSha256": "9CFC90BF559E543E62D793D09AE4033416F7C8433C3B24240AF1753AAEBFE789",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1767607200,
+          "notifyAtMillis": 1767603601000
+        }
+      ]
+    }
+  },
+  {
+    "id": "33-reminder-exact-now-skipped",
+    "inputSha256": "A0DEA542092748109F30FF8CF65A7DDFE454BA6A619FAD907D6CD8115A0AD4AC",
+    "expectedSha256": "F3A93553158623A767729E1F992E8B3EF2260312756061EA8DF5B44D61A55643",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1768212000,
+          "notifyAtMillis": 1768211401000
+        }
+      ]
+    }
+  },
+  {
+    "id": "34-reminder-one-second-before",
+    "inputSha256": "B6201771089EE22E943DC701E86934A1ACA3A7CD53605D3963B51E89972A18F0",
+    "expectedSha256": "6F6B2E75C0A9D82932DDA096A46D0540FBC420962FA7AC54DE1A1C6D6A60827D",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1767607200,
+          "notifyAtMillis": 1767606601000
+        }
+      ]
+    }
+  },
+  {
+    "id": "35-deleted-first-reminder-next-series",
+    "inputSha256": "328204CD02E7F3C360C10372557B7EC74392BFE4ECBF3666A55C6B48353EEF28",
+    "expectedSha256": "0F653AB1866AC89FFC3AF1F4A08A198B34E3D0FFDD37D9AFC7942B93ADC3CA96",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1768212000,
+          "notifyAtMillis": 1768211401000
+        }
+      ]
+    }
+  },
+  {
+    "id": "36-edited-reminder-independent-child",
+    "inputSha256": "7A18ABE034C11F94A8073269B76F26FC25621BA593E4CA11BE22866442E6150B",
+    "expectedSha256": "0B47D31376F1A07248A29D6D7E28D879A6BBC5F54B56339B3E7C20C825ED454D",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic child reminder"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1767607200,
+          "notifyAtMillis": 1767606601000
+        },
+        {
+          "occurrenceTS": 1768212000,
+          "notifyAtMillis": 1768210201000
+        }
+      ]
+    }
+  },
+  {
+    "id": "37-edited-child-reminders-off",
+    "inputSha256": "F7EC8F61ADC249D0844712F8EFC3BA9D000A0CC1ACE4C19D21FDD025676B5D84",
+    "expectedSha256": "F3A93553158623A767729E1F992E8B3EF2260312756061EA8DF5B44D61A55643",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768212000,
+          "endTS": 1768215600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768816800,
+          "endTS": 1768820400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769421600,
+          "endTS": 1769425200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1768212000,
+          "notifyAtMillis": 1768211401000
+        }
+      ]
+    }
+  },
+  {
+    "id": "38-expired-count-no-reminders",
+    "inputSha256": "5CCA377F02ED7B7111A04A8062CC3220F1498D6F39F760E72CAB26A83B4C8549",
+    "expectedSha256": "5511A386580CA43B3CF1D96DDE432519BDFB295E34B36F9C55AA79A3BFF5CB87",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767607200,
+          "endTS": 1767610800,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "39-boundary-spring",
+    "inputSha256": "C8040A2DD001C753E45EAD5CF0F16DCD116101E3FF88035C82271DFE9AEE6413",
+    "expectedSha256": "A0A7D3BEB2B5357375879E8B17A61FA7229BFDFCD50E98A62DD2826BB64BC5B6",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1772377200,
+          "endTS": 1772380800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1772978400,
+          "endTS": 1772982000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1773583200,
+          "endTS": 1773586800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1774188000,
+          "endTS": 1774191600,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1772377200,
+          "notifyAtMillis": 1772376601000
+        }
+      ]
+    }
+  },
+  {
+    "id": "40-boundary-fall",
+    "inputSha256": "199E15542036102341BBAF3BCB0E21DF0BE6CD6FBF8F898F8F74FC53ABCD63E6",
+    "expectedSha256": "1F18D79AAAA28F39A4018FD179B880B45710EFE3E3A0E350A9851FD461BF4F19",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1792936800,
+          "endTS": 1792940400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1793545200,
+          "endTS": 1793548800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1794150000,
+          "endTS": 1794153600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1794754800,
+          "endTS": 1794758400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1792936800,
+          "notifyAtMillis": 1792936201000
+        }
+      ]
+    }
+  },
+  {
+    "id": "41-boundary-leap",
+    "inputSha256": "DF94CF2939B1C7DBEA32B31F16AB7FE383DA345F85F90F359CB1CF08D79D80F4",
+    "expectedSha256": "51E19106C4CD5F319235146F8665B7D3993193D5DBAC8CDFBC0478AA7C01E61B",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1834826400,
+          "endTS": 1834830000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1835431200,
+          "endTS": 1835434800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1836036000,
+          "endTS": 1836039600,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1834826400,
+          "notifyAtMillis": 1834825801000
+        }
+      ]
+    }
+  },
+  {
+    "id": "42-boundary-year",
+    "inputSha256": "5BFFBFCA724977BA250567F5D4F8BE9A760F19F740A739FD5925C4DA9E6BFBFB",
+    "expectedSha256": "832B161F5D75A19424C8F578BB70998FCF2CA28F4335A1A47852AF42F1319B25",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1798452000,
+          "endTS": 1798455600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1799056800,
+          "endTS": 1799060400,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1799661600,
+          "endTS": 1799665200,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": [
+        {
+          "occurrenceTS": 1798452000,
+          "notifyAtMillis": 1798451401000
+        }
+      ]
+    }
+  },
+  {
+    "id": "43-half-hour-timezone",
+    "inputSha256": "0F3A9FC6D0826C6AD5FCA72E4ABB192F3ACE49994D16FF234E6EA951F8E8468F",
+    "expectedSha256": "5F5263D77987D4560C2BB7053781EF9351067B5271C1941C365887DA69DDA8CA",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767587400,
+          "endTS": 1767591000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768192200,
+          "endTS": 1768195800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768797000,
+          "endTS": 1768800600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769401800,
+          "endTS": 1769405400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  },
+  {
+    "id": "44-cross-midnight-duration",
+    "inputSha256": "FDC8C0E5EBC7A2B5C4B903F4B496CEEDA7A20CF5DCE866C1F256D60374BC02E1",
+    "expectedSha256": "18761255420DFFB2A072AAE866827FA3F395BFD63A59624FE35AE6EFBA5DD170",
+    "expected": {
+      "occurrences": [
+        {
+          "startTS": 1767655800,
+          "endTS": 1767663000,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768260600,
+          "endTS": 1768267800,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1768865400,
+          "endTS": 1768872600,
+          "title": "Synthetic weekly"
+        },
+        {
+          "startTS": 1769470200,
+          "endTS": 1769477400,
+          "title": "Synthetic weekly"
+        }
+      ],
+      "nextReminders": []
+    }
+  }
+]

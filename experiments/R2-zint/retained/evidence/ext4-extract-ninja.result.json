@@ -1,0 +1,13 @@
+{
+  "elapsedSeconds": 0.2054632,
+  "arguments": [
+    "/usr/bin/unzip",
+    "-q",
+    "-o",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/ninja.zip",
+    "-d",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/ninja"
+  ],
+  "utc": "2026-10-17T18:23:12.6771655Z",
+  "exit": 0
+}

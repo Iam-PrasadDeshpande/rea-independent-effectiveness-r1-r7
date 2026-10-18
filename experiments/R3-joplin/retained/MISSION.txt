@@ -1,0 +1,272 @@
+
+MISSION=REA_CODEX_JOPLIN_SEMANTIC_SEARCH_R3
+PROJECT=REA_INDEPENDENT_EFFECTIVENESS
+EXECUTION_CLASS=T3
+OWNER_AUTHORIZATION=APPROVED_ON_SUBMISSION_BY_OWNER
+TOOL_ACTION_BUDGET=250
+INVESTIGATOR_SESSIONS_AUTHORIZED=3
+SUBAGENTS_ALLOWED=TRUE
+
+OBJECTIVE:
+Independently determine whether REA improves
+Codex's reconstruction of a real packaged
+Electron AI application's semantic search feature.
+
+TARGET:
+https://github.com/laurent22/joplin
+
+CANDIDATE_RELEASE=v3.7.21
+REFERENCE:
+https://github.com/laurent22/joplin/releases/tag/v3.7.21
+
+REA:
+https://github.com/morluto/rea
+
+PREFERRED_REA_BASELINE:
+VERSION=6.5.0
+COMMIT=742b6f587f3c4ef1b8212e7376d6f3a305b194dc
+
+Confirm actual artifact/feature compatibility
+before freezing the experiment.
+
+PROJECT ISOLATION:
+- Create a separate R3 workspace.
+- Do not modify R1 or R2.
+- Do not use R2's action budget.
+- Do not change global Codex MCP configuration.
+- No publication, deployment or unrelated writes.
+- No access to the user's actual Joplin notes.
+
+STAGE 1 — SOURCE AND ARTIFACT PREFLIGHT
+
+1. Pin exact Joplin source commit and release assets.
+2. Verify the applicable licenses and distribution terms.
+3. Identify an official packaged Windows desktop artifact.
+4. Verify its published SHA-256 and available signatures.
+5. Determine whether app.asar can be extracted read-only.
+6. Inspect real semantic-search implementation in the
+   evaluator-only reference source.
+7. Verify REA's static Electron analysis capability.
+8. Identify actual runtime/model prerequisites.
+9. Document source and artifact relationships.
+
+Do not assume that release JavaScript is minified.
+Measure actual artifact complexity and analysis coverage.
+
+STAGE 2 — FROZEN EVALUATION ORACLE
+
+Using evaluator-only source, establish:
+- Search entry points
+- Settings and eligibility rules
+- Embedding provider selection
+- Background indexing behavior
+- Local index persistence
+- Similarity retrieval
+- Result aggregation
+- Error and fallback behavior
+- Reindexing and invalidation behavior
+
+Create a frozen architecture rubric.
+
+Prepare at least 30 bounded deterministic
+behavioral scenarios where independently executable
+validation is technically feasible.
+
+Do not create tests for unsupported assumptions.
+
+Prepare a separate optional model-quality corpus
+using synthetic notes only.
+
+STAGE 3 — BLIND INVESTIGATOR PACKAGE
+
+Prepare identical packaged application artifacts.
+
+Allow:
+- Packaged app.asar and required resources
+- Minimal neutral application description
+- Same investigation objective
+
+Withhold:
+- Original source repository
+- Original TypeScript source and source maps
+- Hidden test oracle
+- Evaluator reference findings
+- Detailed architecture documentation
+- Peer investigator output
+- Previous investigation transcripts
+
+Verify filesystem and network isolation.
+
+STAGE 4 — THREE INDEPENDENT ARMS
+
+ARM_A:
+Codex with standard inspection capabilities.
+
+ARM_B:
+Codex with approved ASAR extraction and
+conventional static JavaScript analysis tools.
+
+ARM_C:
+Codex with REA's static JavaScript/Electron
+MCP tools.
+
+Use the same:
+- Target bytes
+- Model configuration
+- Evaluation objective
+- Execution resource limits
+- Investigation time budget
+
+Each arm must produce:
+1. Architecture explanation
+2. Component/call relationship map
+3. Search feature execution flow
+4. Evidence and confidence distinctions
+5. Identified unknowns
+6. One bounded reconstructed component
+7. Tool usage and resource measurements
+
+Verify actual successful tool invocation in each arm.
+Do not consider tool visibility alone a PASS.
+
+STAGE 5 — BEHAVIORAL VALIDATION
+
+Execute reconstructed components against the
+frozen oracle in a separate evaluator session.
+
+Use deterministic mocks where required for:
+- Embedding provider
+- Local persistence
+- Background index scheduling
+- Search results
+
+Do not modify the intended original behavior.
+
+Separately attempt a real local embedding evaluation
+only if the required model is safely available
+and provisioning is approved.
+
+Never substitute synthetic results and claim
+real semantic-model accuracy.
+
+STAGE 6 — SECURITY AND SIGNING
+
+Preferred environment:
+Isolated Windows 11 workspace.
+
+Use existing approved Windows Authenticode signing
+for custom executable PowerShell scripts and
+supported executable artifacts.
+
+Validate signer identity and Valid status.
+
+Do not create or export signing keys.
+
+For other custom executable scripts, require
+an independently approved signing and verification
+method before trusted execution.
+
+No unsigned script execution or signing bypass.
+
+Avoid Linux scripts and Ghidra for this mission.
+
+No real user notes or credentials.
+No cloud AI provider configuration.
+No external model calls by default.
+No global configuration changes.
+No destructive operations.
+
+STAGE 7 — PARALLEL EXECUTION CONTROL
+
+R3 and R2 must have:
+- Separate workspaces
+- Separate Codex sessions
+- Separate source and evidence manifests
+- Separate action budgets
+- Separate signing/authorization records
+- Separate final reports
+
+Never change R2's HOLD or authorization status.
+
+Record CPU/memory contention from concurrent work.
+Do not interpret resource-contended wall times
+as a clean performance comparison.
+
+Within R3, balance or repeat investigator run order
+where resources permit.
+
+STAGE 8 — INDEPENDENT ASSESSMENT
+
+Compare:
+A versus B: Value of conventional tools
+B versus C: Incremental value of REA
+A versus C: Overall assisted improvement
+
+Measure:
+- Architecture recovery
+- Behavioral test success
+- Evidence precision
+- Unknown coverage
+- Incorrect or unsupported conclusions
+- Input/output/cached tokens
+- Wall time
+- Tool setup and recovery overhead
+- Resource usage
+- Reproducibility
+
+Avoid generalized effectiveness claims based on
+a single matched experiment.
+
+STAGE 9 — DELIVERABLES
+
+Produce:
+- Pinned reference and artifact manifest
+- Real packaged application inventory
+- Source-derived reference architecture
+- Frozen rubric and oracle
+- Isolation evidence
+- Three independent investigation reports
+- Functional evaluation
+- Evidence and performance comparison
+- Security/signing evidence
+- Independent final architecture assessment
+
+STOP CONDITIONS:
+Stop dependent execution if:
+- The required artifact cannot be verified
+- REA does not support the packaged target
+- Blind isolation cannot be established
+- Required signing cannot be verified
+- Security or approval boundaries cannot be met
+
+Continue safe read-only work where permitted.
+
+FINAL REPORT:
+
+MISSION=
+EXECUTION_AUTHORITY=
+ACTIONS_USED=
+ACTIONS_REMAINING=
+JOPLIN_COMMIT=
+JOPLIN_RELEASE=
+REA_COMMIT=
+ARTIFACT_SHA256=
+ARTIFACT_COMPLEXITY=
+REA_ELECTRON_ANALYSIS=
+ORACLE_STATUS=
+BLIND_ISOLATION=
+ARM_A_RESULT=
+ARM_B_RESULT=
+ARM_C_RESULT=
+BEHAVIORAL_VALIDATION=
+SEMANTIC_MODEL_VALIDATION=
+REA_INCREMENTAL_VALUE=
+TOKEN_AND_LATENCY_MEASUREMENTS=
+SIGNING_STATUS=
+SECURITY_FINDINGS=
+LIMITATIONS=
+BLOCKERS=
+FINAL_DISPOSITION=
+NEXT_ACTION=
+
+CLAIM SUCCESS ONLY WITH EXECUTION EVIDENCE.

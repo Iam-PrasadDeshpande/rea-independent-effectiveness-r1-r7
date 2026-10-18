@@ -1,0 +1,6 @@
+Exception: evidence://R7/\scripts\Run-R7DataInvestigator.ps1:12
+Line |
+  12 |  … =$read.GetAwaiter().GetResult();if(!$line){throw 'MCP closed'};$reply …
+     |                                               ~~~~~~~~~~~~~~~~~~
+     | MCP closed
+

@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "7z.exe",
+    "OriginalSHA256": "95FFF19B73EFF77C87C0D7BD32822E43FB90DD2932459F962EB532D8DFB6BA53",
+    "OriginalSignature": "NotSigned",
+    "LocalSHA256": "866CE9BA53BF800EC019DE6204106AD3E881C11B6C98479D97DDA24B0A6C2301",
+    "LocalSignature": "Valid",
+    "Signer": "CN=AI-SAP Local Code Signing"
+  },
+  {
+    "Name": "7z.dll",
+    "OriginalSHA256": "899CD73D7FC60E1C1C35C7DE0F5BED3DC69BFE2CECBD48014D868A347970A0B1",
+    "OriginalSignature": "NotSigned",
+    "LocalSHA256": "79803503A16FAD4D39660C52409929AC7A99EDEF2FE923EDAFB1223004403A96",
+    "LocalSignature": "Valid",
+    "Signer": "CN=AI-SAP Local Code Signing"
+  }
+]

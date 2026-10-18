@@ -1,0 +1,9 @@
+{
+  "arguments": [
+    "/usr/bin/gcc",
+    "--version"
+  ],
+  "elapsedSeconds": 0.1574269,
+  "exit": 0,
+  "utc": "2026-10-17T18:39:15.6695886Z"
+}

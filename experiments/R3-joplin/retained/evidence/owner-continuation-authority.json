@@ -1,0 +1,8 @@
+{
+  "Directive": "REA_POC_END_TO_END_OWNERSHIP_R1",
+  "Scope": "CURRENT_MISSION_ONLY",
+  "SigningMethodApproval": "Owner explicitly approved catalog-signing method for R3",
+  "Method": "setup/SIGNING_METHOD_REVIEW.md",
+  "Identity": "A98A2B0353CB7C086BEEC23A36FC4095DFB37844",
+  "Timestamp": "2026-10-17T18:13:39.6971810Z"
+}

@@ -1,0 +1,284 @@
+{
+  "stagedArtifactCopiesVerified": 3,
+  "utc": "2026-10-18T05:27:59.5583188Z",
+  "model": "gpt-6.1-sol",
+  "initialInvalidBSetup": {
+    "usage": {
+      "input_tokens": 31973,
+      "cached_input_tokens": 20864,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 248,
+      "reasoning_output_tokens": 98
+    },
+    "exit": 0,
+    "endedUtc": "2026-10-18T02:44:50.6148784Z",
+    "hostLoadBefore": "0.16 0.82 0.77 1/466 14749",
+    "dollarCost": null,
+    "toolErrors": 0,
+    "model": "gpt-6.1-sol",
+    "reasoning": "low",
+    "stopReason": "completed",
+    "toolCompleted": 0,
+    "toolCalls": 0,
+    "hostLoadAfter": "0.20 0.80 0.76 1/475 14947",
+    "elapsedSeconds": 16.1904149,
+    "startedUtc": "2026-10-18T02:44:34.0765062Z",
+    "arm": "B"
+  },
+  "arms": [
+    {
+      "stopReason": "completed",
+      "cpuSystemSeconds": 14.08,
+      "architecture": {
+        "FULL": 16,
+        "UNKNOWN": 5,
+        "PARTIAL": 9
+      },
+      "usageMethod": "Final cumulative CLI session total, not sum of cumulative resumed turn totals",
+      "toolErrors": 0,
+      "cliProcesses": 28,
+      "dispatchedActions": 27,
+      "toolResponses": 27,
+      "sessionUsage": {
+        "input_tokens": 1052552,
+        "cached_input_tokens": 986368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11307,
+        "reasoning_output_tokens": 751
+      },
+      "thread": "01a14d64-7c17-74a1-bffa-ed1e57e0aff8",
+      "cpuUserSeconds": 9.239999999999998,
+      "toolKinds": [
+        {
+          "count": 7,
+          "name": "browser"
+        },
+        {
+          "count": 3,
+          "name": "inspect"
+        },
+        {
+          "count": 7,
+          "name": "read_file"
+        },
+        {
+          "count": 7,
+          "name": "search_text"
+        },
+        {
+          "count": 3,
+          "name": "write_file"
+        }
+      ],
+      "resourceScope": "GNU time of CLI process tree only; Windows MCP and browser subprocess resources excluded",
+      "dollarCost": null,
+      "arm": "A",
+      "maximumCliRssKiB": 142884,
+      "activeSeconds": 401.2912894,
+      "comparison": {
+        "positivePassed": 26,
+        "negativePassed": 4,
+        "validExecution": true,
+        "passed": 30,
+        "status": "PASS_BOUNDED_ORACLE"
+      }
+    },
+    {
+      "stopReason": "completed",
+      "cpuSystemSeconds": 16.83,
+      "architecture": {
+        "FULL": 16,
+        "UNKNOWN": 1,
+        "PARTIAL": 13
+      },
+      "usageMethod": "Final cumulative CLI session total, not sum of cumulative resumed turn totals",
+      "toolErrors": 0,
+      "cliProcesses": 26,
+      "dispatchedActions": 25,
+      "toolResponses": 23,
+      "sessionUsage": {
+        "input_tokens": 1065851,
+        "cached_input_tokens": 937216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11045,
+        "reasoning_output_tokens": 1040
+      },
+      "thread": "01a14ce7-6be2-7300-9b98-8397ba7b34c2",
+      "cpuUserSeconds": 9.35,
+      "toolKinds": [
+        {
+          "count": 1,
+          "name": "ast"
+        },
+        {
+          "count": 5,
+          "name": "browser"
+        },
+        {
+          "count": 3,
+          "name": "inspect"
+        },
+        {
+          "count": 4,
+          "name": "read_file"
+        },
+        {
+          "count": 8,
+          "name": "search_text"
+        },
+        {
+          "count": 1,
+          "name": "wabt"
+        },
+        {
+          "count": 1,
+          "name": "write_file"
+        }
+      ],
+      "resourceScope": "GNU time of CLI process tree only; Windows MCP and browser subprocess resources excluded",
+      "dollarCost": null,
+      "arm": "B",
+      "maximumCliRssKiB": 143932,
+      "activeSeconds": 638.5846324,
+      "comparison": {
+        "positivePassed": 26,
+        "negativePassed": 4,
+        "validExecution": true,
+        "passed": 30,
+        "status": "PASS_BOUNDED_ORACLE"
+      }
+    },
+    {
+      "stopReason": "completed",
+      "cpuSystemSeconds": 15.470000000000002,
+      "architecture": {
+        "FULL": 14,
+        "UNKNOWN": 5,
+        "PARTIAL": 11
+      },
+      "usageMethod": "Final cumulative CLI session total, not sum of cumulative resumed turn totals",
+      "toolErrors": 0,
+      "cliProcesses": 28,
+      "dispatchedActions": 27,
+      "toolResponses": 27,
+      "sessionUsage": {
+        "input_tokens": 1397722,
+        "cached_input_tokens": 1295872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9432,
+        "reasoning_output_tokens": 824
+      },
+      "thread": "01a14d6a-d18b-72f0-a635-700c260dd13b",
+      "cpuUserSeconds": 10.269999999999998,
+      "toolKinds": [
+        {
+          "count": 5,
+          "name": "browser"
+        },
+        {
+          "count": 3,
+          "name": "inspect"
+        },
+        {
+          "count": 3,
+          "name": "json_query"
+        },
+        {
+          "count": 1,
+          "name": "rea_js"
+        },
+        {
+          "count": 1,
+          "name": "rea_wasm"
+        },
+        {
+          "count": 6,
+          "name": "read_file"
+        },
+        {
+          "count": 5,
+          "name": "search_text"
+        },
+        {
+          "count": 3,
+          "name": "write_file"
+        }
+      ],
+      "resourceScope": "GNU time of CLI process tree only; Windows MCP and browser subprocess resources excluded",
+      "dollarCost": null,
+      "arm": "C",
+      "maximumCliRssKiB": 145116,
+      "activeSeconds": 397.8797053,
+      "comparison": {
+        "positivePassed": 26,
+        "negativePassed": 3,
+        "validExecution": true,
+        "passed": 29,
+        "status": "PARTIAL_OR_FAILED"
+      }
+    }
+  ],
+  "repetitionsPerArm": 1,
+  "setupAndRecovery": "Initial B code-mode failure and two B signing stalls retained; owner pause excluded from active time; root setup and final evaluation not included in investigator elapsed",
+  "order": [
+    "B",
+    "A",
+    "C"
+  ],
+  "freezeChecks": [
+    {
+      "match": true,
+      "path": "frozen/artifact-manifest.json"
+    },
+    {
+      "match": true,
+      "path": "evaluator/scenarios.json"
+    },
+    {
+      "match": true,
+      "path": "evaluator/reference1.json"
+    },
+    {
+      "match": true,
+      "path": "evaluator/reference2.json"
+    },
+    {
+      "match": true,
+      "path": "evaluator/RUBRIC.md"
+    },
+    {
+      "match": true,
+      "path": "frozen/investigator-prompt.txt"
+    },
+    {
+      "match": true,
+      "path": "scripts/browser-runner.js"
+    },
+    {
+      "match": true,
+      "path": "scripts/Invoke-R7Sandbox.ps1"
+    },
+    {
+      "match": true,
+      "path": "scripts/Controlled-R7Mcp.ps1"
+    },
+    {
+      "match": true,
+      "path": "scripts/Run-R7Investigator.ps1"
+    },
+    {
+      "match": true,
+      "path": "scripts/Run-R7DataInvestigator.ps1"
+    },
+    {
+      "match": true,
+      "path": "HARNESS_AMENDMENT.md"
+    },
+    {
+      "match": true,
+      "path": "frozen/action-schema.json"
+    }
+  ],
+  "monetaryCost": "UNKNOWN",
+  "reasoning": "low"
+}

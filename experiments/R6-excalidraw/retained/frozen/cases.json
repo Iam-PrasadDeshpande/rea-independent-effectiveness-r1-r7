@@ -1,0 +1,1496 @@
+[
+  {
+    "name": "Fresh scene",
+    "id": "01",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Rectangle forward",
+    "id": "02",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Rectangle reverse",
+    "id": "03",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          450,
+          300
+        ],
+        "from": [
+          570,
+          380
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Diamond",
+    "id": "04",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-diamond\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Ellipse",
+    "id": "05",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Line",
+    "id": "06",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-line\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Arrow",
+    "id": "07",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-arrow\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Freedraw path",
+    "id": "08",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-freedraw\"]"
+      },
+      {
+        "op": "drag",
+        "points": [
+          [
+            470,
+            325
+          ],
+          [
+            500,
+            310
+          ],
+          [
+            540,
+            350
+          ]
+        ],
+        "steps": 5,
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "ASCII text",
+    "id": "09",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-text\"]"
+      },
+      {
+        "op": "point",
+        "y": 300,
+        "x": 450
+      },
+      {
+        "op": "type",
+        "text": "R6 diagram"
+      },
+      {
+        "op": "press",
+        "key": "Escape"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Multiline Unicode text",
+    "id": "10",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-text\"]"
+      },
+      {
+        "op": "point",
+        "y": 300,
+        "x": 450
+      },
+      {
+        "op": "type",
+        "text": "Alpha\nBeta Ω"
+      },
+      {
+        "op": "press",
+        "key": "Escape"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Move selected rectangle",
+    "id": "11",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "v"
+      },
+      {
+        "op": "drag",
+        "to": [
+          490,
+          370
+        ],
+        "from": [
+          450,
+          340
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Delete selected leaves survivor",
+    "id": "12",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Delete"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Select all delete",
+    "id": "13",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Control+a"
+      },
+      {
+        "op": "press",
+        "key": "Delete"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Undo creation",
+    "id": "14",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Redo creation",
+    "id": "15",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Undo delete identity",
+    "id": "16",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Delete"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Two undo two redo",
+    "id": "17",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+z"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "New edit invalidates redo",
+    "id": "18",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-diamond\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          950,
+          680
+        ],
+        "from": [
+          850,
+          600
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Selection change preserves redo",
+    "id": "19",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "point",
+        "y": 700,
+        "x": 1000
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Duplicate selection",
+    "id": "20",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+d"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Group selection",
+    "id": "21",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Control+a"
+      },
+      {
+        "op": "press",
+        "key": "Control+g"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Ungroup selection",
+    "id": "22",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Control+a"
+      },
+      {
+        "op": "press",
+        "key": "Control+g"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+g"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Move undo geometry",
+    "id": "23",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "v"
+      },
+      {
+        "op": "drag",
+        "to": [
+          490,
+          370
+        ],
+        "from": [
+          450,
+          340
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Persistence reload",
+    "id": "24",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "reload"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Malformed stored scene recovery",
+    "id": "25",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "seed",
+        "storage": {
+          "excalidraw-state": "{\"viewBackgroundColor\":\"#ffffff\"}",
+          "excalidraw": "{invalid"
+        }
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Malformed stored state recovery",
+    "id": "26",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "seed",
+        "storage": {
+          "excalidraw-state": "{invalid",
+          "excalidraw": "[]"
+        }
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Empty valid scene import",
+    "id": "27",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "drop_file",
+        "text": "{\"type\":\"excalidraw\",\"version\":2,\"source\":\"synthetic-r6\",\"elements\":[],\"appState\":{\"viewBackgroundColor\":\"#ffffff\"},\"files\":{}}"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Malformed JSON import preserves scene",
+    "id": "28",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "drop_file",
+        "text": "{broken"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Wrong type import preserves scene",
+    "id": "29",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "drop_file",
+        "text": "{\"type\":\"wrong-r6\",\"elements\":[]}"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "JSON export actual download",
+    "id": "30",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"main-menu-trigger\"]"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"json-export-button\"]"
+      },
+      {
+        "op": "click",
+        "selector": "button[aria-label=\"Save to file\"]"
+      },
+      {
+        "ms": 1000,
+        "op": "wait"
+      },
+      {
+        "op": "exportProbe",
+        "kind": "json"
+      }
+    ]
+  },
+  {
+    "name": "JSON excludes deleted element",
+    "id": "31",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Delete"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"main-menu-trigger\"]"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"json-export-button\"]"
+      },
+      {
+        "op": "click",
+        "selector": "button[aria-label=\"Save to file\"]"
+      },
+      {
+        "ms": 1000,
+        "op": "wait"
+      },
+      {
+        "op": "exportProbe",
+        "kind": "json"
+      }
+    ]
+  },
+  {
+    "name": "SVG file export",
+    "id": "32",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Escape"
+      },
+      {
+        "op": "point",
+        "y": 700,
+        "x": 1000
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"main-menu-trigger\"]"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"image-export-button\"]"
+      },
+      {
+        "op": "click",
+        "selector": "button[aria-label=\"Export to SVG\"]"
+      },
+      {
+        "ms": 1000,
+        "op": "wait"
+      },
+      {
+        "op": "exportProbe",
+        "kind": "svg"
+      }
+    ]
+  },
+  {
+    "name": "PNG file export",
+    "id": "33",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Escape"
+      },
+      {
+        "op": "point",
+        "y": 700,
+        "x": 1000
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"main-menu-trigger\"]"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"image-export-button\"]"
+      },
+      {
+        "op": "click",
+        "selector": "button[aria-label=\"Export to PNG\"]"
+      },
+      {
+        "ms": 1000,
+        "op": "wait"
+      },
+      {
+        "op": "exportProbe",
+        "kind": "png"
+      }
+    ]
+  },
+  {
+    "name": "Undo empty scene is stable",
+    "id": "34",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "press",
+        "key": "Control+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Redo empty scene is stable",
+    "id": "35",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "press",
+        "key": "Control+Shift+z"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  },
+  {
+    "name": "Multiple surviving element persistence",
+    "id": "36",
+    "actions": [
+      {
+        "op": "reset"
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-rectangle\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          570,
+          380
+        ],
+        "from": [
+          450,
+          300
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-ellipse\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          800,
+          520
+        ],
+        "from": [
+          700,
+          450
+        ]
+      },
+      {
+        "op": "click",
+        "selector": "[data-testid=\"toolbar-diamond\"]"
+      },
+      {
+        "op": "drag",
+        "to": [
+          950,
+          680
+        ],
+        "from": [
+          850,
+          600
+        ]
+      },
+      {
+        "op": "press",
+        "key": "Delete"
+      },
+      {
+        "op": "checkpoint"
+      },
+      {
+        "op": "reload"
+      },
+      {
+        "op": "checkpoint"
+      }
+    ]
+  }
+]

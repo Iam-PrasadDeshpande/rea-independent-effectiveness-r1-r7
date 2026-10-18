@@ -1,0 +1,18 @@
+{
+  "arguments": [
+    "/usr/bin/env",
+    "-i",
+    "HOME=/home/RESEARCH_USER/rea-r2-20261017/evaluator/home",
+    "PATH=/usr/bin:/bin",
+    "LANG=C.UTF-8",
+    "TMPDIR=/home/RESEARCH_USER/rea-r2-20261017/evaluator/tmp",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/cmake/cmake-3.31.8-linux-x86_64/bin/cmake",
+    "--build",
+    "/home/RESEARCH_USER/rea-r2-20261017/evaluator/zint-build",
+    "--parallel",
+    "2"
+  ],
+  "elapsedSeconds": 25.0507237,
+  "exit": 0,
+  "utc": "2026-10-17T18:39:11.1882050Z"
+}

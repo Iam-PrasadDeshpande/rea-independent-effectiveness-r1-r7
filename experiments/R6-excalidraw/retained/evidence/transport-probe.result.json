@@ -1,0 +1,21 @@
+{
+  "scope": "neutral protocol probe; no artifact/oracle/peer findings supplied",
+  "exit": 0,
+  "usage": {
+    "input_tokens": 8630,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31,
+    "reasoning_output_tokens": 0
+  },
+  "unexpectedToolCalls": 0,
+  "model": "gpt-6.1-sol",
+  "elapsedSeconds": 9.9752279,
+  "reply": {
+    "done": true,
+    "arguments_json": "{}",
+    "report": "MODEL_DATA_PROTOCOL_OK",
+    "tool": ""
+  },
+  "effort": "low"
+}

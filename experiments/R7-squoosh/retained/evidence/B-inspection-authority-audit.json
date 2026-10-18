@@ -1,0 +1,26 @@
+[
+  {
+    "arguments": [
+      "-R",
+      "/artifact"
+    ],
+    "unsafeFind": false,
+    "program": "ls"
+  },
+  {
+    "arguments": [
+      "/artifact/c/webp_enc-a8223a7d.wasm"
+    ],
+    "unsafeFind": false,
+    "program": "strings"
+  },
+  {
+    "arguments": [
+      "-ril",
+      "copyright",
+      "/artifact"
+    ],
+    "unsafeFind": false,
+    "program": "grep"
+  }
+]

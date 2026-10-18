@@ -1,0 +1,9 @@
+{
+  "arm": "rea-arm",
+  "mode": "Inspect",
+  "probe": "rea-arm-mcp-registration",
+  "exit_code": 0,
+  "started_utc": "2026-10-17T16:53:31.3282917Z",
+  "ended_utc": "2026-10-17T16:53:34.5708918Z",
+  "elapsed_ms": 3244.4815
+}

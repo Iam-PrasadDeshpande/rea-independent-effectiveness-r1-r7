@@ -1,0 +1,10 @@
+{
+    "task":  "InstallRea",
+    "command":  "npm.cmd ci --ignore-scripts --no-audit --no-fund",
+    "cwd":  "evidence://R1/\\rea-reference",
+    "started_utc":  "2026-10-17T16:19:11.8806069Z",
+    "ended_utc":  "2026-10-17T16:20:06.9659293Z",
+    "exit_code":  0,
+    "environment":  "cleared; explicit build variables only; isolated npm configuration",
+    "network":  "not OS-denied; registry access required; no SAP bindings passed"
+}

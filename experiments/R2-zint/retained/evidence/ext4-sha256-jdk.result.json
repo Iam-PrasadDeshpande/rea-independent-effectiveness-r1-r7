@@ -1,0 +1,9 @@
+{
+  "elapsedSeconds": 1.0966386,
+  "arguments": [
+    "/usr/bin/sha256sum",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/jdk.tar.gz"
+  ],
+  "utc": "2026-10-17T18:23:03.8453698Z",
+  "exit": 0
+}

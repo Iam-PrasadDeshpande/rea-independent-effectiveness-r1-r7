@@ -1,0 +1,128 @@
+{
+  "Budget": 250,
+  "Used": 30,
+  "Remaining": 220,
+  "CountingConvention": "Each underlying provider tool invocation is one action, including readbacks and interrupts. functions.exec orchestration wrappers and individual commands/HTTP requests within a provider invocation are not counted separately. Action 30 is the final verification invocation.",
+  "Entries": [
+    {
+      "Action": 1,
+      "Description": "Read submitted mission"
+    },
+    {
+      "Action": 2,
+      "Description": "Workspace inventory, memory lookup and benchmark skill"
+    },
+    {
+      "Action": 3,
+      "Description": "ACLA capabilities read; empty capability list"
+    },
+    {
+      "Action": 4,
+      "Description": "Official release and REA page lookup"
+    },
+    {
+      "Action": 5,
+      "Description": "Environment discovery and output-reviewer read"
+    },
+    {
+      "Action": 6,
+      "Description": "Create isolated R3 directory, release metadata and environment evidence"
+    },
+    {
+      "Action": 7,
+      "Description": "Pin source commits and source trees"
+    },
+    {
+      "Action": 8,
+      "Description": "Initial installer download attempt"
+    },
+    {
+      "Action": 9,
+      "Description": "Initial raw-source acquisition"
+    },
+    {
+      "Action": 10,
+      "Description": "Read conditional output-reviewer references"
+    },
+    {
+      "Action": 11,
+      "Description": "Read raw-source job status"
+    },
+    {
+      "Action": 12,
+      "Description": "Read initial artifact job status"
+    },
+    {
+      "Action": 13,
+      "Description": "Sign, verify and execute PowerShell probe"
+    },
+    {
+      "Action": 14,
+      "Description": "Read partial artifact/source acquisition status"
+    },
+    {
+      "Action": 15,
+      "Description": "REA API metadata and two capability source reads"
+    },
+    {
+      "Action": 16,
+      "Description": "Interrupt slow raw-source acquisition"
+    },
+    {
+      "Action": 17,
+      "Description": "Recover bounded source reads via GitHub API"
+    },
+    {
+      "Action": 18,
+      "Description": "Interrupt slow installer download"
+    },
+    {
+      "Action": 19,
+      "Description": "Bounded curl artifact acquisition"
+    },
+    {
+      "Action": 20,
+      "Description": "Read source architecture and Node version"
+    },
+    {
+      "Action": 21,
+      "Description": "Additional source and deterministic test reference reads"
+    },
+    {
+      "Action": 22,
+      "Description": "Read curl job status"
+    },
+    {
+      "Action": 23,
+      "Description": "Read remaining selected source and update probe receipt"
+    },
+    {
+      "Action": 24,
+      "Description": "Hash source files, extract candidates and record isolation/resources"
+    },
+    {
+      "Action": 25,
+      "Description": "Read curl job status"
+    },
+    {
+      "Action": 26,
+      "Description": "Write partial reference and final report"
+    },
+    {
+      "Action": 27,
+      "Description": "Read final curl timeout result"
+    },
+    {
+      "Action": 28,
+      "Description": "Read partial sizes, memory evidence and Git status"
+    },
+    {
+      "Action": 29,
+      "Description": "Finalize download evidence, action ledger and inventory"
+    },
+    {
+      "Action": 30,
+      "Description": "Final deterministic receipt validation"
+    }
+  ]
+}

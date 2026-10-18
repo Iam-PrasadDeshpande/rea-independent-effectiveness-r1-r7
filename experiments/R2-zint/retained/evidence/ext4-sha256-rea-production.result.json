@@ -1,0 +1,9 @@
+{
+  "elapsedSeconds": 0.5233817,
+  "utc": "2026-10-17T18:36:03.7932483Z",
+  "arguments": [
+    "/usr/bin/sha256sum",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/rea-production-runtime.tar"
+  ],
+  "exit": 0
+}

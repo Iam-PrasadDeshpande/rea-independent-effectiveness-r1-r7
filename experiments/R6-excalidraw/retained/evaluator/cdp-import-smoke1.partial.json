@@ -1,0 +1,68 @@
+{
+  "instance": "cdp-import-smoke1",
+  "cases": [
+    {
+      "observations": [],
+      "id": "27",
+      "error": "CDP file chooser event timeout",
+      "name": "Empty valid scene import"
+    },
+    {
+      "observations": [
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        }
+      ],
+      "id": "28",
+      "error": "CDP file chooser event timeout",
+      "name": "Malformed JSON import preserves scene"
+    },
+    {
+      "observations": [
+        {
+          "scene": [
+            {
+              "id": "e0",
+              "type": "rectangle",
+              "x": 450,
+              "y": 300,
+              "width": 120,
+              "height": 80,
+              "angle": 0,
+              "strokeColor": "#1e1e1e",
+              "backgroundColor": "transparent",
+              "fillStyle": "solid",
+              "strokeWidth": 2,
+              "opacity": 100,
+              "groupIds": []
+            }
+          ]
+        }
+      ],
+      "id": "29",
+      "error": "CDP file chooser event timeout",
+      "name": "Wrong type import preserves scene"
+    }
+  ],
+  "complete": false,
+  "arm": "E",
+  "label": "cdp-import-smoke1",
+  "startedUtc": "2026-10-18T03:46:26.3538405Z",
+  "updatedUtc": "2026-10-18T03:47:14.9924864Z"
+}

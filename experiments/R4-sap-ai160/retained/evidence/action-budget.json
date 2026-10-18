@@ -1,0 +1,13 @@
+{
+  "limit": 250,
+  "rootToolEnvelopesObserved": 103,
+  "rootLiteralApiCallsObserved": 160,
+  "preauthorizationApiCalls": 9,
+  "investigatorEnvelopesIncludingPilot": 50,
+  "observedAuthorizedCalls": 201,
+  "reservedDynamicDispatchAndFinalDelivery": 12,
+  "conservativelyCharged": 213,
+  "remainingAfterReserve": 37,
+  "accounting": "Literal nested API call sites plus direct root and child envelopes; internal shell commands not separate tool actions. Reserve covers mapped dispatch and final readback.",
+  "snapshot": "2026-10-17T18:51:37.4840252+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "Candidates": [
+    {
+      "Source": "evidence://R3/\\arms\\B-recovery6\\work\\component.mjs",
+      "EvaluatedCopy": "evidence://R3/\\evaluation-matched-final-code\\B.mjs",
+      "Arm": "B",
+      "Attempt": "recovery6",
+      "Unchanged": true,
+      "SHA256": "3DEDC70B10C7367730AE988E604D806DC623F1F498DD19A81A6F144976DDF811"
+    },
+    {
+      "Source": "evidence://R3/\\arms\\C-recovery2\\work\\component.mjs",
+      "EvaluatedCopy": "evidence://R3/\\evaluation-matched-final-code\\C.mjs",
+      "Arm": "C",
+      "Attempt": "recovery2",
+      "Unchanged": true,
+      "SHA256": "5CA6DF418F0399A72BB69D86F25498C607CF5AD82C33B07BA857A43302A67D79"
+    }
+  ],
+  "Method": "Original evaluator harness; candidate arm list only changed to B,C. A receipt preserved without rerun.",
+  "ExpectedSHA256": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B",
+  "CasesSHA256": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770",
+  "UTC": "2026-10-18T03:19:31.0186745Z"
+}

@@ -1,0 +1,5 @@
+{
+  "recovery": "Stopped only owned duplicate per-file SHA job; verified archive/extraction comparison replaces the expensive second source scan",
+  "sourceHashJobMatched": true,
+  "effect": "No source or oracle changes"
+}

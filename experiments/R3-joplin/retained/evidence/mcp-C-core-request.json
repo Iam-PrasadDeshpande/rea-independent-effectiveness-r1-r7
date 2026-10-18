@@ -1,0 +1,15 @@
+{
+  "name": "analyze_javascript_application",
+  "arguments": {
+    "source_paths": [
+      "main.bundle.js"
+    ],
+    "detail": "summary",
+    "max_semantic_nodes_per_file": 100000,
+    "max_semantic_nodes": 100000,
+    "format": "asar",
+    "input_path": "evidence://R3/\\blind-prep-v2\\input\\app.asar",
+    "analysis_timeout_ms": 120000,
+    "max_heap_mb": 1024
+  }
+}

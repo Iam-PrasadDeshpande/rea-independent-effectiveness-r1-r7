@@ -1,0 +1,69 @@
+{
+  "Pass": true,
+  "Results": [
+    {
+      "Test": "preload_injection",
+      "Expected": "PRELOAD_ENVIRONMENT_REJECTED",
+      "Observed": "PRELOAD_ENVIRONMENT_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "weakened_package_acl",
+      "Expected": "PACKAGE_ACL_REJECTED",
+      "Observed": "PACKAGE_ACL_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "modified_code",
+      "Expected": "CATALOG_FILES_REJECTED",
+      "Observed": "CATALOG_FILES_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "missing_code",
+      "Expected": "CATALOG_FILES_REJECTED",
+      "Observed": "CATALOG_FILES_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "added_code",
+      "Expected": "CATALOG_FILES_REJECTED",
+      "Observed": "CATALOG_FILES_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "same_signer_catalog_substitution",
+      "Expected": "CATALOG_IDENTITY_REJECTED",
+      "Observed": "CATALOG_IDENTITY_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "unsigned_or_corrupt_catalog",
+      "Expected": "CATALOG_SIGNATURE_REJECTED",
+      "Observed": "CATALOG_SIGNATURE_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "different_valid_signer",
+      "Expected": "CATALOG_SIGNATURE_REJECTED",
+      "Observed": "CATALOG_SIGNATURE_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    },
+    {
+      "Test": "reparse_before_outside_access",
+      "Expected": "REPARSE_REJECTED",
+      "Observed": "REPARSE_REJECTED",
+      "PayloadExecuted": false,
+      "Pass": true
+    }
+  ],
+  "Scope": "Synthetic R3 fixtures only; foreign signer fixture copied from existing OS catalog; no new identity or key"
+}

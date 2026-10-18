@@ -1,0 +1,288 @@
+{
+  "referenceChecks": [
+    {
+      "id": "C01",
+      "passed": true,
+      "value": -1
+    },
+    {
+      "id": "C02",
+      "passed": true,
+      "value": 1
+    },
+    {
+      "id": "C03",
+      "passed": true,
+      "value": 0
+    },
+    {
+      "id": "C04",
+      "passed": true,
+      "value": -1759190400000
+    },
+    {
+      "id": "C05",
+      "passed": true,
+      "value": 8998240809600000
+    },
+    {
+      "id": "C06",
+      "passed": true,
+      "value": -1759190399999
+    },
+    {
+      "id": "C07",
+      "passed": true,
+      "value": 1
+    },
+    {
+      "id": "C08",
+      "passed": true,
+      "error": "Invalid SAP timestamp format: yesterday"
+    },
+    {
+      "id": "C09",
+      "passed": true,
+      "error": "Invalid SAP timestamp format: "
+    },
+    {
+      "id": "C10",
+      "passed": true,
+      "error": "Invalid SAP timestamp format: /Date(-1)/"
+    },
+    {
+      "id": "C11",
+      "passed": true,
+      "error": "Invalid SAP timestamp format: /Date(1759190400000+0000)/"
+    },
+    {
+      "id": "C12",
+      "passed": true,
+      "error": "Cannot read properties of null (reading 'match')"
+    }
+  ],
+  "arms": [
+    {
+      "arm": "A",
+      "status": "EXECUTED",
+      "elapsedMs": 504.10069999999996,
+      "exitCode": 0,
+      "result": {
+        "tests": [
+          {
+            "id": "C01",
+            "passed": true,
+            "value": -1
+          },
+          {
+            "id": "C02",
+            "passed": true,
+            "value": 1
+          },
+          {
+            "id": "C03",
+            "passed": true,
+            "value": 0
+          },
+          {
+            "id": "C04",
+            "passed": true,
+            "value": -1759190400000
+          },
+          {
+            "id": "C05",
+            "passed": true,
+            "value": 8998240809600000
+          },
+          {
+            "id": "C06",
+            "passed": true,
+            "value": -1759190399999
+          },
+          {
+            "id": "C07",
+            "passed": true,
+            "value": 1
+          },
+          {
+            "id": "C08",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: yesterday"
+          },
+          {
+            "id": "C09",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: "
+          },
+          {
+            "id": "C10",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: /Date(-1)/"
+          },
+          {
+            "id": "C11",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: /Date(1759190400000+0000)/"
+          },
+          {
+            "id": "C12",
+            "passed": true,
+            "error": "Cannot read properties of null (reading 'match')"
+          }
+        ],
+        "passed": 12,
+        "total": 12
+      },
+      "stderr": ""
+    },
+    {
+      "arm": "B",
+      "status": "EXECUTED",
+      "elapsedMs": 245.0668999999998,
+      "exitCode": 0,
+      "result": {
+        "tests": [
+          {
+            "id": "C01",
+            "passed": true,
+            "value": -1
+          },
+          {
+            "id": "C02",
+            "passed": true,
+            "value": 1
+          },
+          {
+            "id": "C03",
+            "passed": true,
+            "value": 0
+          },
+          {
+            "id": "C04",
+            "passed": true,
+            "value": -1759190400000
+          },
+          {
+            "id": "C05",
+            "passed": true,
+            "value": 8998240809600000
+          },
+          {
+            "id": "C06",
+            "passed": true,
+            "value": -1759190399999
+          },
+          {
+            "id": "C07",
+            "passed": true,
+            "value": 1
+          },
+          {
+            "id": "C08",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: yesterday"
+          },
+          {
+            "id": "C09",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: "
+          },
+          {
+            "id": "C10",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: /Date(-1)/"
+          },
+          {
+            "id": "C11",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: /Date(1759190400000+0000)/"
+          },
+          {
+            "id": "C12",
+            "passed": true,
+            "error": "Cannot read properties of null (reading 'match')"
+          }
+        ],
+        "passed": 12,
+        "total": 12
+      },
+      "stderr": ""
+    },
+    {
+      "arm": "C",
+      "status": "EXECUTED",
+      "elapsedMs": 340.47540000000026,
+      "exitCode": 0,
+      "result": {
+        "tests": [
+          {
+            "id": "C01",
+            "passed": true,
+            "value": -1
+          },
+          {
+            "id": "C02",
+            "passed": true,
+            "value": 1
+          },
+          {
+            "id": "C03",
+            "passed": true,
+            "value": 0
+          },
+          {
+            "id": "C04",
+            "passed": true,
+            "value": -1759190400000
+          },
+          {
+            "id": "C05",
+            "passed": true,
+            "value": 8998240809600000
+          },
+          {
+            "id": "C06",
+            "passed": true,
+            "value": -1759190399999
+          },
+          {
+            "id": "C07",
+            "passed": true,
+            "value": 1
+          },
+          {
+            "id": "C08",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: yesterday"
+          },
+          {
+            "id": "C09",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: "
+          },
+          {
+            "id": "C10",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: /Date(-1)/"
+          },
+          {
+            "id": "C11",
+            "passed": true,
+            "error": "Invalid SAP timestamp format: /Date(1759190400000+0000)/"
+          },
+          {
+            "id": "C12",
+            "passed": true,
+            "error": "Cannot read properties of null (reading 'match')"
+          }
+        ],
+        "passed": 12,
+        "total": 12
+      },
+      "stderr": ""
+    }
+  ],
+  "scope": "One bounded timestamp helper; not whole-agent reconstruction accuracy",
+  "hiddenCasesUnchanged": true,
+  "execution": "Disposable WSL namespace with no network and read-only fixture/component mounts"
+}

@@ -1,0 +1,11 @@
+{
+  "source": "evidence://R1/\\rea-reference",
+  "utc": "2026-10-17T17:50:50.1782886Z",
+  "note": "Prepared dependencies and generated runtime copied read-only from frozen R1; rebuild and capability verification still required",
+  "copied": [
+    "node_modules",
+    "dist"
+  ],
+  "destination": "evidence://R2/\\tools\\rea-reference",
+  "commit": "742b6f587f3c4ef1b8212e7376d6f3a305b194dc"
+}

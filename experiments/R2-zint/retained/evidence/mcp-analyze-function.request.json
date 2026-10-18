@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":5,"params":{"arguments":{"procedure":"0x102db0"},"name":"analyze_function"},"method":"tools/call"}

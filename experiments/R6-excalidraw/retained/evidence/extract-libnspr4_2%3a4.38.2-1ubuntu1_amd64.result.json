@@ -1,0 +1,11 @@
+{
+  "exit": 0,
+  "argv": [
+    "/usr/bin/dpkg-deb",
+    "-x",
+    "/home/RESEARCH_USER/rea-r6-20261018/source/libnspr4_2%3a4.38.2-1ubuntu1_amd64.deb",
+    "/home/RESEARCH_USER/rea-r6-20261018/tools/libs"
+  ],
+  "elapsedSeconds": 0.1083944,
+  "utc": "2026-10-18T02:39:55.3776097Z"
+}

@@ -1,0 +1,54 @@
+{
+  "originalDisposition": "bounded POC completed (original authoritative report wording)",
+  "rawScoresPreserved": true,
+  "qualifiedDisposition": "HOLD_LAUNCHER_FREEZE_CONTINUITY;BOUNDED_RECEIPTS_SUPPORTED",
+  "sourceReportSha256": "1200df0705cb930ae6fca980fc899be16f0ad6e8db2f8aabcb839b73db7068f1",
+  "poc": "R1",
+  "recordedResults": [
+    {
+      "experiment": "R1",
+      "arm": "A",
+      "total": 8,
+      "passed": 8,
+      "scope": "Retained TAP receipts inspected; no raw dependency-event recomputation",
+      "source": "../REA_SAP_MAIL_POC_R1_20261017/evidence/baseline-reconstruction.tap",
+      "detail": {
+        "failed": 0,
+        "ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "experiment": "R1",
+      "arm": "C",
+      "total": 8,
+      "passed": 8,
+      "scope": "Retained TAP receipts inspected; no raw dependency-event recomputation",
+      "source": "../REA_SAP_MAIL_POC_R1_20261017/evidence/rea-arm-reconstruction.tap",
+      "detail": {
+        "failed": 0,
+        "ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    }
+  ],
+  "name": "SAP GenAI Mail Insights",
+  "newExperimentalRuns": 0,
+  "sourceRevision": "5ec5febdea5354004534bc3e5140dd62df7488be"
+}

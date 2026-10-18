@@ -1,0 +1,12 @@
+{
+  "elapsedSeconds": 1.6654163,
+  "arguments": [
+    "/usr/bin/tar",
+    "-xf",
+    "/home/RESEARCH_USER/rea-r2-20261017/downloads/cmake.tar.gz",
+    "-C",
+    "/home/RESEARCH_USER/rea-r2-20261017/tools/cmake"
+  ],
+  "utc": "2026-10-17T18:23:11.7825457Z",
+  "exit": 0
+}

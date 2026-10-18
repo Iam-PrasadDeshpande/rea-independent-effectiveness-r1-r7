@@ -1,0 +1,54 @@
+{
+  "AllPinnedInputsMatch": true,
+  "AliasesAbsent": true,
+  "UTC": "2026-10-18T03:20:16.5841450Z",
+  "Artifacts": [
+    {
+      "Expected": "4222536c69360a30a566627b35c2e1cd8d38d0c79735ebde4e39edbcddd750cd",
+      "Actual": "4222536C69360A30A566627B35C2E1CD8D38D0C79735EBDE4E39EDBCDDD750CD",
+      "Path": "artifacts/Joplin-Setup-3.7.21.exe",
+      "Match": true
+    },
+    {
+      "Expected": "9f793336c679ea3214542587ca42abc77e82184327e3f7677f22d47d8ae23506",
+      "Actual": "9F793336C679EA3214542587CA42ABC77E82184327E3F7677F22D47D8AE23506",
+      "Path": "artifacts/desktop-x64/resources/app.asar",
+      "Match": true
+    }
+  ],
+  "SourceFilesChecked": 18,
+  "Frozen": [
+    {
+      "Expected": "AF00E6F979A7E86144F6EEEAD54CDD363C9CF089AC55FFC5449922A0CCE976EA",
+      "Actual": "AF00E6F979A7E86144F6EEEAD54CDD363C9CF089AC55FFC5449922A0CCE976EA",
+      "Path": "protocol\\FROZEN_RUBRIC.md",
+      "Match": true
+    },
+    {
+      "Expected": "6C95DC96525237C1367052B5354725A7B9AFD22892AFA6253C6FF4A295A4F835",
+      "Actual": "6C95DC96525237C1367052B5354725A7B9AFD22892AFA6253C6FF4A295A4F835",
+      "Path": "protocol\\NEUTRAL_OBJECTIVE.md",
+      "Match": true
+    },
+    {
+      "Expected": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770",
+      "Actual": "B353C426A49C56820B4AEDCF7230A3C37831CFF4D4CD578181C41A4C36EE4770",
+      "Path": "evaluator\\deterministic-cases.json",
+      "Match": true
+    },
+    {
+      "Expected": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B",
+      "Actual": "CDAD33E4166616E01FDD5A2E303F41748A07DB0F964F6D5FD534F3597D486E0B",
+      "Path": "evaluation-output\\expected.json",
+      "Match": true
+    },
+    {
+      "Expected": "C9BAEBD9F6FE445CC267EA15E23BF87A7E8F9BDAE3D461D7AE1847A7479D87F3",
+      "Actual": "C9BAEBD9F6FE445CC267EA15E23BF87A7E8F9BDAE3D461D7AE1847A7479D87F3",
+      "Path": "blind-prep-v2\\input\\app.asar",
+      "Match": true
+    }
+  ],
+  "SourceMismatches": [],
+  "OriginalAUnchanged": true
+}

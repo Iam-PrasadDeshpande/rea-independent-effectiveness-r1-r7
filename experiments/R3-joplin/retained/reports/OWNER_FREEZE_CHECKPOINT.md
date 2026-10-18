@@ -1,0 +1,26 @@
+# R3 owner-requested execution freeze
+
+Execution is paused at the owner's request. No scheduled or background continuation is authorized while paused. E2E acceptance has not been met. Current machine-readable state is evidence/OWNER_FREEZE_CHECKPOINT.json and evidence/CURRENT_CLOSURE.json; the old FINAL_REPORT.md is historical and superseded by this checkpoint.
+
+## Preserved results
+
+- A original: valid40/40 unchanged. Independent full architecture adjudication now27/30; all37 checkable citations audited:32 supported,4 inexact,1 unsupported. The earlier22/30 subset-based result is superseded. Incorrect A assertion: clearAll deletes rows, does not drop the vector table. Evidence: reports/ARCHITECTURE_FINAL_ADJUDICATION.md and.json. Agent reported7 provider calls; embedded partial JSON says6 because written during final seventh call.
+- B recovery1:40/40 behavior, invalid assigned facility. B recovery2 successfully invoked conventional MCP but attempted ninth tool action before saving; stopped at tool limit, invalid. B recovery3 saved reconstruction in8 items but assumed no facility after resource-list calls, invalid assigned facility. B recovery4 used corrected explicit tool-name guidance and successfully invoked list_archive. Owner interrupted after2 tool items/37.022s; preserve partial attempt, exclude from comparison. Measurement StopReason annotated OWNER_REQUESTED_FREEZE, original value retained.
+- C: no fresh investigator started. Exact generated launcher successfully initialized and performed real inert JavaScript analysis on frozen app.asar. Proof evidence/mcp-C-exact-qualified-v2-result.json: selected gui/NoteEditor/utils/useSearchMarkers.js,4096 bytes,1 parsed JS,554 AST nodes,11 findings,0 parse failures,whole artifact hash matches.2848 inventoried files unselected; graph partial. Evidence ev_c8e355552c6d146108ea6a19cf3886509290ee95ab48ca22b08ff0326da032eb. Core main.bundle.js analysis120s provider timeout remains a coverage/performance limitation, not proof of core analysis. Qualification output moved to setup-output/C-exact-qualified-preserved; arms/C-recovery2/work recreated empty.
+
+## Recovery now verified
+
+Required MCP startup and zero optional grace; owner-scoped per-tool approval_mode=approve under execution policy never; correct conventional archive argument; portable signed7.7 shell inside investigator MXC; unchanged root-deny/no-network isolation; signed immutable catalog runtime; R output and S read-only-code namespaces; native child jobs. Utilities use isolated closed stdin to avoid consuming MCP protocol. C inner --mcp restored; OS permission policy uses physical paths only while Node has alias permissions. No global configuration or signing identity changed.
+
+Security reviewer accepted v4 locks before signature checks, pinned helper/inner hashes, foreign mapping preservation, and matching C work/output. Forced gate termination captured eight owned process identities and verified all gone. Owned R/S removed, unrelated T preserved; retargeted S preserved with ownership failure, then synthetic fixture removed by its owning harness. Exact C runtime proof subsequently passed. See alias-v4-* receipts, mcp-C-v4-forced-forced-family.json, mcp-C-exact-qualified-v2-*.json.
+
+## Resume procedure
+
+1. Read this checkpoint and JSON, protocol/freeze.json; verify frozen hashes and absence of active R3 investigators/owned aliases. Preserve all prior attempts.
+2. Fresh B recovery5 recommended: signed New-R3CatalogLaunch.ps1 using tools/rea-runtime/r3-conventional.mjs, frozen archive argument, fresh arms/B-recovery5/work, reuse setup/rea-probe-v4.cat; Run-R3QualifiedInvestigator.ps1 Arm B Attempt recovery5 with list_archive/read_archive_entry/parse_archive_entry. Current runner names exact tools and avoids empty-resource-catalog false negative; no peer/oracle findings. B recovery4 already proved that guidance invokes assigned facility.
+3. After B completes, launch fresh C with reviewed setup/arm-C-recovery2-gate.ps1 and its exact inner, fresh empty arms/C-recovery2/work; enabled analyze_javascript_application,inspect_analysis_view,inspect_artifact. Runner gives only operational timeout/small-file guidance, not feature/source/oracle findings. Preserve8 items and720s/model medium limits; no A rerun.
+4. Independently catalog-sign unchanged submitted components into fresh evaluator code with frozen cases and expected outputs; execute signed MXC gate. Do not expose oracle or repair candidates after results.
+5. Supply valid B/C report paths to independent architecture adjudicator (fresh session or existing /root/architecture_adjudication if available). Complete all15 facts and exhaustive citation audit. Existing A audit is done.
+6. Consolidate valid-arm comparisons, invalid attempts/recovery overhead, latency/tokens/resources, unknown cost and real-model limitations. Refresh manifest, final action count and final report. Do not claim improvement unless supported.
+
+Only R3 work is authorized. R1/R2/R4, production/SAP, global config, publication, deployment, frozen expectations and signing boundaries remain unchanged. Owner budget extension is for R3 until E2E, with no numeric ceiling; cumulative action counters must continue. Explicit owner pause currently takes precedence. No background continuation has been scheduled.

@@ -1,0 +1,7 @@
+{
+  "stoppedWaitingCoordinators": 1,
+  "rootCause": "UNKNOWN for intermittent trigger; native API feature detection repair independently verified",
+  "investigatorsStarted": 0,
+  "reason": "Intermittent keyboard Ctrl+O filechooser event timeouts; replace helper with explicit real menu/Open click and requalify before investigators",
+  "stage": "pre-freeze qualification"
+}
